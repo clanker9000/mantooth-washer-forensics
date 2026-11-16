@@ -1,0 +1,37 @@
+body {
+	margin:0px;
+	text-align:left;
+	font-family:arial,helvetica;
+	}
+#ualswnarea {
+	display:none;
+}
+
+/*prelaunch mods*/
+#bodyCol2 {display:none;}
+body {background:none;}
+body {background:no-repeat;}
+#swnPagetitle { color:#000000; font-family:Arial,Helvetica,Sans-Serif; font-size:24px; margin:0px 16px 6px 0px; }
+.swnBreadcrumbgt {color:#000000;font-size:13px;}
+#swnBreadcrumb { font-family:Arial,Helvetica,Sans-Serif; font-size:11px; margin:6px 16px 6px 0px; }
+#swnBreadcrumb a { color:#0038A5; text-decoration:none; }
+#swnBreadcrumb a:hover { color:#0038A5; text-decoration:underline; }
+#ualFooter1left {text-align:left; font-size:10px; font-family:Arial,Helvetica; padding:8px 0px 0px 0px;}
+#ualFooter1left a {color:#000000; text-decoration:none;}
+#ualFooter1left a:hover {text-decoration:underline;}
+#ualFooter1left span.footerpipe {color:#8DAAC8;}
+#ualFooter1right {padding:0px 15px 0px 0px;}
+#ualfooter1container { position:relative; }
+#ualfooter2 {font-size:9px;font-family:Arial,Helvetica; text-align:left; padding:0px 5px 5px 0px;}
+#ualfooter2 a {color:#000000; text-decoration:none;}
+#ualfooter2 a:hover {text-decoration:underline;}
+#ualfooter2 span.footercopyright {color:#979185;}
+#ualfooter2 span.footerpipe {color:#8398B0;}
+
+#ualbrandedlinks {display:none; }
+#ualbrandedflyted {display:none; }
+#ualbonusbar {display:none; }
+
+
+
+

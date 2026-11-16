@@ -1,0 +1,205 @@
+{width:226px} /* fixed *html */
+
+
+/*\*/
+.liquid_sb .expander {height: 0;}
+/* #expander must have "height: 0" in IEwin bug fixing */
+/* The above is a modified Holly hack for #expander, with zero substituted for the
+usual 1% height value. Any % value on this element causes a horrendous IE bug! */
+
+.liquid_sb .wrapper1,
+.liquid_sb .wrapper2,
+.liquid_sb .outer a,
+.liquid_sb .container-left,
+.liquid_sb .container-right,
+.liquid_sb .outer,
+.liquid_sb h2,
+.liquid_sb .sidenav li a,
+.liquid_sb .center .sbc
+{height: 1%;}
+.liquid_sb {width:expression(document.body.clientWidth > 645 ? "645px" : "auto" );height:64px;}
+#landing .liquid_sb {width: auto; min-width: 120px;}
+
+.liquid_sb .right #hdrlinks .hl {color:#2864b4;padding:0 1px 0 3px !important;border-right:solid 1px #c7daeb;display:inline;}
+.liquid_sb .right #hdrlinks .hl_last {border:none;padding:0 0 0 3px;color:#2864b4;display:inline;}
+
+/* fix for bug number: 257779 */
+.PPL div#narrowing { width:100%;}
+.PPL #narrowing ul li{width: 45.5%;}
+.PPL .shopping_hits li {width:100%;}
+
+#img-r ul a {display: block;}
+#img-r ul span {display: inline-block;vertical-align: middle;	height: 100%;}
+#img-r ul li{_height: 0;	zoom: 1;}
+.g-content ol{padding:0 0 0 25px; margin:0 2px 0 0;list-style-type:decimal; list-style-position:outside}
+div#img-l ul li a.ir {position: relative;}
+div#img-l ul li a.ir img {position: absolute;bottom: 0;}
+.sbc form {padding-top: 1px;}
+.sbc form div.sb input {margin-bottom: 0;}
+.sbc form div.sb a {top: 2px;}
+
+.sbc ul.o {right: 9px;}
+#landing .sbc ul.o {right:-73px;}
+#header .sbc.on_image ul.o {left: 604px;}
+#header .sbc.on_news ul.o {left: 588px;}
+#header .left {padding:19px 5px 0 4px;}
+#landing .sbc.on_news ul.o {left: 468px;}
+
+
+#sort {margin-left:0px;}  /* fixed *html */
+
+/* LEFT MODULES*/
+/* Fixes IE issue with 'width: auto' for the left column modules */
+#grid .w #sort_wrapper, #grid .w .ANSL, #grid .w .NH,
+#grid .w .MSL, #grid .w .SLL,
+#grid .w .AUDL, #grid .w #news, #grid .w .IMGL ul,
+#grid .w .P, #grid .w .FBKL, #grid .w .TBARL, #grid .w .NEWSL
+	{width: 100%; float: left;}
+
+/* bug: 266291, MOL - line removed " .TML #tmlHeader{margin-top:-13px} "*/
+
+.PPL #narrowing ul li{display: inline;}
+
+/* video vertical - list view bug: 255004 */
+.VIDL .item { height: 14px; width: 100%;}
+.VIDL ul.list li div.right {width: 100%;}
+.VIDL div.vDisplayCon ul.list {width: 100%;}
+
+/* video vertical bug: 255067 */
+.VIDL {width: 100%;}
+.VIDL #cats {width: 100%;}
+.VIDL .detail {height: 21px;}
+.VIDL ul.v-grid{height: 21px;}
+.VIDL ul.list {height: 21px}
+
+.VIDR li.inlinePlayer iframe {border: 1px solid #a4a4a4; height: 157px; width: 178px; }
+
+.IMGR ul li a.wrapper img {margin-left: -4px;}
+
+/* Shopping meta height fix */
+.SHOPROLL {_height: 50px;}
+
+/* bug: 267395 - MOL*/
+.whatResults {width: 99.5%;}
+
+/* for scrollbar */
+#grid{margin-right: -15px;}
+/* lines either side of the expander */
+.modFoot {position: relative;}
+
+/* video category alignment */
+.VIDL #cats{margin-bottom: -22px;}
+.VIDL ul#ViewType.v-grid{padding-top: 4px;}
+.VIDL #cats em { position: relative; left: 3px; padding: 0; top:11px; zoom: 1;}
+.VIDL #cats ul{padding-left: 7px;}
+
+.VIDL li a.thumb span.title {top: 87px;}
+
+
+#grid .w .IMGL ul {margin-top: 2px;}
+
+.legendInfo .ratingSource {width: 50%;}
+
+#hist_top a {height: 21px; width: 228px; background: transparent url(../img/s7-sprite.png) no-repeat -246px -501px; } /* search history on - hover*/
+#hist_top.sh_off a {height: 21px; width: 228px; background: transparent url(../img/s7-sprite.png) no-repeat -246px -401px; } /* search history off - hover*/
+
+.IMGDETL{width: 99%;}
+
+.sbc form div.sb{zoom: 1;}
+
+/* sponsored links */
+.SLL ul{width: 98%;}
+.SLL ul li div{width: 100%;}
+.SLL ul li div a{display: block; width: 100%;}
+.SLL ul li div a:hover{text-decoration: none;}
+.SLL a.aboutsl{margin-bottom: -18px;}
+
+.P #pagination, .PID #pagination {margin-bottom: -2px;}
+.P #pagination span, .PID #pagination span {padding: 3px 4px 6px 6px;}
+.P, .P #pagination {zoom: 1;}
+.P #pagination .results {white-space: nowrap; zoom: 1;}
+#grid .wn .P, #grid .wn .PID {overflow: visible; margin-right: -260px; zoom: 1;position: relative;}
+#grid .wn .P #pagination, #grid .wn .PID #pagination {margin-right: 0px; position: relative;}
+
+#grid .wn .LOGO{width: 99%;}
+#grid .wn .LOGO #ftr_logo {overflow: visible; margin-right: -260px; zoom: 1;position: relative;}
+
+#grid .w .WOL, #grid .w .SLL{float: none;}
+.WOL ul li {white-space:nowrap;}
+
+* html div#aol_hat_form { padding-top:2px; }
+
+.WOSLL ul li div span.pdurl{padding-right: 5px;}
+.SLL ul li div.twoLineSL span.pdurl{padding-right: 5px;}
+
+/* Learn more about link */
+.whatResults.webWhat {margin-right: 22px;padding: 0px; min-width: 1%; margin-bottom: -12px}
+
+.IMGL {overflow:visible;}
+.whatResutls.imgWhat {width: auto;}
+
+/* news landing page */
+.TNEWSL ul {margin-top: 0;}
+.TNEWSL .modHead {margin-top: 0; margin-left: 0;}
+
+.TNEWSL .modFooter{position: relative; margin: -17px 0px 0px -265px;float: left}
+
+#topNewsLanding{/* IE 6 */
+clear: none !important;
+clear: right;
+padding: 0px;
+width: 670px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 4px;
+}
+
+#ssBOX {position: absolute;}/*ie6 doesn't support fixed position*/
+
+.aol_hat_mail{padding-right: 5px;}
+
+
+/* preference, advanced main body text */
+h2.co{margin: 0 8px 11px}
+h2.pref{ margin-bottom:  20px;}
+h2.advanced {margin: 0px 0px 13px 0px;}
+.imgHdr {margin-top:-27px;position: relative;}
+h2.image {padding:3px 0 2px 5px; height:21px}
+
+span.hinfo{margin-top:-25px;}
+
+/* Align search logo */
+.liquid_sb .left {padding-top:24px}
+
+/* footer */
+#footer {padding-top: 0px;}
+#footer .ftr_search .center_top { width: 290px; }
+.image_center_top, .imageDetails_center_top, .news_center_top { clear:both; margin:auto; padding: 20px 0pt 0pt; }
+#query2 { width: 221px; border: 1px solid #8999A6; height: 18px; }
+
+.IMGLL ul li {margin-top: 0px;}
+.IMGLL ul li a.wrapper{margin: 0 0 2px;}
+
+.w .NEWSL ul.detail li{padding:6px 0px; width:expression(document.documentElement.clientWidth > 565 ? "545px" : "auto" );}
+.wn .NEWSL ul.detail li{padding:6px 0px; width:expression(document.documentElement.clientWidth > 815 ? "545px" : "auto" );}
+
+.w .MSL ul li{padding:6px 0px; width:expression(document.documentElement.clientWidth > 565 ? "545px" : "auto" );}
+.wn .MSL ul li{padding:6px 0px; width:expression(document.documentElement.clientWidth > 815 ? "545px" : "auto" ); }
+
+.w .AOLSpecial .linkBody {width:expression(document.documentElement.clientWidth > 565 ? "545px" : "auto" );}
+.wn .AOLSpecial .linkBody {width:expression(document.documentElement.clientWidth > 815 ? "545px" : "auto" );}
+
+ul.moreTabNav li.close {width: 2px;}
+ul.moreTabNav li.close a {width: 2px;}
+
+/* news results header */
+h2.news{padding: 0; margin: 0;}
+
+/* Preferences page */
+.dyn_settings .saveB div.desc{ padding-top: 4px; }
+
+
+/* Keep this at the bottom so that brands get a chance to override settings if necessary */
+
+/* [BEGIN BRAND INSERTION POINT 1] */
+/* [END BRAND INSERTION POINT 1] */

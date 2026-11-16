@@ -1,0 +1,207 @@
+/* shared by software and music */
+
+.pdl-module ul {margin: 0 5px;}
+.pdl-module li {padding: 0 0 8px 0; margin: 0 0 8px 0; font-weight: normal; color: #444444;}
+.pdl-module li a {font-size: 12px; display: block; margin-bottom: 3px; font-weight: bold;}
+.pdl-module h2 {display: none;}
+
+.rb_content .pagewrapper {padding-top: 20px; position: relative;}
+#contentwrapper {float: left; width: 812px;}
+#contentwrapper div.columns-3-abb-b {float: right; width: 812px;}
+#leaderboard {padding: 0 0 15px 15px;}
+#left-nav {display: block; float: left; width: 155px; padding: 0 0 0 10px;}
+
+.container-25 {padding: 25px 2px 15px 15px;}
+#rec-downloads .spon {margin: -13px 5px 0pt 0pt;}
+#container {position: relative; left: -7px; width: 360px; font-family: verdana; font-size: 11px;}
+#watchListAutoAdd {background: url(http://i.d.com.com/i/dl/watchlist/boxback_30x360.gif) repeat-y;}
+#watchListAutoAdd div.boxtop {font-family: arial; padding: 8px 20px 0px 20px; margin:0px; font-weight: normal; background: url(/i/dl/watchlist/boxtop.gif) no-repeat; width: 320px; height: 25px; font-size: 14px;}
+#watchListAutoAdd div.boxtop a {font-weight: bold;}
+#watchListAutoAdd div.boxbottom {background: url(/i/dl/watchlist/boxbottom.gif) no-repeat; width: 360px; height: 30px;}
+#watchListAutoAdd div.left_col {padding: 10px 13px 0px 20px; float: left;}
+#watchListAutoAdd div.left_col img {border: none;}
+#watchListAutoAdd p {padding: 8px 16px 0px 13px; margin: 0px 0px 0px 60px; display: block;}
+#watchListAutoAdd p.right_col_header {padding: 8px 16px 10px 13px; margin: 0px 0px 0px 60px; display: block; font-size: 14px;}
+#watchListAutoAdd p.right_col_add {padding: 18px 16px 0px 13px; margin: 0px 0px 0px 60px; display: block; font-size: 15px;}
+#watchListAutoAdd p.findout {padding: 0px 16px 0px 13px; margin: 0px 0px 0px 60px; display: block;}
+#watchListAutoAdd div.input_col {float: left; padding: 8px 6px 0px 0px; height: 13px; border: 1px solid white;}
+#watchListAutoAdd div.input_col input {padding: 0px; margin: 0px;}
+
+#postdl-mpu1 {}
+#postdl-mpu2 {margin-top: 15px;}
+
+#watch-list {width:auto;margin:10px 0 10px 0;}
+#watch-list a:link {color:#06c;text-decoration:none;}
+#watch-list a:visited {color:#06c;text-decoration:none;}
+#watch-list a:hover {color:#06c;text-decoration:underline;}
+#watch-list .title {font:bold 16px arial,helvtica;padding:5px 0 10px 10px;}
+#watch-list span {font:normal 11px verdana,helvtica;}
+#watch-list .list-i {width:auto;font:normal 12px verdana,helvetica;margin:0 10px 7px 10px;padding:0 0 8px 0;background:url('http://i.i.com.com/cnwk.1d/i/hr-t.gif') repeat-x bottom;}
+#watch-list .list-i .list-title {float:left;width:70%;}
+#watch-list .list-i .list-dl {float:right;width:25%;font-size:11px;}
+
+/* partner program unit */
+#partner-ad .product a.now {float: right; background:url('http://i.i.com.com/cnwk.1d/i/dl/global/icon_download_xsm.gif') no-repeat 0 1px;padding-left:13px;display:block;margin-top:2px;font:normal 11px verdana,geneva,helvetica;}
+
+/* -- Post Download Page -- */
+
+#next-steps {}
+#next-steps .thankyou h2 {color: #000000; font-weight: normal;}
+#next-steps .header1 {margin: 15px 0 12px 0;}
+#next-steps .left {float: left; width: 39px; margin-bottom: 15px; display: inline;}
+#next-steps .right {float: left; width: 310px; display: inline; position:relative;}
+#next-steps .left h2, #next-steps .right h2 {padding: 0 0 3px 0; margin: 0;}
+#next-steps .left p, #next-steps .right p {padding: 0 0 3px 0; margin: 0;}
+#next_steps_content {width: 351px; background: url(http://i.d.com.com/i/dl/global/dotted_div_hor.gif) repeat-x top left;}
+#next_steps_content h2 {font-size:1.7em;}
+
+#rec-downloads {}
+#rec-downloads .header1 {margin-bottom: 15px;}
+#rec-downloads .spon {margin: -13px -7px 0 0;}
+#rec-downloads h4 {padding: 0 0 1px 0; margin: 0;font-size:1.1em;}
+#rec-downloads .rec-down-featured .header1 {margin: 0 0 1px 15px;}
+#rec-downloads .rec-down-featured h2 {padding: 0 0 2px 15px; margin: 0;font-size:1.7em;}
+#rec-downloads .rec-down-featured p {padding: 0 15px 5px 15px; margin: 0; font-size: 1.1em;}
+#rec-downloads .rec-down-featured .t {background: url(http://i.d.com.com/i/dl/products/boxborder.gif) 0 0 repeat-x;}
+#rec-downloads .rec-down-featured .b{background: url(http://i.d.com.com/i/dl/products/boxborder.gif) 0 100% repeat-x;}
+#rec-downloads .rec-down-featured .l {background: url(http://i.d.com.com/i/dl/products/boxborder.gif) 0 0 repeat-y;}
+#rec-downloads .rec-down-featured .r {background: url(http://i.d.com.com/i/dl/products/boxborder.gif) 100% 0 repeat-y;}
+#rec-downloads .rec-down-featured .rbtop div {background: url(http://i.d.com.com/i/dl/products/rec_down_tl.gif) no-repeat top left;}
+#rec-downloads .rec-down-featured .rbtop { background: url(http://i.d.com.com/i/dl/products/rec_down_tr.gif) no-repeat top right;}
+#rec-downloads .rec-down-featured .rbbot div { background: url(http://i.d.com.com/i/dl/products/rec_down_bl.gif) no-repeat bottom left;}
+#rec-downloads .rec-down-featured .rbbot { background: url(http://i.d.com.com/i/dl/products/rec_down_br.gif) no-repeat bottom right;}
+#rec-downloads .rec-down-featured .rbtop div, .rbtop, .rbbot div, .rbbot {width: 100%; height: 11px; font-size: 1px;}
+#rec-downloads .rec-left {float: left; width: 160px; padding-right: 15px; margin-top: 15px; background: url(http://i.d.com.com/i/dl/global/dotted_div_vert.gif) repeat-y top right;}
+#rec-downloads .rec-right {float: left; width: 160px; padding-left: 15px; margin: 15px 0 0 -1px; background: url(http://i.d.com.com/i/dl/global/dotted_div_vert.gif) repeat-y top left;}
+
+#pd-free-mp3s {}
+#pd-free-mp3s h4 {padding: 0 0 5px 0; margin: 0;}
+#pd-free-mp3s p {padding: 0 0 4px 0; margin: 0;}
+#pd-free-mp3s .header1 {margin-bottom: 15px;}
+#pd-free-mp3s .left {float: left; width: 74px; margin-bottom: 11px;}
+#pd-free-mp3s .right {float: left; width: 260px;}
+#pd-free-mp3s div.hr-dots {padding: 0 0 0 0; margin: 0 0 15px 0;}
+
+/* -- Download Problems -- */
+
+#problems {}
+#problems .header1 {margin-bottom: 20px;}
+#problems p {font-size: 1.1em;}
+#problems a {font-weight: bold;}
+#problems div.hr-dots {padding: 0 0 0 0; margin: 110px 0 15px 0;}
+#problems p.return {font-size: 1.0em;}
+
+/* -- Screenshots Pop-Up -- */
+
+#popup-screenshots {}
+#popup-screenshots #head {height: 44px; padding: 0 0 0 7px; background: url(http://i.d.com.com/i/dl/global/popup_header_bg.gif) repeat-x top left;}
+#popup-screenshots #head .logo {float: left;}
+#popup-screenshots #head .count {float: left; font-size: 11pt; margin: 8pt 0 0 14pt;}
+#popup-screenshots #head .goto {float: left; height: 26px; padding: 11px 0 0 13px;}
+#popup-screenshots #head .goto a {color: #ffffff; font-weight: bold;}
+#popup-screenshots #head .goto .icon {margin-bottom: -6px;}
+#popup-screenshots #screenshot {float: left; width: 663px; margin: 20px 0 0 22px; display: inline;}
+#popup-screenshots #screenshot p {padding: 20px 0 0 0; margin: 0;}
+#popup-screenshots #screenshot-nav {float: right; position:relative; overflow:auto; width: 153px; height: 545px; text-align: center; padding: 19px 0 19px 0; background: url(http://i.d.com.com/i/dl/products/dotted_div_ss.gif) repeat-y top left; background-color: #E7E7E7; font-weight: bold;}
+#popup-screenshots #screenshot-nav img {margin-bottom: 2px;}
+
+
+/* -- URS Post-DL Mini Form Promo -- */
+
+.join-box {width: 351px; font-size: 1.1em}
+.join-box-top {height: 77px; background: url(http://i.d.com.com/i/dl/regpromo/join_box_top.gif) no-repeat;}
+.join-box-padding {padding: 13px 10px 10px 24px; background: url(http://i.d.com.com/i/dl/regpromo/join_box_bg.gif)}
+.join-box-padding {color: #46463B;}
+.join-box-padding p.reg {margin:0;}
+.join-box-bottom {clear: left; height: 9px; background: url(http://i.d.com.com/i/dl/regpromo/join_box_bottom.gif) no-repeat;}
+.join-list {padding: 0 0 0 15px; margin: 2px 0 15px 0;}
+.join-list  li {padding: 1px 0 1px 0; margin: 0;}
+.join-box .button {margin: 0 -2px 0;}
+.join-box .text-field {width: 192px; margin: 5px 3px 5px 0; padding: 4px 0 4px 4px; background-color: #FAFFD3; border: 1px solid #CCCC92; vertical-align: middle;}
+
+.combined-regbox {margin-top: 15px; margin-bottom:10px; width: 342px; font-size: 1.1em}
+.combined-regbox-top {height: auto; background: url(http://i.d.com.com/i/dl/regpromo/regbox_top.jpg) no-repeat;padding: 73px 10px 0 22px; color: #3B3539;}
+.combined-regbox-bottom {clear: left; height: 19px; background: url(http://i.d.com.com/i/dl/regpromo/regbox_btm.jpg) no-repeat;}
+.combined-regbox .join-summary {font-size: 1.2em; margin: 0 10px 10px 50px;}
+.combined-regbox .join-list {padding: 0; margin: 2px 2px 10px 11px;}
+.combined-regbox .join-list  li {padding: 1px 0 1px 0; margin: 0;}
+.combined-regbox .join-box-signup {margin: 0 0 0 0; font-size: 1.2em;}
+.combined-regbox .join-box-form {margin: 0; padding: 2px 0 0; font-size: 0.9em; color: #46463B;}
+.combined-regbox .join-box-form a {color: #0066CD;}
+.combined-regbox .text-field {width: 212px; margin: 5px 3px 5px 2px; padding: 4px 0 4px 4px; background-color: #FAFFD3; border: 1px solid #CCCC92; vertical-align: middle;}
+.combined-regbox .button {float: right; margin: 3px 15px 0 0;}
+.combined-regbox .join-box-form p {margin: 35px 0 0;}
+
+
+/* -- Email This 2 A Friend */
+
+/*#emailThisSoftware {display:none}*/
+
+div.emailThisBox {width: 418px;}
+div.emailThisBox div.boxTop {width: 418px; overflow: visible; background: url(http://i.d.com.com/i/dl/emailThis/olib_top.png) no-repeat;}
+div.emailThisBox div.boxBottom {width: 418px; height: 27px; background: url(http://i.d.com.com/i/dl/emailThis/olib_bottom.gif) no-repeat bottom left;}
+div.emailThisBox div.boxBody {margin-top: 0px !important; padding: 10px 0px 0px 0px; background-color: #3b3d3b; border: solid #222322; border-width: 0px 1px 0px 1px;}
+div.emailThisBox div.boxBody iframe {width: 412px; border: none; height: 550px;}
+div.emailThisBox .header{color: #FFFFFF; font: 10px Verdana, Arial, Helvetica, sans-serif; line-height: 14px;}
+div.emailThisBox .header .title{float: left; width: 320px; font-size: 16px; line-height: 120%; font-family: Helvetica, Arial, Verdana, sans-serif; font-weight: bold; color: #FFFFFF; padding: 12px 0 14px 15px; text-align: left;}
+div.emailThisBox .header .close{float: right; padding: 13px 10px 0 0;}
+div.emailThisBox img {border: 0px;}
+div.emailThisBox .header .close a {width: 49px; height: 13px;}
+
+#email-form {color: #FFFFFF; font: 10px Verdana, Arial, Helvetica, sans-serif; line-height: 14px; width: 100%;}
+#email-form .wrapper {clear: both; padding: 15px 20px;}
+#email-form p{padding: 0; margin: 0 0 8px 0;}
+#email-form strong{font-size: 11px;}
+#email-form input{width: 365px; height: 18px; margin: 6px 0 3px 0;}
+#email-form input.confirm{width: 147px; height: 18px; margin: 6px 0 3px 0;}
+#email-form textarea{width: 365px; height: 58px; margin: 6px 0 3px 0;}
+#email-form .input-checkbox{width: 10px; height: 10px; margin-bottom: 1px;}
+#email-form textarea, #email-form input{border: 1px solid #A2A6AE; font: 11px Verdana, Arial, Helvetica, sans-serif;}
+#email-form .confirm-left{float: left; padding-right: 16px;}
+#email-form .confirm-right{float: left;}
+#email-form img{border: 0;}
+#email-form .button{clear: left; padding-top: 14px; text-align: center;}
+#email-form input.submit {border: 0; margin-bottom: 14px; width: auto; height: auto;}
+#email-form .error{font-size: 11px; color: #F3EE04;}
+#email-form .error-input{background-color: #FBFBA2;}
+#email-form .thanks, #email-form .thanks strong {font: 12px Verdana, Arial, Helvetica, sans-serif;}
+#email-form .thanks strong {font-weight: bold;}
+#email-form .thanks img {padding-top: 10px;}
+
+#rev-ed_rate {background:url('http://i.i.com.com/cnwk.1d/i/rr/rating_chic.gif') no-repeat; width:96px;height:86px;text-align:center;padding-top:8px;float:right;display:inline;margin-left:4px;}
+#rev-ed_rate h4 {font:bold 10px verdana,geneva,helvetica;color:#000;margin:0 0 4px;padding:0;}
+#rev-ed_rate h3, #rev-ed_rate h2, #rev-ed_rate h5 {color:#C00;}
+#rev-ed_rate h3 {font:bold 10px verdana,geneva,helvetica;margin:0 0 -2px;padding:0;}
+#rev-ed_rate h2 {font:bold 26px arial,helvetica !important;margin:0 0 -3px 0;padding:0 !important;}
+#rev-ed_rate h5 {font:normal 10px verdana,geneva,helvetica;margin:0;padding:0;}
+#rev-ed_rate h3 a, #rev-ed_rate h2 a, #rev-ed_rate h5 a {color:#C00 !important;text-decoration:none;}
+#rev-ed_rate h3 a:hover, #rev-ed_rate h2 a:hover, #rev-ed_rate h5 a:hover {color:#C00;text-decoration:underline;}
+
+/*#addWatchItem {display:none;}*/
+
+/* can you run it styles */
+.canu_r {float:right;display:inline;}
+#product-quickfacts h1 {padding: 0;margin:0;font: bold 1.9em Verdana, Arial, Helvetica, sans-serif; float:left;background:0;width:500px;vertical-align:bottom;height:auto;}
+.product-qf-title {width:100%;padding: 0 0 7px 0; margin: 0 0 7px 0; background: url(http://i.d.com.com/i/dl/global/dotted_div_hor.gif) bottom repeat-x; color: #444444;}
+
+#screenShotImgs {clear: both;}
+
+/* video box */
+#dl-video {margin: 15px 0 20px;}
+#dl-video h2 {font:bold 16px arial,helvetica;color:#390; margin-bottom: 8px;}
+
+/* partner program */
+#partner-ad {width:300px;margin-bottom:20px;float:right;margin-right:42px;}
+#partner-ad h2 {font:bold 185% arial,helvetica;color:#390;margin:0 0 8px 0;padding:0;}
+#partner-ad .product {border:1px solid #ccc;padding:10px;margin-bottom:10px;font:normal 120% arial,helvetica;}
+#partner-ad .product a.now {background:url('http://i.i.com.com/cnwk.1d/i/dl/global/icon_download_xsm.gif') no-repeat 0 1px;padding-left:13px;display:block;margin-top:5px;font:normal 80% verdana,geneva,helvetica;}
+#partner-ad .product a.more {padding-right:6px;float:right;font:normal 80% verdana,geneva,helvetica;}
+#partner-ad .product a {display:block;margin-bottom:3px;}
+#partner-ad #prod-facts {background:url('http://i.i.com.com/cnwk.1d/i/gl/dots-h.gif') repeat-x top;padding-top:10px;margin-top:10px;}
+#partner-ad #prod-facts span {float: left; display: block; padding-bottom: 5px; font: bold 85% arial,helvetica;}
+#partner-ad #prod-facts span.i {float: right; text-align: left; width: 150px; font: normal 85% arial,helvetica; }
+#partner-ad #prod-facts li {clear: both;}
+
+iframe {border: 0;}
+iframe.mc-promo {display: none;}
+iframe.vt-promo {display: block; width: 400px; height: 220px; border: 0;}

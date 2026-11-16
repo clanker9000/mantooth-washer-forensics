@@ -1,0 +1,12 @@
+﻿== Mantooth_E01 p0: offset=32256 size=115,121,664 cluster=512 serial=0x483895d93895c67a name='MANTOOTH'
+   {'records': 9276, 'in_use': 1811, 'deleted': 7465, 'dirs': 8099, 'ads': 30, 'extracted': 1113, 'errors': 0}
+== Washer17 p0: offset=32256 size=123,346,944 cluster=512 serial=0x6250174d50172777 name='WASHER'
+   {'records': 4048, 'in_use': 3849, 'deleted': 199, 'dirs': 653, 'ads': 2, 'extracted': 3186, 'errors': 0}
+== SheldonThumb vol: offset=0 size=49,283,072 cluster=4096 serial=0x6e805f10805edde1 name='New Volume'
+   {'records': 42, 'in_use': 42, 'deleted': 0, 'dirs': 9, 'ads': 9, 'extracted': 30, 'errors': 0}
+== Mantooth_VHD p0: offset=32256 size=115,121,664 cluster=512 serial=0x483895d93895c67a name='MANTOOTH'
+   {'records': 9276, 'in_use': 1814, 'deleted': 7462, 'dirs': 8097, 'ads': 31, 'extracted': 1115, 'errors': 0}
+== Win10ClassImage p0: offset=65536 size=1,500,512,256 cluster=4096 serial=0x6ed252aed25279f3 name='DESKTOP-THV5F89'
+   {'records': 17845, 'in_use': 17841, 'deleted': 4, 'dirs': 691, 'ads': 7, 'extracted': 16766, 'errors': 0}
+== VSC_Exercise vol: offset=0 size=2,154,823,680 cluster=4096 serial=0x164eed374eed0ff3 name='VSC - Exercise'
+   {'records': 256, 'in_use': 65, 'deleted': 191, 'dirs': 13, 'ads': 13, 'extracted': 54, 'errors': 0}

@@ -1,0 +1,46 @@
+#travelWidgetBox {height:247px;position:relative;padding:0;margin:0 8px 0 0;}
+#deals0,
+#deals1,
+#deals2 {position:absolute;left:-4px;width:300px;height:200px;visibility:hidden;background-color:white;layer-background-color:white;display:block;border-bottom:1px solid #B7B7B7;margin:0;padding:0 0 8px 0;}
+#deals1 {height:160px;}
+#deals2 {height:220px;}
+#deals2 h3,
+#deals2 p {margin:10px 0 0 10px;}
+#deals0 {visibility:visible;}
+ul.dealsTabs {margin:0;padding:0 0 0 17px;width:283px;height:20px;background:url("/images/traveldeals/tabsBG.gif") repeat-x 0 20px #F8F7EF;}
+html>body ul.dealsTabs {background:#F8F7EF;border-bottom:1px solid #B7B7B7;}
+ul.dealsTabs li {margin:0 0 0 -1px;padding:0;list-style:none;font-size:14px;font-weight:bold;float:left;}
+ul.dealsTabs li a {text-align:center;display:block;background:url("/images/traveldeals/dealTabs.gif") no-repeat 0 0;width:90px;height:18px;padding:2px 0 0 0;}
+ul.dealsTabs li a:hover {background-position:0 -30px;color:#00f;}
+#deals0 ul.dealsTabs li a.page1,
+#deals1 ul.dealsTabs li a.page2,
+#deals2 ul.dealsTabs li a.page3 {height:19px;background-position:0 -30px;color:#000;text-decoration:none;cursor:text;}
+ul.dealsTabs li a:active,
+ul.dealsTabs li a:visited {color:#02299f;}
+.travWidgets {list-style:none;margin:0;padding:8px 0 0 11px;}
+.travWidgets li {display:block;float:left;width:135px;height:35px;font-size:0.9em;margin:0;padding:0 2px;}
+* html .travWidgets li {height:28px;}
+*:lang(en) .travWidgets li {height:43px;}
+.travWidgets li:empty {height:43px;}
+.wFlights li input {width:132px;}
+.travWidgets li input.submitButton,
+.travWidgets li.long input.submitButton {width:auto;margin-top:13px;font-size:1.1em;}
+.wGolf li.long input.submitButton {margin-top:4px;}
+.wGolf li.long {width:275px;}
+.wHotels li.long {width:172px;}
+.travWidgets li.long input {width:168px;}
+.wGolf li,
+.wHotels li {width:94px;}
+.wGolf li input,
+.wHotels li input {width:80px;}
+* html .travWidgets li select {margin:1px 0;}
+.wHotels li input.submitButton {margin-top:11px;}
+* html .wHotels li input.submitButton {margin-top:15px;}
+.wGolf br {clear:left;}
+#GolfPackageTable {border-collapse:collapse;margin:8px 0 0 11px;padding:0;}
+#GolfPackageTable td {margin:0;padding:0 0 2px 0;font-size:0.9em;width:133px;}
+#GolfPackageTable td input {width:auto;}
+
+ul.travWidgets li select.wdwMonth {width:87px;margin-right:5px;}
+ul.travWidgets li select.wdwDay {width:43px;}
+ul.travWidgets li.wide {width:140px;}

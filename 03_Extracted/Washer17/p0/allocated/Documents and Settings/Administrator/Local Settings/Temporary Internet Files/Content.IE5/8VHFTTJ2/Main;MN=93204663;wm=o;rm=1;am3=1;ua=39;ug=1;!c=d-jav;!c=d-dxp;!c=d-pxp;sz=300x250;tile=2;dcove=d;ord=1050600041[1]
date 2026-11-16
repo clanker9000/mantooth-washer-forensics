@@ -1,0 +1,13 @@
+document.write('');
+
+function pr_swfver(){
+var osf,osfd,i,axo=1,v=0,nv=navigator;
+if(nv.plugins&&nv.mimeTypes.length){osf=nv.plugins["Shockwave Flash"];if(osf&&osf.description){osfd=osf.description;v=parseInt(osfd.substring(osfd.indexOf(".")-2))}}
+else{try{for(i=5;axo!=null;i++){axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+i);v=i}}catch(e){}}
+return v;
+}
+var pr_redir="http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/d%3B119941142%3B0-0%3B0%3B11650884%3B4307-300/250%3B21884509/21902399/1%3B%3B%7Esscs%3D%3f$CTURL$";
+var pr_nua=navigator.userAgent.toLowerCase();
+var pr_s="ads.pointroll.com/PortalServe/?pid=504636U86920070720143424&pos=h&flash="+pr_swfver()+"&redir="+pr_redir+"&r="+Math.random();
+document.write("<ifr"+"ame src='http://"+pr_s+"' width='300' height='250' frameborder=0 marginwidth=0 marginheight=0 scrolling=NO></ifr"+"ame>");
+document.write('');

@@ -1,0 +1,246 @@
+.artzBtn {  cursor:pointer; font:normal 11px Tahoma,Arial,sans-serif !important; border:solid 1px #7089A3 !important; color:#285A74 !important; background-color:#EDF4FA; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FCFEFE,endColorStr=#D7E8F4); padding:1px 2px 2px; _padding:1px 0px 2px; margin:0 1px; }
+.artzBtnSpecial { cursor:pointer; font:normal 11px Tahoma,Arial,sans-serif !important; border:solid 1px #7089A3 !important; color:#285A74 !important; background-color:#EDF4FA; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FCFEFE,endColorStr=#D7E8F4); padding:0 .25em 0 .25em; width:auto; overflow:visible;}
+ a.artzBtn { display:inline-block; text-decoration:none; padding:2px 14px 4px; margin:0 4px; }
+.artzBtn:hover { background-color:#DAECFF; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FAFDFF,endColorStr=#8FBEE7); }
+.artzBtn:active { background-color:#EFF6FA; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#BCD6EA,endColorStr=#F8FBFD); }
+.def { border:solid 1px #58B926 !important; color:#09740B !important; background-color:#D4F4C5; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFEF9,endColorStr=#BDEEA6); }
+.def:hover,.defHov { background-color:#BFEBAA; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F9FEF7,endColorStr=#7BED46); }
+.def:active,.defAct { background-color:#C6FFA9; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#99E576,endColorStr=#F5FCF1); }
+.artzOff { border:solid 1px #DEDEDE !important; color:#AAA !important; background-color:#EFEFEF; filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FEFEFE,endColorStr=#ABABAB); }
+ 
+/* PAGE HEADER AND FOOTER */
+#sns_MainPageBody { margin:0;width:585px;}
+#sns_AOLLogo { margin:11px 0 0 10px;}
+#sns_PopUpTextDiv { margin:0 15px;}
+#sns_StaticTitleBar { border:1px solid #999; height:48px; width:100%;}
+#sns_MdlCntr {float:left;display:inline;}
+#sns_MainPageBody #sns_CobrandText div { font-family: Arial, Verdana, sans-serif!important; font-size:11px!important; width:195px;}
+
+/* FLEX color */
+/* Font */
+#sns_MainContentDiv, #sns_Footer #sPipe, #sns_MainContentDiv label { color:#000 }
+
+/* BG color */
+#sns_Footer #sPipe { background-color:#e5e5e5}
+
+
+/* FONTS, COLORS */
+#sns_Module, #sns_BadBrowserBody, #sns_MainPageBody { font-family: Arial, Verdana, sans-serif;}
+#sns_ModuleTitle { font-size:12px; font-weight:bold; color:#fff;}
+.sns_boldText{font-weight:bold;}
+#sns_PopUpTextDiv span.sns_LargeBlueText { font: bold 18px Arial; color: #036;}
+#sns_PopUpTextDiv p.sns_Text2 { font: normal 12px Arial; color:#000;}
+#sns_Footer { font-size:11px;}
+#sns_MainContentDiv .sns_Text1, #sns_rememberMeCheckBoxLabel, #sns_MainContentDiv #sns_Right p.sns_Text1, #sns_LoginFooter, #sns_MainContentDiv label span, #sns_MainPageBody #sns_CobrandText div { font-size:11px; font-weight:normal;}
+#sns_MainContentDiv .sns_Text2, #sns_MainContentDiv p, #sns_MainContentDiv span, .sns_AsqForm1, #sns_AsQuestion, #snsShort_TOS ul li, #sns_LoginAol table, #sns_LoginIcq table {font-size:12px}
+#sns_MainContentDiv .sns_Text3, #sns_MainContentDiv td.sns_Text3 { font-size:10px; color:#000}
+#sns_MainContentDiv .sns_FieldLabel, #sns_MainContentDiv #sns_snLabel, #sns_MainContentDiv #sns_pwLabel, #sns_MainContentDiv #sns_RegTableDiv .sns_RegTableA th, #sns_MainContentDiv #sns_RegTableDiv .sns_RegTableA th label, #sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD th, #sns_AudioGroup p.sns_FieldLabel { font-size:12px; font-weight:bold;}
+#sns_MainContentDiv #sns_ErrorBox { font-size:12px; font-weight:normal; color:#cc0000;}
+#sns_MainContentDiv p.sns_ErrorBoxOnReg { font-size:12px; font-weight:bold; color:#cc0000;}
+.sns_RedText { color:#cc0000;}
+#sns_Module #sns_MainContentDiv .sns_HeadlineBox .sns_Headline, #sns_Module #sns_MainContentDiv div.sns_HeadlineBold { font-size:14px; font-weight:bold; }
+
+
+
+
+/* Links */
+#sns_Module .sLnkSm, #sns_Module .sLnkMd, #sns_Module .sLnkLg {color:#2864B4; text-decoration:none}
+#sns_Module .sLnkSm { font-size:10px }
+#sns_Module .sLnkMd { font-size:11px; font-weight:normal; }
+#sns_Module .sLnkLg { font-size:12px }
+#sns_Module #snsHeaderHelp {font-size:11px; color:#fff; text-decoration:none; font-weight:normal;}	
+#sns_Module a:hover, #sns_Module #snsHeaderHelp:hover{ text-decoration:underline;}
+
+/* COMMON ELEMENTS */
+#sns_Module { margin: 0px; padding: 0px; width:363px; text-align:left;clear:both;}
+#sns_TitleBar { margin:10px 10px 0 10px; padding:0px 7px; border:1px solid #999; background-color:#65a1d0; height: 25px;}
+#sns_ModuleTitle { margin: 5px 0 7px; padding:0; float:left;}
+#sns_TitleBar a {float:right; margin:7px 7px 0 0;}
+#sns_MainContentDiv { position:relative; width:343px !important; padding:10px 0 0 0; margin: 0 10px 0 10px; text-align:left; background-color:#fff;}
+#sns_MainContentDiv { color:#000; background-color:#fff}
+#sns_MainContentDiv p { margin:7px 0 7px 0;}
+#sns_MainContentDiv p.sns_Ptop { margin-top:0;}
+#sns_MainContentDiv form { margin:0; padding:0;}
+#sns_MainContentDiv .sns_HeadlineBox { border: solid 1px #cfcfcf; padding:4px; margin:10px 0 12px 0;}
+#sns_Module h2 { _margin: 3px 0 5px 0;}
+#sns_ButtonGroup { margin:0px; height:21px; padding:5px; text-align:center;}
+#sns_ButtonGroupCleared { position:relative; top:0px; margin: 0; height:21px; padding:5px; text-align:center; clear:both;}
+#sns_Footer { background-color:#e5e5e5; margin:0 10px 10px 10px; _height:15px; border: solid 1px #d1d7e1; padding:5px; text-align:right; clear:both;}
+#sns_ErrorBox { clear:both; border: solid 1px #cc0000; margin:10px 0 10px 0; _margin:10px 0 0 0; width:auto; height:auto; background-color:#FBFBE7; padding:5px;}
+#sns_ErrorBox p { margin:0; }
+#sns_MainContentDiv .bdpad { width:48px;}
+
+/* LOGIN and AOLKEY */
+#sns_MainContentDiv #snsLoginRow { clear:both; float:left;  padding-bottom:10px;}
+#sns_MainContentDiv #sns_Left { position:relative; float:left; padding:0 7px 7px 7px; _padding:3px 7px 7px 0; width:185px; border: 1px solid #999;}
+#sns_MainContentDiv #sns_Left p { _margin-left:7px;}
+#sns_Left #sns_snLabel, #sns_Left #sns_pwLabel { _margin:5px 0 -5px 0;}
+#sns_Pwdlabel, #sns_Loginidlbl { width:143px;}
+#sns_NewLoginModule #sns_CheckBox { display:inline; vertical-align:middle; float:left; padding:0px 0px; margin-right:5px;}
+#sns_NewLoginModule #sns_rememberMeCheckBox { float:left; margin:5px 0 0 5px; _margin:0 0 0 5px;}
+#sns_NewLoginModule #sns_rememberMeCheckBoxLabel { width:270px; vertical-align:middle}
+#sns_MainContentDiv #sns_Right { float:left; text-align:left; margin-left:10px; _width:130px; width:132px}
+#sns_LoginButtonGroup { _margin-top:10px; margin-bottom:5px; text-align:center; clear:both;}
+#sns_Left #sns_Forgot { margin:-6px 0 0 0;} 
+#sns_ShowStatus1 { text-align:center; color: green; font:bold 12px Arial;}
+#sns_ShowStatus2 { text-align:center; color: red; font:bold 12px Arial;}
+#sns_KeyStatus { margin:0px; height:50px; width:100%; font-weight:bold; font-family:Tahoma; text-decoration:none;}
+#sns_MainContentDiv p.sPn {margin:-6px 0 10px 0;_margin:-8px 0 10px 0}
+
+/****************************************************************************************/
+/*** Tabbed UI styles start from here   *****/
+/******************************************************************************************/
+
+
+/**************  New tabbed login fonts *************************************************/
+
+body, #sns_NewLoginModule { font-family: Arial, Verdana, sans-serif;}
+
+/* bold grey text */
+#sns_NewLoginModule, #sns_LoginContentDiv { color:#696969; font:normal 12px Arial}
+#sns_NewLoginModule label{font-weight:bold}
+#sns_NewLoginModule #rmbr label{ font-weight:normal} 			
+/* 11pt links */
+#sns_NewLoginModule a { font-size:11px; color:#2864B4; font-weight:normal; text-decoration: none;}
+#sns_NewLoginModule a:hover { text-decoration:underline;}
+
+#sns_NewLoginModule #newError { color:#cc0000; font-weight:normal; font-size:11px;}
+
+#asqMain table{ font-size:12px;  font-weight:normal; }
+
+/****************************************************************************************/
+
+
+
+/******************** New Common Elements For Tabbed Login Page **************************/
+
+#sns_NewLoginModule {  height:238px; width:320px; border:1px solid #a9c1d4; background-color:#ffffff;margin:10px 21px}
+
+#sns_LoginTitleBar { font-weight:bold;background-repeat:repeat-x; padding:4px 9px 0px 9px; height:20px; }
+
+#sns_LoginTitleBar span { float:left;}
+
+#sns_LoginTitleBar a { float:right;}
+
+
+/* needed because the p margins in IE are larger than Firefox and Netscape */
+#sns_LoginContentDiv p { _margin-top:7px; _margin-bottom:7px; }
+
+/*This is needed for IE whenever a "p" element is the first element in mainContentDiv.*/
+#sns_LoginContentDiv p.Ptop { _margin-top:0; }
+
+#sns_NewLoginModule #newError { height:12px;}
+
+#sns_LoginAol, #sns_LoginOpenId, #sns_LoginIcq { margin:1px 0 0 9px; _margin:0 0 0 9px; padding:0px 0 0 0; _padding:5px 0 0 0; padding-bottom:0; }
+
+
+
+
+
+
+/**** This is the tab well, and "button" or tab states **********************************/
+
+.sns_LoginTabs { padding:0; width:100%; clear:both; height:25px; background-color:#707476;}
+.sns_noTabs { padding:0; width:100%; clear:both; height:25px;background-color:#ffffff;}
+
+
+
+.sns_LoginTabs ul li img{border:none}
+
+
+/*for IE and AOL Explorer*/
+.sns_LoginTabs ul li a:hover { cursor:pointer;}
+
+
+
+
+
+/*for Firefox and others*/
+.sns_LoginTabs ul {
+list-style:none;
+margin:0px 0 0 1px;
+padding:2px 0 0 0;
+}
+
+
+
+
+.sns_LoginTabs ul li {
+float:left;
+padding:0 0 2px 0;
+_padding:0 0 0 0;
+margin-right:2px;
+height:23px;
+background-color:#D0D0D0;
+}
+ 
+.sns_LoginTabs ul li a {
+font-weight:bold;
+padding:0 0 0 0;
+margin:0 0 0 0;
+text-decoration:none;
+}
+ 
+
+.sns_LoginTabs .selected {
+ background-color:#ffffff;
+ padding:0 0 6px 0;
+ _padding:1px 0 5px 0;
+ border-bottom:0px solid #ffffff;
+ color:black;
+ font-weight:bold;
+ display:block;}
+
+
+
+
+
+
+/********* Main middle portions hide and show ****************************************/
+
+.snslogintypes .content { border:none; clear:both; height:189px; width:100%; display:none; }
+
+/**************************************************************************************/
+.tabInputFields {width:298px;}
+
+.tabInputField2 {width:201px;}
+
+#sns_NewLoginModule #gsn{height:16px}
+#sns_NewLoginModule #rmbr{height:26px;margin-top:1px;padding:0px 0px}
+#sns_LoginAol input,#sns_LoginAol label,#sns_LoginIcq input,#sns_LoginIcq label{display:block;margin:0px 0px;padding:0px 0px}
+#sns_LoginButtons { padding:4px 9px 0 5px; text-align:right;} 
+
+#chkBox { padding-top:4px; font-size:11px; font-weight:normal; }
+
+#sns_LoginLinks { text-align:right; position:relative; margin:-17px 4px 0 0; }
+
+
+
+
+/******************* ASQ & Passcode pages ********************************************************************************************************************************/
+
+.secIdContent { height:206px;_height:209px;width:100%;border-top:solid 1px #707476;}
+
+.asqContent { height:206px; _height:209px; border-top:solid 1px #707476;width:100%;}
+
+#passcodeMain, #asqMain  { padding-left:9px;margin-top:10px }
+
+#rsaLogo { padding-left:211px; }
+
+#tokenImage  { float:left; margin:11px 10px 0 0px; }
+#sns_Enter6Digit{margin-top:8px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

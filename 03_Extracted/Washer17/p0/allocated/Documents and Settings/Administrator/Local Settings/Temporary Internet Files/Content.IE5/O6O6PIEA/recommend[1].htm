@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<title>Mail to Friend</title>
+<script language="javascript" type="text/javascript">
+function updateRefPage()
+{
+	//alert("dd");
+	if(parent.location!="null")
+	{
+		document.getElementById("refURL").value=parent.location;
+		if(parent.document.getElementById("itemId"))
+		//document.getElementById("itemId").value = parent.document.getElementById("itemId").value;
+		document.getElementById("itemId").value = parent.document.location.href;
+	}
+//alert(document.getElementById("refURL"))
+}
+//alert(parent.location);
+</script>
+</head>
+<body onload="updateRefPage();">
+<form method="post" name="refFrm" action="/utilities/recommend.php">
+<input type="hidden" name="action" value="submit">
+<input type="hidden" id="refURL" name="refURL">
+<input type="hidden" id="itemId" name="itemId">
+<div class="form-left">
+ <label>Your Name<span>
+<input type="text" name="senderName" value=""  />
+</span></label>
+<label>Your Email<span>
+<input type="text" name="senderEmail" value="" />
+</span> </label>
+<label> Message <span>
+<textarea name="recommendMessage"  readonly>Hello,
+Your friend thought you would like this site as it contains Lots of funny JOKES and PICTURES.
+Be sure you check it out at [REFPAGE].
+We hope you ENJOY it!</textarea>
+<textarea name="customMessage">Enter A Personal Message To Your Friend Here If You Wish</textarea>
+</span> </label>
+</div>
+<div class="form-right"><label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <label>Friend's Email <span><input name="friend[]" type="text" value="" /> </span> </label> <br class="clear" /><label><input type="checkbox" name="toself" />CC: Yourself </label><br class="clear" /> <input src="btn-send.gif" class="button" type="image" />  </div></form>  </body>
+</html>

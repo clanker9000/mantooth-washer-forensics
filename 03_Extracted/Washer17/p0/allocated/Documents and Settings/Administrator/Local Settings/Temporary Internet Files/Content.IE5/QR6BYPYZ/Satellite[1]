@@ -1,0 +1,2435 @@
+
+
+
+<!-- 6.3 Code -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<html>
+<head>
+
+	<title>Linksys.com - Support / Technical Support</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	
+	<meta name="description" content="Linksys, a division of Cisco Systems, Inc. (NASDAQ: CSCO) is the global leader in Wireless and Ethernet networking for consumer and SOHO users.  Linksys is dedicated to making networking easy and affordable for its customers, offering innovative, award-winning products with free best-in-class technical support.">
+	
+	
+	<meta name="keywords" content="Wireless, RouterGateway, Access, PointNetwork, Networking, Home Networking, SwitchesAdapter, USB, PC Cards, PCI Cards, KVM, Rackmount, Connected Home,, Wireless Home, Network Security, Firewall, Parental Control, Internet Sharing, 802.11g, 802.11b, 802.11a, Dual Band, Wireless-G, Wireless-B, Wireless-A, Compact Flash, Printserver, WPA, CCX, Broadband, Cable, DSL, Speedbooster, SPI, VPN, Gaming, Range Expander, Bridge, Antenna, Video Camera, Hub, Media Adapter, Music Link, DMA, Centrino Verified, UPnP, Wi-Fi, WiFi, Gigabit">
+	
+
+	
+
+		 
+			
+			
+		
+
+
+<link rel="stylesheet" type="text/css" href="/css/main_style.css">
+
+	
+		
+	
+	
+		
+		
+	
+
+
+
+
+<script language="javascript">
+<!--
+
+function Search_StringTrim(){
+	var TestString = this;
+	var SpaceChar  = " ";
+	while (TestString.charAt(0) == SpaceChar) {TestString = TestString.substr(1)};
+	while (TestString.charAt(TestString.length-1) == SpaceChar) {TestString = TestString.substr(0,TestString.length-1)};
+	return TestString.toString();
+}
+
+String.prototype.trim = Search_StringTrim;
+
+function FlashTracking(hbxid) 
+{	
+	_hbSet("c1",hbxid);
+	_hbSend();	
+
+}
+
+function changeImages() {
+	if (document.images) {
+		for (var i=0; i < changeImages.arguments.length; i+=2) {
+			document.getElementById(changeImages.arguments[i]).src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+function preloadImage(url)
+{	if (document.images)
+	{	rslt = new Image();
+		rslt.src = url;
+	}
+}
+
+function callFlashTracking(url)
+{
+	var lidpos = url.indexOf("lid");
+	if(lidpos > -1) {
+		var lid = "";
+		lid = url.substring(lidpos+4);
+		var islast = lid.indexOf("&");
+		if (islast > -1)
+		{
+			lid = lid.substring(0, islast);
+		}
+		FlashTracking (lid);
+	}
+}
+
+function openWindow(url, w, h)
+{	
+
+	callFlashTracking (url);
+	popup=window.open(url,'','width='+w+',height='+h+',top=20,left=20,alwaysRaised=yes,toolbar=0,directories=0,menubar=1,status=1,resizable=yes,location=0,scrollbars=1,copyhistory=0');	
+	popup.focus();
+
+}
+
+function isAlphaNumeric(str, onlyspecial) {
+
+	var alphanumerics="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -_";
+	var specials="- _";
+	var valid = alphanumerics;
+	 
+	if (onlyspecial) {
+	  valid = specials;
+	}
+
+	var sizechar = str.length;
+	try {
+		for (var i=0; i<sizechar; i++) {
+			if (valid.indexOf(str.charAt(i)) < 0) {
+				return false;
+			}
+		}
+		return true;
+	} catch (err) {
+		return false;
+	}
+}
+
+function openSecuredWindow(surl, sw, sh) {
+
+	try	{
+		var blankURL = "/servlet/Satellite?pagename=Linksys/Utilities/Blank";
+		var ind=surl.indexOf("?");
+
+		if (ind<0) {
+			openWindow(surl, sw, sh);
+		
+		} else {
+
+			callFlashTracking (surl);
+			popup=window.open(blankURL,'secwindow','width='+sw+',height='+sh+',top=20,left=20,alwaysRaised=yes,toolbar=0,directories=0,menubar=1,status=1,resizable=yes,location=0,scrollbars=1,copyhistory=0');
+
+			var var1,var2,vlinkurl;		
+
+			vlinkurl=surl.substring(0,ind);
+
+			var htmlform = "<html><head><title>Linksys</title></head><body><form method='post' action='"+vlinkurl+"'>";
+			if(ind>0){
+				var vqstring=surl.substring(ind+1,surl.length);
+				var vamp = vqstring.split("&");		
+				for (var i=0;i<vamp.length;i++) { 
+					var vequal = vamp[i].split("="); 
+					for (var j=0;j<vequal.length;j++) {			
+						var1=vequal[j];
+						var2=vequal[j+1];					
+						var vinput="<input type=hidden name='"+var1+"' value='"+var2+"'>";
+						htmlform=htmlform+vinput;					
+						break;			
+					}		
+				}		 
+			 }
+			
+			 
+			 htmlform=htmlform + '</form>';
+			 htmlform=htmlform + '<scr' + 'ipt>document.forms[0].submit();';
+			 htmlform = htmlform + '</scr' + 'ipt></body></html>';
+			 popup.document.write(htmlform);
+		}
+	 } catch (e){
+		
+	}
+}
+
+function openTop(url)
+{		
+	window.top.location = url;	
+}
+
+
+
+function toggle_help(el) {
+	if (document.all) {
+		el = document.all[el];
+		if (el != null) {
+
+			if (el.style.display == '') {
+				el.style.display='none';
+			} else {
+				el.style.display='';
+			}
+		}
+	} else if (document.layers) {
+		el = document.layers[el];
+		if (el != null) {
+			if (el.display == '') {
+				el.display='none';
+			} else {
+				el.display='';
+			}
+		}
+	} else if (document.getElementById) {
+		el = document.getElementById(el);
+		if (el != null) {
+			if (el.style.display == '') {
+				el.style.display='none';
+			} else {
+				el.style.display='';
+			}
+		}
+	}
+}
+/* Added for Community Forums Localization*/
+
+function openScreenName(url){
+
+
+/* Code Added for Community Forums Localization. Redirection to GetScreenName page.*/
+	 try{
+		var pageurl='/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1175234246545&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4654527773B01';
+		pageurl=pageurl+"&URL="+url;
+		if(logged_in_user!='null' && user_screen_name=='null'){	
+			document.location.href=pageurl;			
+		}else{
+			document.location.href=url;
+		}
+	}catch(e){
+
+	}
+}
+
+
+function setAcceptTerms(el){
+	if(el.checked) {
+		document.forum.AcceptTerms.value="Yes";
+	} else {
+		document.forum.AcceptTerms.value="No";
+	}
+}
+
+var strTermsAlert;
+var strScreenNameAlert;
+var strInvalidScreenName;
+
+function checkSubmit(){
+
+	try {
+		
+		var el = document.getElementById("chkAcceptTerms");
+		var screenName = document.getElementById("ScreenName").value;
+		screenName = screenName.trim();
+		if(screenName!=null && screenName!=""){
+			if (isAlphaNumeric(screenName) && !isAlphaNumeric(screenName, true)) {
+
+				if(el.checked) {
+					document.forum.AcceptTerms.value="Yes";
+					document.getElementById("ScreenName").value = screenName;
+					return true;
+				} else {
+					document.forum.AcceptTerms.value="No";
+					alert(strTermsAlert);
+					document.getElementById("chkAcceptTerms").focus();
+					return false;
+				}
+			} else {
+				//alert("Please enter the alphabets,-,_ and spaces only in Screen Name");
+				alert(strInvalidScreenName);
+				document.getElementById("ScreenName").focus();
+				return false;
+			}
+		}else{		
+			alert(strScreenNameAlert);
+			document.getElementById("ScreenName").value = screenName;
+			document.getElementById("ScreenName").focus();
+			return false;
+		}
+		return false;
+
+	} catch (err){
+
+	}
+}
+/* End Community Forums Localization */
+// -->
+</script>
+
+	<link rel="shortcut icon" href="/favicon.ico" >
+	<script language="javascript">
+
+		var downloads_text = "";
+		var currentid = '1175238819816';
+		var c = 'L_CASupport_C1';
+		var flexdefinition = 'ContentDetail';
+		
+		var shorttitle = 'Technical Support';
+
+		var leftnavlinkcnt = 0;
+		var headerlinkcnt = 0;
+		var logged_in_user = 'null';
+		var user_screen_name = 'null';
+		var sourceelement = 'CountrySelectionPage';
+
+
+		function replaceLinkID(urlvalue, section, linkcount)
+		{
+			var linkid_index = -1;
+			var sAssetID = "";
+			var sPageID = "";
+			var sLinkID = "";
+			var sLinkID_QS = "";
+			linkid_index = urlvalue.indexOf("lid=JavaScript");
+			if (linkid_index > -1)
+			{
+				sPageID = 1175238819816;
+
+				sLinkID_QS = urlvalue.substring(linkid_index,linkid_index+28);
+				sAssetID = sLinkID_QS.substring(23,28);
+				sPageID = sPageID + "";
+				sPageID = sPageID.substring(8);
+
+				if (linkcount <= 9)
+				{
+					linkcount = "0" + parseInt(linkcount);
+				}
+				sLinkID = "lid=" + sAssetID + sPageID + section + linkcount;
+				urlvalue = urlvalue.replace(sLinkID_QS, sLinkID);
+			}
+			return urlvalue;
+		}
+	</script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+		var userid=null;  
+	</script>
+	
+<script>
+	var isPrintablePage = 'null';
+	var isDownloadPage = 'null';
+</script>
+ 	
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><script language="javascript">
+		var ProductSKU='';	
+	</script>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td background="/images/head_back.gif">
+
+	<script language="JavaScript1.2" src="/js/FW_Menu.js" type='text/javascript'></script>
+	<script language="JavaScript1.2" type="text/javascript">
+
+	if(FW_IsMenu)
+	{
+		
+	FW_Array1 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Wireless",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1118181591233&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9123342255H01')","H",headerlinkcnt++)],
+["Wired",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1117775462139&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6213942255H02')","H",headerlinkcnt++)],
+["Business",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1117775461982&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6198242255H03')","H",headerlinkcnt++)],
+["Accessories",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1115416946883&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4688342255H04')","H",headerlinkcnt++)],
+["Services ",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1118334628902&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2890242255H05')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array2 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Solutions for Your Home",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037290583&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9058342255H06')","H",headerlinkcnt++)],
+["Solutions for Your Business",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037290447&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9044742255H07')","H",headerlinkcnt++)],
+["Distributors",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037290483&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9048342255H08')","H",headerlinkcnt++)],
+["Find a Local Value Added Reseller",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1145390139971&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=3997142255H09')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array3 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Technical Support",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1175238819816&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1981642255H10')","H",headerlinkcnt++)],
+["Customer Service",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1166859677851&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7785142255H11')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array4 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Network Basics",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291160&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9116042255H12')","H",headerlinkcnt++)],
+["Network Security",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291212&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9121242255H13')","H",headerlinkcnt++)],
+["Networking Tips",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1172713141456&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4145642255H14')","H",headerlinkcnt++)],
+["Connected Home",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1123638089355&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8935542255H15')","H",headerlinkcnt++)],
+["Video Tutorials",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1175232776818&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7681842255H16')","H",headerlinkcnt++)],
+["Glossary",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291108&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9110842255H17')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array5 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["About Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114633975818&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7581842255H18')","H",headerlinkcnt++)],
+["News@Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114633918648&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1864842255H19')","H",headerlinkcnt++)],
+["Contact Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291276&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9127642255H20')","H",headerlinkcnt++)],
+["Careers@Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519875121&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7512142255H21')","H",headerlinkcnt++)],
+["Policies & Procedures",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519876545&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7654542255H22')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array6 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Partnering With Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083754353&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5435342255H23')","H",headerlinkcnt++)],
+["Value Added Resellers",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083624730&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2473042255H24')","H",headerlinkcnt++)],
+["Service Providers",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083622379&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2237942255H25')","H",headerlinkcnt++)],
+["Apply For Partnership",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083626501&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2650142255H26')","H",headerlinkcnt++)],
+["Partner Login",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1129150950837&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5083742255H27')","H",headerlinkcnt++)],
+["Service Provider Products",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1126197001941&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0194142255H28')","H",headerlinkcnt++)]
+
+	]
+
+		buildIt();
+	}
+
+	function adjustpos(obj,item)
+	{
+		tempobj1 = document.getElementById(menuPrefix+item);
+		tempobj1.style.left = obj.offsetLeft;
+	}
+
+	</script>
+
+		
+			<script language="javascript">
+				var homepagetitle = 'Home';
+			</script>
+			<table border="0" cellpadding="0" cellspacing="0" width="780">
+		<tr>
+			<td valign='top'>
+				<a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777342255H29" target="_top"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dlinksys_logo.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193763767354&ssbinary=true" alt="Linksys.com Logo" title="Linksys.com Logo" border="0" height="73" width="227"></a></td>
+			<td background="/images/head_back.gif" align="right" valign="bottom">
+				<table border="0" cellpadding="0" cellspacing="0">
+				<tr><td align="right" class="text-white" nowrap="nowrap"><a href="/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1175238286492&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8649242255H30&displaypage=download" target="_top" class='header-link'>Downloads</a> | <a href="/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1169671210496&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1049642255H31" target="_top" class='header-link'>Sitemap</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115416906014&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0601442255H32" target="_top" class='header-link'>Customer Login</a> / <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115416906014&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0601442255H32" target="_top" class='header-link'>Registration</a></td>
+					<td><img src="/images/spacer.gif" width="8" height="1" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="2"><img src="/images/spacer.gif" width="1" height="10" alt=""></td>
+				</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td align="right" valign="bottom">
+						<table width="311" border="0" cellpadding="0" cellspacing="0">
+						<form action="/servlet/Satellite" method="post" enctype="multipart/form-data" name="srch">	
+							<input type="hidden" name="pagename" value="Linksys/Common/VisitorWrapper" />
+							<input type="hidden" name="packedargs" value='siteid=1115416834707&site=US&cid=1140539745019&c=L_Content_C1' />
+							<input type="hidden" name="SubmittedElement" value="Linksys/FormSubmit/SearchProc" />
+							<input type="hidden" name="cid" value='1140539745019' />
+							<input type="hidden" name="childpagename" value='US/Layout' />
+							<input type="hidden" name="searchhost" value="search.linksys.com" />
+							<input type="hidden" name="searchsite" value="Linksys_US" />
+							<input type="hidden" name="searchfront" value="Linksys_US" />
+							<tr>
+								<td align="right">
+									<table border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding-right: 5px" class="search">SEARCH</td>
+										<td style="padding-right: 3px" valign="bottom" align="center"><input type="text" name="term" size="19" class="form"></td>
+										<td style="padding-right: 3px"><input type="image" src="/images/search_03.jpg" value="Submit" alt="No [en] translation for asset: SearchImageAlt"></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="/images/search_05.gif" alt="" width="311" height="17" border="0"></td>
+							</tr>
+							</form>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td bgcolor="336699" class="text-white" height="21">
+				<table cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td width="228">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr>
+							<td><img src="/images/spacer.gif" width="25" height="1"></td><td class="text-white" align="left" nowrap><strong>United States</strong> <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1119591482400&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8240042255H34" class="text-white">[Change]</a></td>
+						</tr>
+						</table>
+					</td>
+					<td class="text-white" align="center">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 1);show(1)" onmouseout="hide(1)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />PRODUCTS</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 2);show(2)" onmouseout="hide(2)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />WHERE TO BUY</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 3);show(3)" onmouseout="hide(3)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />SUPPORT</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 4);show(4)" onmouseout="hide(4)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />LEARNING CENTER</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 5);show(5)" onmouseout="hide(5)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />COMPANY</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 6);show(6)" onmouseout="hide(6)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />PARTNERS</span></strong></td></tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table></td>
+</tr>
+<tr><td>
+
+
+
+
+
+
+
+
+
+	
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+							
+
+						
+						
+
+						
+<SCRIPT language="JavaScript">
+	
+var UK_Support = 'http://www-uk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=UK%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B01';
+
+var UK_Download = 'http://www-uk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=UK%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B03&displaypage=download';
+
+var LV_Support = 'http://www-lv.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=LV%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B04';
+
+var LV_Download = 'http://www-lv.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=LV%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B06&displaypage=download';
+
+var DE_Download = 'http://www-de.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DE%2FLayout&cid=1175232581583&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8158319816B07&displaypage=download';
+
+var DE_Support = 'http://www-de.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DE%2FLayout&cid=1175232581111&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8111119816B08';
+
+var NZ_Support = 'http://www-nz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NZ%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B10';
+
+var NZ_Download = 'http://www-nz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NZ%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B12&displaypage=download';
+
+var EE_Support = 'http://www-ee.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=EE%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B13';
+
+var EE_Download = 'http://www-ee.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=EE%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B15&displaypage=download';
+
+var SE_Support = 'http://www-se.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SE%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B16';
+
+var SE_Download = 'http://www-se.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SE%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B18&displaypage=download';
+
+var NO_Support = 'http://www-no.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NO%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B19';
+
+var NO_Download = 'http://www-no.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NO%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B21&displaypage=download';
+
+var DK_Support = 'http://www-dk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DK%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B22';
+
+var DK_Download = 'http://www-dk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DK%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B24&displaypage=download';
+
+var ES_Support = 'http://www-es.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ES%2FLayout&cid=1175231477121&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7712119816B25';
+
+var ES_Download = 'http://www-es.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ES%2FLayout&cid=1175231477593&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7759319816B27&displaypage=download';
+
+var TZ_Support = 'http://www-tz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=TZ%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B28';
+
+var TZ_Download = 'http://www-tz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=TZ%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B30&displaypage=download';
+
+var GH_Support = 'http://www-gh.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=GH%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B31';
+
+var GH_Download = 'http://www-gh.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=GH%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B33&displaypage=download';
+
+var LT_Support = 'http://www-lt.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=LT%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B34';
+
+var LT_Download = 'http://www-lt.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=LT%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B36&displaypage=download';
+
+var DEEM_Download = 'http://www-deem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DEEM%2FLayout&cid=1175232581583&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8158319816B37&displaypage=download';
+
+var DEEM_Support = 'http://www-deem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DEEM%2FLayout&cid=1175232581111&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8111119816B38';
+
+var NL_Support = 'http://www-nl.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NL%2FLayout&cid=1175233709719&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0971919816B40';
+
+var NL_Download = 'http://www-nl.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NL%2FLayout&cid=1175233710194&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1019419816B42&displaypage=download';
+
+var US_Support = 'http://www.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1166859677881&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7788119816B43';
+
+var US_Download = 'http://www.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1166859837314&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=3731419816B45&displaypage=download';
+
+var SI_Support = 'http://www-si.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SI%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B46';
+
+var SI_Download = 'http://www-si.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SI%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B48&displaypage=download';
+
+var AT_Download = 'http://www-at.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AT%2FLayout&cid=1175232581583&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8158319816B49&displaypage=download';
+
+var AT_Support = 'http://www-at.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AT%2FLayout&cid=1175232581111&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8111119816B50';
+
+var FR_Support = 'http://www-fr.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=FR%2FLayout&cid=1175231388584&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8858419816B52';
+
+var FR_Download = 'http://www-fr.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=FR%2FLayout&cid=1175231389056&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8905619816B53&displaypage=download';
+
+var MU_Support = 'http://www-mu.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MU%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B55';
+
+var MU_Download = 'http://www-mu.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MU%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B57&displaypage=download';
+
+var NG_Support = 'http://www-ng.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NG%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B58';
+
+var NG_Download = 'http://www-ng.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NG%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B60&displaypage=download';
+
+var TN_Support = 'http://www-tn.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=TN%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B61';
+
+var TN_Download = 'http://www-tn.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=TN%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B63&displaypage=download';
+
+var TH_Support = 'http://www-th.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=TH%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B64';
+
+var TH_Download = 'http://www-th.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=TH%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B66&displaypage=download';
+
+var ID_Support = 'http://www-id.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ID%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B67';
+
+var ID_Download = 'http://www-id.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ID%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B69&displaypage=download';
+
+var VN_Support = 'http://www-vn.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=VN%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B70';
+
+var VN_Download = 'http://www-vn.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=VN%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B72&displaypage=download';
+
+var CAfr_Download = 'http://www-ca.linksys.com/servlet/Satellite?c=L_Content_C1&childpagename=CAfr%2FLayout&cid=1155929143386&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4338619816B73&displaypage=download';
+
+var CAfr_Support = 'http://www-ca.linksys.com/servlet/Satellite?c=L_Content_C1&childpagename=CAfr%2FLayout&cid=1155929142673&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4267319816B74';
+
+var IN_Support = 'http://www-in.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IN%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B76';
+
+var IN_Download = 'http://www-in.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IN%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B78&displaypage=download';
+
+var EG_Support = 'http://www-eg.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=EG%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B79';
+
+var EG_Download = 'http://www-eg.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=EG%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B81&displaypage=download';
+
+var DZ_Support = 'http://www-dz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DZ%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B82';
+
+var DZ_Download = 'http://www-dz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DZ%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B84&displaypage=download';
+
+var MA_Support = 'http://www-ma.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MA%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B85';
+
+var MA_Download = 'http://www-ma.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MA%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B87&displaypage=download';
+
+var ESEM_Support = 'http://www-esem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ESEM%2FLayout&cid=1175231477121&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7712119816B91';
+
+var ESEM_Download = 'http://www-esem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ESEM%2FLayout&cid=1175231477593&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7759319816B93&displaypage=download';
+
+var ITEM_Support = 'http://www-item.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ITEM%2FLayout&cid=1175233804002&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0400219816B94';
+
+var ITEM_Download = 'http://www-item.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ITEM%2FLayout&cid=1175233804474&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0447419816B96&displaypage=download';
+
+var NLEM_Support = 'http://www-nlem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NLEM%2FLayout&cid=1175233709719&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0971919816B97';
+
+var NLEM_Download = 'http://www-nlem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NLEM%2FLayout&cid=1175233710194&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1019419816B99&displaypage=download';
+
+var IE_Support = 'http://www-ie.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IE%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B100';
+
+var IE_Download = 'http://www-ie.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IE%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B102&displaypage=download';
+
+var KE_Support = 'http://www-ke.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=KE%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B103';
+
+var KE_Download = 'http://www-ke.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=KE%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B105&displaypage=download';
+
+var SK_Support = 'http://www-sk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SK%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B106';
+
+var SK_Download = 'http://www-sk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SK%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B108&displaypage=download';
+
+var MX_Support = 'http://www-mx.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MX%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B109';
+
+var MX_Download = 'http://www-mx.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MX%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B111&displaypage=download';
+
+var CL_Support = 'http://www-cl.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CL%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B112';
+
+var CL_Download = 'http://www-cl.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CL%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B114&displaypage=download';
+
+var CO_Support = 'http://www-co.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CO%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B115';
+
+var CO_Download = 'http://www-co.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CO%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B117&displaypage=download';
+
+var UY_Support = 'http://www-uy.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=UY%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B118';
+
+var UY_Download = 'http://www-uy.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=UY%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B120&displaypage=download';
+
+var HN_Support = 'http://www-hn.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=HN%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B121';
+
+var HN_Download = 'http://www-hn.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=HN%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B123&displaypage=download';
+
+var VE_Support = 'http://www-ve.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=VE%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B124';
+
+var VE_Download = 'http://www-ve.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=VE%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B126&displaypage=download';
+
+var BO_Support = 'http://www-bo.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BO%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B127';
+
+var BO_Download = 'http://www-bo.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BO%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B129&displaypage=download';
+
+var EC_Support = 'http://www-ec.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=EC%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B130';
+
+var EC_Download = 'http://www-ec.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=EC%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B132&displaypage=download';
+
+var PY_Support = 'http://www-py.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PY%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B133';
+
+var PY_Download = 'http://www-py.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PY%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B135&displaypage=download';
+
+var CR_Support = 'http://www-cr.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CR%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B136';
+
+var CR_Download = 'http://www-cr.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CR%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B138&displaypage=download';
+
+var PA_Support = 'http://www-pa.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PA%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B139';
+
+var PA_Download = 'http://www-pa.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PA%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B141&displaypage=download';
+
+var AR_Support = 'http://www-ar.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AR%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B142';
+
+var AR_Download = 'http://www-ar.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AR%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B144&displaypage=download';
+
+var PE_Support = 'http://www-pe.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PE%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B145';
+
+var PE_Download = 'http://www-pe.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PE%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B147&displaypage=download';
+
+var DO_Support = 'http://www-do.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DO%2FLayout&cid=1175230164162&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6416219816B148';
+
+var DO_Download = 'http://www-do.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=DO%2FLayout&cid=1175230164635&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6463519816B150&displaypage=download';
+
+var BR_Support = 'http://www-br.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BR%2FLayout&cid=1175235652775&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5277519816B151';
+
+var BR_Download = 'http://www-br.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BR%2FLayout&cid=1175235653247&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5324719816B153&displaypage=download';
+
+var PTEM_Support = 'http://www-ptem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PTEM%2FLayout&cid=1175233895517&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9551719816B154';
+
+var PTEM_Download = 'http://www-ptem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PTEM%2FLayout&cid=1175233895989&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9598919816B156&displaypage=download';
+
+var PTLA_Support = 'http://www-ptla.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PTLA%2FLayout&cid=1175235652775&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5277519816B157';
+
+var PTLA_Download = 'http://www-ptla.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PTLA%2FLayout&cid=1175235653247&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5324719816B159&displaypage=download';
+
+var AE_Support = 'http://www-ae.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AE%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B160';
+
+var AE_Download = 'http://www-ae.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AE%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B162&displaypage=download';
+
+var CS_Support = 'http://www-cs.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CS%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B163';
+
+var CS_Download = 'http://www-cs.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CS%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B165&displaypage=download';
+
+var MK_Support = 'http://www-mk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MK%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B166';
+
+var MK_Download = 'http://www-mk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MK%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B168&displaypage=download';
+
+var RO_Support = 'http://www-ro.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=RO%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B169';
+
+var RO_Download = 'http://www-ro.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=RO%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B171&displaypage=download';
+
+var ET_Support = 'http://www-et.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ET%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B172';
+
+var ET_Download = 'http://www-et.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ET%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B174&displaypage=download';
+
+var NA_Support = 'http://www-na.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NA%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B175';
+
+var NA_Download = 'http://www-na.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=NA%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B177&displaypage=download';
+
+var CZ_Support = 'http://www-cz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CZ%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B178';
+
+var CZ_Download = 'http://www-cz.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CZ%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B180&displaypage=download';
+
+var BH_Support = 'http://www-bh.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BH%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B181';
+
+var BH_Download = 'http://www-bh.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BH%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B183&displaypage=download';
+
+var QA_Support = 'http://www-qa.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=QA%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B184';
+
+var QA_Download = 'http://www-qa.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=QA%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B186&displaypage=download';
+
+var MY_Support = 'http://www-my.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MY%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B187';
+
+var MY_Download = 'http://www-my.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=MY%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B189&displaypage=download';
+
+var PH_Support = 'http://www-ph.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PH%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B190';
+
+var PH_Download = 'http://www-ph.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PH%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B192&displaypage=download';
+
+var SG_Support = 'http://www-sg.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SG%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B193';
+
+var SG_Download = 'http://www-sg.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SG%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B195&displaypage=download';
+
+var PT_Support = 'http://www-pt.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PT%2FLayout&cid=1175233895517&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9551719816B196';
+
+var PT_Download = 'http://www-pt.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PT%2FLayout&cid=1175233895989&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9598919816B198&displaypage=download';
+
+var HU_Support = 'http://www-hu.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=HU%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B199';
+
+var HU_Download = 'http://www-hu.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=HU%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B201&displaypage=download';
+
+var AU_Support = 'http://www-au.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AU%2FLayout&cid=1175234114154&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1415419816B202';
+
+var AU_Download = 'http://www-au.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=AU%2FLayout&cid=1175234114626&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1462619816B204&displaypage=download';
+
+var ZA_Support = 'http://www-za.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ZA%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B205';
+
+var ZA_Download = 'http://www-za.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=ZA%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B207&displaypage=download';
+
+var CH_Download = 'http://www-ch.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CH%2FLayout&cid=1175232581583&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8158319816B208&displaypage=download';
+
+var CH_Support = 'http://www-ch.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CH%2FLayout&cid=1175232581111&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8111119816B209';
+
+var SC_Support = 'http://www-sc.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SC%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B211';
+
+var SC_Download = 'http://www-sc.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SC%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B213&displaypage=download';
+
+var IS_Support = 'http://www-is.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IS%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B217';
+
+var IS_Download = 'http://www-is.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IS%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B219&displaypage=download';
+
+var BE_Support = 'http://www-be.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BE%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B220';
+
+var BE_Download = 'http://www-be.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=BE%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B222&displaypage=download';
+
+var CM_Support = 'http://www-cm.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CM%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B223';
+
+var CM_Download = 'http://www-cm.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=CM%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B225&displaypage=download';
+
+var FREM_Support = 'http://www-frem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=FREM%2FLayout&cid=1175231388584&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8858419816B226';
+
+var FREM_Download = 'http://www-frem.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=FREM%2FLayout&cid=1175231389056&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8905619816B227&displaypage=download';
+
+var FI_Support = 'http://www-fi.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=FI%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B229';
+
+var FI_Download = 'http://www-fi.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=FI%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B231&displaypage=download';
+
+var KW_Support = 'http://www-kw.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=KW%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B232';
+
+var KW_Download = 'http://www-kw.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=KW%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B234&displaypage=download';
+
+var SA_Support = 'http://www-sa.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SA%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B235';
+
+var SA_Download = 'http://www-sa.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=SA%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B237&displaypage=download';
+
+var JO_Support = 'http://www-jo.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=JO%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B238';
+
+var JO_Download = 'http://www-jo.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=JO%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B240&displaypage=download';
+
+var LB_Support = 'http://www-lb.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=LB%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B241';
+
+var LB_Download = 'http://www-lb.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=LB%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B243&displaypage=download';
+
+var OM_Support = 'http://www-om.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=OM%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B244';
+
+var OM_Download = 'http://www-om.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=OM%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B246&displaypage=download';
+
+var IT_Support = 'http://www-it.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IT%2FLayout&cid=1175233804002&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0400219816B247';
+
+var IT_Download = 'http://www-it.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=IT%2FLayout&cid=1175233804474&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0447419816B249&displaypage=download';
+
+var PK_Support = 'http://www-pk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PK%2FLayout&cid=1175234027311&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2731119816B250';
+
+var PK_Download = 'http://www-pk.linksys.com/servlet/Satellite?c=L_CASupport_C1&childpagename=PK%2FLayout&cid=1175234027783&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2778319816B252&displaypage=download';
+
+var CAen_Support = 'http://www-ca.linksys.com/servlet/Satellite?c=L_Content_C1&childpagename=CAen%2FLayout&cid=1153781111465&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1146519816B253';
+
+var CAen_Download = 'http://www-ca.linksys.com/servlet/Satellite?c=L_Content_C1&childpagename=CAen%2FLayout&cid=1153781112181&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1218119816B254&displaypage=download';
+
+
+</SCRIPT>
+
+
+
+<script src="/js/insert_active_flash.js"></script>
+<script>
+		var page = 'support';
+		function createCookie(name,value) {
+				var date = new Date();
+				date.setTime(date.getTime()+(3600*1000*24*365*20));
+				var expires = "; expires="+date.toGMTString();
+				document.cookie = name+"="+value+expires+"; path=/";
+				return;
+		}
+
+		function readCookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+
+	   function saveLang(id,url,code){	
+		  
+		//countrycode=code;
+		a = id.split(" (");
+		//country = a[0];
+		country = code;
+		lang = ""
+		if (a.length>1)
+		{
+			lang = a[1];
+			lang = lang.substr(0,lang.length-1);  
+		} 
+
+		var msg=null;
+		var default_country = readCookie('default_country');
+		var default_lang = readCookie('default_lang');
+		var supporturl = null;
+		var downloadurl = null;
+		var isSiteAvailable = true
+		try{
+			downloadurl=eval(country+"_Download");
+			supporturl=eval(country+"_Support");
+		}catch(e)
+		{
+			alert("Support pages not available for this country and hence redirected to US site");
+			isSiteAvailable = false;
+			downloadurl=eval("US_Download");
+			supporturl=eval("US_Support");
+		}
+
+		/* 
+		When the selected country is not available in that environment isSiteAvailable will be set to false and will be redirected to US. So alert message for default country should not be displayed. So isSiteAvailable is added to the following if condition.
+		*/
+		if ((country!=default_country || lang!=default_lang) && isSiteAvailable == true)
+		{
+			if (country==default_country){
+				if(lang.length>0){
+					msg ="Do you want " + lang+ " to be your default language?";
+					newmsg = lang+" is now your default country. To change default, go to the top left corner of the Linksys navigation bar and click on the link \"Change\".";
+				}
+			}else{
+				msg ="Do you want "+country+" to be your default country?";
+				newmsg = country+" is now your default country. To change default, go to the top left corner of the Linksys navigation bar and click on the link \"Change\".";			
+
+			}
+			if(msg!=null){
+				if (confirm(msg)){
+					alert(newmsg);
+					createCookie('default_country',country);				
+					createCookie('default_lang',lang);					
+					createCookie('default_downloadurl',downloadurl);
+					createCookie('default_supporturl',supporturl);					
+				}
+			}
+		}
+
+		if(page == 'support'){					
+			url=supporturl		    
+		}else{
+			url=downloadurl;	
+		}
+		window.location.href=url;
+   }
+
+	
+
+	function flashCM() {	
+
+
+	 var cookieurl = null;	
+	 if(page == 'support'){
+		 cookieurl = readCookie('default_supporturl');
+	 } else if(page == 'download'){ 
+		 cookieurl = readCookie('default_downloadurl');
+	 }
+
+	 if(cookieurl==null || cookieurl =='null'){
+		/*if(page=='support' ){
+			title = "_WORLD_MAP_";
+		}else if(page == 'download'){
+			title = "_WORLD_MAP_";
+		}*/
+
+		title = "_WORLD_MAP_";
+		swfFile ="/world_map_05.swf";		
+		xmlurl = "/servlet/Satellite?pagename=US/L_Download_C2/GenerateXMLForBlitzWidget%26country=US%26title="+title;		//xml url.
+
+		width  = "700";
+		height = "400";
+		vars   =  "";
+		bgColor = "#6787A6";
+		winmode = "opaque";
+		quality = "high";
+		URL = swfFile +"?xmlurl="+xmlurl;
+
+		var id=URL.split("/")[URL.split("/").length-1].split(".")[0];
+	//	alert(id);
+
+		if(vars==null) vars='';
+		if(bgColor==null) bgColor='#6787A6';
+		if(winmode==null) winmode='window';
+
+		/*document.write("<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0' "); 
+		document.write("width='"+width+"' height='"+height+"' id='"+id+"' align='middle'> ");
+		document.write("<param name='allowScriptAccess' value='always' /> ");
+		document.write("<param name='play' value='true'>");
+		document.write("<param name='AllowNetworking' value='all' /> ");
+		document.write("<param name='movie' value='"+URL+"' /> ");
+		document.write("<param name='FlashVars' value='"+vars+"' /> ");
+		document.write("<param name='wmode' value='"+winmode+"' /> ");
+		document.write("<param name='menu' 	value='true' /> ");
+		document.write("<param name='quality' value='"+quality+"' /> ");
+		document.write("<param name='bgcolor' value='"+bgColor+"' /> ");
+		document.write("<param name='scale' value='noScale'/> ");
+		document.write("<embed src='"+URL+"' flashVars='"+vars+"' wmode='"+winmode+"' menu='true' quality='"+quality+"' ");
+		document.write("bgcolor='"+bgColor+"' width='"+width+"' height='"+height+"' name='"+id+"' align='middle' salign='lt'");
+		document.write("allowScriptAccess='always' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer' /> ");
+		document.write("	</object> ");*/
+		
+		MapFlashObject=new Object
+		MapFlashObject.movie=URL
+		MapFlashObject.quality="high"
+		MapFlashObject.wmode="opaque"
+		MapFlashObject.width=700
+		MapFlashObject.height=400
+		MapFlashObject.version="8,0,0,0"				
+		commitFlashObject(MapFlashObject, "World_Map")	
+
+	}else{
+		 window.location.href=cookieurl;
+	}
+}
+
+</script>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+<tr >
+<TD align="center">
+ <div id="World_Map">
+	<script language=javascript>flashCM();</script>
+</div>
+</TD>
+</TR>
+</table>
+
+
+	</td>
+</tr>
+<tr>
+	<td bgcolor="ffffff"><table cellpadding="0" cellspacing="2" border="0" width="100%">
+<tr>
+	<td><img src="/images/spacer.gif" alt="" width="1" height="10" border="0"></td>
+</tr>
+<tr>
+	<td class="text-footer">
+			
+				
+				
+				
+			
+		&copy; 1992-2008 Cisco Systems, Inc.  All rights reserved.<br>
+		<a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519876545&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7654586492F262" target="_top" class='footer-link'>Terms & Conditions</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519876585&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7658586492F263" target="_top" class='footer-link'>Privacy Policy</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519875121&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7512186492F264" target="_top" class='footer-link'>Careers</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291276&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9127686492F265" target="_top" class='footer-link'>Contact Us</a></td>
+</tr>
+<tr>
+	<td align="center">
+	
+		
+		
+		
+	
+	
+	<a href="http://www.cisco.com/" target="new"><img name="1119591372525" id="1119591372525" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dcisco_logo%252C0.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130877220706&ssbinary=true" alt="Cisco Systems, Inc." title="Cisco Systems, Inc." border="0" height="55" width="85" /></a></td>
+</tr>
+</table>
+	</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-504560-1";
+	urchinTracker();
+	</script>
+
+
+</body>
+</html>

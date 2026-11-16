@@ -1,0 +1,335 @@
+/*  
+Theme Name: VFC
+Theme URI: http://www.mystical-twilight.com/themes/index.php?wptheme=Simple+Blog
+Description: To the bloggers delight, a simple theme, not too busy, not too bright. Enjoy.
+Version: 1.0
+Author: Colleen Chard
+Author URI: http://www.mystical-twilight.com/
+*/
+
+
+/* Basics and Typography */
+
+html { height:100%; }
+body {
+        margin:0; 
+        padding:0;
+	background: #efefef url(images/bodybg.gif) fixed;
+	font-size: 74%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
+	color: #333;
+	text-align: center;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0;
+}
+ol, ul {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0 1.2em 2em;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0;
+	font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+	color: #0563b4; 
+}
+h1, h2 {
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1.1em;
+}
+h4 {
+	font-size: 1.0em;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #0563b4;
+}
+a:visited {
+	color: #065090;
+}
+a:hover, a:active {
+	color: #2d89d9;
+}
+input, textarea, select {
+	border: 1px solid #000;
+	background: #fff;
+	color: #333;
+	font-size: 8pt;
+	font-family: "Lucida Sans Unicode", Tahoma, Arial, sans-serif;
+}
+blockquote {
+	margin: 0 20px;
+	padding: 0 20px;
+        background: #eee;
+	border-left: 4px solid #999;
+	font-size: 0.9em;
+        color: #999;
+}
+code {
+	font-family: monospace;
+	color: #666;
+}
+form, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.small {
+	font-size: 0.9em;
+	color: #999;
+}
+
+/* Layout */
+
+#wrapper {
+        height:100%;
+        padding: 0;
+	margin: 0 auto;
+	width: 754px;
+	background: #d4d7e3;
+        border-left:3px solid #0563b4;
+        border-right:3px solid #0563b4;
+	text-align: left;
+}
+#headspace {
+ height: 24px;
+}
+#headspace p {
+	padding: 1px 3px;
+        margin: 0;
+        text-align:right;
+}
+#header {
+	padding: 0;
+	margin: 0;
+	height: 94px;
+	width: 100%;
+	background: #fff;
+        border-top:5px solid #0563b4;
+        border-bottom:5px solid #0563b4;
+}
+
+#header h1 {
+	margin: 0;
+        padding: 45px 0 0 4px;
+        text-align: left;
+	font-size: 1.9em;
+}
+#header h1 a {
+	text-decoration: none;
+	color: #0563b4;
+}
+#description {
+        padding: 0 0 0 4px;
+        text-align: left;
+	font-size: 1.1em;
+}
+
+#inner {
+	float: left;
+        width:754px;
+        margin: 0 0 12px 0;
+}
+#content {
+	float: left;
+        margin: 10px 0 0 0;
+	padding: 0 12px;
+	width: 534px;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 494px;
+} 
+html>body #content {
+	width: 494px;
+}
+#sidebar {
+	float: right;
+        margin: 6px 10px 0 0;
+	padding: 0;
+	width: 222px;
+	font-size: 0.9em;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 182px;
+} 
+html>body #sidebar {
+	width: 182px;
+}
+* html #content, * html #sidebar {
+	overflow: hidden; /* For IE */
+}
+
+#footer {
+	clear: both;
+        background: #0563b4;
+        height: 42px;
+        width: 100%;
+        margin: 0;
+	font-size: 0.9em;
+	text-align: right;
+}
+#footer p {
+	margin: 0;
+	padding: 26px 4px 0 0;
+	font-size: 0.9em;
+	text-align: right;
+        color: #efefef;
+}
+#footer a {
+        color: #d4d7e3;
+}
+
+/* Blog */
+
+.post {
+        margin: 0;
+        padding: 0;
+}
+
+.bl {background: url(images/bl.gif) 0 100% no-repeat #fff; width: 500px }
+.br {background: url(images/br.gif) 100% 100% no-repeat}
+.tl {background: url(images/tl.gif) 0 0 no-repeat}
+.tr {background: url(images/tr.gif) 100% 0 no-repeat; padding:10px}
+.clear {font-size: 1px; height: 21px}
+.post h2 {
+        color: #333;
+        font-size:1em;
+        margin: 0;
+        padding: 0;
+
+}
+h3.posttitle {
+        font-size:1.2em;
+        margin: 0.4em 0;
+        padding: 0;
+
+}
+h3.posttitle a {
+        font-weight:bold;
+}
+h3.posttitle a:link, h3.posttitle a:visited {
+	color: #0563b4;	
+}
+h3.posttitle a:hover, h3.posttitle a:active {
+	color: #2d89d9;
+}
+.postmeta {
+        background: #efefef;
+	margin: 0;
+	padding: 4px 3px;
+	font-size: 0.9em;
+	color: #9a9fb3;
+}
+.postfeedback {
+        background: #d4d7e3;
+	margin: 0;
+	padding: 1px 0;
+	font-size: 0.9em;
+        text-align: center;
+}
+.postr {
+        float:right;
+	margin: 0;
+	padding: 0;
+}
+.postl {
+        float:left;
+	margin: 0;
+	padding: 4px 3px;
+	font-size: 0.9em;
+	color: #9a9fb3;
+}
+
+.postfeedback a, .postmeta a, .postfeedback, .postmeta {
+	font-size: 0.9em;
+}
+
+.postcontent {
+ clear:left;
+ padding: 10px 0 0 0;
+}
+	
+/* Sidebar */
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0 3px;
+	}
+
+#sidebar h2 {
+        background: #0563b4;
+        padding: 2px;
+        color: #fff;
+	margin: 5px 0 0 0;
+}
+#sidebar a {
+ font-size: 9pt;
+}
+#sidebar ul li {
+        background: #FFF;
+        border-bottom: 1px solid #fff;
+	list-style-type: none;
+	list-style-image: none;
+        padding: 0;
+	margin: 0 0 15px 0;
+	}
+
+#sidebar li {
+ padding: 3px 0;
+}
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 2px 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 2px 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 2px 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0;
+	padding: 0;
+}
+
+/* Comments */
+
+#commentlist {
+	margin: 1.2em 0 0 12px;
+	padding: 0;
+	border-bottom: 1px solid #0563b4;
+	list-style-type: none;
+}
+#commentlist li {
+	border-top: 1px solid #0563b4;
+	padding: 1px 20px;
+	background: #fff;
+}
+.alt {
+	background: #efefef !important;
+}
+.commenttitle {
+	margin-bottom: 0;
+	font-size: 1.1em;
+}
+.commentmeta {
+	margin-top: 0;
+	font-size: 0.9em;
+	color: #9a9fb3;
+}
+#comment {
+	width: 98%;
+}

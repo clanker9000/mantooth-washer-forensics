@@ -1,0 +1,44 @@
+
+function addAdContents(adLoc,contents)
+{var adLocation;var browser=getBrowserInfo();var arrContentSplit=splitJavascriptFromHtmlIfIE(contents);if(contents.length>0)
+{if(adLoc=="quad")
+{adLocation=getElementById("quadad");if(browser.name=="msie")
+{changeBodyClass(adLoc);}}
+else
+{adLocation=getElementById("rightad");if(!window.opera)
+{changeBodyClass(adLoc);}
+else
+{getElementById("formpage").style.width="956px";}
+if(browser.name=="msie"&&browser.version<7)
+{document.getElementsByTagName("body")[0].style.width="955px";}
+else
+{var newwidth=document.body.clientWidth+"px";document.getElementsByTagName("body")[0].style.width=newwidth;}}
+var newdiv=document.createElement("div");var divIdName=adLoc+"1";newdiv.setAttribute("id",divIdName);newdiv.innerHTML=arrContentSplit[0];adLocation.appendChild(newdiv);var element=document.getElementById("ajaxpagescript");if(browser.name=="msie"){element.setAttribute('text',arrContentSplit[1]);}else{element.innerHTML=arrContentSplit[1];}
+var ele=getElementById("formpanel");var rightADTop=0;while(ele)
+{rightADTop+=ele.offsetTop;ele=ele.offsetParent;}
+var topADEle=getElementById("topadspace");if(topADEle)
+{getElementById("topadspace").style.marginTop="0px";getElementById("topadspace").style.marginBottom="0px";}
+if(adLoc=="rightad"&&browser.name=="msie")
+{getElementById("formpage").style.width=(765+getElementById("farright").offsetWidth)+"px";}}
+else
+{if(browser.name=="msie"&&browser.version<=6.0)
+{changeBodyClass(adLoc);}}}
+function splitJavascriptFromHtmlIfIE(strInHtml){var arrHtml=strInHtml.split("<script");var arrOut=new Array();arrOut[0]="";arrOut[1]="";if(arrHtml.length>0){arrOut[0]+=arrHtml[0];for(var i=1;i<arrHtml.length;i++){var pos=arrHtml[i].indexOf('>');pos++;arrHtml[i]=arrHtml[i].substring(pos);var arrJavascript=arrHtml[i].split("</script>");if(arrJavascript.length>0&&arrJavascript.length<3){arrOut[1]+=arrJavascript[0];if(arrJavascript.length==2){arrOut[0]+=arrJavascript[1];}}else{arrOut[0]=strInHtml;break;}}}else{arrOut[0]=strInHtml;}
+return arrOut;}
+function loadAD(adType,fa)
+{var xmlHttp1=mqXMLHttpRequest();var browserSize=getBrowserSize();var adLoc;if(browserSize.width<1000)
+{adLoc="quad";}
+else
+{adLoc="rightad";}
+var adUpdateUrl="/apart/loadAD.adp";var adData="adLoc="+adLoc+"&adtype="+adType+"&fa="+fa+"&rand="+(Math.round((Math.random()*10000)));if(xmlHttp1==null)
+{loadJS(adUpdateUrl,"adUpdateUrl","body");}
+else
+{xmlHttp1.open("POST",adUpdateUrl,true);xmlHttp1.onreadystatechange=function()
+{if(xmlHttp1.readyState==4)
+{if(xmlHttp1.status==200)
+{eval(xmlHttp1.responseText);}
+else
+{loadJS(adUpdateUrl,"adUpdateUrl","body");}}}
+xmlHttp1.send(adData);}}
+function changeBodyClass(className)
+{document.getElementsByTagName("body")[0].className=className;}

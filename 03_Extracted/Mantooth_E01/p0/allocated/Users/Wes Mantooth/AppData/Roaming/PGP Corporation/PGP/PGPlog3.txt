@@ -1,0 +1,9 @@
+* 11:57:45 ----- PGP Desktop continuing -----
+* 11:57:45 Today's date is Thursday, June 21, 2007
+I 11:57:45 Initiating daily maintenance procedures
+I 12:02:21 Processing message from <chkwasher@comcast.net> with subject: Re: Whats up in D town?
+I 15:48:12 Processing message from <chkwasher@comcast.net> with subject: Re: Whats up in D town?
+I 15:48:31 Processing message from <chkwasher@comcast.net> with subject: Re: Whats up in D town?
+I 16:43:28 Processing message from <chkwasher@comcast.net> with subject: Re: Whats up in D town?
+I 17:16:37 Processing message from <dollarhyde86@comcast.net> with subject: Microsoft Office Outlook Test Message
+I 17:16:47 Processing message from <chkwasher@comcast.net> with subject: Re: Whats up in D town?

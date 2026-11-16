@@ -1,0 +1,45 @@
+document.write('<!-- Template Id = 1 Template Name = Banner Creative (Flash) -->\n<!-- Copyright 2002 DoubleClick Inc., All rights reserved. -->\n<script src=\"http://2mdn.aolcdn.com/879366/DartRichMedia_1_03.js\"><\/script>');document.write('\n');
+ 
+var dcswf = "http://2mdn.aolcdn.com/1420759/cls_edu_menuStFrogWaveseedegBd15_Busy18mo_0707_728x90.swf"; 
+var dcgif = "http://2mdn.aolcdn.com/1420759/cls_edu_menuStFrogWaveseedegBd15_Busy18mo_0707_728x90.gif"; 
+var advurl = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/h%3B113295266%3B0-0%3B0%3B17719319%3B3454-728/90%3B21908309/21926199/1%3B%3B%7Efdr%3D120063070%3B0-0%3B1%3B11588128%3B3454-728/90%3B21540541/21558431/1%3B%3B%7Esscs%3D%3fhttp://www.classesusa.com/clickcount.cfm?id=719041&LMBCode=17719319-113295266-21926199&goto=http%3A%2F%2Fwww.classesusa.com%2Ffeaturedschools%2Fonlinedegreesmp%2Fform-dyn1.html%3Fsplovr%3D719040";
+var dcadvurl = escape(advurl);
+var dcminversion = 5;
+var dcmaxversion = 8;
+var plugin = false;
+var dccreativewidth = "728";
+var dccreativeheight = "90";
+var dcwmode = "opaque";
+var dcbgcolor = "";
+if (((navigator.appName == "Netscape") && (navigator.userAgent.indexOf("Mozilla") != -1) && (parseFloat(navigator.appVersion) >= 4) && (navigator.javaEnabled()) && navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"] && navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin)) {
+var plugname=navigator.plugins['Shockwave Flash'].description;var plugsub=plugname.substring(plugname.indexOf("."),-1); var plugsubstr=plugsub.substr(-1)
+if( plugsubstr >= dcminversion) { plugin = true;}
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 && (navigator.userAgent.indexOf("Windows 95")>=0 || navigator.userAgent.indexOf("Windows 98")>=0 || navigator.userAgent.indexOf("Windows NT")>=0) && document.all) 
+{
+document.write('<script language=VBScript>' + '\n' +
+   'dcmaxversion = '+dcmaxversion + '\n' +
+   'dcminversion = '+dcminversion + '\n' +
+   'Do' + '\n' +
+    'On Error Resume Next' + '\n' +
+    'plugin = (IsObject(CreateObject(\"ShockwaveFlash.ShockwaveFlash.\" & dcmaxversion & \"\")))' + '\n' +
+    'If plugin = true Then Exit Do' + '\n' +
+    'dcmaxversion = dcmaxversion - 1' + '\n' +
+    'Loop While dcmaxversion >= dcminversion' + '\n' +
+  '<\/script>');
+}
+if ( plugin )  {
+ document.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+ document.write(' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=3,0,0,0" ');
+ document.write(' ID=FLASH_AD WIDTH="'+ dccreativewidth +'" HEIGHT="'+ dccreativeheight +'">');
+ document.write('<PARAM NAME=movie VALUE="' + dcswf + '?ct=US&st=CO&ac=303&zp=80010&bw=3&dma=171&city=13316&clickTAG='+ dcadvurl +'"><PARAM NAME=quality VALUE=autohigh><PARAM NAME=bgcolor VALUE=#'+ dcbgcolor +'><PARAM NAME=wmode VALUE='+ dcwmode +'>'); 
+ document.write('<EMBED src="' + dcswf + '?ct=US&st=CO&ac=303&zp=80010&bw=3&dma=171&city=13316&clickTAG='+ dcadvurl +'" quality=autohigh');
+ document.write(' swLiveConnect=TRUE WIDTH="'+ dccreativewidth +'" HEIGHT="'+ dccreativeheight +'" bgcolor=#'+ dcbgcolor);
+ document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+ document.write('</EMBED>');
+ document.write('</OBJECT>');
+} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+ document.write('<A TARGET="_blank" HREF="http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/h%3B113295266%3B0-0%3B0%3B17719319%3B3454-728/90%3B21908309/21926199/1%3B%3B%7Efdr%3D120063070%3B0-0%3B1%3B11588128%3B3454-728/90%3B21540541/21558431/1%3B%3B%7Esscs%3D%3fhttp://www.classesusa.com/clickcount.cfm?id=719041&LMBCode=17719319-113295266-21926199&goto=http%3A%2F%2Fwww.classesusa.com%2Ffeaturedschools%2Fonlinedegreesmp%2Fform-dyn1.html%3Fsplovr%3D719040"><IMG SRC="' + dcgif + '" BORDER=0></A>');
+}
+//-->
+document.write('<NOEMBED><title>cls_edu_menuStFrogWaveseedegBd15_Busy18mo_0707_728x90</title><A TARGET=\"_blank\" HREF=\"http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/h%3B113295266%3B0-0%3B0%3B17719319%3B3454-728/90%3B21908309/21926199/1%3B%3B%7Efdr%3D120063070%3B0-0%3B1%3B11588128%3B3454-728/90%3B21540541/21558431/1%3B%3B%7Esscs%3D%3fhttp://www.classesusa.com/clickcount.cfm?id=719041&LMBCode=17719319-113295266-21926199&goto=http%3A%2F%2Fwww.classesusa.com%2Ffeaturedschools%2Fonlinedegreesmp%2Fform-dyn1.html%3Fsplovr%3D719040\"><IMG SRC=\"http://2mdn.aolcdn.com/1420759/cls_edu_menuStFrogWaveseedegBd15_Busy18mo_0707_728x90.gif\" BORDER=0></A></NOEMBED><NOSCRIPT><A TARGET=\"_blank\" HREF=\"http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/h%3B113295266%3B0-0%3B0%3B17719319%3B3454-728/90%3B21908309/21926199/1%3B%3B%7Efdr%3D120063070%3B0-0%3B1%3B11588128%3B3454-728/90%3B21540541/21558431/1%3B%3B%7Esscs%3D%3fhttp://www.classesusa.com/clickcount.cfm?id=719041&LMBCode=17719319-113295266-21926199&goto=http%3A%2F%2Fwww.classesusa.com%2Ffeaturedschools%2Fonlinedegreesmp%2Fform-dyn1.html%3Fsplovr%3D719040\"><IMG SRC=\"http://2mdn.aolcdn.com/1420759/cls_edu_menuStFrogWaveseedegBd15_Busy18mo_0707_728x90.gif\" BORDER=0></A></NOSCRIPT>');

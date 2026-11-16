@@ -1,0 +1,147 @@
+/*-- DL's Design Style Guides on 25-July-06--*/
+body{margin:0px;font:normal 76% arial, helvetica, sans-serif;text-indent:0px;text-align:left;padding:0;color:#000;margin:0 auto;}
+p{margin:0px;}
+a{color:#116482;text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1, h2, h3, h4, h5, h6, form, div, p, i, img, ul, li{margin:0;padding:0;}
+#lMC,.lMC, #sMC,.sMC, #rp IMG, .pr, .pr75{float:left;}
+h3{font:bold 11px arial;margin:0;}
+h4{font:bold 11pt arial;margin:0;color:#FFF;}
+#web_container{float:left;width:68.7em!important;_width:67.9em!important;height:21.7em!important;_height:21.4em!important;}
+#web_container .dl_headline{float:left;font-size:1em;background:none;margin-top:13px;padding-left:27px;}
+#web_container .dl_headline {float:left;width:36.2em;height:19.2em;}
+#pic_promos {width:755px;font:normal 11px arial;margin:1px 2px 2px 9px;}
+#web_container .dl_headline h4{width:29.14em;margin:0;padding:0;height:1.55em;_font:bold 1.215em arial;background-color:#85817c;padding:2px 0 0 10px;border-top:2px solid #a5a5a5;border-right:1px solid #a5a5a5;border-left:1px solid #a5a5a5;} 
+#web_container #dl {position:relative;padding:0 0 0 0;font-size:1em;width:35.9em;border-top:1px solid #a5a5a5;border-bottom:1px solid #a5a5a5;border-right:2px solid #a5a5a5;border-left:1px solid #a5a5a5;height:15.2em;_height:15.08em!important;margin-bottom:5px;_margin-bottom:-3px;}
+#web_container  #dlcontrol{position:absolute;right:0;bottom:1px;margin-top:12px;_margin-top:13px;}
+#web_container #sMC{margin-top:-3px;_margin-top:0;}
+#web_container #sMC,.sMC {clear:none;width:25.2em;margin-left:47px;_margin-left:40px!important;}
+#web_container #ct{width:68.5em!important;_width:68.4em!important;height:21.5em!important;_height:21.4em!important;float:left;}
+#web_container .textad{text-align:center;}
+#web_container .textad  a{font:bold 12px arial;color:#277bc3;padding:10px 0 0  0;display:inline-block;}
+#web_container  #ct  .right_tile{display:none;}
+#web_container  #ct  .left_tile{display:none;}
+#web_container  .HotSpot{width:35.9em;border:1px solid red;border-top:1px solid #a5a5a5;border-bottom:1px solid #a5a5a5;border-right:2px solid #a5a5a5;border-left:1px solid #a5a5a5;height:15.3em;_height:15.08em!important;margin-bottom:5px;_margin-bottom:-3px;}
+#web_container .SMC1{width:25em;background:url(http://cdn.digitalcity.com/ch_kids/ad_btn.gif) bottom right no-repeat;padding-right:20px!important;}
+#web_container #dlC5 .HotSpot{border:0;}
+#web_container .Adbug{height:2em;_margin-top:7px;font:bold 12px arial;color:#277bc3; background:url(http://cdn.digitalcity.com/ch_kids/ad_btn.gif) bottom right no-repeat;text-align:center;}
+#web_container .adtext{text-align:center;_margin-top:10px!important;}
+#web_container .main h2{padding:5px 0 5px 0;}
+#web_container .a1 h2 {padding:6px 0 0 0;}
+*+html  #web_container .textad{margin-top:-10px!important;}
+*+html  #web_container{width:830px!important;height:260px!important;}
+
+/*\*/
+ html>body* #web_container #sMC,.sMC {margin-left:14px!important;}
+ html>body* #web_container .textad{margin-top:-10px!important;}
+ 
+ /**/
+
+.dl_headline{float:left;width:3px;height:337px;background:url("http://www.aolcdn.com/aol_webmail/wb_mainhdr_lefttile") no-repeat;}
+.dl_headline {float:left;width:438px;height:337px;background:url("http://www.aolcdn.com/aol_webmail/mid_bg") repeat-x;}
+.dl_headline h4{margin:4px 4px;}
+#ct  .left_tile {float:left;width:3px;height:337px;background:url("http://www.aolcdn.com/aol_webmail/wb_mainhdr_lefttile") no-repeat;}
+#ct  .right_tile {float:left;width:3px;height:337px;background:url("http://www.aolcdn.com/aol_webmail/wb_mainhdr_righttile") no-repeat;}
+.dn {display:none;}
+#lMC, .lMC {width:37.75em;}
+#sMC, .sMC {clear:none;width:25.2em;}
+#adbug {border:0px solid black;width:323px; background:url("http://cdn.digitalcity.com/ch_kids/ad_btn.gif") bottom right no-repeat;}
+#rp {padding:3px 0 0;}
+#rp IMG {margin-right:3px;}
+.pr {font-size:.9em;padding-top:.3em;_padding-top:.1em;width:150px;}
+.pr h5 {color:#000;font-size:1.1em;}
+.pr a {color:#116482;}
+.pr a:hover{text-decoration:underline;}
+#ct {padding-top:3px;_padding-top:2px;margin-bottom:0px;background:transparent;text-align:left;width:770px;}
+.ct {margin:0 auto;width:63.4em;margin-bottom:0px;background:transparent;text-align:left;}
+.pr75 {width:75px;height:75px;margin:5px 0;}
+#dlcontrol {position:absolute;clear:both;bottom:0.7em;	_bottom:0.3em;right:0em;z-index:20;}
+#dl {position:relative;margin:0;padding:0 0 0 0;height:15.7em;_height:15.4em;font-size:1em;width:35.9em;}
+#dlC {position:absolute;padding:0;z-index:1;}
+.Standard, .Feature, .HotSpot, .Basic, .sc1, .sc2 {position:relative;margin:0;width:36.1em;height:15.2em;_height:15.1em;overflow:hidden;background-color:#E8EDF1;border:0px solid #999;}
+.dlbgimg {position:absolute;left:0;margin:0;width:36.1em;height:15.9em;_height:15.8em;overflow:hidden;border:0;}
+.dltitle {position:relative;}
+#dlC ul {list-style-type:none;padding:0;}
+#dlC .link {background: url("2.i_sprite.png") no-repeat -18px -1718px;display:block;padding-left:.8em;}
+#dlC .v {background:url("2.i_sprite.png") no-repeat -13px -22px;padding-left:1.4em;}
+#dlC .b {background:url("2.i_sprite.png") no-repeat -13px -1720px;padding-left:1.4em;}
+#dlC .a {background:url("2.i_sprite.png") no-repeat -13px -122px;padding-left:1.4em;}
+#dlC .r {background:url("2.i_sprite.png") no-repeat -10px -1922px;padding-left:1.5em;}
+#dlC .p {background:url("2.i_sprite.png") no-repeat -8px -523px;padding-left:1.7em;}
+.Standard h2 {font-weight:bold;font-size:1.6em;padding:.2em 0 .2em .2em;color:red;}
+.Standard .mainimg {position:relative;float:left;width:13.2em;padding:0 0 .4em .4em;}
+.Standard .mainimg img {display:block;width:13.2em;height:9.9em;border:none;}
+.Standard .main {position:relative;float:left;width: 10.94em !important; /* All Browsers */width: 12.10em; /* IE 5.x Win */width/**/:/**/11.2em; /* IE 6 Win */ /*_width:11.2em;*/padding:0 .6em .4em;_padding:0 .5em .3em;}
+.main img {display:block;margin-bottom:1em;border:none;width:9.9em;height:2.17em;}
+.main p {display:block;/*margin-bottom:1em;*/margin-bottom:.5em;margin-top:.2em;}
+.main .link {margin-bottom:1em;}
+.main p.bg1, .sc1sd {background:#e7eff0 url("2.v_sprite.png") repeat-x 0 -1685px;padding:.29em 0 .26em .3em;margin:0 0 0 -.2em;border:.1em solid #999;	border-right:none;}
+.sc1sd {background:#e7eff0 url("2.v_sprite.png") repeat-x 0 -1742px;margin:8.1em 0 0 -.4em;padding:0 0 .56em 18em;_padding:0 0 .65em 18em;padding-bottom:7px;}
+.sc1sd p {padding-left:.15em;_padding-left:.25em;}
+.Standard .side {position:relative;float:left;width:9em;_width:10em;height:11em;padding-left:2px;}
+.Standard .side img {display:block; border:none;width:4.95em;height:4.95em;padding-left:1px;}
+.Standard .side p {display:block;font-size:90%;padding-left:1px;}
+.Standard .side h4 {margin-top:0px;margin-left:1px;margin-bottom:0px;}
+.sc1 .mainimg {margin:15px 0 0 4px;padding:0;}
+.Feature .main, .sc1 .main{position:absolute;top:0;right:0;/*float:left;_left:1em;width:17.9em;*/width:18.1em;/*padding:0 .4em .4em;_padding:0 .3em .3em;*/	padding:0 0 .4em 0;_padding:0 0 .3em 0;}
+.Feature .main{position:absolute;top:0;right:0;width:18.2em;padding:0 0 2px 0;}
+.Feature .main h2, .sc1 .main h2, .fb1 .main h2 {font-weight:bold;font-size:1.5em;padding:.2em 0 .2em 0;margin-bottom:0;line-height:19px;} 
+.Feature .main h2{padding:0;margin:0;line-height:18px;} 
+.sc1 .main h2 {padding-top:0;font-size:1.5em;margin:0;padding-bottom:0;padding-right:0;}
+.sc1 .main p {color:black;}
+.fb1 .main h2 {padding-top:0;}
+.Feature .main h2.nbpd, .sc1 .main h2 {margin-bottom:-3px;} 
+.Feature .main h2.nbpd {margin-top:2px;margin-bottom:1px;}
+.Feature .main p {font-size:90%;margin-bottom:3px;}
+.Feature .sponsor img {margin-bottom:0;width:16.5em;height:2.5em;}
+.sc1 p {margin:0}
+.sc1sd img {float:right;height:60px;width:60px;border:none;}
+.sc1sd h3 {width:12.5em;overflow:hidden;white-space:nowrap;font-size:.98em;float:right;padding:.53em 0 0 0;margin-right:.7em;}
+.HotSpot .mainimg {position:absolute;_margin-left:-1px;overflow:hidden;float:left;display:inline;width:36em;height:21.15em;padding:0;}
+.HotSpot .mainimg a {display:block;line-height:1.85em;padding:6.8em 13em;}
+.Basic .mpromo {position:absolute;font-family:arial;margin-top:5.5em;height:5.4em;width:36em;}
+.Basic .hl {font-size:2em;font-weight:normal;position:relative;padding-left:.5em;}
+.Basic .shl {position:relative;font-weight:normal;font-size:1.2em;clear:both;padding-left:.9em;font-family:arial;}
+.Basic .mpromo a.oBt {position:relative;clear:both;font-family:arial;font-weight:bolder;height:1.2em;font-size:1.1em;color:#000;margin:.5em;margin-left:1em;}
+.headline {display:none;position:absolute;}
+.ticker {display:none;position:absolute;}
+.dNo {display:none;}
+#ps{color:black;text-decoration:none;}
+.side h4{font-weight:bold;color:black;}
+.side .link {margin:0;padding-bottom:2px;}
+.side .mr {margin-top:1em;}
+#dl a.dlhotspotLg {background:url("2.dl_feat_hotspot.gif");position:absolute;display:block;padding-top:.7em;width:16.4em;height:12.32em;}
+.fb1 .main {position:relative;width:430px;top:99px;padding:0 0 0 3px;}
+.fb1 .ct {text-align:center;}
+#dlcontrol img {width:25px;height:23px;border:none;padding:0px;margin:0px;}
+#dl .a2 a {color:#98DCFA;}
+#dl h2.lg {font-size:18px;}
+#dlC p, .side h4, .ticker h4 {font-size:12px;}
+#dl .fb1 .main p{font:normal 11px arial;color:#FFFFFF;}
+.fb1 .main h2 {font-weight:bold;font-size:18px;padding:0;margin:0;line-height:22px;}
+a {text-decoration:none;color:#2864b4;}
+.sc2 .main {position:absolute;width:275px;margin:92px 0 0 6px;}
+.sc2 .sc2sd{position:relative;float:right;display:inline;width:148px;top:0px;right:0px;}
+.sc2 .sc2sd img{width:120px;height:80px;margin:4px 10px 5px 10px;border:none;}
+.Standard, .Feature, .HotSpot, .Basic, .sc1, .sc2, .fb1 {position:relative;margin:0;width:36em;	height:15.2em;_height:15.1em;overflow:hidden;background-color:#E8EDF1;border:0px solid #999;}
+.sc2 .b {margin-left:-7px;}
+#dl1.Feature .main{margin-top:1px;}
+.main p.bg1{padding:.2em 0 .25em .3em;margin-top:-2px;}
+/* Modified for AOL.com 2.6 DL Redesign */
+.audio {background:url("2.i_sprite.png") no-repeat -13px -122px;padding-left:1.4em;}
+.radio {background:url("2.i_sprite.png") no-repeat -10px -1922px;padding-left:1.5em;}
+.prem {background:url("2.i_sprite.png") no-repeat -8px -523px;padding-left:1.7em;}
+.vid {background:url("2.v_sprite.png") no-repeat -249px -711px;margin:0;padding:0 0 0 1.4em;}
+.sq {background:url("2.v_sprite.png") no-repeat -228px -809px;padding-left:.7em;}
+.dlcat {position:relative;padding:0 0 0 .5em;font-weight:bold;color:#686868;height:1.2em;}
+.Feature .mainimg, .sc1 .mainimg{position:relative;float:left;_display:inline;width:16.4em;padding:0 0 0 .5em;margin:0;}
+.Feature .mainimg img, .sc1 .mainimg img {position:absolute;display:block;width:16.5em;height:12.4em;border:none;}
+.Feature .main h2{margin:0;padding:.6em 0 0 0;font:bold 1.5em arial;line-height:18px;}
+.sc1 .main h2{margin:0 0 -3px 0;padding:.25em 0 0 0;_padding:.21em 0 0 0;font:bold 1.5em arial;line-height:19px;}
+.sc1sd{margin:7.3em 0 0 -.4em;padding:0 0 7px 18em;background:#e7eff0 url("2.v_sprite.png") repeat-x 0 -1742px;border:.1em solid #999;border-right:none;}
+#dlcontrol{clear:both;position:absolute;bottom:0.5em;_bottom:0.2em;right:0em;z-index:20;}
+#dlcontrol img {width:20px;height:19px;padding:0;margin:0;border:0;}
+#dl4 .a2{padding-top:4px;}
+#dl5 .a2{padding-top:7px;}
+.Feature .sponsor {padding:0;}
+/*--*/

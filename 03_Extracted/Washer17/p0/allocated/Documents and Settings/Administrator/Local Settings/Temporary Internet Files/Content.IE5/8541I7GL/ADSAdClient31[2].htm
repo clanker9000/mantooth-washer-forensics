@@ -1,0 +1,44 @@
+
+//<![CDATA[
+var contents_3 = '<span>OFFER: <a target="_blank" href="http://g.msn.com/0AD0001O/1321372.1?!&amp;&amp;PID=4298931&amp;UIT=G&amp;TargetID=1110370&amp;AN=825428920&amp;PG=MSNMMT">Countrywide&#174;: Lower Your Mortgage Rate! Refinance with No Closing Costs - ACT FAST!</A></span>';
+var fh_3 = null;
+if (document.body && document.body.id && document.body.id.length > 0)
+{
+	fh_3=parent.document.getElementById(document.body.id);
+}
+
+if (navigator.appVersion.indexOf("Win")>=0 && parseFloat(navigator.appVersion.substr(navigator.appVersion.indexOf("MSIE ")+5))>=4)
+{
+	try
+	{
+		if(!fh_3 || typeof(inDapIF) == "undefined")
+		{
+			dlWrite();
+		}
+		else
+		{
+			fh_3.parentNode.insertAdjacentHTML('afterBegin', contents_3);
+			fh_3.style.display='none';
+			document.close();
+		}
+	}
+	catch(e)
+	{
+		dlWrite();
+	}
+}else{dlWrite();}
+function dlWrite(){
+	if(!fh_3 || typeof(inDapMgrIf) == "undefined")
+	{	
+		document.write(contents_3);
+	}
+	else
+	{
+		var elemSpan = document.createElement("span");
+		elemSpan.innerHTML = contents_3;
+		fh_3.parentNode.appendChild(elemSpan);
+		fh_3.style.display='none';	
+	}
+	document.close();
+}
+//]]>

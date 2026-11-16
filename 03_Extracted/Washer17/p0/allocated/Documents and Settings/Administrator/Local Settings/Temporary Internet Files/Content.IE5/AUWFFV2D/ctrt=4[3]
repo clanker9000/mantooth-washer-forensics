@@ -1,0 +1,4 @@
+var ADSERVER_POPS_VAL=0;
+document.write("<iframe src=\"http://view.atdmt.com/M0N/iview/dvrtmssc0760000004m0n/direct;wi.728;hi.90/01?click=http://servedby.advertising.com/click/site=0000714959/mnum=0000459227/optn=64?trg=\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" topmargin=\"0\" leftmargin=\"0\" allowtransparency=\"true\" width=\"728\" height=\"90\">");
+document.write('<a href=\"http://twx.doubleclick.net/click;h=v8/35b5/3/0/*/u;25399869;0-0;0;10915222;3454-728/90;14643499/14661395/1;;~sscs=?http://servedby.advertising.com/click/site=0000714959/mnum=0000459227/optn=64?trg=http://clk.atdmt.com/M0N/go/dvrtmssc0760000004m0n/direct;wi.728;hi.90/01/\" target=\"_blank\"><img src=\"http://view.atdmt.com/M0N/view/dvrtmssc0760000004m0n/direct;wi.728;hi.90/01/\"/></a>');
+document.write("</iframe>");

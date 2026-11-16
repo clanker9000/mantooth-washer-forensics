@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//PGP Corporation//DTD PLIST 1.0//EN" "http://www.pgp.com/DTDs/PGPPropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>showTrayIcon</key>
+    <false></false>
+    <key>initialized</key>
+    <true></true>
+    <key>boomeranged</key>
+    <false></false>
+    <key>proxyLocalHost</key>
+    <false></false>
+    <key>loggingEnabled</key>
+    <true></true>
+    <key>loggingLevel</key>
+    <integer>0</integer>
+    <key>nextIdentifier</key>
+    <integer>2</integer>
+    <key>autoUpdateTime</key>
+    <integer>0</integer>
+    <key>localPubringFile</key>
+    <string></string>
+    <key>localSecringFile</key>
+    <string></string>
+    <key>downloadURL</key>
+    <string></string>
+    <key>installer</key>
+    <string></string>
+    <key>userInstaller</key>
+    <string></string>
+    <key>win32LogWindowData</key>
+    <data></data>
+    <key>availableOCVersion</key>
+    <data></data>
+  </dict>
+</plist>

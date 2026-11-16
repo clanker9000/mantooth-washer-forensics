@@ -1,0 +1,1509 @@
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+               
+               
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<SCRIPT language=javascript>
+function eprize( url )
+{
+	window.open( url, 'eprize','menu=no,toolbar=no,width=640,height=480,scrollbars=1,resizable=0,directories=no,location=no,screenX=0,screenY=0,top=0,left=0');
+}
+
+function isLetter(c) {
+	return(((c>="a")&&(c<="z"))||((c>="A")&&(c<="Z")))
+}
+
+function isDigit(c) {
+	return((c>="0")&&(c<="9"))
+}
+
+function isCharInString(sc,s) {
+	return(!sc||!s)?false:(s.indexOf(sc)>-1)?true:false;
+}
+
+function IsAlpha(a,addChars) {
+	var i;
+	if (a.value.length == 0) {
+		return true;
+	}
+	for(i=0;i<a.value.length;i++) {
+		var c=a.value.charAt(i);
+		if (!isLetter(c) && !isCharInString(c,addChars)) {
+			return false;
+		}
+	}
+	return true;
+}
+
+function IsNumeric(a,addChars) {
+    var i;
+	var id = trim(a.value);
+    if (id.length == 0) {
+        return true;
+    }
+    for(i=0;i < id.length;i++) {
+        var c = id.charAt(i);
+        if (!isDigit(c) && !isCharInString(c,addChars)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function IsAlphaNumeric(a,addChars) {
+	var i;
+	if (a.value.length == 0) {
+		return true;
+	}
+	for(i=0;i<a.value.length;i++) {
+		var c=a.value.charAt(i);
+		if (!isDigit(c) && !isLetter(c)
+			&& !isCharInString(c,addChars)) {
+			return false;
+		}
+	}
+	return true;
+}
+
+function FieldExists(e,s,s2) {
+	if (!e) {
+		msg+="Form Element "+s+" not found.\n";
+		return false;
+	}
+	if (e.value.length==0) {
+		msg+=s2+" is a required field.\n";
+		return false;
+	}
+	return true;
+}
+
+function trim( string )
+{
+	var len = string.length;
+
+	if(len == 0 )
+		return "";
+
+	var charNotFound = true;
+
+	var retValue = string;
+
+	for( var i = 0; charNotFound && i < len; i++ )
+	{
+		var c = retValue.charAt( i );
+
+		if( !(c==' ') )
+		{
+			retValue = retValue.substring(i);
+			charNotFound = false;
+			break;
+		}
+
+	}
+
+	charNotFound = true;
+
+	len = retValue.length;
+
+	for( var i = len-1; charNotFound && i >= 0; i-- )
+	{
+		var c = retValue.charAt( i );
+
+		if( !(c==' '))
+		{
+			retValue = retValue.substring(0,i+1);
+			charNotFound = false;
+			break;
+		}
+
+	}
+
+	return retValue;
+}
+
+function CheckEmail(a,s){
+	var at = a.value.indexOf("@");
+	var dot = a.value.substring(at+1,a.value.length).indexOf(".");
+	
+	if (a.value.length < 6)
+	  return false;
+	
+	if (at != -1 && dot != -1)
+	  return true;
+	else
+	  return false;	
+}
+
+var cntPwd = 0;
+function ValidatePassword(f) {
+	var a,b;
+	var msg="";
+	var pwdLength=6;
+
+        cntPwd++;
+        if(cntPwd>1) {
+                alert("Your request has been submitted.");
+                return false;
+        }
+
+	if (!FieldExists(f.password,"password","Password")) {
+		msg+="Password is a required field.\n";
+	}
+
+	a=f.password;
+	if (!a) {
+		a=f.password;
+		if (a.value == "") {
+			msg+="Enter a Password.\n";
+		}
+	}
+
+	if (a.value == "password"
+		|| a.value == "united"
+		|| a.value == "mileageplus") {
+		msg+="\"" + a.value + "\" is not a valid Password.\n";
+	}
+
+	b=f.password_1;
+	if (!b) {
+		b=f.password_1;
+	}
+
+	if (a.value!="" && a.value.length < pwdLength ) {
+		msg+="Password length is too short ("+pwdLength+"-24 characters).\n";
+	} else if (a.value!="" && a.value.length > 24) {
+		msg+="Password length is too long ("+pwdLength+"-24 characters).\n";
+	} else if (a.value=="" || b.value=="") {
+		if (b.value!="" && a.value=="") {
+			msg+="Enter a Password.\n";
+		}
+		if (a.value!="" && b.value=="") {
+			msg+="Re-Type the Password.\n";
+		}
+	} else if (a.value!="" && a.value!=b.value) {
+		msg+="The Re-Typed Password is not the same as the first.\n";
+	} else {
+                msg="Password must contain at least one alpha numeric character.\n";
+                for(i=0;i<a.value.length;i++) {
+                        var c=a.value.charAt(i);
+                        if (isDigit(c) || isLetter(c)) {
+                                msg=""; break;
+                        }
+               }
+        }
+
+	if (msg) {
+                cntPwd = 0;
+		msg="Please Supply the Following:\n\n"+msg;
+		alert(msg);
+		return false;
+	}
+	return true;
+}
+
+function isMpNumber(MPNO){
+		 if(MPNO != null && MPNO.length == 11 && !(MPNO =="00000000000")) {
+				var s = MPNO;
+				var  w60count1 =0;
+				var  w60count2 = 0;
+				w60count1 = s.substring(0,1) * 5 +
+							s.substring(1,2) * 4 +
+							s.substring(2,3) * 3 +
+							s.substring(3,4) * 2 +
+							s.substring(4,5) * 7 +
+							s.substring(5,6) * 6 +
+							s.substring(6,7) * 5 +
+							s.substring(7,8) * 4 +
+							s.substring(8,9) * 3 +
+							s.substring(9,10) * 2;
+
+			   var w60remainder = w60count1 % 11;
+
+			   w60count1 = w60count1/11;
+
+			   if (w60remainder != 0)
+               {
+			      w60count2 = 11 - w60remainder;
+
+			   }
+               else
+               {
+			      w60count2 = 0;
+			   }
+
+			   if (w60count2 == 10)
+               {
+                  w60count2 = 0;
+			   }
+
+			   if (w60count2 != s.substring(10))
+               {
+				  	return false;
+			   }
+               else
+               {
+				return true;
+			   }
+			}
+	return false;
+}
+
+
+function aboutPassword() {
+	msg="Passwords may be any combination of six (6) characters and are case insensitive.\n\n";
+	msg+="Your password will grant you access to united.com, as well as other United features such as our wireless flight paging service, EasyAccess.\n\n";
+	msg+="For security, certain passwords, such as \"united\" and \"password\" are not allowed.\n\n";
+	msg+="Passwords are case insensitive; please remember how it is entered.";
+	alert(msg);
+}
+
+
+function stripPhoneNumber(phoneNbr) {
+	initFlag = new Boolean(true);
+	var origNbr = (trim(phoneNbr.value)).split("");
+	for (i=0;i<origNbr.length;i++) {
+		if (origNbr[i] >= 0 && origNbr[i] <= 9) {
+			if (initFlag) {
+                phoneNbr.value = origNbr[i];
+				initFlag = false;
+			} else {
+                phoneNbr.value += origNbr[i];
+			}
+		}
+	}
+}
+
+function noLinks() {
+	msg="We're sorry.\n\n";
+	msg+="Your request could not be processed.\n";
+	msg+="This particular link can only be accessed by customers navigating ";
+	msg+="our U.S. website (united.com).\n\n";
+	msg+="Please make a different selection.\n\n";
+	msg+="Thank you.";
+	alert(msg);
+}
+
+</SCRIPT>
+
+
+<script type="text/Javascript" language="javascript" src="js/ValidateJoinMileagePlus_js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+
+
+
+
+
+
+
+	
+
+
+<head>
+    <base href="https://www.ua2go.com/ci/Registration.jsp">
+     <title>
+	     
+	     
+		United Airlines - Create Online Profile
+	     
+	</title>
+	
+    
+    	<meta name="Keywords" content="United Airlines, Mileage plus, online profile,  travel preferences, travel planning">
+    
+        
+    
+    	<meta name="Description" content="Join United Airlines mileage plus and create an online profile with travel preferences for travel planning">
+    
+      
+    
+	<script language="JavaScript" type="text/javascript" src="/web/common/js/regpos.js"></script>
+	<link rel="stylesheet" TYPE="text/css" href="/web/common/css/ual_style.css">
+
+
+  <script language="JavaScript" type="text/javascript">
+<!--
+	if (navigator.appVersion.indexOf("Win") != -1) {
+          if (document.layers) {
+            document.write("<link rel=stylesheet TYPE=text/css href='/web/common/css/ual_style_pc_n.css'>");
+            // NN4+
+          }
+          else if (document.all) {
+            document.write("<link rel=stylesheet TYPE=text/css href='/web/common/css/ual_style_pc_e.css'>");
+   	    // MSIE4+
+          }
+        }
+	else if (navigator.appVersion.indexOf("Mac") != -1) {
+	  document.write("<link rel=stylesheet TYPE=text/css href='/web/common/css/ual_style_mac.css'>");
+	}
+	else
+	{
+    	    // not a v 4 or +
+	}
+//-->
+      </script>
+
+      <NOSCRIPT>
+        <LINK href="/web/common/css/ual_style_pc_e.css" rel="stylesheet" type="text/css">
+      </NOSCRIPT>
+
+      <script language="JavaScript" type="text/javascript">
+<!--
+      function openWindow(name) {
+	popupWin=window.open(name,'remote','width=500,height=400,scrollbars=yes')
+      }
+//-->
+      </script>
+
+
+<!-- We don't want these stylesheets active for non-UAL branded sites -->
+
+	<script language="JavaScript" type="text/javascript">
+		var allTabsOff          = 0;
+		var planningTravelTabOn = 1;
+		var travelSupportTabOn  = 2;
+		var mileagePlusTabOn    = 3;
+	</script>
+
+<!-- Added for new telescope look & feel for rne -->
+
+<!-- End of new telescope look & feel for rne -->
+
+	
+	<script language="JavaScript" type="text/javascript">
+	function dynPos() {	
+		if (typeof loadReg =='function') {loadReg()};
+		if (typeof adPosX =='function' && document.getElementById('ad')) {adPosX()}		
+		if (typeof adbPos =='function' && document.getElementById('ad')) {adbPos()}
+		else {if (document.getElementById('ad')){document.getElementById('ad').style.display='block'}}
+		}
+</script>
+	
+</head>
+<body id="bodymain">
+	
+
+
+<script language="JavaScript" type="text/javascript">
+/* this block of script must appear right after the <body> tag */
+var writeSWNprotocol = "http"; if(document.location.href.indexOf('https://') != -1){writeSWNprotocol = "https";}
+document.write('<link rel="stylesheet" type="text/css" href="https://www.united.com/ual/asset/c2007.css" media="screen">');
+document.write('<link rel="stylesheet" type="text/css" href="https://www.united.com/ual/asset/c2007_print.css" media="print">');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/swn-styles-2007.js"><\/scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/udm-custom-2007.js"><\/scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/udm-control-2007.js"><\/scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/udm-style-2007.js"><\/scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/udm-dom-2007.js"><\/scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/udm-embed-2007.js"><\/scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/swn-scripts-2007.js"><\/scr'+'ipt>');
+</script>
+	
+	<div id="hpContainer">
+		<table cellpadding="0" cellspacing="0" width="770">
+			<col width="5"><col width="760"><col width="5">
+			<tr>
+				<td id="containerLeft"></td>
+				<td id="containerCenter">
+					<!-- swnheader.jsp | begin -->
+					<div id="ualheader">
+						
+
+
+
+
+
+	
+	
+	
+		
+			<!-- _commonUnitedHeader.jsp -->
+
+  <div id="ualbranded">
+	<table border="0" cellpadding="0" cellspacing="0" style="height:46px;width:760px;">		
+		<tr>
+			<td id="ualbrandedlogo" valign="top" align="left"><a title="United" href="http://www.united.com/"><img src="https://www.united.com/ual/asset/swn_2007_united_brand.gif" height="15" width="144" alt="United" border="0"></a></td>
+			<td id="ualbrandedlinks" valign="top" align="right" width="100%"><a href="http://www.united.com/myprofile">My profile</a>&#160;&#160;<span class="headerpipe">|</span>&#160;&#160;<a href="http://www.united.com/worldwide">Worldwide sites</a>&#160;&#160;<span class="headerpipe">|</span>&#160;&#160;<a href="http://www.united.com/customerservice">Customer service</a></td>
+			<td id="ualbrandedflyted" valign="top" align="right"><a title="flyted.com" href="http://www.flyted.com/"><img src="https://www.united.com/ual/asset/swn_2007_flyted.gif" height="20" width="87" alt="flyted.com" border="0"></a></td>
+		</tr>
+	</table>
+</div>
+  
+		
+		
+	
+
+
+
+						
+
+
+<!-- Ted doesnt have any banner tabs. So, no content here for Ted. -->
+
+
+
+
+
+
+
+
+<!-- _commonUnitedNavigation.jsp -->
+
+
+<script language="JavaScript" type="text/javascript">
+	 document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/udm-contents-2007.js"><\/scr'+'ipt>');
+</script>
+
+
+<div id="ualswnarea">
+	<form style="margin:0px;" method="get" id="Homepagesearch" name="Sitesearch" action="http://www.united.com/cgi-bin/texis/webinator/search/" onSubmit="if ( document.getElementById('swnquerytext').value=='Search site') {return false;} HPSearch(this)">
+		<table border="0" cellpadding="0" cellspacing="0" style="height:32px;" width="100%">
+			<tr>
+				<td width="10" bgcolor="#FFFFFF"></td>
+				<td id="tN" valign="middle"><ul id="udm" class="udm"><li id="tab1"><a id="tab1Button" class="navButton" href="http://www.united.com/planningandbooking"><span></span></a></li><li id="tab2"><a id="tab2Button" class="navButton" href="http://www.united.com/itinerariesandcheckin"><span></span></a></li><li id="tab3"><a id="tab3Button" class="navButton" href="http://www.united.com/servicesandsupport"><span></span></a></li><li id="tab4"><a id="tab4Button" class="navButton" href="http://www.united.com/mileageplus"><span></span></a></li></ul></td>
+				<td width="132" align="right" valign="middle">
+					<table border="0" cellpadding="0" cellspacing="0" width="100" style="height:32px;">
+						<tr>
+							<td align="right" valign="middle">
+								<table border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td><input onkeypress="if (window.quickUASearch){quickUASearch(event)}" id="swnquerytext" name="query" type="text" value="Search site" onfocus="if (this.value == 'Search site'){this.value='';}this.style.textAlign='left';" onblur="if (this.value == ''){this.value='Search site';this.style.textAlign='center';}"></td>
+										<td><input id="swnquerybutton" type="image" name="querybtn" value="Search" src="https://www.united.com/ual/asset/swn_search_button.gif"><input type="hidden" name="pr" value="siteprofile"></td>
+										<td style="width:8px;">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="16"><img src="https://www.united.com/ual/asset/swn_bar_right.gif" width="16" height="32" alt=""></td>
+			</tr>
+		</table>
+	</form>
+</div>
+<div id="ualbonusbar">
+	<script language="JavaScript" type="text/javascript">
+		document.write('<scr'+'ipt type="text/javascript" src="https://www.united.com/ual/asset/bonusbar-embed-2007-us-en.js"><\/scr'+'ipt>');
+	</script>
+</div>
+
+  
+
+
+
+
+
+
+					</div>
+					<div id="ualbody">
+						<table border="0" cellpadding="0" cellspacing="0" width="760">
+							<tr>
+								<td class="bodyColSpace">
+									<img src="https://www.united.com/ual/asset/d.gif" width="1" height="290" border="0" alt="">
+								</td>
+								<td valign="top" id="bodyCol2">
+									<div id="swnBonusBarBottomLeftimage" style="text-align:left;"><img src="https://www.united.com/ual/asset/swn_bonusbar_bottom_left.gif" height="5" width="5" alt=""></div>
+									<div id="swnLeftColContainer">
+										
+
+
+
+
+
+<!-- The heading value is obtained from session attribute "legacyHeading" 
+and scriptlet code is not modified.-->
+
+    
+
+									</div>
+								</td>
+								<td valign="top" id="bodyCol3">
+									<div id="swnBonusBarBottomRightimage" style="text-align:right;"><img src="https://www.united.com/ual/asset/swn_bonusbar_bottom_right.gif" height="5" width="5" alt=""></div>
+									
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+        
+        	
+        		
+		        	
+
+
+
+
+
+
+
+<style>
+<!--
+a.swnHelpLink {color:#0038A5}
+-->
+</style>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="top" width="100%">
+				<div id="swnBreadcrumb">
+			    	
+						<nobr><A href='http://www.united.com'>Home</A>&nbsp;<span class="swnBreadcrumbgt">></span></nobr>
+					
+						<nobr><A href='http://www.united.com/page/middlepage/0,,1136,00.html'>Mileage Plus</A>&nbsp;<span class="swnBreadcrumbgt">></span></nobr>
+					
+					
+						<nobr>Create Online Profile</nobr>
+					
+					</nobr>
+				</div>
+			</td>
+	
+			<td valign="top" nowrap="nowrap" style="padding:10px 10px 0px 10px; font-family:Arial,Helvetica,Sans-Serif; font-size:13px;">
+				<a href="http://www.united.com/createprofilehelp" class="swnHelpLink">
+					<img src="https://www.ua2go.com/web/common/images/itn_help_icon.gif" border="0">
+				</a> 
+				<a href="http://www.united.com/createprofilehelp" class="swnHelpLink">Help</a>
+			</td>
+	
+		</tr>
+  </table>
+		    	
+    		    
+    		    
+    		
+        
+        
+	
+
+										
+									
+											
+											    <div id="swnPagetitle">
+									  				Create Online Profile
+									  			</div>
+											
+											<div id="swnBodycontent">
+										
+										
+										    
+										    	<div style="padding-right:14px;width:465px;">
+										    
+												 
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css" media="all">
+<!--@import url("js/formFormatting.css");-->
+</style>
+<SCRIPT language=javascript>
+
+function isEmailAddSelected(form)
+{
+var radio_choice=false;
+for (counter = 0; counter < form.searchBy.length; counter++)
+{
+if (form.searchBy[counter].checked && form.searchBy[counter].value=='email'){
+radio_choice=true;
+}
+}
+if (!radio_choice)
+{return (false);
+} 
+return (true);
+}
+function ValidateMPLookUpForm(form) {
+ 
+    var msg="";     
+    form.email.value = alltrim( form.email.value);
+   
+	if(isEmailAddSelected(form) && (!IsAlphaNumeric(form.email,"@-_.,") || !CheckEmail(form.email))) {
+		msg+="Email is required, and must be in the format: name@place.domain.  \n";
+	 }
+	   if (msg) {
+        alert(msg);
+        return false;
+    }
+	return true;
+	 
+}
+ // remove special characters space and dashes.
+ function filterNum(str) {
+          re = / |\-/g;
+          return str.replace(re, "");
+     }
+
+function ValidateMPNameAddInfo(f) {
+    var theIndex=0;
+	var a;
+	var theField="";
+	var name;
+	msg="";
+	 
+	var alphaText="can only contain alphabetical (Aa-Zz) characters\n";
+	var alpha2Text="must be alphabetical (Aa-Zz), with the following exceptions: .- and space\n";
+	var streetText="must be alphanumeric (Aa-Zz,0-9), with the following exceptions: ()-;:,/%#.+= and space\n";
+	var cityText="must be alphabetical (Aa-Zz), with the following exceptions: ._- and space\n";
+    var usa_states="-AA-AE-AK-AL-AP-AR-AS-AZ-CA-CO-CT-DC-DE-FL-FM-GA-GU-HI-IA-ID-IL-IN-KS-KY-LA-MA-MD-ME-MH-MI-MN-MO-MP-MS-MT-NC-ND-NE-NH-NJ-NM-NV-NY-OH-OK-OR-PA-PR-PW-RI-SC-SD-TN-TX-UT-VA-VI-VT-WA-WI-WV-WY-";
+    var canada_states="-AB-BC-MB-NB-NF-NS-NT-ON-PE-PQ-SK-YT-";
+    if (f.namePrefix && f.namePrefix.selectedIndex==0) {
+		msg+="Title (Mr,Mrs,etc) is a required field.\n";
+	}
+	f.firstName.value = alltrim( f.firstName.value);
+	if (FieldExists(f.firstName,"firstName","First Name")
+		&& !IsAlpha(f.firstName,".- ")) {
+		msg+="First name "+alpha2Text;
+	}
+	
+      f.middleInitial.value = alltrim(f.middleInitial.value);
+	if (f.middleInitial.value.length > 0
+		&& !IsAlpha(f.middleInitial)) {
+			msg+="Middle Initial "+alphaText;
+	}	
+	f.lastName.value = alltrim(f.lastName.value);
+	if (FieldExists(f.lastName,"lastName","Last Name")
+		&& !IsAlpha(f.lastName,".- ")) {
+		msg+="Last name "+alpha2Text;
+	} else if (f.lastName.value.length==1) {
+		msg+="Last Name cannot be a single letter.\n";
+	}
+	
+	f.street.value = alltrim(f.street.value);
+	if (f.street.value.length > 0) {
+		if (!IsAlphaNumeric(f.street,"()-;:,/%#.+= ")) {
+			msg+="Street 1 "+streetText;
+		}
+	} else {
+		msg+="Street Address 1 is a required field.\n";
+	}
+			
+	f.street2.value = alltrim(f.street2.value);
+	if (alltrim(f.street2.value).length > 0) {
+		if (!IsAlphaNumeric(f.street2,"()-;:,/%#.+= ")) {
+			msg+="Street 2 "+streetText;
+		}
+	}
+
+	f.city.value = alltrim( f.city.value); 
+	if ( FieldExists(f.city,"city","City")
+		&& !IsAlpha(f.city, ".-_ ")) {
+		msg+="City "+cityText;
+	}
+	
+    a= f.state;		
+	a.value=alltrim(a.value);
+	if (a) {
+		a.value = a.value.toUpperCase();
+	}
+
+	if (f.country && f.country.selectedIndex==0) {
+		msg+="Country is a required field.\n";
+	}
+
+    theIndex=f.country.selectedIndex;
+    theField=f.country.options[theIndex].value;
+
+	if ((theField=="USA" || theField=="CAN")
+         && FieldExists(f.state,"state","State/Prov")) {
+		if (!IsAlpha(a," ")) {
+			msg+="State "+alphaText;
+		}
+		if (theField=="USA" && usa_states.indexOf("-"+a.value.toUpperCase()+"-")==-1) {
+			msg+="'"+a.value+"' is not a valid USA state.\n";
+		}
+		if (theField=="CAN" && canada_states.indexOf("-"+a.value.toUpperCase()+"-")==-1) {
+			msg+="'"+a.value+"' is not a valid Canadian province.\n";
+		}
+	}
+	a=f.postalCode;
+
+if ((theField=="USA")
+		&& FieldExists(a,"postalCode","Postal Code")
+		) {
+		if(!IsNumeric(a,"- ")){
+		  msg+="Postal Code must contain numbers and/or a dash(-) and space.\n";
+	    }
+		if(IsNumeric(a,"- ")){
+		   if(!isUSPostCode(a.value)){
+		        a.value=filterNum(a.value);
+	             var re1=/(^\d{5}$)|(^\d{9}$)/ ;
+	             if (!a.value.match(re1)){
+	    	       msg+="Postal Code must contain numbers and/or a dash(-) and space.\n";	
+			     }
+	        }
+      }
+	}
+	if ((theField=="CAN")
+		&& FieldExists(a,"postalCode","Postal Code")
+		&& (!isCAPostCode(a.value))) {
+		msg+="Please provide an accurate Postal Code.\n";
+	}
+	if (msg) {
+		msg="Please supply the following:\n\n"+msg;
+		alert(msg);
+		return false;
+	}
+	 
+	return true;
+}  
+function alltrim( str){
+	if( str != null){
+		str = str.replace(/^\s*|\s*$/g,"");
+	}
+	return str;
+	
+}
+ 
+// US Postal CODES ONLY
+//Formats 99999/999999999/99999-9999 
+function isUSPostCode(entry){ 
+ 	strlen=entry.length; 
+	if (strlen <5 ) {return false}
+	entry=entry.toUpperCase();    // in case of lowercase characters
+	var re= /(^\d{5}$)|(^\d{5}\s\s\s\s$)|(^\d{5}-\d{4}$)|(^\d{9}\s$)|(^\d{9}$)/ ;
+    if (entry.match(re)){return true;}
+	return false;
+}
+
+ 
+// CANADIAN CODES ONLY
+//Formats X9X9X9 / X9X 9X9 /X9X-9X9
+function isCAPostCode(entry){ 
+	strlen=entry.length; 
+	if (strlen <6 ) {return false}
+	entry=entry.toUpperCase();    // in case of lowercase characters
+	var re=/^\s*[a-ceghj-npr-tvxy]\d[a-z](\s)?(-)?\d[a-z]\d\s*$/i;
+    if (entry.match(re)){return true;}
+    return false;
+ 
+}
+//-- Begin function NewWindow(): This function displays a New Window --//
+
+function openNewWindow(mypage){
+  var resh = 400;
+  var resw = 560;
+  var winl = (screen.width-resw)/2;
+  var wint = (screen.height-resh-140)/2;
+  var settings  ='height='+resh+',';
+      settings +='width='+resw+',';
+      settings +='top='+wint+',';
+      settings +='left='+winl+',';
+      settings +='scrollbars=yes,';
+      settings +='resizable=yes,';
+	  settings +='toolbar=no,';
+	  settings +='menubar=no';
+  var win=window.open(mypage,'remote',settings);
+  win.focus();
+}
+//-- End of NewWindow function --//
+function refreshParent(url){
+window.opener.location.href = url;
+//window.opener.document.location.href.reload();
+//window.close();
+}
+ //-->
+</script>
+<table>
+	<tr>
+		<td width="92%" >
+	<p>
+
+
+
+
+
+
+  <span class="copyText">
+			
+			 
+			<font face="Arial, Helvetica" size="2"><strong><font size="3">Existing Mileage Plus members</font><br /> </strong><br /> Existing Mileage Plus members without passwords, please complete this form to create your online profile. Not a member yet?</font> <a href="http://www.united.com/joinmp" target="_self"><font face="Arial, Helvetica" size="2">Join Mileage Plus</font></a><font face="Arial, Helvetica" size="2">.<br /> <br /> <strong>Please note:</strong> The name and address information you provide below must match your current Mileage Plus information.</font>
+			
+			</span>
+  
+</p> 
+		
+		
+	    
+	   
+	
+
+	<form name="RegistrationForm" method="POST" action="/ci/JoinMileagePlus.do" onsubmit="return ValidateJoinMileagePlus(this);">
+	
+	<fieldset>
+	    <legend>Personal information <br/>
+	    <span class="denotes" ><span style="color:#CC0000">*</span>Denotes required field.</span></legend>
+		
+		
+		
+		   <p class="clear"><label for="mpNumber" class="fl">Mileage Plus number<span style="color:#CC0000">*</span> <br />
+           
+	          <input type="text" name="userId" maxlength="13" size="20" value="" class="txt">
+           
+           
+           <!-- input name="mpNumber" type="text" class="txt" id="mpNumber" value="" size="20" maxlength="13" / -->
+	 	   
+         		<a href="javascript:openNewWindow('https://www.ua2go.com/ci/mpLookUp.do?new=yes');">Forgot your Mileage Plus number?</a>
+    		
+	     </label>
+	    </p>&nbsp;
+		
+		<p class="clear">
+		  <label for="title" class="fl">Title<span style="color:#CC0000">*</span>
+		  <br />
+		  <select name=namePrefix >
+	<option value="">
+	<option value="MR">Mr
+	<option value="MS">Ms
+	<option value="MRS">Mrs
+	<option value="MISS">Miss
+	<option value="DR">Dr
+	<option value="HON">Hon
+	<option value="PROF">Prof
+</select>
+		  </label>
+			<input type="hidden" name="promotionCode" maxlength="25" size="16" value="">	  
+			<input type="hidden" name="source" maxlength="25" size="16" value="">	  
+	  <label for="fname" class="fl">First name<span style="color:#CC0000">*</span>
+		  <br />
+	    <input type="text" name="firstName" maxlength="12" size="16" value="" class="txt">
+	    </label>
+		  
+	  <label for="fname2" class="fl" >Middle initial
+		  <br />
+	    <input type="text" name="middleInitial" maxlength="1" size="8" value="" class="txt">
+	    </label>
+	    <label for="lname" class="fl">Last name<span style="color:#CC0000">*</span>
+		<br/>
+	    <input type="text" name="lastName" maxlength="18" size="21" value="" class="txt">
+	    </label>
+	    </p>&nbsp;
+	    <p class="clear" style="padding:0 0 0 0;">Address<span style="color:#CC0000">*</span>
+	      <input type="radio" name="addrType" value="H" checked="checked">
+	      <label class="inline" for="at_1">Home</label>
+	      <input type="radio" name="addrType" value="B">
+	      <label class="inline" for="at_2">Business</label>
+	    </p>
+	    <p style="padding:3px 0 0;">
+	      <label for="address1">Street address<span style="color:#CC0000">*</span></label>
+	      <input type="text" name="street" maxlength="32" size="32" value="" class="txt">
+	      <br />
+	      <input type="text" name="street2" maxlength="32" size="32" value="" class="txt">
+	      <label for="city">City<span style="color:#CC0000">*</span><br />
+	      <input type="text" name="city" maxlength="18" size="32" value="" class="txt">
+	      </label>
+	      <label for="state" class="fl">State/prov<span style="color:#CC0000">*</span>&nbsp;&nbsp;<br />
+			<input type="text" name="state" maxlength="2" size="6" value="" class="txt">
+	      </label>
+	      <label for="zip" class="fl">Postal code<span style="color:#CC0000">*</span>&nbsp;&nbsp;&nbsp;<br />
+	      <input type="text" name="postalCode" maxlength="10" size="19" value="" class="txt">
+	      <span><p class="clear disabled">required for USA/Canada</p></span>
+	      </label>
+	  
+	    <label class="f1">Country<span style="color:#CC0000">*</span></label>
+    		<select name=country onChange='checkCountry()'>
+	<option value="">
+	<option value="AFG">Afghanistan
+	<option value="ALB">Albania
+	<option value="ALG">Algeria
+	<option value="AND">Andorra
+	<option value="ANG">Angola
+	<option value="ANT">Antigua/Barbuda
+	<option value="ANU">Anguilla
+	<option value="ARG">Argentina
+	<option value="ARM">Armenia
+	<option value="ARU">Aruba
+	<option value="ASC">Ascension Islands
+	<option value="AUS">Australia
+	<option value="AUT">Austria
+	<option value="AZE">Azerbaijan
+	<option value="AZO">Azores
+	<option value="BAH">Bahamas
+	<option value="BAI">Bahrain
+	<option value="BAL">Balaeric Islands
+	<option value="BAN">Bangladesh
+	<option value="BAR">Barbados
+	<option value="BEL">Belgium
+	<option value="BEM">Belize
+	<option value="BEN">Benin
+	<option value="BER">Bermuda
+	<option value="BES">Belarus
+	<option value="BHU">Bhutan
+	<option value="BOL">Bolivia
+	<option value="BON">Bonaire
+	<option value="BOS">Bosniaherzegovina
+	<option value="BOT">Botswana
+	<option value="BRA">Brazil
+	<option value="BRU">Brunei
+	<option value="BUK">Burkina Faso
+	<option value="BUL">Bulgaria
+	<option value="BUU">Burundi
+	<option value="BVI">Virgin Isles
+	<option value="BWI">British W. Indies
+	<option value="BYE">Byelorussian
+	<option value="CAB">Cambodia
+	<option value="CAE">Central Africa
+	<option value="CAM">Cameroon
+	<option value="CAN">Canada
+	<option value="CAO">Canary Islands
+	<option value="CAP">Cape Verde
+	<option value="CAY">Cayman Islands
+	<option value="CHA">Chad
+	<option value="CHL">Chile
+	<option value="CKI">Cook Islands
+	<option value="COL">Colombia
+	<option value="COM">Comoro Islands
+	<option value="CON">Congo
+	<option value="COR">Corsica, France
+	<option value="COS">Costa Rica
+	<option value="CRE">Crete
+	<option value="CRO">Croatia
+	<option value="CUB">Cuba
+	<option value="CUR">Curacao
+	<option value="CYP">Cyprus
+	<option value="CZE">Czech Republic
+	<option value="DEN">Denmark
+	<option value="DJI">Djiboute
+	<option value="DOD">Dodecanese
+	<option value="DOM">Dominican Rep
+	<option value="DON">Dominica
+	<option value="ECU">Ecuador
+	<option value="EGY">Egypt
+	<option value="ELS">El Salvador
+	<option value="ENG">England, UK
+	<option value="EQU">Equatorial Guinea
+	<option value="EST">Estonia
+	<option value="ETH">Ethiopia
+	<option value="ETM">East Timor
+	<option value="FAE">Faroe Islands
+	<option value="FAL">Falkland Islands
+	<option value="FIJ">Fiji
+	<option value="FIN">Finland
+	<option value="FRA">France
+	<option value="FRG">French Guiana
+	<option value="FRP">French Polynesia
+	<option value="FWI">French W Indies
+	<option value="GAB">Gabon
+	<option value="GAM">Gambia
+	<option value="GEO">Georgia
+	<option value="GER">Germany
+	<option value="GHA">Ghana
+	<option value="GIB">Gibraltar
+	<option value="GIL">Gilbert Islands
+	<option value="GRE">Greece
+	<option value="GRL">Greenland
+	<option value="GRN">Grenada
+	<option value="GUA">Guatemala
+	<option value="GUD">Guadeloupe
+	<option value="GUI">Guinea
+	<option value="GUR">Guernsey
+	<option value="GUU">Guinea Bissau
+	<option value="GUY">Guyana
+	<option value="HAI">Haiti
+	<option value="HND">Honduras
+	<option value="HON">Hong Kong
+	<option value="HUN">Hungary
+	<option value="ICE">Iceland
+	<option value="IND">India
+	<option value="INS">Indonesia
+	<option value="IRA">Iran
+	<option value="IRC">Iraq
+	<option value="IRE">Ireland
+	<option value="ISM">Isle Of Man, UK
+	<option value="ISR">Israel
+	<option value="ITA">Italy
+	<option value="IVO">Cote D' Ivoire
+	<option value="JAM">Jamaica
+	<option value="JER">Jersey
+	<option value="JOR">Jordan
+	<option value="JPN">Japan
+	<option value="KAM">Kampuchea
+	<option value="KAZ">Kazakhstan
+	<option value="KEN">Kenya
+	<option value="KIR">Kiribati
+	<option value="KUW">Kuwait
+	<option value="KYR">Kyrgyzstan
+	<option value="LAS">Laos
+	<option value="LAT">Latvia
+	<option value="LEB">Lebanon
+	<option value="LEE">Leeward Islands
+	<option value="LES">Lesotho
+	<option value="LIB">Liberia
+	<option value="LIE">Liechtenstein
+	<option value="LIT">Lithuania
+	<option value="LIY">Libya
+	<option value="LUX">Luxembourg
+	<option value="MAC">Macao
+	<option value="MAD">Malagasy Republic
+	<option value="MAE">Macedonia
+	<option value="MAI">Malawi
+	<option value="MAL">Malaysia
+	<option value="MAM">Maldives
+	<option value="MAN">Mali
+	<option value="MAR">Martinique
+	<option value="MAT">Malta
+	<option value="MAU">Mauritania
+	<option value="MAV">Mauritius
+	<option value="MEX">Mexico
+	<option value="MIQ">Miquelon
+	<option value="MOC">Monaco
+	<option value="MOL">Moldavia
+	<option value="MON">Mongolia
+	<option value="MOR">Morocco
+	<option value="MOT">Montserrat
+	<option value="MOZ">Mozambique
+	<option value="MYA">Myanmar
+	<option value="NAM">Namibia
+	<option value="NAU">Nauru
+	<option value="NEA">Neth Antilles
+	<option value="NEC">New Caledonia
+	<option value="NEP">Nepal
+	<option value="NET">Netherlands
+	<option value="NEW">New Zealand
+	<option value="NIC">Nicaragua
+	<option value="NIE">Niger
+	<option value="NIG">Nigeria
+	<option value="NIR">Northern Ireland, UK
+	<option value="NIU">Niue
+	<option value="NKO">North Korea
+	<option value="NOR">Norway
+	<option value="OMA">Oman
+	<option value="PAK">Pakistan
+	<option value="PAN">Panama
+	<option value="PAP">Papua New Guinea
+	<option value="PAR">Paraguay
+	<option value="PCZ">Panama Canal, US
+	<option value="PER">Peru
+	<option value="PHI">Philippines
+	<option value="PIT">Pitcairn Island
+	<option value="POL">Poland
+	<option value="POR">Portugal
+	<option value="PRC">Peoples Rep China
+	<option value="PTI">Portuguese Timor
+	<option value="QAT">Qatar
+	<option value="REU">Reunion
+	<option value="ROM">Romania
+	<option value="RUS">Russia
+	<option value="RWA">Rwanda
+	<option value="SAN">Saba
+	<option value="SAO">Sao Tome Principe
+	<option value="SAU">Saudi Arabia
+	<option value="SCO">Scotland, UK
+	<option value="SEN">Senegal
+	<option value="SER">Serbia
+	<option value="SEY">Seychelles
+	<option value="SIE">Sierra Leone
+	<option value="SIN">Singapore
+	<option value="SKO">South Korea
+	<option value="SLA">Slovakia
+	<option value="SLO">Slovenia
+	<option value="SLU">Saint Lucia
+	<option value="SMA">San Marino
+	<option value="SOL">Solomon Islands
+	<option value="SOM">Somalia
+	<option value="SOR">South Africa
+	<option value="SPA">Spain
+	<option value="SPI">St Pierre Island
+	<option value="SPN">Saipan
+	<option value="SRI">Sri Lanka
+	<option value="STC">St Christopher
+	<option value="STE">St Eustatius
+	<option value="STH">St Helena
+	<option value="STV">St Vincent
+	<option value="SUD">Sudan
+	<option value="SUR">Surinam
+	<option value="SWA">Swaziland
+	<option value="SWE">Sweden
+	<option value="SWI">Switzerland
+	<option value="SYR">Syria
+	<option value="TAC">Turks & Caicos
+	<option value="TAH">Tahiti
+	<option value="TAI">Taiwan
+	<option value="TAJ">Tajikistan
+	<option value="TAN">Tanzania
+	<option value="THA">Thailand
+	<option value="TOG">Togo
+	<option value="TON">Tonga
+	<option value="TRI">Trinidad & Tobago
+	<option value="TRS">Tristan De Cunha
+	<option value="TUM">Turkmenistan
+	<option value="TUN">Tunisia
+	<option value="TUR">Turkey
+	<option value="TUV">Tuvalo
+	<option value="UAE">United Arab Em
+	<option value="UGA">Uganda
+	<option value="UKR">Ukraine
+	<option value="URN">Uruguay
+	<option selected value="USA">United States
+	<option value="UZB">Uzbekistan
+	<option value="VAN">Vanuatu
+	<option value="VAT">Vatican City
+	<option value="VEN">Venezuela
+	<option value="VIE">Vietnam
+	<option value="WAF">Wallis & Futuna
+	<option value="WAL">Wales, UK
+	<option value="WES">Western Samoa
+	<option value="YEM">Yemen
+	<option value="YUG">Yugoslavia
+	<option value="ZAI">Zaire
+	<option value="ZAM">Zambia
+	<option value="ZIM">Zimbabwe
+</select>
+	    <p class="clear" style="padding-top:3px;">Phone<span style="color:#CC0000">*</span>
+	      <input type="radio" name="phoneType" value="H" checked="checked">
+	      <label class="inline">Home</label>
+	      <input type="radio" name="phoneType" value="W">
+	      <label class="inline">Business</label>
+	    </p>
+	    <p class="clear" style="padding-top:5px; ">
+	      <label class="fl" style="margin-right:10px; "><span id="countryCodeTxt" class="disabled">Country code<span style="color:#CC0000">*</span></span><br />
+	      <input type="text" name="phoneCntryCode" maxlength="3" size="3" value="001" disabled="disabled" class="txt">
+	      </label>
+	    <label style="margin-bottom:0px;">Telephone<span style="color:#CC0000">*</span></label>
+		   ( <input type="text" name="phoneNpa" maxlength="3" size="3" value="" onkeyup="return autoTab(this, 3, event);" class="txt2">)
+	      <input type="text" name="phoneNxxLine" maxlength="3" size="3" value="" onkeyup="return autoTab(this, 3, event);" class="txt">
+		<span id="hiddenPhone" style="display:">	    
+		 -&nbsp;&nbsp;<input type="text" name="phone" maxlength="4" size="4" value="" onkeyup="return autoTab(this, 4, event);" class="txt">
+	    </span>
+	      Ext.
+	      <input type="text" name="phoneExt" maxlength="4" size="4" value="" class="txt">
+	    </p>
+	    <p class="clear" style="padding-top:10px;">Birthdate (optional)</p>
+	    <label for="month" class="fl">
+	    <select name=birthMonth >
+	<option value="">
+	<option value="01">January
+	<option value="02">February
+	<option value="03">March
+	<option value="04">April
+	<option value="05">May
+	<option value="06">June
+	<option value="07">July
+	<option value="08">August
+	<option value="09">September
+	<option value="10">October
+	<option value="11">November
+	<option value="12">December
+</select><br />
+	    Month</label>
+	    <label for="day" class="fl">
+		 <select name=birthDay >
+	<option value="">
+	<option value="01">01
+	<option value="02">02
+	<option value="03">03
+	<option value="04">04
+	<option value="05">05
+	<option value="06">06
+	<option value="07">07
+	<option value="08">08
+	<option value="09">09
+	<option value="10">10
+	<option value="11">11
+	<option value="12">12
+	<option value="13">13
+	<option value="14">14
+	<option value="15">15
+	<option value="16">16
+	<option value="17">17
+	<option value="18">18
+	<option value="19">19
+	<option value="20">20
+	<option value="21">21
+	<option value="22">22
+	<option value="23">23
+	<option value="24">24
+	<option value="25">25
+	<option value="26">26
+	<option value="27">27
+	<option value="28">28
+	<option value="29">29
+	<option value="30">30
+	<option value="31">31
+</select><br />
+	    Day</label>
+	    <label for="year" class="fl">
+		  <input type="text" name="birthYear" maxlength="4" size="8" value="" class="txt"><br />
+	    YYYY</label>
+	    <p class="fl" style="padding-top:17px;"><a href="javascript:alert(aboutBDay());">About birthdate</a></p>
+	    </fieldset>
+		<!-- br clear="left" / -->
+		<fieldset>
+			<legend>Email information</legend>
+			
+			
+			    
+			    
+			        
+					
+			    
+			
+		    <p class="clear"><label for="email" class="fl">Email address<span style="color:#CC0000">*</span><br />
+		    <input type="text" name="email" maxlength="40" size="27" value="" class="txt">
+		    </label>
+		    <label for="email2" class="fl" >Re-enter email address<span style="color:#CC0000">*</span><br />
+		    <input type="text" name="email2" maxlength="40" size="27" value="" class="txt">
+		    </label></p>
+		    <br clear="left" />
+		    <input type="checkbox" name="emailPromoCodes" value="yes" checked="checked">
+			<span style="position: relative; bottom: 3.3px; left: 0px; class="fieldText">
+				
+				  
+				<font class="t4"><font face="arial,geneva" size="1">Send me timely email offers from United.</font></font>
+				</span>
+		</fieldset>
+	
+		<!-- br clear="left" / -->
+	    <fieldset>
+	    <legend>Security</legend>
+	    <p class="clear">Choose a password to login to your Mileage Plus account.</p>
+	    <label for="password" class="fl">Password<span style="color:#CC0000">*</span><br />
+	    <input name="password" type="password" class="txt" id="password" size="14" maxLength="14"/>
+	    </label>
+	    <label for="password2" class="fl">Re-type password<span style="color:#CC0000">*</span><br />
+	    <input name="password_1" type="password" class="txt" id="password2" size="14" maxLength="14"/>
+	    </label>
+	    <p class="fl" style="padding-top:17px; "><a href="javascript:alert(aboutPasswd());">About password</a><br />
+	      Minimum 6 characters</p>
+	
+		
+			
+
+
+
+
+
+ <br clear="left" />
+    <label class="fl">Secret security question<span style="color:#CC0000">*</span><br />
+    <select name="questionId" size="1">
+		      	<option value="0">Choose a question</option>
+			  	
+		  		<option value="9001"  >What is the name of the hospital that you were born in?</option>
+			  	
+		  		<option value="9002"  >What was the manufacturer of your first automobile?</option>
+			  	
+		  		<option value="9003"  >What is the name of the street you grew up on?</option>
+			  	
+		  		<option value="9004"  >What is the name of the first school you attended?</option>
+			  	
+		  		<option value="9005"  >What is your mother&#39;s maiden name?</option>
+			  	
+		  		<option value="9006"  >What is your father&#39;s middle name?</option>
+			  	
+	</select>
+    </label>
+    <label class="fl">Secret security answer<span style="color:#CC0000">*</span><br />
+    <input name="answer" type="text" class="txt" size="50" maxLength="59" value=""/></label>
+    <p class="clear disabled">You will be asked for the answer to your secret question if you forget your
+      password.</p>
+    </fieldset>
+ 
+
+    
+
+
+		
+		
+	
+		<br clear="left" />
+	    <fieldset>
+		    <input border="1" name="terms" id="terms" type="checkbox" value="accept" />
+		    <span style="position: relative; bottom: 3.3px; left: 0px; ><label for="terms" class="inline"><strong>I accept the <a href="javascript:popItUp('https://www.ua2go.com/ci/TermsandConditions.jsp');">terms
+		    and conditions</a>  of the Mileage Plus program.<span style="color:#CC0000">*</span></strong></label>
+		    </span>
+		    
+			<p style="margin:30px 0 0 0;">
+				
+		 		
+				<input type="submit" name="submit" value="Create online profile">	
+				
+				<noscript>
+				The enroll button for this form has been removed because your browser is not
+				configured to support javascript. If you have intentionally disabled javascript,
+				please enable it and return to this page.
+				</noscript>
+		    </p>
+	    </fieldset>
+	</form>
+
+</div>
+</td>
+<td valign="top" id="rightBanner" >
+ </td>
+</tr>
+</table>
+<script>
+	checkCountryState();
+    checkCountry();
+</script>
+
+
+                                                
+											</div>
+										</div>
+									</td>
+									<td class="bodyColSpace"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td style="height:1px; background-color:#ffffff;"></td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</td>
+					<td id="containerRight"></td>
+				</tr>
+			</table>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- cogit tag logic was removed because it was coded to never display -->
+<!-- if it's needed in the future, go back to v1.3 of this file to get the code -->
+
+
+
+<!-- _commonUnitedFooter.jsp -->
+
+<!-- footer.jsp | begin -->
+<div id="ualfooter1">
+	<div id="ualfooter1container">
+		<table border="0" cellpadding="0" cellspacing="0" style="height:32px;" width="770">
+			<tr>
+				<td width="100%" valign="top" align="left" id="ualFooter1left"><a href="http://www.united.com/espanol">Espa&ntilde;ol</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/aboutunited">About United</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/investorrelations">Investor relations</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/businessresources">Business resources</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/employment">Careers</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/sitemap">Site map</a></td>
+
+				<td align="right" id="ualFooter1right"><a href="http://www.united.com/sainfo" title="Star Alliance"><img src="https://www.united.com/ual/asset/swn_2007_staralliance.gif" alt="Star Alliance" border="0"></a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div id="ualfooter2">
+	<span class="printSuppress"><a href="http://www.united.com/compatiblebrowsers">Compatible browsers</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/terms">Terms and conditions</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;<a href="http://www.united.com/privacy">Privacy</a>&#160;&#160;<span class="footerpipe">|</span>&#160;&#160;</span><span class="footercopyright">&copy; 2008 United Air Lines, Inc.</span>
+</div>
+<!-- footer.jsp | end -->
+
+
+  
+
+
+
+
+
+
+
+		</div>
+
+		<script language="JavaScript" type="text/javascript">
+		writeSWNav(3); // 0 all tabs off and use values 1,2,3, or 4 accordingly to make tabs active
+		
+		</script>
+</body>
+
+
+
+
+
+
+
+<!-- global web analytics template | begin -->
+	<script type="text/javascript">
+	    var webAnalyticsPageTitle = escape("Create online profile");
+		var writeVSprotocol = "http"; if(document.location.href.indexOf('https://') !=- 1){writeVSprotocol = "https";}
+		document.write('<scr'+'ipt type="text/javascript" src="'+writeVSprotocol+'://www.united.com/ual/asset/vsControls.js"><\/scr'+'ipt>');
+		document.write('<scr'+'ipt type="text/javascript" src="'+writeVSprotocol+'://www.united.com/ual/asset/vsLinks.js"><\/scr'+'ipt>');
+		document.write('<scr'+'ipt type="text/javascript" src="'+writeVSprotocol+'://www.united.com/ual/asset/vsPage.js"><\/scr'+'ipt>');
+	</script>
+<!-- global web analytics template | end -->
+
+
+
+<!-- Session Id added to track error -->
+<input type=hidden name="sessionId" value="SessionId :HzTcv7tmMJGqrGGWGqjtdV7zGxtJHzpHh0MGFBXn5ySzLYCvdqmh!-128755112!1202918332567"> 
+
+</html>
+
+

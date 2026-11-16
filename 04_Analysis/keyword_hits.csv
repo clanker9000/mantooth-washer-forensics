@@ -1,0 +1,37 @@
+image,term,ascii_hits,utf16_hits,total_hits,first_offsets
+Washer 17.E01,txkidd,183,0,183,ascii@52900; ascii@53680; ascii@54460; ascii@65106; ascii@65150
+Washer 17.E01,chkwasher,331,0,331,ascii@52941; ascii@53721; ascii@54501; ascii@55286; ascii@56070
+Washer 17.E01,dollarhyde86,94,0,94,ascii@55238; ascii@56022; ascii@56806; ascii@57590; ascii@58374
+Washer 17.E01,wes,469,0,469,ascii@55225; ascii@56009; ascii@56793; ascii@57577; ascii@58361
+Washer 17.E01,mantooth,111,0,111,ascii@55229; ascii@56013; ascii@56797; ascii@57581; ascii@58365
+Washer 17.E01,john,293,0,293,ascii@52927; ascii@53707; ascii@54487; ascii@55272; ascii@56056
+Washer 17.E01,washer,793,0,793,ascii@52932; ascii@52944; ascii@53712; ascii@53724; ascii@54492
+Washer 17.E01,rasco,170,0,170,ascii@52887; ascii@53667; ascii@54447; ascii@66361; ascii@66921
+Washer 17.E01,badguy,173,0,173,ascii@52893; ascii@53673; ascii@54453; ascii@66367; ascii@66927
+Mantooth.E01,txkidd,33,0,33,ascii@3238710; ascii@4398283; ascii@4398518; ascii@32617055; ascii@32617964
+Mantooth.E01,chkwasher,54,0,54,ascii@3238681; ascii@4398559; ascii@21312267; ascii@21312533; ascii@21312884
+Mantooth.E01,dollarhyde86,83,0,83,ascii@3238746; ascii@3311648; ascii@3311691; ascii@3311859; ascii@4398603
+Mantooth.E01,wes,994,0,994,ascii@3239317; ascii@3239409; ascii@3240329; ascii@3240533; ascii@3338925
+Mantooth.E01,mantooth,861,0,861,ascii@3238735; ascii@3526205; ascii@3526466; ascii@3530301; ascii@3530562
+Mantooth.E01,john,56,0,56,ascii@3238667; ascii@3239679; ascii@3241326; ascii@4398544; ascii@16965790
+Mantooth.E01,washer,146,0,146,ascii@3238672; ascii@3238684; ascii@4398549; ascii@4398562; ascii@16960316
+Mantooth.E01,rasco,7,0,7,ascii@4398503; ascii@32708211; ascii@32708985; ascii@35903402; ascii@62250983
+Mantooth.E01,badguy,5,0,5,ascii@4398509; ascii@35903408; ascii@62250989; ascii@101711792; ascii@108914605
+Thumbdrive 05.E01,txkidd,0,0,0,
+Thumbdrive 05.E01,chkwasher,0,0,0,
+Thumbdrive 05.E01,dollarhyde86,0,0,0,
+Thumbdrive 05.E01,wes,10,0,10,ascii@1023616; ascii@1023640; ascii@1029760; ascii@1029784; ascii@1124170
+Thumbdrive 05.E01,mantooth,5,0,5,ascii@1023620; ascii@1023644; ascii@1029764; ascii@1029788; ascii@2808352
+Thumbdrive 05.E01,john,3,0,3,ascii@1021581; ascii@1021588; ascii@2018262
+Thumbdrive 05.E01,washer,1,0,1,ascii@1021593
+Thumbdrive 05.E01,rasco,0,0,0,
+Thumbdrive 05.E01,badguy,0,0,0,
+Mantooth34.ad1,txkidd,0,0,0,
+Mantooth34.ad1,chkwasher,0,0,0,
+Mantooth34.ad1,dollarhyde86,0,0,0,
+Mantooth34.ad1,wes,7859,0,7859,ascii@125; ascii@2308924; ascii@8736137; ascii@8929585; ascii@14550034
+Mantooth34.ad1,mantooth,7300,0,7300,ascii@129; ascii@170313731; ascii@170315459; ascii@170318658; ascii@170319853
+Mantooth34.ad1,john,6,0,6,ascii@7515810; ascii@276097073; ascii@306046041; ascii@337322492; ascii@559805110
+Mantooth34.ad1,washer,4,0,4,ascii@149302738; ascii@149454752; ascii@168270559; ascii@168422451
+Mantooth34.ad1,rasco,1,0,1,ascii@9239061
+Mantooth34.ad1,badguy,0,0,0,

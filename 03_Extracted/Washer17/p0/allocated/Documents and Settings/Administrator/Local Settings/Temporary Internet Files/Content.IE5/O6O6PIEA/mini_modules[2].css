@@ -1,0 +1,275 @@
+select {
+   margin: 0 0 -5px 0;
+   padding: 0px;
+}
+
+.module_close {
+    height: 42px;
+    max-height: 42px;
+    overflow: hidden;
+    float: left;
+    width: 128px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.module_open {
+    height: auto;
+    float: left;
+    width: 128px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.mini_module_selected {
+    height: 42px;
+    max-height: 42px;
+    float: left;
+    width: 128px;
+    background: url("drawer_btn_01_b.gif");
+}
+
+.mini_module_unselected {
+    height: 42px;
+    max-height: 42px;
+    float: left;
+    width: 128px;
+    background: url("drawer_btn_01_a.gif");
+}
+
+#mini_weather_module, #mini_horo_module, #mini_mail_module {
+    height: auto;
+    font: normal 11px Arial;
+    overflow: hidden;
+    float: left;
+}
+
+#mini_weather_module a, #mini_horo_module a, #mini_mail_module a {
+    color: #45a0f0;
+}
+
+.mini_scroll_image {
+    float: left;
+    height: 7px;
+    width: 10px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.mini_module_tab_text {
+    margin: 3px 0 0 0;
+    font: normal 12px Arial;
+    color: #666666;
+    padding-left: 10px;
+}
+
+.mini_module_tab_desc {
+    font: bold 11px Arial;
+    color: #666666;
+    padding-left: 10px;
+    text-transform : capitalize;
+}
+
+.module_content_div {
+    width: 370px;
+    height: 1px;
+    clear: both;
+}
+
+.textNormal {
+    font: 12px Arial;
+    color: #666666;
+}
+
+.textBold {
+    font: bold 12px Arial;
+    color: #666666;
+}
+
+.showDiv {
+    display: block;
+}
+
+.hideDiv {
+    display: none;
+}
+
+.list {
+    font: normal 12px Arial;
+    color: #666666;
+}
+
+.mail_offer {
+    float: left;
+    width: 246px;
+    height: 82px;
+    background-color: #EAF3F8;
+    padding: 3px 0 0 0;
+    margin: 12px 0 0 0;
+}
+
+.mail_promo
+{
+    text-align: right;
+    font: bold 12px Arial;
+    color: #666666;
+}
+
+.mail_signin
+{
+    float: left;
+    padding: 3px 0 0 20px;
+    margin: 15px 0 0 0;
+}
+
+.module_headerContainer {
+    max-height: 40px;
+    height: 40px;
+    /*z-index: 1;*/
+}
+
+.module_contentContainer {
+    height: 101px;
+    padding-left: 10px;
+    font: normal 11px Arial;
+    color: #666666;
+}
+
+.wthr_forecast {
+    font: bold 22px Arial;
+    color: #666666;
+}
+
+.wthr_city a {
+    font: bold 12px Arial;
+    color: #45a0f0;
+}
+
+#wthr_zip {
+    font: bold 14px Arial;
+    color: #fdb851;
+    float: left;
+    margin: 8px 0 0 5px;
+}
+#horo_sign {
+    font: bold 14px Arial;
+    color: #f58ff5;
+    float: left;
+    margin-top: 9px;
+    padding-left: 3px;
+    text-transform : capitalize;
+}
+
+.moduleHeader {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.edit {
+    margin: 10px 5px 0 0;
+    text-align: right;
+}
+
+.ext_wthr_day {
+    font: bold 12px Arial;
+    color: #666666;
+}
+
+.ext_wthr_temp_hi {
+    font: bold 12px Arial;
+    color: #f86917;
+}
+
+.ext_wthr_temp_lo {
+    font: bold 12px Arial;
+    color: #3388d4;
+}
+
+.ext_wthr {
+    float: left;
+    padding: 0 0 0 10px;
+    margin: 8px 0 0 0;
+}
+
+.wthr_fc_cntr {
+    float: left;
+    width: 210px;
+    height: 80px;
+    background-color: #feedd3;
+    margin-top: 8px;
+}
+
+.floatL {
+    float: left;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+.pad10_0 {
+    padding: 10px 0;
+}
+
+.padl3 {
+    padding-left: 3px;
+}
+
+.submitBtn {
+    font: bold 11px Arial;
+    color: #3c4046;
+    width: 115px;
+}
+
+.mrgnl30 {
+    margin-left: 35px;
+}
+
+.horoContent {
+    height: 100%;
+    padding: 5px 0 0 0;
+}
+
+.spacer5{
+    font-size: 1px;
+    height: 5px;
+}
+
+#wthrFormContainer, #horoFormContainer {
+    padding-top: 5px;
+}
+
+.horo_desc {
+    margin: 0 5px 0 95px;
+    height: 65px;
+    max-height: 65px;
+}
+
+.wthr_image {
+    float: left;
+    padding: px;
+    margin-right: 5px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.wthr_ext_image {
+    /* padding: 5px; */
+    margin-right: 5px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.module_container {
+    background:url('drawer_bg.gif') no-repeat;
+    float:left;
+    width: 372px;
+    height: 141px;
+}
+
+#mini_tab_container {
+    padding: 0 4px;
+}
+

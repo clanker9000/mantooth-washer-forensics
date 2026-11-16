@@ -1,0 +1,49 @@
+#bb_conatiner{
+    margin: 3px 0px; 3px; 0px;
+    background: #303030;
+    width:298px;
+	margin-left: auto;
+	margin-right: auto;
+    text-align:left;
+}
+
+#bb_top {
+    background-image: url('buddyblog_bg_top.gif');
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+#bb_top h1 {
+    margin-top: 5px;
+    font: normal bold 1.4em Arial;
+    color: #ffa2fd;
+}
+
+#bb_bot {
+    background-image: url('buddyblog_bg_btm.gif');
+    background-repeat: no-repeat;
+    height:41px;
+}
+
+#bb_title {
+    color:#d82fd4;
+}
+
+#bb_postdate {
+    color:#f2b5ee;
+}
+
+#bb_body {
+    font: normal .9em Arial;
+    color:white;
+}
+
+#bb_top ul li A{
+	text-decoration:none;
+	color: #45a0f0;
+}
+
+#bb_top ul li A:hover{
+	text-decoration:underline;
+}

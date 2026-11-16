@@ -1,0 +1,62 @@
+<html><head><title>Click here to find out more!</title></head><body bgcolor=#ffffff marginwidth=0 marginheight=0 leftmargin=0 topmargin=0><!-- Template Id = 2594 Template Name = Banner Creative (Flash) -  In Page Multiples -->
+<!-- Copyright 2006 DoubleClick Inc., All rights reserved. --><script src="http://m1.2mdn.net/879366/flashwrite_1_2.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function DCFlash(id){
+swf = "http://m1.2mdn.net/1510676/Q1_helio_300X250_mysto_MF_TellMeVideo.swf";
+gif = "http://m1.2mdn.net/1510676/mysto_300x250_gm_tm.jpg";
+minV = 8;
+FWH = ' width="300" height="250" ';
+url = escape("http://ad.doubleclick.net/click%3Bh=v8/3665/17/106/%2a/c%3B178193429%3B1-0%3B0%3B24119775%3B4307-300/250%3B24526255/24544108/1%3B%3B%7Esscs%3D%3fhttp://adlog.com.com/adlog/e/r=8686&s=778708&o=20:2001:2018:2250:&h=cn&p=2&b=6&l=en_US&site=4&pt=3001&nd=2250&pid=&cid=10704232&pp=100&e=3&rqid=01c18-ad-e147AA26B855A1FC4&orh=&oepartner=&epartner=&cpnmodule=&count=&ra=75.70.85.248&t=2008.02.13.16.16.04&event=58/http://www.helio.com/page?p=devices_mysto&cmpid=BAC-cnet-rollup-Q108-mysto");
+wmode = "opaque";
+bg = "";
+dcallowscriptaccess = "never";
+
+openWindow = "false";
+winW = 600;
+winH = 400;
+winL = 0;
+winT = 0;
+
+moviePath=swf.substring(0,swf.lastIndexOf("/"));
+var sm=new Array();
+sm[1] = "http://m1.2mdn.net/1510676/mysto_garmin_screen_2.flv";
+sm[2] = "http://m1.2mdn.net/1510676/tell_me.swf";
+sm[3] = "";
+sm[4] = "";
+sm[5] = "";
+
+var ct=new Array();
+ct[0]="";if(ct[0].substr(0,4)!="http"){ct[0]="";}         
+ct[1] = "";
+ct[2] = "";
+ct[3] = "";
+ct[4] = "";
+ct[5] = "";
+ct[6] = "";
+ct[7] = "";
+ct[8] = "";
+ct[9] = "";
+ct[10] = "";
+
+fv='"clickTag='+url+'&clickTAG='+url+'&clicktag='+url+'&moviePath='+moviePath+'/'+'&moviepath='+moviePath+'/';
+for(i=1;i<sm.length;i++){if(sm[i]!=""){fv+="&submovie"+i+"="+escape(sm[i]);}}
+for(i=1;i<ct.length;i++){if(ct[i]!=""){if(ct[i].indexOf("http")==0){x=(ct[i].indexOf("doubleclick.net/clk;")>9)?escape(ct[0]+ct[i]):escape("http://ad.doubleclick.net/click%3Bh=v8/3665/17/106/%2a/c%3B178193429%3B1-0%3B0%3B24119775%3B4307-300/250%3B24526255/24544108/1%3B%3B%7Esscs%3D%3fhttp://adlog.com.com/adlog/e/r=8686&s=778708&o=20:2001:2018:2250:&h=cn&p=2&b=6&l=en_US&site=4&pt=3001&nd=2250&pid=&cid=10704232&pp=100&e=3&rqid=01c18-ad-e147AA26B855A1FC4&orh=&oepartner=&epartner=&cpnmodule=&count=&ra=75.70.85.248&t=2008.02.13.16.16.04&event=58/"+ct[i]);}else{x=escape(ct[i]);}fv+="&clickTag"+i+"="+x+"&clickTAG"+i+"="+x+"&clicktag"+i+"="+x;}}
+fv+='"';
+bgo=(bg=="")?"":'<param name="bgcolor" value="#'+bg+'">';bge=(bg=="")?"":' bgcolor="#'+bg+'"';
+this.FSWin=function(){if((openWindow=="false")&&(id=="DCF0"))alert('openWindow is wrong.');if((openWindow=="center")&&window.screen){winL=Math.floor((screen.availWidth-winW)/2);winT=Math.floor((screen.availHeight-winH)/2);}window.open(unescape(url),id,"width="+winW+",height="+winH+",top="+winT+",left="+winL+",status=no,toolbar=no,menubar=no,location=no");}
+this.mF=function(){swf=swf+'?clickTag='+url;
+	var adcode='<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="'+id+'"'+FWH+'>'+
+		'<param name="movie" value="'+swf+'"><param name="flashvars" value='+fv+'><param name="quality" value="high"><param name="wmode" value="'+wmode+'"><param name="base" value="'+swf.substring(0,swf.lastIndexOf("/"))+'"><param name="AllowScriptAccess" value="'+dcallowscriptaccess+'">'+bgo+
+		'<embed src="'+swf+'" flashvars='+fv+bge+FWH+' type="application/x-shockwave-flash" quality="high" swliveconnect="true" wmode="'+wmode+'" name="'+id+'" base="'+swf.substring(0,swf.lastIndexOf("/"))+'" AllowScriptAccess="'+dcallowscriptaccess+'"></embed></object>';  if(('i'!="j")&&(typeof dclkFlashWrite!="undefined")){dclkFlashWrite(adcode);}else{document.write(adcode);}}
+eval('this.mI=function(){document.write(\'<a target="_blank" href="'+unescape(url)+'"><img src="'+gif+'"'+FWH+'border="0" alt="" galleryimg="no"></a>\');}');
+this.getCode=function(pV){ua=navigator.userAgent;a=(minV<=pV&&(openWindow=="false"||(ua.indexOf("Mac")<0&&ua.indexOf("Opera")<0)))?this.mF():this.mI();return a;}}
+pVF="No Flash";pVM=0;DCid=(isNaN("178193429"))?"DCF0":"DCF178193429";
+if(navigator.plugins && navigator.mimeTypes.length){
+  var x=navigator.plugins["Shockwave Flash"];if(x && x.description){pVFull=x.description;a=pVFull.indexOf("Flash ")+6;pVM=pVFull.substring(a,pVFull.indexOf(".",a));}}
+else if (window.ActiveXObject && window.execScript){
+  window.execScript('on error resume next\na=2\ndo\na=a+1\nset swControl = CreateObject("ShockwaveFlash.ShockwaveFlash."&a)\nloop while Err = 0\n',"VBScript");if(a>3){pVM=a-1;}}
+eval("function "+DCid+"_DoFSCommand(c,a){if(c=='openWindow')o"+DCid+".FSWin();}o"+DCid+"=new DCFlash('"+DCid+"');o"+DCid+".getCode(pVM);");
+//-->
+</SCRIPT>
+<noscript><a target="_blank" href="http://ad.doubleclick.net/click%3Bh=v8/3665/17/106/%2a/c%3B178193429%3B1-0%3B0%3B24119775%3B4307-300/250%3B24526255/24544108/1%3B%3B%7Esscs%3D%3fhttp://adlog.com.com/adlog/e/r=8686&s=778708&o=20:2001:2018:2250:&h=cn&p=2&b=6&l=en_US&site=4&pt=3001&nd=2250&pid=&cid=10704232&pp=100&e=3&rqid=01c18-ad-e147AA26B855A1FC4&orh=&oepartner=&epartner=&cpnmodule=&count=&ra=75.70.85.248&t=2008.02.13.16.16.04&event=58/http://www.helio.com/page?p=devices_mysto&cmpid=BAC-cnet-rollup-Q108-mysto"><img src="http://m1.2mdn.net/1510676/mysto_300x250_gm_tm.jpg" width="300" height="250" border="0" alt="" galleryimg="no"></a></noscript></body></html>

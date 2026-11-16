@@ -1,0 +1,165 @@
+.vi_header {
+    font: normal bold 1.4em Arial;
+    color: white;
+    margin-left: 19px;
+}
+
+.vi_mainContainer_close {
+    height: 30px;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.vi_mainContainer_open {
+    height: auto;
+}
+
+#vi_header {
+    height: 30px; margin-left: 7px;
+}
+
+#vi_border {
+    border: 1px solid #dddddd;
+    width: 393px;
+    padding: 3px;
+}
+
+html>body #vi_border {
+    width: 385px;
+}
+
+#vi_mainContainer {
+    background:#b1d852;
+    background-image: url('profile_bg_top.gif');
+    background-repeat: repeat-x;
+}
+
+.vi_pl5 {
+    padding-left:5px;
+}
+
+#vi_footer {
+    background-image: url('profile_bg_bot.gif');
+    background-repeat: repeat-x;
+    height:18px;
+    font: normal  .9em Arial;
+    padding-left:15px;
+}
+
+#vi_footer A{
+    color:#000;
+    background: url('vanity_manage_i.gif') no-repeat;
+    padding-left: 20px;
+}
+#my_vi_wide {
+	float:left;
+	width:260px;
+}
+
+#my_vi_mid {
+     background:white;
+     width:85%;
+     margin-left: auto;
+     margin-right: auto;
+     border:1px solid grey;
+     margin-top:7px;
+     margin-bottom:7px;
+}
+
+#my_vi_buddyicon {
+     float:left;
+     padding-top:15px;
+     padding-left:5px;
+     padding-right:5px;
+}
+
+#my_vi_buddyicon img {
+	float:left;
+}
+
+#my_vi_title {
+    font: normal bold 1.1em Arial;
+}
+
+#my_vi {
+     padding:3px;
+     text-align: left;
+     margin-top:7px;
+     margin-bottom:7px;
+     float:left;
+     width:45%;
+}
+
+#my_invites {
+     padding:3px;
+     text-align: left;
+     margin-top:7px;
+     float:left;
+     width:45%;
+}
+
+#my_vi_line {
+     float:left;
+     width:1px;
+     background:#AAA;
+     height:85px;
+}
+
+#myVanityInfoContainer {
+     text-align: center;
+}
+
+#vi_left, #vi_right {
+     float:left;
+     color:#888;
+     font: normal  .9em Arial;
+}
+
+.vi_val {
+     font-weight:bold;
+     float:right;
+}
+
+.vi_label, #vi_line, #vi_right {
+     float:left;
+}
+
+#vi_right A {
+     color:#45a0f0;
+     text-decoration:none;
+}
+#vi_right A:hover {
+     text-decoration:underline;
+}
+
+#invites_header {
+     font: normal bold 1.1em Arial;
+}
+
+#my_vi_unauth {
+     font: normal bold .9em Arial;
+     height:70px;
+     color:#999;
+}
+#my_vi_unauth A {
+     text-decoration:none;
+     color:#45a0f0;
+}
+#my_vi_unauth A:hover {
+     text-decoration:underline;
+}
+
+#vi_blockheader {
+	position:relative;
+}
+
+#vi_date {
+     font: normal bold .85em Arial;
+	color:#fff;
+     position:absolute;
+	top:5px;
+	left:295px;
+}
+html>body #vi_date {
+        left:320px;
+}

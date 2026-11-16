@@ -1,0 +1,211 @@
+
+var OnStar={artUrl:"http://img.mqcdn.com/mqmobile/",javaUrl:""};function mqToggleSTC(evt,popupContainerId)
+{fEventData=getEventData(evt);var eventId=(fEventData.id.indexOf("-close")>0)?fEventData.id.substring(0,fEventData.id.indexOf("-close")):fEventData.id;var eventType=fEventData.type;var stcObj=getElementById("stcpopup");if(!stcObj){stcObj=createSTCPopup(fEventData.id);stcObj.style.display="block";}
+else if(!getElementById("stcac")){getElementById("stcpopup").parentNode.removeChild(getElementById("stcpopup"));stcObj=createSTCPopup(fEventData.id);stcObj.style.display="block";}
+else{getElementById("stcac").value="";getElementById("stcpfx").value="";getElementById("stcsfx").value="";getElementById("stcfrom").value="";getElementById("stctitle").value="";getElementById("mqstc-errmsg").innerHTML="";getElementById("mqstc-errmsg").style.display="";}
+popuplateDefaultPhoneNum();var reclick=stcObj.popupOpener==eventId&&stcObj.style.display=="block";if(!reclick){stcObj.popupOpener=eventId;stcObj.style.display="block";if(eventId=="mqstc-0"||eventId.indexOf("mqstc-AC")>=0){var container;if(typeof(popupContainerId)!='undefined'&&popupContainerId){container=getElementById(popupContainerId);}else{container=getElementById("popupcontainer");}
+container.style.width=container.style.height="";var topOffset=container.clientHeight;var leftOffset=40;stcObj.style.top=topOffset+"px";stcObj.style.left=leftOffset+"px";stcObj.style.zIndex="";container.appendChild(stcObj);}
+else{var ele=getElementById(eventId);var left=0;var top=0;while(ele)
+{left+=ele.offsetLeft;top+=ele.offsetTop;ele=ele.offsetParent;}
+stcObj.style.top=(top+13)+"px";stcObj.style.left=(left-91)+"px";stcObj.style.zIndex="9999";if((fEventData.id.indexOf("dirs")>0)&&(window.attachEvent))
+{if(getElementById("locselect"))getElementById("locselect").style.visibility="hidden";}
+document.body.appendChild(stcObj);}
+addResultToSTCPopup(eventId);}
+else{stcObj.style.display="none";if((fEventData.id.indexOf("dirs")>0)&&(window.attachEvent))
+{getElementById("locselect").style.visibility="";}}}
+function createSTCPopup(evtid)
+{var oRoot=getElementById("stcpopup");if(!oRoot)
+{oRoot=createSTCShell();if(evtid=="mqstc-0")
+document.body.appendChild(oRoot);else
+getElementById("mqcontent").appendChild(oRoot);}
+var str="";str+="<h3 id='mqstc-errmsg' class='alertwarning disn'></h3>";str+="<form id='mqstc-form' action='' onsubmit=\"mqSubmitSTC();return false;\"><div id='tofrom'><div style='padding-bottom:5px;'><input type='hidden' id='stceid' value='"+evtid+"' />";str+="<div style='float:left;border:0px solid green;width:50px;'><span class='label'>To:</span></div>";str+="<div class='alttext'>(<input type='text' id='stcac' name='stcac' tabindex='0' maxlength='3' style='width:33px;' value='' />) <input type='text' id='stcpfx' name='stcpfx' tabindex='0' maxlength='3' style='width:34px;' value='' /> - <input type='text' id='stcsfx' name='stcsfx' tabindex='0' maxlength='4' style='width:58px;' value='' />";str+="<div class='alttext' style='margin-left:52px;margin-top:-2px;'>e.g., (717) 555-1212</div>";str+="</div></div>";str+="<div style='padding-bottom:5px;'>";str+="<div style='float:left;width:50px;height:14px;'><span class='label'>From:</span></div>";str+="<div class='greytext'><input type='text' id='stcfrom' name='stcfrom' style='width:160px;' value='' /><div class='alttext' style='margin-left:52px;margin-top:-2px;'>Your email address (required)</div>";str+="</div></div>";str+="<div style='padding-bottom:5px;'>";str+="<div style='float:left;width:50px;height:14px;'><span class='label'>Title:</span></div>";str+="<div class='greytext'><input type='text' id='stctitle' name='stctitle' style='width:160px;' value='' maxlength='15' /><div class='alttext' style='margin-left:52px;margin-top:-2px;'>15 character max (optional)</div>";str+="</div></div>";str+="<div class='clear' style='padding-bottom:5px;'>";str+="<input style='float:left; margin-left:10px;' type='checkbox' id='stcsendwap' name='stcsendwap' tabindex='205' value='1' checked />"
+str+="<div style='margin-left:35px; font-size:1.2em;'>Add link to map and driving directions.*</div>";str+="</div>";str+="<div id='mqstc-resultcontent'></div>";str+="<div class='textc'><input type='submit' id='mqstc-button' value='Send' class='submit' style='background:#ecebe6; width:60px;' /></div></form>";str+="<div class='stcbottom'><div class='alttext'>NOTE: ";str+="Charges from your wireless carrier may apply. Information collected here will be used only to send a one-time message on your behalf. <a style='position:relative;' href='/features/main.adp?page=help_sendtocell'>More help</a>."
++"<br/><br/>*On some carriers and handsets, URL links may cause the message to fail before delivery.  Wireless Internet features are required on your device, and your carrier may charge fees for access.";str+="<div class='textc'><a href='http://www.mapquest.com/features/main.adp?page=mobile_legal' target='_blank'>Legal Notice</a></div>";str+="</div></div>";getElementById("stcinfocontainer").innerHTML=str;return oRoot;}
+function createSTCShell()
+{var oRoot=document.createElement("DIV");oRoot.id="stcpopup";oRoot.className="mqpopup-small";var str="<div class='stctitle'><span class='label'>Send To Cell <span class='alert'>Beta!</span></span><img id='stcclose' src='"+artUrl+"stc-close' onclick='closeSTCPopup();' /></div>"
+str+="<div id='stctop' class='mqtop'></div>"
+str+="<div id='stccenter' class='mqcenter'><div id='stcinfocontainer'></div></div>";str+="<div id='stcbottom' class='mqbottom'></div>";oRoot.innerHTML=str;var browser=getBrowserInfo();if(browser.name=='msie'&&browser.version<7)
+{oRoot.childNodes[2].style.height="10px";if(browser.version>=5.5)
+{oRoot.childNodes[1].style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+artUrl+"frmp-bg-smallboxtop.png', sizingMethod='scale')";oRoot.childNodes[2].style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+artUrl+"frmp-bg-smallboxcntr.png', sizingMethod='scale')";oRoot.childNodes[3].style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+artUrl+"frmp-bg-smallboxbtm.png', sizingMethod='scale')";}
+else
+{oRoot.childNodes[1].style.background="transparent url("+artUrl+"frmp-bg-smallboxtop) no-repeat left";oRoot.childNodes[2].style.background="transparent url("+artUrl+"frmp-bg-smallboxcntr) 0 100% repeat-y";oRoot.childNodes[3].style.background="transparent url("+artUrl+"frmp-bg-smallboxbtm) no-repeat left";oRoot.childNodes[3].style.height="13px";}}
+else
+{oRoot.childNodes[1].style.background="transparent url("+artUrl+"frmp-bg-smallboxtop.png) no-repeat left";oRoot.childNodes[2].style.background="transparent url("+artUrl+"frmp-bg-smallboxcntr.png) 0 100% repeat-y";oRoot.childNodes[3].style.background="transparent url("+artUrl+"frmp-bg-smallboxbtm.png) no-repeat left";}
+return oRoot;}
+function popuplateDefaultPhoneNum()
+{var stcPhone=stcAc=stcPfx=stcSfx="";if(readCookie("settings"))
+{var stcPhoneSetting=readCookie("settings").split("|")[6];if(stcPhoneSetting.length>0)
+{for(var i=0,l=stcPhoneSetting.length;i<l;i++)
+{if((stcPhoneSetting.charAt(i)>="0")&&(stcPhoneSetting.charAt(i)<="9"))
+{stcPhone+=stcPhoneSetting.charAt(i);}}
+getElementById("stcac").value=stcPhone.substring(0,3);getElementById("stcpfx").value=stcPhone.substring(3,6);getElementById("stcsfx").value=stcPhone.substring(6,10);}}}
+function mqSubmitSTC()
+{var mqStcURL="/apart/mqmobile.adp?";var eidVal=getElementById("stceid").value;mqStcURL+=getElementById(eidVal).rel;var stcPhone=new Array("stcac","stcpfx","stcsfx");for(var nv=0;nv<stcPhone.length;nv++)
+{var stcPhoneElem=getElementById(stcPhone[nv]);if(!(stcPhoneElem&&stcPhoneElem.value))
+{showSTCStatusMsg("0","phone");return;}
+var stcPhoneValue=stcPhoneElem.value;for(var i=0,n=stcPhoneValue.length;i<n;i++)
+{if(((nv<2)&&(n!=3))||((nv==2)&&(n!=4)))
+{showSTCStatusMsg("0","phone");return;}
+var c=stcPhoneValue.charAt(i);if((c<"0")||(c>"9"))
+{showSTCStatusMsg("0","phone");return;}}
+mqStcURL+="&"+stcPhone[nv]+"="+stcPhoneValue;}
+var stcFromValue=getElementById("stcfrom").value;if(checkEmail(stcFromValue)==false)
+{showSTCStatusMsg("0","email");return;}
+var r="";if(getElementById("r")&&getElementById("r").value.match(/[sf]/)){mqStcURL+="&r="+getElementById("r").value;}
+if(getElementById("aoh")&&getElementById("aoh").checked){mqStcURL+="&aoh=1";}
+if(getElementById("aot")&&getElementById("aot").checked){mqStcURL+="&aot=1";}
+if(getElementById("aos")&&getElementById("aos").checked){mqStcURL+="&aos=1";}
+if(getElementById("stcsendwap").checked)mqStcURL+="&stcsendwap=1";mqStcURL+="&stctitle="+escape(getElementById('stctitle').value)+"&stcfrom="+stcFromValue+"&rand="+(Math.round((Math.random()*10000)));var mqXMLHttp=mqXMLHttpRequest();if(mqXMLHttp==null)
+{loadJS(mqStcURL+"&stcjs=1","mqstc-js","body");}
+else
+{mqXMLHttp.open("GET",mqStcURL,true);mqXMLHttp.onreadystatechange=function()
+{if(mqXMLHttp.readyState==4)
+{if(mqXMLHttp.status==200)
+{var stcResponse=mqXMLHttp.responseText.split("|");showSTCStatusMsg(stcResponse[1],stcResponse[2]);return;}
+else
+{loadJS(mqStcURL+"&stcjs=1","mqstc-js","body");}}}
+mqXMLHttp.send(null);}
+oh("cl",{linkName:"MQS2CSend",o:$("mqstc-button")});}
+function showSTCStatusMsg(retval,retdata)
+{var strStatusMsg="";var htmlCaption="<span class='statusmsg'><b>Congratulations!</b></span><br />";var htmlClose="<div class='textc' style='padding:10px 0px;'>";htmlClose+="<input type='submit' id='stc-close' value='Close' class='submit' onclick='closeSTCPopup();return false;' style='width:60px;' tabindex='0'/></div>";switch(retval)
+{case"0":strStatusMsg="<img src='"+artUrl+"icon-alert-warning-20' height='20' width='20' alt='warning' />";if(retdata=="phone")
+{strStatusMsg+=" Invalid Phone Number.";}
+else if(retdata=="email")
+{strStatusMsg+=" Invalid Email Address.";}
+else
+{strStatusMsg+=retdata;}
+var errorObj=getElementById("mqstc-errmsg");errorObj.style.display="block";errorObj.innerHTML=strStatusMsg;break;case"3":htmlCaption="Redirecting...";setTimeout("window.location = '"+retdata+"'",250);break;case"1":case"5":case"7":strStatusMsg="<div class='statusmsg'>A text message has been sent to your cell phone.</div>";break;case"2":case"6":case"8":strStatusMsg="<p class='statusmsg'>A map has been sent to your <a style='position:relative;' href='http://www.mapquest.com/features/main.adp?page=help_mqm'>MapQuest Mobile</a> application on your cell phone.</p><p class='statusmsg'>Please launch <a style='position:relative;' href='http://www.mapquest.com/features/main.adp?page=help_mqm'>MapQuest Mobile</a> and click on Sent From Web to view your results.</p>";break;case"4":strStatusMsg="<p class='statusmsg'>The directions have been sent to your <a style='position:relative;' href='http://www.mapquest.com/features/main.adp?page=help_mqm'>MapQuest Mobile</a> application on your cell phone.</p><p class='statusmsg'>Please launch <a style='position:relative;' href='http://www.mapquest.com/features/main.adp?page=help_mqm'>MapQuest Mobile</a> and click on Sent From Web to view your results.</p>";break;}
+strStatusMsg=htmlCaption+strStatusMsg+htmlClose;if(retval!='0'){getElementById("stcinfocontainer").innerHTML=strStatusMsg;}
+if(getElementById("stc-close")){getElementById("stc-close").focus();}}
+function addResultToSTCPopup(evtid)
+{var stcPage=evtid.split("-")[1];var mapSummary=getElementById("mapsummary");if(document.body.id=='dirs')
+{var temp=getElementById(evtid);while(temp.id&&temp.id.indexOf("poi-")<0)
+{temp=temp.parentNode;}
+if(temp&&temp.id.indexOf("poi-")>=0)
+{var stcAddress="<div id='stcresult'>";stcAddress+=(MQ.poi.curDataObj.name!='')?("<b>"+MQ.poi.curDataObj.name+"</b>"):"";var addressStr=(MQ.poi.curDataObj.address=='')?'':((MQ.poi.curDataObj.name=='')?("<b>"+MQ.poi.curDataObj.address+"</b>, "):(MQ.poi.curDataObj.address+", "));var cityStr=(MQ.poi.curDataObj.city=='')?'':(MQ.poi.curDataObj.city+", ");var addCityStateZip=addressStr+cityStr+MQ.poi.curDataObj.stateProvince+" "+MQ.poi.curDataObj.postalCode+" "+MQ.poi.curDataObj.country;stcAddress+=(MQ.poi.curDataObj.name==''&&MQ.poi.curDataObj.address=='')?("<div><b>"+addCityStateZip+"</b></div>"):("<div>"+addCityStateZip+"</div>");stcAddress+=(MQ.poi.curDataObj.phone!='')?("<div>"+MQ.poi.curDataObj.phone+"</div>"):"";stcAddress+="</div>";getElementById("mqstc-resultcontent").innerHTML=stcAddress;}
+else
+{var startObj=getElementById("mqaddress-start");var endObj=getElementById("mqaddress-end");var output="<div class='clear'>";output+="<img border='0' src='"+artUrl+"icon-dirs-start' width='32' height='17' alt='Start' />";output+="<p>";output+=startObj.getElementsByTagName("span")[0].innerHTML;output+="</p></div>";output+="<div class='clear'>";output+="<img border='0' src='"+artUrl+"icon-dirs-end' width='32' height='17' alt='End' />";output+="<p>";output+=endObj.getElementsByTagName("span")[0].innerHTML;output+="</p></div>";getElementById("mqstc-resultcontent").innerHTML=output;}}
+else if(mapSummary)
+{var temp=getElementById(evtid);while(temp.id&&temp.id.indexOf("poi-")<0)
+{temp=temp.parentNode;}
+if(temp.id.indexOf("-poi-AC")>0)
+{var dataObj=MQ.poi.data.goldRush.aerial["location"+temp.id.charAt(temp.id.length-1)];var stcAddress="<div id='stcresult'>";stcAddress+=(typeof(dataObj.name)!="undefined"&&dataObj.name!='')?("<b>"+dataObj.name+"</b>"):"";var addressStr=(typeof(dataObj.address)=="undefined"||dataObj.address=='')?'':((dataObj.name=='')?("<b>"+dataObj.address+"</b>, "):(dataObj.address+", "));var cityStr=(typeof(dataObj.city)=="undefined"||dataObj.city=='')?'':(dataObj.city+", ");var addCityStateZip=addressStr+cityStr+dataObj.stateProvince+" "+dataObj.postalCode+" "+dataObj.country;stcAddress+=(dataObj.name==''||dataObj.address=='')?("<div><b>"+addCityStateZip+"</b></div>"):("<div>"+addCityStateZip+"</div>");stcAddress+=(typeof(dataObj.phone)!="undefined"&&dataObj.phone!='')?("<div>"+dataObj.phone+"</div>"):"";stcAddress+="</div>";getElementById("mqstc-resultcontent").innerHTML=stcAddress;}
+else
+{var stcAddress=mapSummary.getElementsByTagName("span")[0].innerHTML;getElementById("mqstc-resultcontent").innerHTML=stcAddress;}}
+else
+{var resultCount=parseFloat(stcPage);var oLI=getElementById("mqresult-"+resultCount);if(oLI)
+{oLI=oLI.cloneNode(true);oLI.style.background="white";oLI.id="stcresult";oHLinks=oLI.getElementsByTagName("UL");var len=oHLinks.length;for(var i=(len-1);i>=0;i--)
+{oLI.removeChild(oHLinks.item(i));}
+if(oLI.lastChild.className=='cat')oLI.removeChild(oLI.lastChild);var oUL=document.createElement("UL");oUL.className="results";oUL.style.listStyle="none";oUL.style.paddingLeft="0";oUL.style.marginLeft="4px";oUL.appendChild(oLI);var oDiv=document.createElement("DIV");oDiv.appendChild(oUL);getElementById("mqstc-resultcontent").innerHTML=oDiv.innerHTML;}}}
+function closeSTCPopup()
+{if(document.getElementById("stcpopup")){if((fEventData.id.indexOf("dirs")>0)&&(window.attachEvent))
+{if(getElementById("locselect"))getElementById("locselect").style.visibility="";}
+document.getElementById("stcpopup").style.display="none";}}
+function checkEmail(eMailAddress)
+{var filter=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!filter.test(eMailAddress))
+return false;if(eMailAddress.search(/\.\@/)>=0)
+return false;if(eMailAddress.search(/\.\./)>=0)
+return false;return true;}
+function mqInitSTC()
+{var stcPrefix="mqstc-";var stcObj;if(getElementById(stcPrefix+"maps"))
+{stcObj=getElementById(stcPrefix+"maps");stcObj.parentNode.style.display="inline";addEvent(stcObj,"click",mqToggleSTC);}
+else if(getElementById(stcPrefix+"dirs"))
+{stcObj=getElementById(stcPrefix+"dirs");stcObj.parentNode.style.display="inline";addEvent(stcObj,"click",mqToggleSTC);}
+else
+{var start=1;if(getElementById("mqsearchresult"))
+start=getElementById("mqsearchresult").start;for(var stcCount=start;stcCount<(start+10);stcCount++)
+{stcObj=getElementById(stcPrefix+stcCount);if(stcObj)
+{stcObj.parentNode.style.display="inline";addEvent(stcObj,"click",mqToggleSTC);}}}
+preLoadSTCImages();}
+mqInitSTC();function preLoadSTCImages(){img1=new Image();img1.src=artUrl+"stc-close";img2=new Image();img2.src=artUrl+"frmp-bg-smallboxtop.png";img3=new Image();img3.src=artUrl+"frmp-bg-smallboxbtm.png";img4=new Image();img4.src=artUrl+"frmp-bg-smallboxcntr.png";}
+function mqInitSTOS(){var stosPrefix="mqstos-";if(getElementById(stosPrefix+"maps")){var stosObj=getElementById(stosPrefix+"maps");addEvent(stosObj,"click",mqToggleSTOS);}else if(getElementById(stosPrefix+"dirs")){var stosObj=getElementById(stosPrefix+"dirs");addEvent(stosObj,"click",mqToggleSTOS);}else{var start=1;if(getElementById("mqsearchresult"))
+start=getElementById("mqsearchresult").start;for(var stosCount=start;stosCount<(start+10);stosCount++)
+{stosObj=getElementById(stosPrefix+stosCount);if(stosObj)
+{stosObj.parentNode.style.display="inline";addEvent(stosObj,"click",mqToggleSTOS);}}}}
+mqInitSTOS();function mqSTOSEvent(evt){fEventData=getEventData(evt);var eventId=fEventData.id;var popup=$('stospopup');if(popup.innerHTML==""){new Ajax.Updater({success:'stospopup'},"/parts/layout/onStarPopup.html",{onComplete:function(){$('stos-resultcontent').innerHTML=$('mapsummary').getElementsByTagName('span')[0].innerHTML;$('stos-login').style.display=(readCookie('onstar')==""||readCookie('onstar')==null)?"":"none";}});}
+popup.toggleDisplay=function(){popup.style.display=popup.style.display=="none"?"block":"none";}
+popup.toggleDisplay();}
+function mqToggleSTOS(evt,popupContainerId)
+{fEventData=getEventData(evt);var eventId=(fEventData.id.indexOf("-close")>0)?fEventData.id.substring(0,fEventData.id.indexOf("-close")):fEventData.id;var eventType=fEventData.type;var stosObj=getElementById("stospopup");var reclick=(stosObj&&stosObj.popupOpener==eventId&&stosObj.style.display=="block");if(!stosObj){stosObj=createSTOSPopup(fEventData.id);stosObj.style.display="block";}
+else if(!getElementById("stos-name")){getElementById("stospopup").parentNode.removeChild(getElementById("stospopup"));stosObj=createSTOSPopup(fEventData.id);stosObj.style.display="block";}
+else{getElementById("stos-name").value="e.g. John's House";getElementById("stos-email").value="";getElementById("stos-password").value="";getElementById("stos-response").innerHTML="";getElementById("stoseid").value=eventId;}
+initializeSTOSFields();if(!reclick){stosObj.popupOpener=eventId;stosObj.style.display="block";if(eventId=="mqstos-0"){var container;if(typeof(popupContainerId)!='undefined'&&popupContainerId){container=getElementById(popupContainerId);}else{container=getElementById("popupcontainer");}
+container.style.width=container.style.height="";var topOffset=container.clientHeight;var leftOffset=40;stosObj.style.top=topOffset+"px";stosObj.style.left=leftOffset+"px";stosObj.style.zIndex="";container.appendChild(stosObj);}
+else{var ele=getElementById(eventId);var left=0;var top=0;while(ele)
+{left+=ele.offsetLeft;top+=ele.offsetTop;ele=ele.offsetParent;}
+stosObj.style.top=(top+13)+"px";stosObj.style.left=(left-91)+"px";stosObj.style.zIndex="9999";if((fEventData.id.indexOf("dirs")>0)&&(window.attachEvent))
+{if(getElementById("locselect"))getElementById("locselect").style.visibility="hidden";}
+document.body.appendChild(stosObj);}
+addResultToSTOSPopup(eventId);}
+else{stosObj.style.display="none";if((fEventData.id.indexOf("dirs")>0)&&(window.attachEvent))
+{getElementById("locselect").style.visibility="";}}}
+function createSTOSShell()
+{var oRoot=document.createElement("DIV");oRoot.id="stospopup";oRoot.className="mqpopup-stos";var str="<div class='stostitle'><span class='label'>Send To OnStar</span><img id='stosclose' src='"+artUrl+"stc-close' onclick='closeSTOSPopup();' /></div>"
+str+="<div id='stostop' class='mqtop'></div>"
+str+="<div id='stoscenter' class='mqcenter'><div id='stosinfocontainer'></div></div>";str+="<div id='stosbottom' class='mqbottom'></div>";oRoot.innerHTML=str;var browser=getBrowserInfo();if(browser.name=='msie'&&browser.version<7)
+{oRoot.childNodes[2].style.height="10px";if(browser.version>=5.5)
+{oRoot.childNodes[1].style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+OnStar.artUrl+"onstar-bg-sendboxtop.png', sizingMethod='scale')";oRoot.childNodes[2].style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+OnStar.artUrl+"onstar-bg-sendboxcntr.png', sizingMethod='scale')";oRoot.childNodes[3].style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+OnStar.artUrl+"onstar-bg-sendboxbtm.png', sizingMethod='scale')";}
+else
+{oRoot.childNodes[1].style.background="transparent url("+OnStar.artUrl+"frmp-bg-smallboxtop) no-repeat left";oRoot.childNodes[2].style.background="transparent url("+OnStar.artUrl+"frmp-bg-smallboxcntr) 0 100% repeat-y";oRoot.childNodes[3].style.background="transparent url("+OnStar.artUrl+"frmp-bg-smallboxbtm) no-repeat left";oRoot.childNodes[3].style.height="13px";}}
+else
+{oRoot.childNodes[1].style.background="transparent url("+OnStar.artUrl+"onstar-bg-sendboxtop.png) no-repeat left";oRoot.childNodes[2].style.background="transparent url("+OnStar.artUrl+"onstar-bg-sendboxcntr.png) 0 100% repeat-y";oRoot.childNodes[3].style.background="transparent url("+OnStar.artUrl+"onstar-bg-sendboxbtm.png) no-repeat left";}
+return oRoot;}
+function createSTOSPopup(evtid)
+{var oRoot=getElementById("stospopup");if(!oRoot)
+{oRoot=createSTOSShell();if(evtid=="mqstos-0")
+document.body.appendChild(oRoot);else
+getElementById("mqcontent").appendChild(oRoot);}
+var str="";str+="<form id='mqstos-form' action='' onsubmit=\"mqSubmitSTOS();return false;\"><input type='hidden' id='stoseid' value='"+evtid+"' />"
+str+="<div id='mqstos-content'><div id='stos-login'>";str+="<div style='padding-bottom:10px;'>";str+="<div style='float:left;width:85px;'><span class='label'>Email:</span></div>";str+="<div class='greytext'><input type='text' id='stos-email' name='accountNumber' style='width:165px;' tabindex=1 value='' /></div></div>";str+="<div style='padding-bottom:5px;'>";str+="<div style='float:left;width:85px;'><span class='label'>Password:</span></div>";str+="<div class='greytext'><input type='password' id='stos-password' name='pinNumber' style='width:165px;' tabindex=1 value='' /><div class='alttext' style='margin-left:85px;margin-top:-2px;'>Last 4 Digits of OnStar Acct #</div>"
+str+="</div></div></div>";str+="<div style='padding-bottom:5px;'>";str+="<div style='float:left;width:85px;height:14px;'><span class='label'>Nametag:</span></div>";str+="<div class='greytext'><input type='text' id='stos-name' name='name' maxlength=100 style='width:165px;' tabindex=1 value='e.g. John&#39;s House' onfocus='javascript:if(this.value == &quot;e.g. John&#39;s House&quot;) this.value=&quot;&quot;;'/>"
+str+="<div class='alttext' style='margin-left:85px;margin-top:-2px;'>Destination name (required)</div>";str+="</div></div></div>";str+="<div id='mqstos-resultcontent'></div>";str+="<div id='stos-response' class='responsemsg'></div>";str+="<div class='textc'><input type='submit' id='mqstos-button' value='Send' class='submit' style='background:#ecebe6; margin-top:10px;width:60px;' tabindex=1 /></div></form>";str+="<div class='stosbottom'><div class='alttext'>NOTE: ";str+="The nametag entered will be used to retreive the directions in your vehicle. Do not use names with special characters and numbers.";str+="</div>";str+="<div class='textc'><b><a href=\"javascript:openOSLink('http://www.onstar.com');\" tabindex=1>Want OnStar?</a> | ";str+="<a href=\"javascript:openOSLink('/features/main.adp?page=onstar_learnmore');\" tabindex=1>Learn More</a> | ";str+="<a href=\"javascript:openOSLink('/features/main.adp?page=onstar_faq');\" tabindex=1>FAQ</a></b></div>";str+="<div style='text-align:center;margin-top:10px;'><a style='position:relative;' href=\"javascript:openOSLink('http://www.onstar.com');\" tabindex=1><img src='"+OnStar.artUrl+"onstar_logo.gif' alt='OnStar' title='OnStar' /></a></div>";str+="</div>";getElementById("stosinfocontainer").innerHTML=str;return oRoot;}
+function initializeSTOSFields()
+{var oskey=readCookie("onstar");var loginShell=getElementById('stos-login');if(oskey==""||oskey==null){if(loginShell)loginShell.style.display="block";var email=readCookie('onstaremail');if(email!=""&&email!=null){if(getElementById('stos-email'))getElementById('stos-email').value=email;}}else{loginShell.style.display="none";}}
+function closeSTOSPopup()
+{if(document.getElementById("stospopup")){if((fEventData.id.indexOf("dirs")>0)&&(window.attachEvent))
+{if(getElementById("locselect"))getElementById("locselect").style.visibility="";}
+document.getElementById("stospopup").style.display="none";oh("cl",{linkName:"MQS2OClose",o:$("stosclose")});}}
+function addResultToSTOSPopup(evtid)
+{var stosPage=evtid.split("-")[1];var mapSummary=getElementById("mapsummary");if(document.body.id=='dirs')
+{var temp=getElementById(evtid);while(temp.id&&temp.id.indexOf("poi-")<0)
+{temp=temp.parentNode;}
+if(temp&&temp.id.indexOf("poi-")>=0)
+{var stosAddress="<div id='stosresult'>";stosAddress+=(MQ.poi.curDataObj.name!='')?("<b>"+MQ.poi.curDataObj.name+"</b>"):"";var addressStr=(MQ.poi.curDataObj.address=='')?'':((MQ.poi.curDataObj.name=='')?("<b>"+MQ.poi.curDataObj.address+"</b>, "):(MQ.poi.curDataObj.address+", "));var cityStr=(MQ.poi.curDataObj.city=='')?'':(MQ.poi.curDataObj.city+", ");var addCityStateZip=addressStr+cityStr+MQ.poi.curDataObj.stateProvince+" "+MQ.poi.curDataObj.postalCode+" "+MQ.poi.curDataObj.country;stosAddress+=(MQ.poi.curDataObj.name==''&&MQ.poi.curDataObj.address=='')?("<div><b>"+addCityStateZip+"</b></div>"):("<div>"+addCityStateZip+"</div>");stosAddress+=(MQ.poi.curDataObj.phone!='')?("<div>"+MQ.poi.curDataObj.phone+"</div>"):"";stosAddress+="</div>";getElementById("mqstos-resultcontent").innerHTML=stosAddress;}
+else
+{var startObj=getElementById("mqaddress-start");var endObj=getElementById("mqaddress-end");var output="<div class='clear'>";output+="<img border='0' src='"+artUrl+"icon-dirs-start' width='32' height='17' alt='Start' />";output+="<p>";output+="Turn-by-Turn directions will start from the location of your vehicle.";output+="</p></div>";output+="<div class='clear'>";output+="<img border='0' src='"+artUrl+"icon-dirs-end' width='32' height='17' alt='End' />";output+="<p>";output+=endObj.getElementsByTagName("span")[0].innerHTML;output+="</p></div>";getElementById("mqstos-resultcontent").innerHTML=output;var busName=endObj.getElementsByTagName("span")[0].firstChild;if(busName.tagName=="B"&&busName.className=="fn org"){busName=trim(busName.innerHTML);if(busName.charAt(busName.length-1)==":")busName=busName.substr(0,busName.length-1);getElementById('stos-name').value=(busName.replace(/&amp;/g,"&")).replace(/\(|\)/g,'');}}}
+else if(mapSummary)
+{var temp=getElementById(evtid);while(temp.id&&temp.id.indexOf("poi-")<0)
+{temp=temp.parentNode;}
+var adrObj=mapSummary.getElementsByTagName("span")[0];var busName=adrObj.firstChild;if(busName.tagName=="SPAN"&&busName.className=="adr"){busName=busName.firstChild;if(busName.tagName=="B"&&busName.className=="fn org"){busName=trim(busName.innerHTML);if(busName.charAt(busName.length-1)==":")busName=busName.substr(0,busName.length-1);getElementById('stos-name').value=(busName.replace(/&amp;/g,"&")).replace(/\(|\)/g,'');}}
+var stosAddress=mapSummary.getElementsByTagName("span")[0].innerHTML;getElementById("mqstos-resultcontent").innerHTML=stosAddress;}
+else
+{var resultCount=parseFloat(stosPage);var oLI=getElementById("mqresult-"+resultCount);if(oLI)
+{oLI=oLI.cloneNode(true);oLI.style.background="white";oLI.id="stosresult";oHLinks=oLI.getElementsByTagName("UL");var len=oHLinks.length;for(var i=(len-1);i>=0;i--)
+{oLI.removeChild(oHLinks.item(i));}
+if(oLI.lastChild.className=='cat')oLI.removeChild(oLI.lastChild);var spans=oLI.getElementsByTagName("span");if(spans.length>1)
+spans[1].innerHTML="";var bolds=oLI.getElementsByTagName("b");if(bolds.length>0){if(bolds[0].className=="fn org"){var name=bolds[0].innerHTML;getElementById('stos-name').value=(name.replace(/&amp;/g,"&")).replace(/\(|\)/g,'');}}
+var oUL=document.createElement("UL");oUL.className="results";oUL.style.listStyle="none";oUL.style.paddingLeft="0";oUL.style.marginLeft="4px";oUL.appendChild(oLI);var oDiv=document.createElement("DIV");oDiv.appendChild(oUL);getElementById("mqstos-resultcontent").innerHTML=oDiv.innerHTML;}}}
+function mqSubmitSTOS(){if(getElementById('stos-login').style.display!='none'){if(!checkEmail(getElementById('stos-email').value)){getElementById('stos-response').innerHTML="<b>Please enter a valid Email</b>";return;}
+if(noWhiteSpace(getElementById('stos-password').value)==''){getElementById('stos-response').innerHTML="<b>Please enter password</b>";return;}}
+var sEmail=trim(getElementById('stos-email').value);var sPwd=trim(getElementById('stos-password').value);var strName=trim(getElementById('stos-name').value);if(noWhiteSpace(strName.toLowerCase())=="e.g.john'shouse"||strName==""||strName==null){getElementById('stos-response').innerHTML="<b>We're sorry. You must provide a name for the destination.</b>";return;}
+if(isInvalidName(strName)){getElementById('stos-response').innerHTML="<b>Destination names cannot include special characters.</b>";return;}
+var evtid=$('stoseid').value;strName=strName.replace(/&amp;/g,"&");var params=$(evtid).rel+"&onstarname="+escape(strName);var onstarKey=readCookie('onstar');if(getElementById('stos-login').style.display!='none'&&sEmail!=""&&sPwd!=""){params+="&email="+sEmail+"&password="+sPwd;}else if(onstarKey!=null&&onstarKey!=""){params+="&onstarKey="+onstarKey;}
+params+="&rnd="+(Math.round((Math.random()*10000)));new Ajax.Request('/apart/onstarproxy.adp',{method:"get",parameters:params,onSuccess:function(xhr){showSTOSStatusMsg(xhr.responseText);}});}
+function showSTOSStatusMsg(xhrretval)
+{var fields=trimLF(xhrretval).split('|');if(fields[0]!=0){$('stos-response').innerHTML=fields[1];}else{oh("cl",{linkName:"MQS2OSend",o:$("mqstos-button")});$('stos-response').innerHTML="";fields=unescape(fields[2]).split(":");if(browser.name=="firefox"){var ntArr=fields[0].split(" ");for(var i=0;i<ntArr.length;i++){ntLength=ntArr[i].length;if(ntLength>90){ntArr[i]=ntArr[i].substring(0,30)+String.fromCharCode('8203')+ntArr[i].substring(30,60)
++String.fromCharCode('8203')+ntArr[i].substring(60,90)
++String.fromCharCode('8203')+ntArr[i].substring(90);}else if(ntLength>60){ntArr[i]=ntArr[i].substring(0,30)+String.fromCharCode('8203')+ntArr[i].substring(30,60)
++String.fromCharCode('8203')+ntArr[i].substring(60);}else if(ntLength>30){ntArr[i]=ntArr[i].substring(0,30)+String.fromCharCode('8203')+ntArr[i].substring(30);}}
+fields[0]=ntArr.join(" ");}
+if(!containsSpace(fields[0])&&browser.name=="firefox"){var ntLength=fields[0].length;if(ntLength>90){fields[0]=fields[0].substring(0,30)+String.fromCharCode('8203')+fields[0].substring(30,60)
++String.fromCharCode('8203')+fields[0].substring(60,90)
++String.fromCharCode('8203')+fields[0].substring(90);}else if(ntLength>60){fields[0]=fields[0].substring(0,30)+String.fromCharCode('8203')+fields[0].substring(30,60)
++String.fromCharCode('8203')+fields[0].substring(60);}else if(ntLength>30){fields[0]=fields[0].substring(0,30)+String.fromCharCode('8203')+fields[0].substring(30);}}
+var contentHtm="<div id='mqstos-confirm'>";contentHtm+="<div id='successmsg' style='margin-bottom:10px;'>";contentHtm+="<div><img src='"+OnStar.artUrl+"onstar_bullet.png' height='20' width='20' alt='OnStar' title='OnStar' align='middle' />";contentHtm+="<p style='font-size:1.2em;display:inline;padding:5px 0 0 4px;vertical-align:middle;color:#272750;'><b>Success</b></p></div>";contentHtm+="<div style='font-size:1.1em;margin:0 10px 0 26px;'>Your destination has been sent to OnStar.</div>";contentHtm+="<div style='font-size:1.1em;margin:5px 10px 0 26px;'><b class='wordwrap'>"+fields[0]+":</b></div>";contentHtm+="<div style='font-size:1.1em;margin:5px 10px 0 26px;'>"+fields[1]+"</div>";contentHtm+="<div class='textc' style='padding:10px 0px;'>";contentHtm+="<input type='submit' id='stos-close' value='Close' class='submit' onclick='closeSTOSPopup();return false;' style='width:60px;' tabindex='0'/></div>";contentHtm+="</div>";contentHtm+="<div><img src='"+OnStar.artUrl+"onstar_bullet.png' height='20' width='20' alt='OnStar' title='OnStar' align='middle' />";contentHtm+="<p style='font-size:1.2em;display:inline;padding:5px 0 0 4px;vertical-align:middle;color:#272750;'><b>How To Get Your Directions</b></p></div>";contentHtm+="<div style='font-size:1.1em;margin:3px 10px 0 26px;'><ol><li>Push your OnStar Phone button ";contentHtm+="<img src='"+OnStar.artUrl+"phone_button.jpg' height='14' width='24' alt='phone' /> and say \"<b>Virtual Advisor</b>\".</li>";contentHtm+="<li>Follow the instructions to retrieve your directions.</li></ol></div>";contentHtm+="<ul style='font-size:1.1em;margin:5px 10px 10px 26px;'>";contentHtm+="<li style='margin-bottom:6px;'><a href=\"javascript:openOSLink('"+OnStar.javaUrl+"/onstar/onstar?action=addressBook');\">Click here</a> for more instructions.</li>";contentHtm+="<li><a href=\"javascript:openOSLink('"+OnStar.javaUrl+"/onstar/onstar?action=addressBook');\">View My OnStar Saved Destinations</a></li>";contentHtm+="</ul>";contentHtm+="</div>";getElementById("stosinfocontainer").innerHTML=contentHtm;}
+if(getElementById("stos-close")){getElementById("stos-close").focus();}}
+function openOSLink(url)
+{window.open(url,"osnewwindow","menubar=1,resizable=1,scrollbars=1,width=850,height=750");var res=getElementById('stos-response');if(res)res.innerHTML="";}
+function containsSpace(str)
+{return(/\s/.test(str));}
+function isInvalidName(str)
+{var filter=/<|>|_|\"|\[|\]|\{|\}|\\|\||=|\+|`|~|@|#|\$|\%|\^|\*|\(|\)|!/;return(filter.test(str));}

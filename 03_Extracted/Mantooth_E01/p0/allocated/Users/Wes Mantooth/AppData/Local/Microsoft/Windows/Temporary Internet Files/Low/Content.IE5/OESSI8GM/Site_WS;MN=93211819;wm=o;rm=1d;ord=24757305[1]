@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0">
+  <assemblyIdentity name="558f5a545800ae9e2ad01b11d7d9411a" version="6.0.6000.20587" processorArchitecture="x86" language="neutral" publicKeyToken="b03f5f7f11d50a3a" versionScope="nonSxS" />
+  <deployment />
+  <dependency discoverable="false">
+    <dependentAssembly dependencyType="install">
+      <assemblyIdentity name="System.

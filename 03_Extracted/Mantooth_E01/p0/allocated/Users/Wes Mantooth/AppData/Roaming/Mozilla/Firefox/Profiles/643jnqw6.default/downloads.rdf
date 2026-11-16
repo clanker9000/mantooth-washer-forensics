@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="C:\Users\Wes Mantooth\Desktop\AdbeRdr80_en_US.exe"
+                   NC:Name="AdbeRdr80_en_US.exe"
+                   NC:DownloadAnimated="true"
+                   NC:Transferred="21306KB of 21311KB">
+    <NC:URL RDF:resource="http://ardownload.adobe.com/pub/adobe/reader/win/8.x/8.0/enu/AdbeRdr80_en_US.exe"/>
+    <NC:File RDF:resource="C:\Users\Wes Mantooth\Desktop\AdbeRdr80_en_US.exe"/>
+    <NC:DateStarted NC:parseType="Date">Thu Apr 12 17:02:28 Mountain Daylight Time 2007 +680655</NC:DateStarted>
+    <NC:DateEnded NC:parseType="Date">Thu Apr 12 17:04:28 Mountain Daylight Time 2007 +071280</NC:DateEnded>
+    <NC:DownloadState NC:parseType="Integer">1</NC:DownloadState>
+    <NC:ProgressPercent NC:parseType="Integer">100</NC:ProgressPercent>
+  </RDF:Description>
+  <RDF:Description RDF:about="C:\Users\Wes Mantooth\Documents\Mr Smee\165183.html"
+                   NC:Name="165183.html"
+                   NC:Transferred="1KB of  1KB">
+    <NC:URL RDF:resource="http://www.totse.com/en/drugs/speedy_drugs/165183.html"/>
+    <NC:File RDF:resource="C:\Users\Wes Mantooth\Documents\Mr Smee\165183.html"/>
+    <NC:DateEnded NC:parseType="Date">Tue Apr 10 08:23:42 Mountain Daylight Time 2007 +556617</NC:DateEnded>
+    <NC:DownloadState NC:parseType="Integer">1</NC:DownloadState>
+    <NC:ProgressPercent NC:parseType="Integer">100</NC:ProgressPercent>
+  </RDF:Description>
+  <RDF:Seq RDF:about="NC:DownloadsRoot">
+    <RDF:li RDF:resource="C:\Users\Wes Mantooth\Desktop\AdbeRdr80_en_US.exe"/>
+    <RDF:li RDF:resource="C:\Users\Wes Mantooth\Documents\Mr Smee\165183.html"/>
+  </RDF:Seq>
+</RDF:RDF>

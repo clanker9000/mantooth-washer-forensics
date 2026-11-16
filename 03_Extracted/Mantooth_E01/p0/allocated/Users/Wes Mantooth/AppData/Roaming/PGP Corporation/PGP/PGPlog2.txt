@@ -1,0 +1,9 @@
+* 15:47:18 ----- PGP Desktop started -----
+* 15:47:18 PGP Desktop 9.6.1 (Build 1012)
+* 15:47:18 Today's date is Friday, June 22, 2007
+W 15:47:18 Your current PGP Desktop license does not support proxying
+W 15:47:18 Outgoing email messages will not be secured by PGP
+I 15:47:18 Setting logging level to: normal
+W 15:47:18 Your current PGP Desktop license does not support proxying
+W 15:47:18 Outgoing email messages will not be secured by PGP
+I 15:47:20 Initiating daily maintenance procedures

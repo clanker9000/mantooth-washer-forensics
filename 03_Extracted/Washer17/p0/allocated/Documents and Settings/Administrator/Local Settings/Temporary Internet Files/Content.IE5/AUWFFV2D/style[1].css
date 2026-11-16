@@ -1,0 +1,17 @@
+body, h1, h2, h3, h4, h5, h6, p, form, fieldset { margin: 0pt; padding: 0pt; }
+body { margin: 0pt; padding: 0pt; position: relative; background-color: #F4FAF1; font-family: "Lucida Grande",Verdana,Geneva,Tahoma,Arial,sans-serif; font-size:11px;}
+form { margin: 0px; position: relative; }
+form div { padding: 5px 10px; }
+form label { margin: 0pt 0pt 6px; padding: 0pt 0pt 0pt 4px; font-size: 0.9em; color: rgb(51, 51, 51); display: block; }
+form label em { padding: 0pt; color: rgb(102, 102, 102); background-color: transparent; }
+form label.checkbox { padding-top: 1.8em; }
+form label.checkbox input { margin: 0pt 6px 0pt 0pt; }
+form span { border: 1px solid rgb(192, 255, 84); margin: 0pt 0pt 0pt -4px; padding: 1px; display: block; background-color: #F4FAF1; }
+form span textarea, form span input { border-style: solid; border-color: rgb(124, 124, 124) rgb(195, 195, 195) rgb(221, 221, 221); border-width: 1px; background: rgb(255, 255, 255) url('bg-input.gif') repeat-x scroll left top; }
+form span select, form span textarea, form span input { margin: 1pt; width: 100%; font-size: 1em; font-family: Geneva,Tahoma,Arial,sans-serif; }
+form span textarea { height: 70px; }
+form .form-left { background: transparent url('bg-form-bottom.gif') no-repeat scroll left bottom; }
+form .form-left span { width: 220px; }
+form .form-right { position: absolute; top: 0pt; left: 250px; padding-left: 0pt; width: 250px; }
+form .form-right label { float: left; margin-right: 12px; }
+form .form-right span { width: 100px; }

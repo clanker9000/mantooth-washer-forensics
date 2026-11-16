@@ -1,0 +1,71 @@
+time_utc,log,event_id,meaning,user,logon_type,ip/workstation
+2008-02-12 16:34:01,System.evtx,104,Event log cleared,Wes Mantooth,,
+2008-02-12 16:35:01,Security.evtx,1102,AUDIT LOG CLEARED,Wes Mantooth,,
+2008-02-12 16:35:35,System.evtx,104,Event log cleared,Wes Mantooth,,
+2008-02-12 16:47:27,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,127.0.0.1
+2008-02-12 16:47:27,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 16:47:27,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 16:47:27,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 16:47:31,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 16:47:31,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 16:49:39,Security.evtx,4647,User-initiated logoff,Wes Mantooth,,
+2008-02-12 16:49:48,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,127.0.0.1
+2008-02-12 16:49:48,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 16:49:48,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 16:49:48,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 16:56:34,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,192.168.1.199
+2008-02-12 16:56:34,Security.evtx,4624,Logon (success),Wes Mantooth,RemoteInteractive(RDP),192.168.1.199
+2008-02-12 16:56:34,Security.evtx,4624,Logon (success),Wes Mantooth,RemoteInteractive(RDP),192.168.1.199
+2008-02-12 16:56:34,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 16:56:39,Security.evtx,4634,Logoff,Wes Mantooth,RemoteInteractive(RDP),
+2008-02-12 16:57:06,Security.evtx,4634,Logoff,Wes Mantooth,RemoteInteractive(RDP),
+2008-02-12 17:34:02,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,-
+2008-02-12 17:34:02,Security.evtx,4624,Logon (success),Wes Mantooth,Batch,-
+2008-02-12 17:34:02,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 17:34:05,Security.evtx,4634,Logoff,Wes Mantooth,Batch,
+2008-02-12 17:34:05,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,-
+2008-02-12 17:34:05,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,-
+2008-02-12 17:34:05,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,-
+2008-02-12 17:34:05,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 17:34:05,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 17:34:05,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 17:34:13,Security.evtx,4648,Logon with explicit creds,SYSTEM,,-
+2008-02-12 17:34:13,Security.evtx,4624,Logon (success),SYSTEM,Service,-
+2008-02-12 17:34:13,Security.evtx,4672,Special privileges assigned,SYSTEM,,
+2008-02-12 17:35:38,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,-
+2008-02-12 17:35:38,Security.evtx,4624,Logon (success),Wes Mantooth,Batch,-
+2008-02-12 17:35:38,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 17:40:40,Security.evtx,4634,Logoff,Wes Mantooth,Batch,
+2008-02-12 18:08:32,Security.evtx,4648,Logon with explicit creds,SYSTEM,,-
+2008-02-12 18:08:32,Security.evtx,4624,Logon (success),SYSTEM,Service,-
+2008-02-12 18:08:32,Security.evtx,4672,Special privileges assigned,SYSTEM,,
+2008-02-12 18:17:13,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,127.0.0.1
+2008-02-12 18:17:13,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 18:17:13,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 18:17:13,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 18:17:22,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 18:17:22,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 18:23:45,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,192.168.1.199
+2008-02-12 18:23:45,Security.evtx,4624,Logon (success),Wes Mantooth,RemoteInteractive(RDP),192.168.1.199
+2008-02-12 18:23:45,Security.evtx,4624,Logon (success),Wes Mantooth,RemoteInteractive(RDP),192.168.1.199
+2008-02-12 18:23:45,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 18:23:52,Security.evtx,4634,Logoff,Wes Mantooth,RemoteInteractive(RDP),
+2008-02-12 18:24:25,Security.evtx,4634,Logoff,Wes Mantooth,RemoteInteractive(RDP),
+2008-02-12 19:10:48,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,127.0.0.1
+2008-02-12 19:10:48,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 19:10:48,Security.evtx,4624,Logon (success),Wes Mantooth,Interactive,127.0.0.1
+2008-02-12 19:10:48,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 19:10:54,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 19:10:54,Security.evtx,4634,Logoff,Wes Mantooth,Interactive,
+2008-02-12 19:12:08,Security.evtx,4648,Logon with explicit creds,Wes Mantooth,,192.168.1.199
+2008-02-12 19:12:08,Security.evtx,4624,Logon (success),Wes Mantooth,RemoteInteractive(RDP),192.168.1.199
+2008-02-12 19:12:08,Security.evtx,4624,Logon (success),Wes Mantooth,RemoteInteractive(RDP),192.168.1.199
+2008-02-12 19:12:08,Security.evtx,4672,Special privileges assigned,Wes Mantooth,,
+2008-02-12 19:12:14,Security.evtx,4634,Logoff,Wes Mantooth,RemoteInteractive(RDP),
+2008-02-12 19:12:44,Security.evtx,4634,Logoff,Wes Mantooth,RemoteInteractive(RDP),
+2008-02-12 19:42:47,Security.evtx,4648,Logon with explicit creds,SYSTEM,,-
+2008-02-12 19:42:47,Security.evtx,4624,Logon (success),SYSTEM,Service,-
+2008-02-12 19:42:47,Security.evtx,4672,Special privileges assigned,SYSTEM,,
+2008-02-12 20:11:02,Security.evtx,4648,Logon with explicit creds,SYSTEM,,-
+2008-02-12 20:11:02,Security.evtx,4624,Logon (success),SYSTEM,Service,-
+2008-02-12 20:11:02,Security.evtx,4672,Special privileges assigned,SYSTEM,,

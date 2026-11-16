@@ -1,0 +1,376 @@
+<database>
+  <record id="CanadaFra" title="Canada (French)" code="CAfr">
+    <link>http://www.linksys.com/CAfr/support</link>
+    <keywords>north</keywords>
+  </record>
+  <record id="CanadaEng" title="Canada (English)" code="CAen">
+    <link>http://www.linksys.com/CAen/support</link>
+    <keywords>north</keywords>
+  </record>
+  <record id="USA" title="USA" code="US">
+    <link>http://www.linksys.com/US/support</link>
+    <keywords>north</keywords>
+  </record>
+  <record id="Argentina" title="Argentina" code="AR">
+    <link>http://www.linksys.com/AR/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Bolivia" title="Bolivia" code="BO">
+    <link>http://www.linksys.com/BO/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Brazil" title="Brazil" code="BR">
+    <link>http://www.linksys.com/BR/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Colombia" title="Colombia" code="CO">
+    <link>http://www.linksys.com/CO/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="CostaRica" title="Costa Rica" code="CR">
+    <link>http://www.linksys.com/CR/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Ecuador" title="Ecuador" code="EC">
+    <link>http://www.linksys.com/EC/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Honduras" title="Honduras" code="HN">
+    <link>http://www.linksys.com/HN/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Mexico" title="Mexico" code="MX">
+    <link>http://www.linksys.com/MX/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Panama" title="Panama" code="PA">
+    <link>http://www.linksys.com/PA/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Paraguay" title="Paraguay" code="PY">
+    <link>http://www.linksys.com/PY/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Peru" title="Peru" code="PE">
+    <link>http://www.linksys.com/PE/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Republica" title="Republica Dominicana" code="DO">
+    <link>http://www.linksys.com/DO/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Uruguay" title="Uruguay" code="UY">
+    <link>http://www.linksys.com/UY/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Venezuela" title="Venezuela" code="VE">
+    <link>http://www.linksys.com/VE/support</link>
+    <keywords>south</keywords>
+  </record>
+  <record id="Austria" title="Austria" code="AT">
+    <link>http://www.linksys.com/AT/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Belgium" title="Belgium" code="BE">
+  <link>http://www.linksys.com/BE/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Denmark" title="Denmark" code="DK">
+    <link>http://www.linksys.com/DK/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Finland" title="Finland" code="FI">
+    <link>http://www.linksys.com/FI/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="France" title="France" code="FR">
+    <link>http://www.linksys.com/FR/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Germany" title="Germany" code="DE">
+    <link>http://www.linksys.com/DE/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Iceland" title="Iceland" code="IS">
+    <link>http://www.linksys.com/IS/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Ireland" title="Ireland" code="IE">
+    <link>http://www.linksys.com/IE/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Italy" title="Italy" code="IT">
+    <link>http://www.linksys.com/IT/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Malta" title="Malta" code="">
+    <link>http://www.linksys.eu/</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Netherlands" title="Netherlands" code="NL">
+    <link>http://www.linksys.com/NL/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Norway" title="Norway" code="NO">
+    <link >http://www.linksys.com/NO/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record  id="Portugal" title="Portugal" code="PT">
+    <link>http://www.linksys.com/PT/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Spain" title="Spain" code="ES">
+    <link>http://www.linksys.com/ES/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Sweden" title="Sweden" code="SE">
+    <link>http://www.linksys.com/SE/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Switzerland" title="Switzerland" code="CH">
+    <link>http://www.linksys.com/CH/support</link>
+    <keywords>europe</keywords>
+    </record>
+  <record id="SerbiaMontenegro" title="Serbia and Montenegro" code="CS">
+    <link>http://www.linksys.com/CS/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="Turkey" title="Turkey" code="TR">
+    <link>http://www.linksys.com/TR/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="UK" title="UK" code="UK">
+    <link>http://www.linksys.com/UK/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record id="CzechRepublic" title="Czech Republic" code="CZ">
+    <link>http://www.linksys.com/CZ/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Estonia" title="Estonia" code="EE">
+    <link>http://www.linksys.com/EE/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Latvia" title="Latvia" code="LV">
+    <link>http://www.linksys.com/LV/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Lithuania" title="Lithuania" code="LT">
+    <link>http://www.linksys.com/LT/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Macedonia" title="Macedonia" code="MK">
+    <link>http://www.linksys.com/MK/support</link>
+    <keywords>europe</keywords>
+  </record>
+  <record  id="Poland" title="Poland" code="PL">
+    <link>http://www.linksys.com/PL/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record  id="Romania" title="Romania" code="RO">
+    <link>http://www.linksys.com/RO/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Russia" title="Russia" code="RU">
+    <link>http://www.linksys.com/RU/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="SlovakRepublic" title="Slovak Republic" code="SK">
+    <link>http://www.linksys.com/SK/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Slovenia" title="Slovenia" code="SI">
+    <link>http://www.linksys.com/SI/support</link>
+    <keywords>eeurope</keywords>
+  </record>
+  <record id="Algeria" title="Algeria (Arabic)" code="DZar">
+    <link>http://www.linksys.com/DZar/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Algeria" title="Algeria (English)" code="DZen">
+    <link>http://www.linksys.com/DZen/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Egypt" title="Egypt (Arabic)" code="EGar">
+    <link>http://www.linksys.com/EGar/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Egypt" title="Egypt (English)" code="EGen">
+    <link>http://www.linksys.com/EGen/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Kenya" title="Kenya" code="KE">
+    <link>http://www.linksys.com/KE/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Tanzania" title="Tanzania" code="TZ">
+    <link>http://www.linksys.com/TZ/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Tunisia" title="Tunisia (Arabic)" code="TNar">
+    <link>http://www.linksys.com/TNar/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Tunisia" title="Tunisia (English)" code="TNen">
+    <link>http://www.linksys.com/TNen/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Morocco" title="Morocco (Arabic)" code="MAar">
+    <link>http://www.linksys.com/MAar/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Morocco" title="Morocco (English)" code="MAen">
+    <link>http://www.linksys.com/MAen/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Nigeria" title="Nigeria" code="NG">
+    <link>http://www.linksys.com/NG/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="SouthAfrica" title="South Africa" code="ZA">
+    <link>http://www.linksys.com/ZA/support</link>
+    <keywords>africa</keywords>
+  </record>
+  <record id="Philippines" title="Philippines" code="PH">
+    <link>http://www.linksys.com/PH/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Singapore" title="Singapore" code="SG">
+    <link>http://www.linksys.com/SG/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="China" title="China" code="CN">
+    <link>http://www.linksys.com/CN/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="HongKong" title="Hong Kong" code="HK">
+    <link>http://www.linksys.com/HK/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Thailand" title="Thailand" code="TH">
+    <link>http://www.linksys.com/TH/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Korea" title="Korea" code="KR">
+    <link>http://www.linksys.com/KR/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Malaysia" title="Malaysia" code="MY">
+    <link>http://www.linksys.com/MY/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="India" title="India" code="IN">
+    <link>http://www.linksys.com/IN/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Indonesia" title="Indonesia" code="ID">
+    <link>http://www.linksys.com/ID/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Vietnam" title="Vietnam" code="VN">
+    <link>http://www.linksys.com/VN/support</link>
+    <keywords>asia</keywords>
+  </record>
+  <record id="Australia" title="Australia" code="AU">
+    <link>http://www.linksys.com/AU/support</link>
+    <keywords>pacific</keywords>
+  </record>
+  <record id="NewZealand" title="New Zealand" code="NZ">
+    <link>http://www.linksys.com/NZ/support</link>
+    <keywords>pacific</keywords>
+  </record>
+  <record id="Bahrain" title="Bahrain (Arabic)" code="BHar">
+    <link>http://www.linksys.com/BHar/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Bahrain" title="Bahrain (English)" code="BHen">
+    <link>http://www.linksys.com/BHen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Jordan" title="Jordan (Arabic)" code="JOar">
+    <link>http://www.linksys.com/JOar/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Jordan" title="Jordan (English)" code="JOen">
+    <link>http://www.linksys.com/JOen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Kuwait" title="Kuwait (Arabic)" code="KWar">
+    <link>http://www.linksys.com/KWar/support</link>
+    <keywords>middle</keywords>
+  </record>
+ <record id="Kuwait" title="Kuwait (English)" code="KWen">
+    <link>http://www.linksys.com/KWen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Lebanon" title="Lebanon (Arabic)" code="LBar">
+    <link>http://www.linksys.com/LBar/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Lebanon" title="Lebanon (English)" code="LBen">
+    <link>http://www.linksys.com/LBen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Oman" title="Oman (Arabic)" code="OMar">
+    <link>http://www.linksys.com/OMar/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record  id="Oman" title="Oman (English)" code="OMen">
+    <link>http://www.linksys.com/OMen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Qatar" title="Qatar (Arabic)" code="QAar">
+    <link>http://www.linksys.com/QAar/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="Qatar" title="Qatar (English)" code="QAen">
+    <link>http://www.linksys.com/QAen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="SaudiArabia" title="Saudi Arabia (Arabic)" code="SAar">
+    <link>http://www.linksys.com/SAar/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="SaudiArabia"  title="Saudi Arabia (English)" code="SAen">
+    <link>http://www.linksys.com/SAen/support</link>
+    <keywords>middle</keywords>
+  </record>
+  <record id="UAE" title="UAE (Arabic)" code="AEar">
+    <link>http://www.linksys.com/AEar/support</link>
+    <keywords>middle</keywords>
+  </record>
+<record id="UAE" title="UAE (English)" code="AEen">
+    <link>http://www.linksys.com/AEen/support</link>
+    <keywords>middle</keywords>
+  </record>
+<record id="Ethiopia" title="Ethiopia" code="ET">
+    <link>http://www.linksys.com/ET/support</link>
+    <keywords>africa</keywords>
+  </record>
+<record id="Ghana" title="Ghana" code="GH">
+    <link>http://www.linksys.com/GH/support</link>
+    <keywords>africa</keywords>
+  </record>
+<record id="Namibia" title="Namibia" code="NA">
+    <link>http://www.linksys.com/NA/support</link>
+    <keywords>africa</keywords>
+  </record>
+<record id="Pakistan" title="Pakistan" code="PK">
+    <link>http://www.linksys.com/PK/support</link>
+    <keywords>asia</keywords>
+  </record>
+<record id="Seychelles" title="Seychelles" code="SC">
+    <link>http://www.linksys.com/SC/support</link>
+    <keywords>africa</keywords>
+  </record>
+<record id="Cameroon" title="Cameroon" code="CM">
+    <link>http://www.linksys.com/CM/support</link>
+    <keywords>africa</keywords>
+  </record>
+<record id="Mauritius" title="Mauritius" code="MU">
+    <link>http://www.linksys.com/MU/support</link>
+    <keywords>africa</keywords>
+  </record>
+</database>
+
+

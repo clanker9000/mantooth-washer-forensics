@@ -1,0 +1,2520 @@
+[SetupAPI Log]
+OS Version = 5.1.2600 
+Platform ID = 2 (NT)
+Service Pack = 0.0
+Suite = 0x0000
+Product Type = 1
+Architecture = x86
+[2007/07/24 18:57:57 308.10]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "1394" {6BDD1FC1-810F-11D0-BEC7-08002BE2092F}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:58 308.12]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "1394Debug" {66f250d6-7801-4a64-b139-eea80a450b24}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:58 308.13]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "61883" {7EBEFBC0-3200-11d2-B4C2-00A0C9697D07}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:58 308.14]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Avc" {C06FF265-AE09-48f0-812C-16753D7CBA83}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:58 308.15]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Battery" {72631e54-78a4-11d0-bcf7-00aa00b7b32a}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:58 308.17]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "CDROM" {4D36E965-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:58 308.19]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Processor" {50127DC3-0F36-415e-A6CC-4CB3BE910B65}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:59 308.20]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Enum1394" {C459DF55-DB08-11d1-B009-00A0C9081FF6}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:59 308.21]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "MTD" {4D36E970-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:59 308.22]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "DiskDrive" {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:59 308.24]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Display" {4D36E968-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:59 308.25]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Dot4" {48721b56-6795-11d2-b1a8-0080c72e74a2}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:57:59 308.26]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Dot4Print" {49ce6ac8-6f86-11d2-b1e5-0080c72e74a2}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.27]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "fdc" {4D36E969-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.28]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "FloppyDisk" {4D36E980-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.29]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "PnpPrinters" {4658ee7e-f050-11d1-b6bd-00c04fa372a7}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.30]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Computer" {4D36E966-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.31]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "HIDClass" {745a17a0-74d3-11d0-b6fe-00a0c90f57da}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.32]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Keyboard" {4D36E96B-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:00 308.33]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "LegacyDriver" {8ECC055D-047F-11D1-A537-0000F8753ED1}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.34]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "System" {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.35]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "MediumChanger" {CE5939AE-EBDE-11d0-B181-0000F8753EC4}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.37]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Modem" {4D36E96D-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.38]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "MultiFunction" {4d36e971-e325-11ce-bfc1-08002be10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.39]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Monitor" {4d36e96e-e325-11ce-bfc1-08002be10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.40]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "hdc" {4D36E96A-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:01 308.41]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Mouse" {4D36E96F-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:02 308.42]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Ports" {4D36E978-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:02 308.43]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "MultiPortSerial" {50906CB8-BA12-11D1-BF5D-0000F805F530}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:02 308.45]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "NtApm" {d45b1c18-c8fa-11d1-9f77-0000f805f530}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:02 308.46]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Net" {4d36e972-e325-11ce-bfc1-08002be10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:02 308.47]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Infrared" {6bdd1fc5-810f-11d0-BEC7-08002BE2092F}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:03 308.50]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Printer" {4D36E979-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:03 308.51]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "PCMCIA" {4d36e977-e325-11ce-bfc1-08002be10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:03 308.52]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "SCSIAdapter" {4D36E97B-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:04 308.53]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "SBP2" {d48179be-ec20-11d1-b6b8-00c04fa372a7}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:04 308.54]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "SCSIAdapter" {4D36E97B-E325-11CE-BFC1-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:04 308.55]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "SmartCardReader" {50DD5230-BA8A-11D1-BF5D-0000F805F530}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:04 308.56]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Image" {6bdd1fc6-810f-11d0-bec7-08002be2092f}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:05 308.57]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "TapeDrive" {6D807884-7D21-11CF-801C-08002BE10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:05 308.58]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "USB" {36FC9E60-C465-11CF-8056-444553540000}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:05 308.59]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "MEDIA" {4d36e96c-e325-11ce-bfc1-08002be10318}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:05 308.60]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "Volume" {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:05 308.61]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "VolumeSnapshot" {533C5B84-EC70-11d2-9505-00C04F79DEAF}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:58:05 308.62]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I140 Installing device class: "WCEUSBS" {25dbce51-6c8f-4a72-8a6d-b54c2b4fc835}.
+#I141 Class install completed with no errors.
+[2007/07/24 18:59:04 308.782]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I393 Modified INF cache "C:\WINDOWS\inf\INFCACHE.1".
+[2007/07/24 18:59:04 308.906 Driver Install]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "ROOT\LEGACY_KSECDD\0000".
+#W100 Query-removal during install of "ROOT\LEGACY_KSECDD\0000" was vetoed by "Root\LEGACY_KSECDD\0000" (veto type 1: PNP_VetoLegacyDevice).
+#W104 Device "ROOT\LEGACY_KSECDD\0000" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ROOT\LEGACY_KSECDD\0000" finished successfully.
+[2007/07/24 18:59:05 308.908 Driver Install]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "ROOT\LEGACY_MOUNTMGR\0000".
+#W100 Query-removal during install of "ROOT\LEGACY_MOUNTMGR\0000" was vetoed by "Root\LEGACY_MOUNTMGR\0000" (veto type 1: PNP_VetoLegacyDevice).
+#W104 Device "ROOT\LEGACY_MOUNTMGR\0000" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ROOT\LEGACY_MOUNTMGR\0000" finished successfully.
+[2007/07/24 18:59:05 308.910 Driver Install]
+#-019 Searching for hardware ID(s): root\ftdisk
+#-018 Searching for compatible ID(s): detectedinternal\ftdisk,detected\ftdisk
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "Root\FTDISK" in C:\WINDOWS\inf\machine.inf; Device: "Volume Manager"; Driver: "Volume Manager"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "FTDISK_DRV".
+#I023 Actual install section: [FTDISK_DRV]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [FTDISK_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\FTDISK\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [FTDISK_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\FTDISK\0000".
+#W102 Device "ROOT\FTDISK\0000" required reboot: "Reboot" in section: [FTDISK_DRV].
+#I121 Device install of "ROOT\FTDISK\0000" finished successfully.
+[2007/07/24 18:59:08 308.914 Driver Install]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "ROOT\LEGACY_DMLOAD\0000".
+#W100 Query-removal during install of "ROOT\LEGACY_DMLOAD\0000" was vetoed by "Root\LEGACY_DMLOAD\0000" (veto type 1: PNP_VetoLegacyDevice).
+#W104 Device "ROOT\LEGACY_DMLOAD\0000" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ROOT\LEGACY_DMLOAD\0000" finished successfully.
+[2007/07/24 18:59:08 308.916 Driver Install]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "ROOT\LEGACY_DMBOOT\0000".
+#W100 Query-removal during install of "ROOT\LEGACY_DMBOOT\0000" was vetoed by "Root\LEGACY_DMBOOT\0000" (veto type 1: PNP_VetoLegacyDevice).
+#W104 Device "ROOT\LEGACY_DMBOOT\0000" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ROOT\LEGACY_DMBOOT\0000" finished successfully.
+[2007/07/24 18:59:09 308.918 Driver Install]
+#-019 Searching for hardware ID(s): root\swenum
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ROOT\SWENUM" in C:\WINDOWS\inf\machine.inf; Device: "Plug and Play Software Device Enumerator"; Driver: "Plug and Play Software Device Enumerator"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "SWENUM".
+#I023 Actual install section: [SWENUM]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [SWENUM] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\SYSTEM\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [SWENUM.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\SYSTEM\0000".
+#I121 Device install of "ROOT\SYSTEM\0000" finished successfully.
+[2007/07/24 18:59:10 308.922 Driver Install]
+#-019 Searching for hardware ID(s): root\update
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ROOT\UPDATE" in C:\WINDOWS\inf\machine.inf; Device: "Microcode Update Device"; Driver: "Microcode Update Device"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "UPDATE_DRV".
+#I023 Actual install section: [UPDATE_DRV]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [UPDATE_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\SYSTEM\0001".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [UPDATE_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\SYSTEM\0001".
+#I121 Device install of "ROOT\SYSTEM\0001" finished successfully.
+[2007/07/24 18:59:11 308.926 Driver Install]
+#-019 Searching for hardware ID(s): root\dmio
+#-018 Searching for compatible ID(s): detectedinternal\dmio,detected\dmio
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "Root\DMIO" in C:\WINDOWS\inf\machine.inf; Device: "Logical Disk Manager"; Driver: "Logical Disk Manager"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "DMIO_DRV".
+#I023 Actual install section: [DMIO_DRV]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [DMIO_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\DMIO\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [DMIO_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\DMIO\0000".
+#W100 Query-removal during install of "ROOT\DMIO\0000" was vetoed by "Root\dmio\0000" (veto type 6: PNP_VetoDevice).
+#W104 Device "ROOT\DMIO\0000" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ROOT\DMIO\0000" finished successfully.
+[2007/07/24 18:59:12 308.930 Driver Install]
+#-019 Searching for hardware ID(s): acpiapic_mp
+#-018 Searching for compatible ID(s): detectedinternal\acpi_hal,detected\acpi_hal
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ACPIAPIC_MP" in C:\WINDOWS\inf\hal.inf; Device: "Standard PC"; Driver: "Standard PC"; Provider: "Microsoft"; Mfg: "(Standard computers)"; Section name: "E_ISA_UP_HAL".
+#I023 Actual install section: [E_ISA_UP_HAL]. Rank: 0x00001000. Effective driver date: 07/01/2001.
+#I022 Found "ACPIAPIC_MP" in C:\WINDOWS\inf\hal.inf; Device: "Advanced Configuration and Power Interface (ACPI) PC"; Driver: "Advanced Configuration and Power Interface (ACPI) PC"; Provider: "Microsoft"; Mfg: "(Standard computers)"; Section name: "ACPIPIC_UP_HAL".
+#I023 Actual install section: [ACPIPIC_UP_HAL]. Rank: 0x00001000. Effective driver date: 07/01/2001.
+#I022 Found "ACPIAPIC_MP" in C:\WINDOWS\inf\hal.inf; Device: "ACPI Multiprocessor PC"; Driver: "ACPI Multiprocessor PC"; Provider: "Microsoft"; Mfg: "(Standard computers)"; Section name: "ACPIAPIC_MP_HAL".
+#I023 Actual install section: [ACPIAPIC_MP_HAL]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I022 Found "ACPIAPIC_MP" in C:\WINDOWS\inf\hal.inf; Device: "MPS Multiprocessor PC"; Driver: "MPS Multiprocessor PC"; Provider: "Microsoft"; Mfg: "(Standard computers)"; Section name: "MPS_MP_HAL".
+#I023 Actual install section: [MPS_MP_HAL]. Rank: 0x00001000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ACPIAPIC_MP_HAL] in "c:\windows\inf\hal.inf".
+#I320 Class GUID of device remains: {4D36E966-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\ACPI_HAL\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ACPIAPIC_MP_HAL.Interfaces] from "c:\windows\inf\hal.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\ACPI_HAL\0000".
+#W102 Device "ROOT\ACPI_HAL\0000" required reboot: "Reboot" in section: [ACPIAPIC_MP_HAL].
+#I121 Device install of "ROOT\ACPI_HAL\0000" finished successfully.
+[2007/07/24 18:59:13 308.934 Driver Install]
+#-019 Searching for hardware ID(s): storage\volume
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "STORAGE\Volume" in C:\WINDOWS\inf\volume.inf; Device: "Generic volume"; Driver: "Generic volume"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "volume_install".
+#I023 Actual install section: [volume_install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [volume_install] in "c:\windows\inf\volume.inf".
+#I320 Class GUID of device remains: {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "STORAGE\VOLUME\1&30A96598&0&SIGNATURE18BAD96AOFFSET7E00LENGTH4D9D6CC00".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [volume_install.Interfaces] from "c:\windows\inf\volume.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "STORAGE\VOLUME\1&30A96598&0&SIGNATURE18BAD96AOFFSET7E00LENGTH4D9D6CC00".
+#W100 Query-removal during install of "STORAGE\VOLUME\1&30A96598&0&SIGNATURE18BAD96AOFFSET7E00LENGTH4D9D6CC00" was vetoed by "STORAGE\Volume\1&30a96598&0&Signature18BAD96AOffset7E00Length4D9D6CC00" (veto type 6: PNP_VetoDevice).
+#W104 Device "STORAGE\VOLUME\1&30A96598&0&SIGNATURE18BAD96AOFFSET7E00LENGTH4D9D6CC00" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "STORAGE\VOLUME\1&30A96598&0&SIGNATURE18BAD96AOFFSET7E00LENGTH4D9D6CC00" finished successfully.
+[2007/07/24 18:59:14 308.938 Driver Install]
+#-019 Searching for hardware ID(s): acpi_hal\pnp0c08,*pnp0c08
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*pnp0c08" in C:\WINDOWS\inf\acpi.inf; Device: "Microsoft ACPI-Compliant System"; Driver: "Microsoft ACPI-Compliant System"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "ACPI_Inst".
+#I023 Actual install section: [ACPI_Inst.NT]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ACPI_Inst] in "c:\windows\inf\acpi.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI_HAL\PNP0C08\0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ACPI_Inst.NT.Interfaces] from "c:\windows\inf\acpi.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI_HAL\PNP0C08\0".
+#W102 Device "ACPI_HAL\PNP0C08\0" required reboot: "Reboot" in section: [ACPI_Inst.NT].
+#I121 Device install of "ACPI_HAL\PNP0C08\0" finished successfully.
+[2007/07/24 18:59:15 308.942 Driver Install]
+#-019 Searching for hardware ID(s): acpi\fixedbutton,*fixedbutton
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ACPI\FixedButton" in C:\WINDOWS\inf\machine.inf; Device: "ACPI Fixed Feature Button"; Driver: "ACPI Fixed Feature Button"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV".
+#I023 Actual install section: [NO_DRV]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\FIXEDBUTTON\2&DABA3FF&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\FIXEDBUTTON\2&DABA3FF&0".
+#W100 Query-removal during install of "ACPI\FIXEDBUTTON\2&DABA3FF&0" was vetoed by "ACPI\FixedButton\2&daba3ff&0" (veto type 6: PNP_VetoDevice).
+#W104 Device "ACPI\FIXEDBUTTON\2&DABA3FF&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ACPI\FIXEDBUTTON\2&DABA3FF&0" finished successfully.
+[2007/07/24 18:59:16 308.946 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0a03,*pnp0a03
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0A03" in C:\WINDOWS\inf\machine.inf; Device: "PCI bus"; Driver: "PCI bus"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "PCI_DRV_ROOT".
+#I023 Actual install section: [PCI_DRV_ROOT]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [PCI_DRV_ROOT] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0A03\1".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PCI_DRV_ROOT.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0A03\1".
+#I121 Device install of "ACPI\PNP0A03\1" finished successfully.
+[2007/07/24 18:59:17 308.950 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0c0c,*pnp0c0c
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0C0C" in C:\WINDOWS\inf\machine.inf; Device: "ACPI Power Button"; Driver: "ACPI Power Button"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV".
+#I023 Actual install section: [NO_DRV]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0C0C\2&DABA3FF&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0C0C\2&DABA3FF&0".
+#W100 Query-removal during install of "ACPI\PNP0C0C\2&DABA3FF&0" was vetoed by "ACPI\PNP0C0C\2&daba3ff&0" (veto type 6: PNP_VetoDevice).
+#W104 Device "ACPI\PNP0C0C\2&DABA3FF&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ACPI\PNP0C0C\2&DABA3FF&0" finished successfully.
+[2007/07/24 18:59:18 308.954 Driver Install]
+#-019 Searching for hardware ID(s): acpi\genuineintel_-_x86_family_15_model_3,*genuineintel_-_x86_family_15_model_3,acpi\genuineintel_-_x86_family_15,*genuineintel_-_x86_family_15,acpi\genuineintel_-_x86,*genuineintel_-_x86
+#-018 Searching for compatible ID(s): acpi\processor
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ACPI\Processor" in C:\WINDOWS\inf\cpu.inf; Device: "Processor"; Driver: "Processor"; Provider: "Microsoft"; Mfg: "(Standard processor types)"; Section name: "Processor_Inst".
+#I023 Actual install section: [Processor_Inst.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [Processor_Inst] in "c:\windows\inf\cpu.inf".
+#I320 Class GUID of device remains: {50127DC3-0F36-415E-A6CC-4CB3BE910B65}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\GENUINEINTEL_-_X86_FAMILY_15_MODEL_3\_0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Processor_Inst.NT.Interfaces] from "c:\windows\inf\cpu.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\GENUINEINTEL_-_X86_FAMILY_15_MODEL_3\_0".
+#I121 Device install of "ACPI\GENUINEINTEL_-_X86_FAMILY_15_MODEL_3\_0" finished successfully.
+[2007/07/24 18:59:19 308.958 Driver Install]
+#-019 Searching for hardware ID(s): acpi\genuineintel_-_x86_family_15_model_3,*genuineintel_-_x86_family_15_model_3,acpi\genuineintel_-_x86_family_15,*genuineintel_-_x86_family_15,acpi\genuineintel_-_x86,*genuineintel_-_x86
+#-018 Searching for compatible ID(s): acpi\processor
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ACPI\Processor" in C:\WINDOWS\inf\cpu.inf; Device: "Processor"; Driver: "Processor"; Provider: "Microsoft"; Mfg: "(Standard processor types)"; Section name: "Processor_Inst".
+#I023 Actual install section: [Processor_Inst.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [Processor_Inst] in "c:\windows\inf\cpu.inf".
+#I320 Class GUID of device remains: {50127DC3-0F36-415E-A6CC-4CB3BE910B65}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\GENUINEINTEL_-_X86_FAMILY_15_MODEL_3\_1".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Processor_Inst.NT.Interfaces] from "c:\windows\inf\cpu.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\GENUINEINTEL_-_X86_FAMILY_15_MODEL_3\_1".
+#I121 Device install of "ACPI\GENUINEINTEL_-_X86_FAMILY_15_MODEL_3\_1" finished successfully.
+[2007/07/24 18:59:20 308.962 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_2570&subsys_00000000&rev_02,pci\ven_8086&dev_2570&subsys_00000000,pci\ven_8086&dev_2570&rev_02,pci\ven_8086&dev_2570,pci\ven_8086&dev_2570&cc_060000,pci\ven_8086&dev_2570&cc_0600
+#-018 Searching for compatible ID(s): pci\ven_8086&cc_060000,pci\ven_8086&cc_0600,pci\ven_8086,pci\cc_060000,pci\cc_0600
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0600" in C:\WINDOWS\inf\machine.inf; Device: "PCI standard host CPU bridge"; Driver: "PCI standard host CPU bridge"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV".
+#I023 Actual install section: [NO_DRV]. Rank: 0x00002004. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_2570&SUBSYS_00000000&REV_02\3&13C0B0C5&0&00".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_2570&SUBSYS_00000000&REV_02\3&13C0B0C5&0&00".
+#I121 Device install of "PCI\VEN_8086&DEV_2570&SUBSYS_00000000&REV_02\3&13C0B0C5&0&00" finished successfully.
+[2007/07/24 18:59:20 308.966 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24de&subsys_78801462&rev_02,pci\ven_8086&dev_24de&subsys_78801462,pci\ven_8086&dev_24de&cc_0c0300,pci\ven_8086&dev_24de&cc_0c03
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24de&rev_02,pci\ven_8086&dev_24de,pci\ven_8086&cc_0c0300,pci\ven_8086&cc_0c03,pci\ven_8086,pci\cc_0c0300,pci\cc_0c03
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0C0300" in C:\WINDOWS\inf\usbport.inf; Device: "Standard Universal PCI to USB Host Controller"; Driver: "Standard Universal PCI to USB Host Controller"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "UHCI.Dev".
+#I023 Actual install section: [UHCI.Dev.NT]. Rank: 0x00002005. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [UHCI.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_24DE&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EB".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [UHCI.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_24DE&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EB".
+#I121 Device install of "PCI\VEN_8086&DEV_24DE&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EB" finished successfully.
+[2007/07/24 18:59:26 308.970 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24dd&subsys_78801462&rev_02,pci\ven_8086&dev_24dd&subsys_78801462,pci\ven_8086&dev_24dd&cc_0c0320,pci\ven_8086&dev_24dd&cc_0c03
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24dd&rev_02,pci\ven_8086&dev_24dd,pci\ven_8086&cc_0c0320,pci\ven_8086&cc_0c03,pci\ven_8086,pci\cc_0c0320,pci\cc_0c03
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_8086&DEV_24DD&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EF".
+#E122 Device install failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#E157 Default installer failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_8086&DEV_24DD&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EF".
+#I121 Device install of "PCI\VEN_8086&DEV_24DD&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EF" finished successfully.
+[2007/07/24 18:59:26 308.972 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24db&subsys_78801462&rev_02,pci\ven_8086&dev_24db&subsys_78801462,pci\ven_8086&dev_24db&cc_01018a,pci\ven_8086&dev_24db&cc_0101
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24db&rev_02,pci\ven_8086&dev_24db,pci\ven_8086&cc_01018a,pci\ven_8086&cc_0101,pci\ven_8086,pci\cc_01018a,pci\cc_0101
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0101" in C:\WINDOWS\inf\mshdc.inf; Device: "Standard Dual Channel PCI IDE Controller"; Driver: "Standard Dual Channel PCI IDE Controller"; Provider: "Microsoft"; Mfg: "(Standard IDE ATA/ATAPI controllers)"; Section name: "pciide_Inst".
+#I023 Actual install section: [pciide_Inst]. Rank: 0x00003006. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [pciide_Inst] in "c:\windows\inf\mshdc.inf".
+#I320 Class GUID of device remains: {4D36E96A-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_24DB&SUBSYS_78801462&REV_02\3&13C0B0C5&0&F9".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [pciide_Inst.Interfaces] from "c:\windows\inf\mshdc.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_24DB&SUBSYS_78801462&REV_02\3&13C0B0C5&0&F9".
+#W100 Query-removal during install of "PCI\VEN_8086&DEV_24DB&SUBSYS_78801462&REV_02\3&13C0B0C5&0&F9" was vetoed by "IDE\DiskMaxtor_6E020L0__________________________NAR61EA0\31454654364d454a202020202020202020202020" (veto type 6: PNP_VetoDevice).
+#W104 Device "PCI\VEN_8086&DEV_24DB&SUBSYS_78801462&REV_02\3&13C0B0C5&0&F9" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "PCI\VEN_8086&DEV_24DB&SUBSYS_78801462&REV_02\3&13C0B0C5&0&F9" finished successfully.
+[2007/07/24 18:59:27 308.976 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24d7&subsys_78801462&rev_02,pci\ven_8086&dev_24d7&subsys_78801462,pci\ven_8086&dev_24d7&cc_0c0300,pci\ven_8086&dev_24d7&cc_0c03
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24d7&rev_02,pci\ven_8086&dev_24d7,pci\ven_8086&cc_0c0300,pci\ven_8086&cc_0c03,pci\ven_8086,pci\cc_0c0300,pci\cc_0c03
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0C0300" in C:\WINDOWS\inf\usbport.inf; Device: "Standard Universal PCI to USB Host Controller"; Driver: "Standard Universal PCI to USB Host Controller"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "UHCI.Dev".
+#I023 Actual install section: [UHCI.Dev.NT]. Rank: 0x00002005. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [UHCI.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_24D7&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EA".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [UHCI.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_24D7&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EA".
+#I121 Device install of "PCI\VEN_8086&DEV_24D7&SUBSYS_78801462&REV_02\3&13C0B0C5&0&EA" finished successfully.
+[2007/07/24 18:59:30 308.980 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24d5&subsys_00801462&rev_02,pci\ven_8086&dev_24d5&subsys_00801462,pci\ven_8086&dev_24d5&cc_040100,pci\ven_8086&dev_24d5&cc_0401
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24d5&rev_02,pci\ven_8086&dev_24d5,pci\ven_8086&cc_040100,pci\ven_8086&cc_0401,pci\ven_8086,pci\cc_040100,pci\cc_0401
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_8086&DEV_24D5&SUBSYS_00801462&REV_02\3&13C0B0C5&0&FD".
+#E122 Device install failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#E157 Default installer failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_8086&DEV_24D5&SUBSYS_00801462&REV_02\3&13C0B0C5&0&FD".
+#I121 Device install of "PCI\VEN_8086&DEV_24D5&SUBSYS_00801462&REV_02\3&13C0B0C5&0&FD" finished successfully.
+[2007/07/24 18:59:30 308.982 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24d4&subsys_78801462&rev_02,pci\ven_8086&dev_24d4&subsys_78801462,pci\ven_8086&dev_24d4&cc_0c0300,pci\ven_8086&dev_24d4&cc_0c03
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24d4&rev_02,pci\ven_8086&dev_24d4,pci\ven_8086&cc_0c0300,pci\ven_8086&cc_0c03,pci\ven_8086,pci\cc_0c0300,pci\cc_0c03
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0C0300" in C:\WINDOWS\inf\usbport.inf; Device: "Standard Universal PCI to USB Host Controller"; Driver: "Standard Universal PCI to USB Host Controller"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "UHCI.Dev".
+#I023 Actual install section: [UHCI.Dev.NT]. Rank: 0x00002005. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [UHCI.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_24D4&SUBSYS_78801462&REV_02\3&13C0B0C5&0&E9".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [UHCI.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_24D4&SUBSYS_78801462&REV_02\3&13C0B0C5&0&E9".
+#I121 Device install of "PCI\VEN_8086&DEV_24D4&SUBSYS_78801462&REV_02\3&13C0B0C5&0&E9" finished successfully.
+[2007/07/24 18:59:32 308.986 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24d3&subsys_78801462&rev_02,pci\ven_8086&dev_24d3&subsys_78801462,pci\ven_8086&dev_24d3&cc_0c0500,pci\ven_8086&dev_24d3&cc_0c05
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24d3&rev_02,pci\ven_8086&dev_24d3,pci\ven_8086&cc_0c0500,pci\ven_8086&cc_0c05,pci\ven_8086,pci\cc_0c0500,pci\cc_0c05
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_8086&DEV_24D3&SUBSYS_78801462&REV_02\3&13C0B0C5&0&FB".
+#E122 Device install failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#E157 Default installer failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_8086&DEV_24D3&SUBSYS_78801462&REV_02\3&13C0B0C5&0&FB".
+#I121 Device install of "PCI\VEN_8086&DEV_24D3&SUBSYS_78801462&REV_02\3&13C0B0C5&0&FB" finished successfully.
+[2007/07/24 18:59:33 308.988 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24d2&subsys_78801462&rev_02,pci\ven_8086&dev_24d2&subsys_78801462,pci\ven_8086&dev_24d2&cc_0c0300,pci\ven_8086&dev_24d2&cc_0c03
+#-018 Searching for compatible ID(s): pci\ven_8086&dev_24d2&rev_02,pci\ven_8086&dev_24d2,pci\ven_8086&cc_0c0300,pci\ven_8086&cc_0c03,pci\ven_8086,pci\cc_0c0300,pci\cc_0c03
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0C0300" in C:\WINDOWS\inf\usbport.inf; Device: "Standard Universal PCI to USB Host Controller"; Driver: "Standard Universal PCI to USB Host Controller"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "UHCI.Dev".
+#I023 Actual install section: [UHCI.Dev.NT]. Rank: 0x00002005. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [UHCI.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_24D2&SUBSYS_78801462&REV_02\3&13C0B0C5&0&E8".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [UHCI.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_24D2&SUBSYS_78801462&REV_02\3&13C0B0C5&0&E8".
+#I121 Device install of "PCI\VEN_8086&DEV_24D2&SUBSYS_78801462&REV_02\3&13C0B0C5&0&E8" finished successfully.
+[2007/07/24 18:59:35 308.992 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_24d0&subsys_00000000&rev_02,pci\ven_8086&dev_24d0&subsys_00000000,pci\ven_8086&dev_24d0&rev_02,pci\ven_8086&dev_24d0,pci\ven_8086&dev_24d0&cc_060100,pci\ven_8086&dev_24d0&cc_0601
+#-018 Searching for compatible ID(s): pci\ven_8086&cc_060100,pci\ven_8086&cc_0601,pci\ven_8086,pci\cc_060100,pci\cc_0601
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0601" in C:\WINDOWS\inf\machine.inf; Device: "PCI standard ISA bridge"; Driver: "PCI standard ISA bridge"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "ISAPNP_DRV".
+#I023 Actual install section: [ISAPNP_DRV]. Rank: 0x00002004. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ISAPNP_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_24D0&SUBSYS_00000000&REV_02\3&13C0B0C5&0&F8".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ISAPNP_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_24D0&SUBSYS_00000000&REV_02\3&13C0B0C5&0&F8".
+#W100 Query-removal during install of "PCI\VEN_8086&DEV_24D0&SUBSYS_00000000&REV_02\3&13C0B0C5&0&F8" was vetoed by "ACPI\PNP0303\4&26dd0f47&0" (veto type 6: PNP_VetoDevice).
+#W104 Device "PCI\VEN_8086&DEV_24D0&SUBSYS_00000000&REV_02\3&13C0B0C5&0&F8" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "PCI\VEN_8086&DEV_24D0&SUBSYS_00000000&REV_02\3&13C0B0C5&0&F8" finished successfully.
+[2007/07/24 18:59:36 308.996 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_244e&subsys_00000000&rev_c2,pci\ven_8086&dev_244e&subsys_00000000,pci\ven_8086&dev_244e&rev_c2,pci\ven_8086&dev_244e,pci\ven_8086&dev_244e&cc_060400,pci\ven_8086&dev_244e&cc_0604
+#-018 Searching for compatible ID(s): pci\ven_8086&cc_060400,pci\ven_8086&cc_0604,pci\ven_8086,pci\cc_060400,pci\cc_0604
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0604" in C:\WINDOWS\inf\machine.inf; Device: "PCI standard PCI-to-PCI bridge"; Driver: "PCI standard PCI-to-PCI bridge"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "PCI_DRV".
+#I023 Actual install section: [PCI_DRV]. Rank: 0x00002004. Effective driver date: 07/01/2001.
+#I022 Found "PCI\VEN_8086&DEV_244E" in C:\WINDOWS\inf\machine.inf; Device: "Intel(R) 82801BA/CA PCI Bridge - 244E"; Driver: "Intel(R) 82801BA/CA PCI Bridge - 244E"; Provider: "Microsoft"; Mfg: "Intel"; Section name: "PCI_DRV".
+#I023 Actual install section: [PCI_DRV]. Rank: 0x00000003. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [PCI_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_244E&SUBSYS_00000000&REV_C2\3&13C0B0C5&0&F0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PCI_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_244E&SUBSYS_00000000&REV_C2\3&13C0B0C5&0&F0".
+#I121 Device install of "PCI\VEN_8086&DEV_244E&SUBSYS_00000000&REV_C2\3&13C0B0C5&0&F0" finished successfully.
+[2007/07/24 18:59:37 308.1000 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_8086&dev_2571&subsys_00000000&rev_02,pci\ven_8086&dev_2571&subsys_00000000,pci\ven_8086&dev_2571&rev_02,pci\ven_8086&dev_2571,pci\ven_8086&dev_2571&cc_060400,pci\ven_8086&dev_2571&cc_0604
+#-018 Searching for compatible ID(s): pci\ven_8086&cc_060400,pci\ven_8086&cc_0604,pci\ven_8086,pci\cc_060400,pci\cc_0604
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\CC_0604" in C:\WINDOWS\inf\machine.inf; Device: "PCI standard PCI-to-PCI bridge"; Driver: "PCI standard PCI-to-PCI bridge"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "PCI_DRV".
+#I023 Actual install section: [PCI_DRV]. Rank: 0x00002004. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [PCI_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_8086&DEV_2571&SUBSYS_00000000&REV_02\3&13C0B0C5&0&08".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PCI_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_8086&DEV_2571&SUBSYS_00000000&REV_02\3&13C0B0C5&0&08".
+#I121 Device install of "PCI\VEN_8086&DEV_2571&SUBSYS_00000000&REV_02\3&13C0B0C5&0&08" finished successfully.
+[2007/07/24 18:59:38 308.1004 Driver Install]
+#-019 Searching for hardware ID(s): usb\root_hub&vid8086&pid24d2&rev0002,usb\root_hub&vid8086&pid24d2,usb\root_hub
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "USB\ROOT_HUB" in C:\WINDOWS\inf\usbport.inf; Device: "USB Root Hub"; Driver: "USB Root Hub"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "ROOTHUB.Dev".
+#I023 Actual install section: [ROOTHUB.Dev.NT]. Rank: 0x00000002. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ROOTHUB.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "USB\ROOT_HUB\4&22481EDD&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ROOTHUB.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\ROOT_HUB\4&22481EDD&0".
+#I121 Device install of "USB\ROOT_HUB\4&22481EDD&0" finished successfully.
+[2007/07/24 18:59:40 308.1008 Driver Install]
+#-019 Searching for hardware ID(s): isapnp\readdataport
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ISAPNP\ReadDataPort" in C:\WINDOWS\inf\machine.inf; Device: "ISAPNP Read Data Port"; Driver: "ISAPNP Read Data Port"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV".
+#I023 Actual install section: [NO_DRV]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ISAPNP\READDATAPORT\0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ISAPNP\READDATAPORT\0".
+#I121 Device install of "ISAPNP\READDATAPORT\0" finished successfully.
+[2007/07/24 18:59:41 308.1012 Driver Install]
+#-019 Searching for hardware ID(s): usb\root_hub&vid8086&pid24de&rev0002,usb\root_hub&vid8086&pid24de,usb\root_hub
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "USB\ROOT_HUB" in C:\WINDOWS\inf\usbport.inf; Device: "USB Root Hub"; Driver: "USB Root Hub"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "ROOTHUB.Dev".
+#I023 Actual install section: [ROOTHUB.Dev.NT]. Rank: 0x00000002. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ROOTHUB.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "USB\ROOT_HUB\4&31714C48&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ROOTHUB.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\ROOT_HUB\4&31714C48&0".
+#I121 Device install of "USB\ROOT_HUB\4&31714C48&0" finished successfully.
+[2007/07/24 18:59:45 308.1016 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0800,*pnp0800
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0800" in C:\WINDOWS\inf\machine.inf; Device: "System speaker"; Driver: "System speaker"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_X".
+#I023 Actual install section: [NO_DRV_X]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_X] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0800\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_X.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0800\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0800\4&26DD0F47&0" finished successfully.
+[2007/07/24 18:59:45 308.1020 Driver Install]
+#-019 Searching for hardware ID(s): usb\root_hub&vid8086&pid24d4&rev0002,usb\root_hub&vid8086&pid24d4,usb\root_hub
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "USB\ROOT_HUB" in C:\WINDOWS\inf\usbport.inf; Device: "USB Root Hub"; Driver: "USB Root Hub"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "ROOTHUB.Dev".
+#I023 Actual install section: [ROOTHUB.Dev.NT]. Rank: 0x00000002. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ROOTHUB.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "USB\ROOT_HUB\4&28EA0B8A&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ROOTHUB.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\ROOT_HUB\4&28EA0B8A&0".
+#I121 Device install of "USB\ROOT_HUB\4&28EA0B8A&0" finished successfully.
+[2007/07/24 18:59:47 308.1024 Driver Install]
+#-019 Searching for hardware ID(s): intel-24db,secondary_ide_channel,*pnp0600
+#-018 Searching for compatible ID(s): *pnp0600
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "Secondary_IDE_Channel" in C:\WINDOWS\inf\mshdc.inf; Device: "Secondary IDE Channel"; Driver: "Secondary IDE Channel"; Provider: "Microsoft"; Mfg: "(Standard IDE ATA/ATAPI controllers)"; Section name: "atapi_Inst_secondary".
+#I023 Actual install section: [atapi_Inst_secondary]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#I022 Found "*PNP0600" in C:\WINDOWS\inf\mshdc.inf; Device: "Standard IDE/ESDI Hard Disk Controller"; Driver: "Standard IDE/ESDI Hard Disk Controller"; Provider: "Microsoft"; Mfg: "(Standard IDE ATA/ATAPI controllers)"; Section name: "atapi_Inst".
+#I023 Actual install section: [atapi_Inst]. Rank: 0x00000002. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [atapi_Inst_secondary] in "c:\windows\inf\mshdc.inf".
+#I320 Class GUID of device remains: {4D36E96A-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&1".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [atapi_Inst_secondary.Interfaces] from "c:\windows\inf\mshdc.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&1".
+#W100 Query-removal during install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&1" was vetoed by "IDE\DiskMaxtor_6E020L0__________________________NAR61EA0\31454654364d454a202020202020202020202020" (veto type 6: PNP_VetoDevice).
+#W104 Device "PCIIDE\IDECHANNEL\4&2D711DAA&0&1" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&1" finished successfully.
+[2007/07/24 18:59:48 308.1028 Driver Install]
+#-019 Searching for hardware ID(s): usb\root_hub&vid8086&pid24d7&rev0002,usb\root_hub&vid8086&pid24d7,usb\root_hub
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "USB\ROOT_HUB" in C:\WINDOWS\inf\usbport.inf; Device: "USB Root Hub"; Driver: "USB Root Hub"; Provider: "Microsoft"; Mfg: "(Standard USB Host Controller)"; Section name: "ROOTHUB.Dev".
+#I023 Actual install section: [ROOTHUB.Dev.NT]. Rank: 0x00000002. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ROOTHUB.Dev] in "c:\windows\inf\usbport.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "USB\ROOT_HUB\4&30F8EEA4&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ROOTHUB.Dev.NT.Interfaces] from "c:\windows\inf\usbport.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\ROOT_HUB\4&30F8EEA4&0".
+#I121 Device install of "USB\ROOT_HUB\4&30F8EEA4&0" finished successfully.
+[2007/07/24 18:59:50 308.1032 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0f13,*pnp0f13
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0F13" in C:\WINDOWS\inf\msmouse.inf; Device: "PS/2 Compatible Mouse"; Driver: "PS/2 Compatible Mouse"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "PS2_Inst".
+#I023 Actual install section: [PS2_Inst]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [PS2_Inst] in "c:\windows\inf\msmouse.inf".
+#I320 Class GUID of device remains: {4D36E96F-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#I063 Selected driver installs from section [PS2_Inst] in "c:\windows\inf\msmouse.inf".
+#I320 Class GUID of device remains: {4D36E96F-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0F13\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PS2_Inst.Interfaces] from "c:\windows\inf\msmouse.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0F13\4&26DD0F47&0".
+#W100 Query-removal during install of "ACPI\PNP0F13\4&26DD0F47&0" was vetoed by "ACPI\PNP0F13\4&26dd0f47&0" (veto type 6: PNP_VetoDevice).
+#W104 Device "ACPI\PNP0F13\4&26DD0F47&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ACPI\PNP0F13\4&26DD0F47&0" finished successfully.
+[2007/07/24 18:59:52 308.1036 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_10de&dev_0322&subsys_00000000&rev_a1,pci\ven_10de&dev_0322&subsys_00000000,pci\ven_10de&dev_0322&rev_a1,pci\ven_10de&dev_0322,pci\ven_10de&dev_0322&cc_030000,pci\ven_10de&dev_0322&cc_0300
+#-018 Searching for compatible ID(s): pci\ven_10de&cc_030000,pci\ven_10de&cc_0300,pci\ven_10de,pci\cc_030000,pci\cc_0300
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_10DE&DEV_0322&SUBSYS_00000000&REV_A1\4&299CCBFA&0&0008".
+#E122 Device install failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#E157 Default installer failed. Error 0xe0000219: The installation failed because a function driver was not specified for this device instance.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "PCI\VEN_10DE&DEV_0322&SUBSYS_00000000&REV_A1\4&299CCBFA&0&0008".
+#I121 Device install of "PCI\VEN_10DE&DEV_0322&SUBSYS_00000000&REV_A1\4&299CCBFA&0&0008" finished successfully.
+[2007/07/24 18:59:52 308.1038 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0c04,*pnp0c04
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0C04" in C:\WINDOWS\inf\machine.inf; Device: "Numeric data processor"; Driver: "Numeric data processor"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_X".
+#I023 Actual install section: [NO_DRV_X]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_X] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0C04\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_X.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0C04\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0C04\4&26DD0F47&0" finished successfully.
+[2007/07/24 18:59:53 308.1042 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0c02,*pnp0c02
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0C02" in C:\WINDOWS\inf\machine.inf; Device: "Motherboard resources"; Driver: "Motherboard resources"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_MBRES".
+#I023 Actual install section: [NO_DRV_MBRES]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_MBRES] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0C02\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_MBRES.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0C02\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0C02\4&26DD0F47&0" finished successfully.
+[2007/07/24 18:59:54 308.1046 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0b00,*pnp0b00
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0B00" in C:\WINDOWS\inf\machine.inf; Device: "System CMOS/real time clock"; Driver: "System CMOS/real time clock"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_X".
+#I023 Actual install section: [NO_DRV_X]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_X] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0B00\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_X.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0B00\4&26DD0F47&0".
+#W100 Query-removal during install of "ACPI\PNP0B00\4&26DD0F47&0" was vetoed by "ACPI\PNP0B00\4&26dd0f47&0" (veto type 6: PNP_VetoDevice).
+#W104 Device "ACPI\PNP0B00\4&26DD0F47&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ACPI\PNP0B00\4&26DD0F47&0" finished successfully.
+[2007/07/24 18:59:55 308.1050 Driver Install]
+#-019 Searching for hardware ID(s): pci\ven_10ec&dev_8139&subsys_788c1462&rev_10,pci\ven_10ec&dev_8139&subsys_788c1462,pci\ven_10ec&dev_8139&cc_020000,pci\ven_10ec&dev_8139&cc_0200
+#-018 Searching for compatible ID(s): pci\ven_10ec&dev_8139&rev_10,pci\ven_10ec&dev_8139,pci\ven_10ec&cc_020000,pci\ven_10ec&cc_0200,pci\ven_10ec,pci\cc_020000,pci\cc_0200
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "PCI\VEN_10EC&DEV_8139" in C:\WINDOWS\inf\netrtsnt.inf; Device: "Realtek RTL8139 Family PCI Fast Ethernet NIC"; Driver: "Realtek RTL8139 Family PCI Fast Ethernet NIC"; Provider: "Microsoft"; Mfg: "Realtek"; Section name: "RTL8139.ndi".
+#I023 Actual install section: [RTL8139.ndi]. Rank: 0x00002001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [RTL8139.ndi] in "c:\windows\inf\netrtsnt.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCI\VEN_10EC&DEV_8139&SUBSYS_788C1462&REV_10\4&1F7DBC9F&0&58F0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [RTL8139.ndi.Interfaces] from "c:\windows\inf\netrtsnt.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCI\VEN_10EC&DEV_8139&SUBSYS_788C1462&REV_10\4&1F7DBC9F&0&58F0".
+#I121 Device install of "PCI\VEN_10EC&DEV_8139&SUBSYS_788C1462&REV_10\4&1F7DBC9F&0&58F0" finished successfully.
+[2007/07/24 18:59:57 308.1065]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "PCI\VEN_10EC&DEV_8139&SUBSYS_788C1462&REV_10\4&1F7DBC9F&0&58F0".
+#I306 DICS_START: Device has been started.
+[2007/07/24 18:59:57 308.1069 Driver Install]
+#-019 Searching for hardware ID(s): intel-24db,primary_ide_channel,*pnp0600
+#-018 Searching for compatible ID(s): *pnp0600
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "Primary_IDE_Channel" in C:\WINDOWS\inf\mshdc.inf; Device: "Primary IDE Channel"; Driver: "Primary IDE Channel"; Provider: "Microsoft"; Mfg: "(Standard IDE ATA/ATAPI controllers)"; Section name: "atapi_Inst_primary".
+#I023 Actual install section: [atapi_Inst_primary]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#I022 Found "*PNP0600" in C:\WINDOWS\inf\mshdc.inf; Device: "Standard IDE/ESDI Hard Disk Controller"; Driver: "Standard IDE/ESDI Hard Disk Controller"; Provider: "Microsoft"; Mfg: "(Standard IDE ATA/ATAPI controllers)"; Section name: "atapi_Inst".
+#I023 Actual install section: [atapi_Inst]. Rank: 0x00000002. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [atapi_Inst_primary] in "c:\windows\inf\mshdc.inf".
+#I320 Class GUID of device remains: {4D36E96A-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [atapi_Inst_primary.Interfaces] from "c:\windows\inf\mshdc.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&0".
+#W100 Query-removal during install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&0" was vetoed by "IDE\CdRomHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231b4a0c&0&0.1.0" (veto type 5: PNP_VetoOutstandingOpen).
+#W104 Device "PCIIDE\IDECHANNEL\4&2D711DAA&0&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "PCIIDE\IDECHANNEL\4&2D711DAA&0&0" finished successfully.
+[2007/07/24 18:59:58 308.1073 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0700,*pnp0700
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0700" in C:\WINDOWS\inf\fdc.inf; Device: "Standard floppy disk controller"; Driver: "Standard floppy disk controller"; Provider: "Microsoft"; Mfg: "(Standard floppy disk controllers)"; Section name: "fdc_install".
+#I023 Actual install section: [fdc_install.NT]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [fdc_install] in "c:\windows\inf\fdc.inf".
+#I320 Class GUID of device remains: {4D36E969-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0700\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [fdc_install.NT.Interfaces] from "c:\windows\inf\fdc.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0700\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0700\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:00 308.1077 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0501,*pnp0501
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0501" in C:\WINDOWS\inf\msports.inf; Device: "Communications Port"; Driver: "Communications Port"; Provider: "Microsoft"; Mfg: "(Standard port types)"; Section name: "ComPort".
+#I023 Actual install section: [ComPort.NT]. Rank: 0x00001001. Effective driver date: 07/01/2001.
+#I022 Found "*PNP0501" in C:\WINDOWS\inf\msports.inf; Device: "Communications Port"; Driver: "Communications Port"; Provider: "Microsoft"; Mfg: "(Standard port types)"; Section name: "ComPort".
+#I023 Actual install section: [ComPort.NT]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ComPort] in "c:\windows\inf\msports.inf".
+#I320 Class GUID of device remains: {4D36E978-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0501\1".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [ComPort.NT.Interfaces] from "c:\windows\inf\msports.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0501\1".
+#I121 Device install of "ACPI\PNP0501\1" finished successfully.
+[2007/07/24 19:00:01 308.1081 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0400,*pnp0400
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0400" in C:\WINDOWS\inf\msports.inf; Device: "Printer Port"; Driver: "Printer Port"; Provider: "Microsoft"; Mfg: "(Standard port types)"; Section name: "LptPort".
+#I023 Actual install section: [LptPort.NT]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [LptPort] in "c:\windows\inf\msports.inf".
+#I320 Class GUID of device remains: {4D36E978-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0400\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [LptPort.NT.Interfaces] from "c:\windows\inf\msports.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0400\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0400\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:02 308.1085 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0303,*pnp0303
+#-018 Searching for compatible ID(s): *pnp030b
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0303" in C:\WINDOWS\inf\keyboard.inf; Device: "Standard 101/102-Key or Microsoft Natural PS/2 Keyboard"; Driver: "Standard 101/102-Key or Microsoft Natural PS/2 Keyboard"; Provider: "Microsoft"; Mfg: "(Standard keyboards)"; Section name: "STANDARD_Inst".
+#I023 Actual install section: [STANDARD_Inst]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#I022 Found "*PNP030b" in C:\WINDOWS\inf\keyboard.inf; Device: "PC/AT Enhanced PS/2 Keyboard (101/102-Key)"; Driver: "PC/AT Enhanced PS/2 Keyboard (101/102-Key)"; Provider: "Microsoft"; Mfg: "(Standard keyboards)"; Section name: "STANDARD_Inst".
+#I023 Actual install section: [STANDARD_Inst]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [STANDARD_Inst] in "c:\windows\inf\keyboard.inf".
+#I320 Class GUID of device remains: {4D36E96B-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#I063 Selected driver installs from section [STANDARD_Inst] in "c:\windows\inf\keyboard.inf".
+#I320 Class GUID of device remains: {4D36E96B-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0303\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [STANDARD_Inst.Interfaces] from "c:\windows\inf\keyboard.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0303\4&26DD0F47&0".
+#W100 Query-removal during install of "ACPI\PNP0303\4&26DD0F47&0" was vetoed by "ACPI\PNP0303\4&26dd0f47&0" (veto type 6: PNP_VetoDevice).
+#W104 Device "ACPI\PNP0303\4&26DD0F47&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "ACPI\PNP0303\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:04 308.1089 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0200,*pnp0200
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0200" in C:\WINDOWS\inf\machine.inf; Device: "Direct memory access controller"; Driver: "Direct memory access controller"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_X".
+#I023 Actual install section: [NO_DRV_X]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_X] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0200\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_X.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0200\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0200\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:04 308.1093 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0100,*pnp0100
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0100" in C:\WINDOWS\inf\machine.inf; Device: "System timer"; Driver: "System timer"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_X".
+#I023 Actual install section: [NO_DRV_X]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_X] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0100\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_X.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0100\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0100\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:05 308.1097 Driver Install]
+#-019 Searching for hardware ID(s): acpi\pnp0000,*pnp0000
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0000" in C:\WINDOWS\inf\machine.inf; Device: "Programmable interrupt controller"; Driver: "Programmable interrupt controller"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV_PIC".
+#I023 Actual install section: [NO_DRV_PIC]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_PIC] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\PNP0000\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_PIC.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\PNP0000\4&26DD0F47&0".
+#I121 Device install of "ACPI\PNP0000\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:06 308.1101 Driver Install]
+#-019 Searching for hardware ID(s): acpi\int0800,*int0800
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*INT0800" in C:\WINDOWS\inf\machine.inf; Device: "Intel(r) 82802 Firmware Hub Device"; Driver: "Intel(r) 82802 Firmware Hub Device"; Provider: "Microsoft"; Mfg: "Intel"; Section name: "NO_DRV_MEM".
+#I023 Actual install section: [NO_DRV_MEM]. Rank: 0x00000001. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV_MEM] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ACPI\INT0800\4&26DD0F47&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV_MEM.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ACPI\INT0800\4&26DD0F47&0".
+#I121 Device install of "ACPI\INT0800\4&26DD0F47&0" finished successfully.
+[2007/07/24 19:00:07 308.1105 Driver Install]
+#-019 Searching for hardware ID(s): ide\cdromhl-dt-st_rw/dvd_gcc-4521b_______________1.00____,ide\hl-dt-st_rw/dvd_gcc-4521b_______________1.00____,ide\cdromhl-dt-st_rw/dvd_gcc-4521b_______________,hl-dt-st_rw/dvd_gcc-4521b_______________1.00____,gencdrom
+#-018 Searching for compatible ID(s): gencdrom
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "GenCdRom" in C:\WINDOWS\inf\cdrom.inf; Device: "CD-ROM Drive"; Driver: "CD-ROM Drive"; Provider: "Microsoft"; Mfg: "(Standard CD-ROM drives)"; Section name: "cdrom_install".
+#I023 Actual install section: [cdrom_install]. Rank: 0x00000004. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [cdrom_install] in "c:\windows\inf\cdrom.inf".
+#I320 Class GUID of device remains: {4D36E965-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [cdrom_install.Interfaces] from "c:\windows\inf\cdrom.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0".
+#W100 Query-removal during install of "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0" was vetoed by "IDE\CdRomHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231b4a0c&0&0.1.0" (veto type 5: PNP_VetoOutstandingOpen).
+#W104 Device "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0" finished successfully.
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0".
+#W003 Query-removal during property change of IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0 was vetoed by IDE\CdRomHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231b4a0c&0&0.1.0 (veto type 5: PNP_VetoOutstandingOpen)
+#W110 Device "IDE\CDROMHL-DT-ST_RW/DVD_GCC-4521B_______________1.00____\5&231B4A0C&0&0.1.0" required reboot: Query remove vetoed (property change).
+#I304 DICS_PROPCHANGE: Device could not be restarted.
+[2007/07/24 19:00:08 308.1111 Driver Install]
+#-019 Searching for hardware ID(s): fdc\generic_floppy_drive
+#-018 Searching for compatible ID(s): genfloppydisk
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "GenFloppyDisk" in C:\WINDOWS\inf\flpydisk.inf; Device: "Floppy disk drive"; Driver: "Floppy disk drive"; Provider: "Microsoft"; Mfg: "(Standard floppy disk drives)"; Section name: "floppy_install".
+#I023 Actual install section: [floppy_install.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [floppy_install] in "c:\windows\inf\flpydisk.inf".
+#I320 Class GUID of device remains: {4D36E980-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "FDC\GENERIC_FLOPPY_DRIVE\5&14BBD7CB&0&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [floppy_install.NT.Interfaces] from "c:\windows\inf\flpydisk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "FDC\GENERIC_FLOPPY_DRIVE\5&14BBD7CB&0&0".
+#I121 Device install of "FDC\GENERIC_FLOPPY_DRIVE\5&14BBD7CB&0&0" finished successfully.
+[2007/07/24 19:00:09 308.1115 Driver Install]
+#-019 Searching for hardware ID(s): ide\diskmaxtor_6e020l0__________________________nar61ea0,ide\maxtor_6e020l0__________________________nar61ea0,ide\diskmaxtor_6e020l0__________________________,maxtor_6e020l0__________________________nar61ea0,gendisk
+#-018 Searching for compatible ID(s): gendisk
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "GenDisk" in C:\WINDOWS\inf\disk.inf; Device: "Disk drive"; Driver: "Disk drive"; Provider: "Microsoft"; Mfg: "(Standard disk drives)"; Section name: "disk_install".
+#I023 Actual install section: [disk_install.NT]. Rank: 0x00000004. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [disk_install] in "c:\windows\inf\disk.inf".
+#I320 Class GUID of device remains: {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "IDE\DISKMAXTOR_6E020L0__________________________NAR61EA0\31454654364D454A202020202020202020202020".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [disk_install.NT.Interfaces] from "c:\windows\inf\disk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "IDE\DISKMAXTOR_6E020L0__________________________NAR61EA0\31454654364D454A202020202020202020202020".
+#W100 Query-removal during install of "IDE\DISKMAXTOR_6E020L0__________________________NAR61EA0\31454654364D454A202020202020202020202020" was vetoed by "IDE\DiskMaxtor_6E020L0__________________________NAR61EA0\31454654364d454a202020202020202020202020" (veto type 6: PNP_VetoDevice).
+#W104 Device "IDE\DISKMAXTOR_6E020L0__________________________NAR61EA0\31454654364D454A202020202020202020202020" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "IDE\DISKMAXTOR_6E020L0__________________________NAR61EA0\31454654364D454A202020202020202020202020" finished successfully.
+[2007/07/24 19:00:25 308.1119 Driver Install]
+#-019 Searching for hardware ID(s): lptenum\microsoftrawport958a,microsoftrawport958a
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "LPTENUM\MicrosoftRawPort958A" in C:\WINDOWS\inf\machine.inf; Device: "Printer Port Logical Interface"; Driver: "Printer Port Logical Interface"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "NO_DRV".
+#I023 Actual install section: [NO_DRV]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [NO_DRV] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "LPTENUM\MICROSOFTRAWPORT\5&1646D8F8&0&LPT1".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [NO_DRV.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "LPTENUM\MICROSOFTRAWPORT\5&1646D8F8&0&LPT1".
+#I121 Device install of "LPTENUM\MICROSOFTRAWPORT\5&1646D8F8&0&LPT1" finished successfully.
+[2007/07/24 19:00:42 308.1162 Driver Install]
+#-019 Searching for hardware ID(s): *pnp0501
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "*PNP0501" in C:\WINDOWS\inf\msports.inf; Device: "Communications Port"; Driver: "Communications Port"; Provider: "Microsoft"; Mfg: "(Standard port types)"; Section name: "ComPort".
+#I023 Actual install section: [ComPort.NT]. Rank: 0x00001000. Effective driver date: 07/01/2001.
+#I022 Found "*PNP0501" in C:\WINDOWS\inf\msports.inf; Device: "Communications Port"; Driver: "Communications Port"; Provider: "Microsoft"; Mfg: "(Standard port types)"; Section name: "ComPort".
+#I023 Actual install section: [ComPort.NT]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [ComPort] in "c:\windows\inf\msports.inf".
+#I320 Class GUID of device remains: {4D36E978-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTERDEVICE.
+#I289 Removing device "ROOT\*PNP0501\1_0_17_0_0_0".
+#I048 Device removed.
+#W154 Class installer failed. Error 0xe0000202: An existing device was found that is a duplicate of the device being manually installed.
+[2007/07/24 19:00:40 308.1138 Driver Install]
+#-019 Searching for hardware ID(s): ms_mmmci
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_MMMCI" in C:\WINDOWS\inf\wave.inf; Device: "Media Control Devices"; Driver: "Media Control Devices"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "MS_MMMCI".
+#I023 Actual install section: [MS_MMMCI.NT]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_MMMCI] in "c:\windows\inf\wave.inf".
+#I320 Class GUID of device remains: {4D36E96C-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMMCI".
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMMCI".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [MS_MMMCI.NT.Interfaces] from "c:\windows\inf\wave.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MEDIA\MS_MMMCI".
+#I121 Device install of "ROOT\MEDIA\MS_MMMCI" finished successfully.
+[2007/07/24 19:00:40 308.1140 Driver Install]
+#-019 Searching for hardware ID(s): ms_mmvid
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_MMVID" in C:\WINDOWS\inf\wave.inf; Device: "Video Codecs"; Driver: "Video Codecs"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "MS_MMVID".
+#I023 Actual install section: [MS_MMVID.NT]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_MMVID] in "c:\windows\inf\wave.inf".
+#I320 Class GUID of device remains: {4D36E96C-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMVID".
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMVID".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [MS_MMVID.NT.Interfaces] from "c:\windows\inf\wave.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MEDIA\MS_MMVID".
+#I121 Device install of "ROOT\MEDIA\MS_MMVID" finished successfully.
+[2007/07/24 19:00:40 308.1142 Driver Install]
+#-019 Searching for hardware ID(s): ms_mmacm
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_MMACM" in C:\WINDOWS\inf\wave.inf; Device: "Audio Codecs"; Driver: "Audio Codecs"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "MS_MMACM".
+#I023 Actual install section: [MS_MMACM.NT]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_MMACM] in "c:\windows\inf\wave.inf".
+#I320 Class GUID of device remains: {4D36E96C-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMACM".
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMACM".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [MS_MMACM.NT.Interfaces] from "c:\windows\inf\wave.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MEDIA\MS_MMACM".
+#I121 Device install of "ROOT\MEDIA\MS_MMACM" finished successfully.
+[2007/07/24 19:00:41 308.1144 Driver Install]
+#-019 Searching for hardware ID(s): ms_mmvcd
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_MMVCD" in C:\WINDOWS\inf\wave.inf; Device: "Legacy Video Capture Devices"; Driver: "Legacy Video Capture Devices"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "MS_MMVCD".
+#I023 Actual install section: [MS_MMVCD.NT]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_MMVCD] in "c:\windows\inf\wave.inf".
+#I320 Class GUID of device remains: {4D36E96C-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMVCD".
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMVCD".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [MS_MMVCD.NT.Interfaces] from "c:\windows\inf\wave.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MEDIA\MS_MMVCD".
+#I121 Device install of "ROOT\MEDIA\MS_MMVCD" finished successfully.
+[2007/07/24 19:00:41 308.1146 Driver Install]
+#-019 Searching for hardware ID(s): ms_mmdrv
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_MMDRV" in C:\WINDOWS\inf\wave.inf; Device: "Legacy Audio Drivers"; Driver: "Legacy Audio Drivers"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "MS_MMDRV".
+#I023 Actual install section: [MS_MMDRV.NT]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_MMDRV] in "c:\windows\inf\wave.inf".
+#I320 Class GUID of device remains: {4D36E96C-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMDRV".
+#-124 Doing copy-only install of "ROOT\MEDIA\MS_MMDRV".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [MS_MMDRV.NT.Interfaces] from "c:\windows\inf\wave.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MEDIA\MS_MMDRV".
+#I121 Device install of "ROOT\MEDIA\MS_MMDRV" finished successfully.
+[2007/07/24 19:07:15 260.4 Driver Install]
+#-019 Searching for hardware ID(s): sw\{eeab7790-c514-11d1-b42b-00805fc1270e}
+#-198 Command line processed: C:\WINDOWS\system32\services.exe -setup
+#I022 Found "SW\{eeab7790-c514-11d1-b42b-00805fc1270e}" in C:\WINDOWS\inf\netrasa.inf; Device: "RAS Async Adapter"; Driver: "RAS Async Adapter"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Mp-AsyncMac".
+#I023 Actual install section: [Ndi-Mp-AsyncMac]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [Ndi-Mp-AsyncMac] in "c:\windows\inf\netrasa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "SW\{EEAB7790-C514-11D1-B42B-00805FC1270E}\ASYNCMAC".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Ndi-Mp-AsyncMac.Interfaces] from "c:\windows\inf\netrasa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "SW\{EEAB7790-C514-11D1-B42B-00805FC1270E}\ASYNCMAC".
+#I121 Device install of "SW\{EEAB7790-C514-11D1-B42B-00805FC1270E}\ASYNCMAC" finished successfully.
+[2007/07/24 19:07:18 260.16]
+#-198 Command line processed: C:\WINDOWS\system32\services.exe -setup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "SW\{EEAB7790-C514-11D1-B42B-00805FC1270E}\ASYNCMAC".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:18 308.1303 Driver Install]
+#-019 Searching for hardware ID(s): ms_alg
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_ALG" in C:\WINDOWS\inf\netrass.inf; Device: "Application Layer Gateway"; Driver: "Application Layer Gateway"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-ALG".
+#I023 Actual install section: [Ndi-ALG]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-ALG] in "c:\windows\inf\netrass.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:19 308.1309 Driver Install]
+#-019 Searching for hardware ID(s): ms_gpc
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ms_gpc" in C:\WINDOWS\INF\netgpc.inf; Device: "Generic Packet Classifier"; Driver: "Generic Packet Classifier"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "GPC.ndi".
+#I023 Actual install section: [GPC.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [GPC.ndi] in "c:\windows\inf\netgpc.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:20 308.1315 Driver Install]
+#-019 Searching for hardware ID(s): ms_tcpip
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_TCPIP" in C:\WINDOWS\INF\nettcpip.inf; Device: "Internet Protocol (TCP/IP)"; Driver: "Internet Protocol (TCP/IP)"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "MS_TCPIP.PrimaryInstall".
+#I023 Actual install section: [MS_TCPIP.PrimaryInstall]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_TCPIP.PrimaryInstall] in "c:\windows\inf\nettcpip.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:25 308.1321 Driver Install]
+#-019 Searching for hardware ID(s): ms_netbt
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_NetBT" in C:\WINDOWS\INF\nettcpip.inf; Device: "WINS Client(TCP/IP) Protocol"; Driver: "WINS Client(TCP/IP) Protocol"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "MS_WINS.PrimaryInstall".
+#I023 Actual install section: [MS_WINS.PrimaryInstall]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_WINS.PrimaryInstall] in "c:\windows\inf\nettcpip.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:27 308.1327 Driver Install]
+#-019 Searching for hardware ID(s): ms_netbt_smb
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_NETBT_SMB" in C:\WINDOWS\INF\nettcpip.inf; Device: "Message-oriented TCP/IP Protocol (SMB session)"; Driver: "Message-oriented TCP/IP Protocol (SMB session)"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "MS_NETBT_SMB.PrimaryInstall".
+#I023 Actual install section: [MS_NETBT_SMB.PrimaryInstall]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MS_NETBT_SMB.PrimaryInstall] in "c:\windows\inf\nettcpip.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:27 308.1329]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#W082 Could not locate a non-empty service section [MS_NETBT_SMB.PrimaryInstall.Services] in "c:\windows\inf\nettcpip.inf". Error 0xe0000102: The required line was not found in the INF.
+[2007/07/24 19:07:27 308.1333 Driver Install]
+#-019 Searching for hardware ID(s): ms_rsvp
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_RSVP" in C:\WINDOWS\INF\netrsvp.inf; Device: "QoS RSVP"; Driver: "QoS RSVP"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "RSVP.ndi".
+#I023 Actual install section: [RSVP.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [RSVP.ndi] in "c:\windows\inf\netrsvp.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:29 308.1341 Driver Install]
+#-019 Searching for hardware ID(s): ms_psched
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ms_psched" in C:\WINDOWS\INF\netpschd.inf; Device: "QoS Packet Scheduler"; Driver: "QoS Packet Scheduler"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "PSched.ndi".
+#I023 Actual install section: [PSched.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [PSched.ndi] in "c:\windows\inf\netpschd.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:29 308.1343]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#W082 Could not locate a non-empty service section [PSched.ndi.Services] in "c:\windows\inf\netpschd.inf". Error 0xe0000102: The required line was not found in the INF.
+[2007/07/24 19:07:30 308.1351 Driver Install]
+#-019 Searching for hardware ID(s): ms_pschedmp
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ms_pschedmp" in C:\WINDOWS\INF\netpsa.inf; Device: "Packet Scheduler Miniport"; Driver: "Packet Scheduler Miniport"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "PSchedMP.ndi".
+#I023 Actual install section: [PSchedMP.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [PSchedMP.ndi] in "c:\windows\inf\netpsa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PSchedMP.ndi.Interfaces] from "c:\windows\inf\netpsa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_PSCHEDMP\0000".
+#I121 Device install of "ROOT\MS_PSCHEDMP\0000" finished successfully.
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:31 308.1356 Driver Install]
+#-019 Searching for hardware ID(s): ms_webclient
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_WebClient" in C:\WINDOWS\inf\netdav.inf; Device: "WebClient"; Driver: "WebClient"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "WebClient".
+#I023 Actual install section: [WebClient]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [WebClient] in "c:\windows\inf\netdav.inf".
+#I320 Class GUID of device remains: {4D36E973-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:32 308.1362]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:33 308.1368 Driver Install]
+#-019 Searching for hardware ID(s): ms_msclient
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_MSCLIENT" in C:\WINDOWS\INF\netmscli.inf; Device: "Client for Microsoft Networks"; Driver: "Client for Microsoft Networks"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "MSClient.ndi".
+#I023 Actual install section: [MSClient.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [MSClient.ndi] in "c:\windows\inf\netmscli.inf".
+#I320 Class GUID of device remains: {4D36E973-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:38 308.1374 Driver Install]
+#-019 Searching for hardware ID(s): ms_netbios
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_NETBIOS" in C:\WINDOWS\INF\netnb.inf; Device: "NetBIOS Interface"; Driver: "NetBIOS Interface"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "NetBIOS.ndi".
+#I023 Actual install section: [NetBIOS.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [NetBIOS.ndi] in "c:\windows\inf\netnb.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:39 308.1380]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:45 308.1386 Driver Install]
+#-019 Searching for hardware ID(s): ms_server
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_SERVER" in C:\WINDOWS\INF\netserv.inf; Device: "File and Printer Sharing for Microsoft Networks"; Driver: "File and Printer Sharing for Microsoft Networks"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Install.ndi".
+#I023 Actual install section: [Install.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Install.ndi] in "c:\windows\inf\netserv.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:47 308.1392]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:47 308.1398 Driver Install]
+#-019 Searching for hardware ID(s): ms_rascli
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_RasCli" in C:\WINDOWS\INF\netrass.inf; Device: "Dial-Up Client"; Driver: "Dial-Up Client"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-RasCli".
+#I023 Actual install section: [Ndi-RasCli]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-RasCli] in "c:\windows\inf\netrass.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:47 308.1400]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#W082 Could not locate a non-empty service section [Ndi-RasCli.Services] in "c:\windows\inf\netrass.inf". Error 0xe0000102: The required line was not found in the INF.
+[2007/07/24 19:07:47 308.1404 Driver Install]
+#-019 Searching for hardware ID(s): ms_ndiswan
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_NdisWan" in C:\WINDOWS\INF\netrast.inf; Device: "Remote Access NDIS WAN Driver"; Driver: "Remote Access NDIS WAN Driver"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-NdisWan".
+#I023 Actual install section: [Ndi-NdisWan]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-NdisWan] in "c:\windows\inf\netrast.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:48 308.1410 Driver Install]
+#-019 Searching for hardware ID(s): ms_rasman
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_RasMan" in C:\WINDOWS\INF\netrass.inf; Device: "Remote Access Connection Manager"; Driver: "Remote Access Connection Manager"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-RasMan".
+#I023 Actual install section: [Ndi-RasMan]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-RasMan] in "c:\windows\inf\netrass.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:50 308.1416 Driver Install]
+#-019 Searching for hardware ID(s): ms_l2tp
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_L2TP" in C:\WINDOWS\INF\netrast.inf; Device: "Layer 2 Tunneling Protocol"; Driver: "Layer 2 Tunneling Protocol"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-L2tpProtocol".
+#I023 Actual install section: [Ndi-L2tpProtocol]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-L2tpProtocol] in "c:\windows\inf\netrast.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:50 308.1418]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#W082 Could not locate a non-empty service section [Ndi-L2tpProtocol.Services] in "c:\windows\inf\netrast.inf". Error 0xe0000102: The required line was not found in the INF.
+[2007/07/24 19:07:50 308.1422 Driver Install]
+#-019 Searching for hardware ID(s): ms_l2tpminiport
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_L2tpMiniport" in C:\WINDOWS\INF\netrasa.inf; Device: "WAN Miniport (L2TP)"; Driver: "WAN Miniport (L2TP)"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Mp-L2tp".
+#I023 Actual install section: [Ndi-Mp-L2tp]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-Mp-L2tp] in "c:\windows\inf\netrasa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Ndi-Mp-L2tp.Interfaces] from "c:\windows\inf\netrasa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_L2TPMINIPORT\0000".
+#I121 Device install of "ROOT\MS_L2TPMINIPORT\0000" finished successfully.
+[2007/07/24 19:07:51 308.1429 Driver Install]
+#-019 Searching for hardware ID(s): ms_pptp
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_PPTP" in C:\WINDOWS\INF\netrast.inf; Device: "Point to Point Tunneling Protocol"; Driver: "Point to Point Tunneling Protocol"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-PptpProtocol".
+#I023 Actual install section: [Ndi-PptpProtocol]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-PptpProtocol] in "c:\windows\inf\netrast.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:52 308.1431]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#W082 Could not locate a non-empty service section [Ndi-PptpProtocol.Services] in "c:\windows\inf\netrast.inf". Error 0xe0000102: The required line was not found in the INF.
+[2007/07/24 19:07:52 308.1435 Driver Install]
+#-019 Searching for hardware ID(s): ms_pptpminiport
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_PptpMiniport" in C:\WINDOWS\INF\netrasa.inf; Device: "WAN Miniport (PPTP)"; Driver: "WAN Miniport (PPTP)"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Mp-Pptp".
+#I023 Actual install section: [Ndi-Mp-Pptp]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-Mp-Pptp] in "c:\windows\inf\netrasa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Ndi-Mp-Pptp.Interfaces] from "c:\windows\inf\netrasa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_PPTPMINIPORT\0000".
+#I121 Device install of "ROOT\MS_PPTPMINIPORT\0000" finished successfully.
+[2007/07/24 19:07:53 308.1442 Driver Install]
+#-019 Searching for hardware ID(s): ms_pppoe
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_PPPOE" in C:\WINDOWS\INF\netrast.inf; Device: "Point to Point Protocol Over Ethernet"; Driver: "Point to Point Protocol Over Ethernet"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-PppoeProtocol".
+#I023 Actual install section: [Ndi-PppoeProtocol]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-PppoeProtocol] in "c:\windows\inf\netrast.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:07:54 308.1448 Driver Install]
+#-019 Searching for hardware ID(s): ms_pppoeminiport
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_PppoeMiniport" in C:\WINDOWS\INF\netrasa.inf; Device: "WAN Miniport (PPPOE)"; Driver: "WAN Miniport (PPPOE)"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Mp-Pppoe".
+#I023 Actual install section: [Ndi-Mp-Pppoe]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-Mp-Pppoe] in "c:\windows\inf\netrasa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Ndi-Mp-Pppoe.Interfaces] from "c:\windows\inf\netrasa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_PPPOEMINIPORT\0000".
+#I121 Device install of "ROOT\MS_PPPOEMINIPORT\0000" finished successfully.
+[2007/07/24 19:07:55 308.1455 Driver Install]
+#-019 Searching for hardware ID(s): ms_ptiminiport
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_PtiMiniport" in C:\WINDOWS\INF\netrasa.inf; Device: "Direct Parallel"; Driver: "Direct Parallel"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Mp-Pti".
+#I023 Actual install section: [Ndi-Mp-Pti]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-Mp-Pti] in "c:\windows\inf\netrasa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Ndi-Mp-Pti.Interfaces] from "c:\windows\inf\netrasa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_PTIMINIPORT\0000".
+#I121 Device install of "ROOT\MS_PTIMINIPORT\0000" finished successfully.
+[2007/07/24 19:07:56 308.1462 Driver Install]
+#-019 Searching for hardware ID(s): ms_ndiswanip
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_NdisWanIp" in C:\WINDOWS\INF\netrasa.inf; Device: "WAN Miniport (IP)"; Driver: "WAN Miniport (IP)"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Mp-Ip".
+#I023 Actual install section: [Ndi-Mp-Ip]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-Mp-Ip] in "c:\windows\inf\netrasa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [Ndi-Mp-Ip.Interfaces] from "c:\windows\inf\netrasa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_NDISWANIP\0000".
+#I121 Device install of "ROOT\MS_NDISWANIP\0000" finished successfully.
+[2007/07/24 19:07:58 308.1487]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:58 308.1491 Driver Install]
+#-019 Searching for hardware ID(s): ms_pschedmp
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "ms_pschedmp" in C:\WINDOWS\INF\netpsa.inf; Device: "Packet Scheduler Miniport"; Driver: "Packet Scheduler Miniport"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "PSchedMP.ndi".
+#I023 Actual install section: [PSchedMP.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [PSchedMP.ndi] in "c:\windows\inf\netpsa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PSchedMP.ndi.Interfaces] from "c:\windows\inf\netpsa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_PSCHEDMP\0001".
+#I121 Device install of "ROOT\MS_PSCHEDMP\0001" finished successfully.
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0001".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:59 308.1497]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_NDISWANIP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:59 308.1499]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PTIMINIPORT\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:59 308.1501]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PPPOEMINIPORT\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:59 308.1503]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PPTPMINIPORT\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:07:59 308.1505]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_L2TPMINIPORT\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:08:00 308.1508 Driver Install]
+#-019 Searching for hardware ID(s): ms_rassrv
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_RasSrv" in C:\WINDOWS\INF\netrass.inf; Device: "Dial-Up Server"; Driver: "Dial-Up Server"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-RasSrv".
+#I023 Actual install section: [Ndi-RasSrv]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-RasSrv] in "c:\windows\inf\netrass.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:08:00 308.1510]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#W082 Could not locate a non-empty service section [Ndi-RasSrv.Services] in "c:\windows\inf\netrass.inf". Error 0xe0000102: The required line was not found in the INF.
+[2007/07/24 19:08:00 308.1514 Driver Install]
+#-019 Searching for hardware ID(s): ms_steelhead
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_Steelhead" in C:\WINDOWS\INF\netrass.inf; Device: "Steelhead"; Driver: "Steelhead"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Ndi-Steelhead".
+#I023 Actual install section: [Ndi-Steelhead]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Ndi-Steelhead] in "c:\windows\inf\netrass.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:08:03 308.1524]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:08:03 308.1525]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0001".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:08:04 308.1534 Driver Install]
+#-019 Searching for hardware ID(s): ms_ndisuio
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_NDISUIO" in C:\WINDOWS\inf\ndisuio.inf; Device: "NDIS Usermode I/O Protocol"; Driver: "NDIS Usermode I/O Protocol"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "Install".
+#I023 Actual install section: [Install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [Install] in "c:\windows\inf\ndisuio.inf".
+#I320 Class GUID of device remains: {4D36E975-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:08:05 308.1547]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:08:05 308.1548]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0001".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:08:05 308.1557 Driver Install]
+#-019 Searching for hardware ID(s): ms_wzcsvc
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I022 Found "MS_WZCSVC" in C:\WINDOWS\inf\netwzc.inf; Device: "Wireless Zero Configuration"; Driver: "Wireless Zero Configuration"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "WZCSVC.ndi".
+#I023 Actual install section: [WZCSVC.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [WZCSVC.ndi] in "c:\windows\inf\netwzc.inf".
+#I320 Class GUID of device remains: {4D36E974-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+[2007/07/24 19:08:06 308.1568]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:08:06 308.1569]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0001".
+#I306 DICS_START: Device has been started.
+[2007/07/24 19:11:04 308.1668]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I060 Set selected driver.
+#-019 Searching for hardware ID(s): root\rdpdr
+#I022 Found "ROOT\RDPDR" in C:\WINDOWS\inf\machine.inf; Device: "Terminal Server Device Redirector"; Driver: "Terminal Server Device Redirector"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "RDPDR".
+#I023 Actual install section: [RDPDR]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [RDPDR] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\RDPDR\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [RDPDR.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\RDPDR\0000".
+#I121 Device install of "ROOT\RDPDR\0000" finished successfully.
+[2007/07/24 19:11:05 308.1679]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I060 Set selected driver.
+#-019 Searching for hardware ID(s): root\rdp_mou
+#I022 Found "ROOT\RDP_MOU" in C:\WINDOWS\inf\machine.inf; Device: "Terminal Server Mouse Driver"; Driver: "Terminal Server Mouse Driver"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "RDP_MOU".
+#I023 Actual install section: [RDP_MOU]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [RDP_MOU] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\RDP_MOU\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [RDP_MOU.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\RDP_MOU\0000".
+#I121 Device install of "ROOT\RDP_MOU\0000" finished successfully.
+[2007/07/24 19:11:07 308.1690]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#I060 Set selected driver.
+#-019 Searching for hardware ID(s): root\rdp_kbd
+#I022 Found "ROOT\RDP_KBD" in C:\WINDOWS\inf\machine.inf; Device: "Terminal Server Keyboard Driver"; Driver: "Terminal Server Keyboard Driver"; Provider: "Microsoft"; Mfg: "(Standard system devices)"; Section name: "RDP_KBD".
+#I023 Actual install section: [RDP_KBD]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [RDP_KBD] in "c:\windows\inf\machine.inf".
+#I320 Class GUID of device remains: {4D36E97D-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "ROOT\RDP_KBD\0000".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [RDP_KBD.Interfaces] from "c:\windows\inf\machine.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\RDP_KBD\0000".
+#I121 Device install of "ROOT\RDP_KBD\0000" finished successfully.
+[2007/07/24 18:57:35 308.1]
+#-199 Executing "C:\WINDOWS\system32\setup.exe" with command line: setup -newsetup
+#-290 Processing REGISTERDLLS section [CryptoDlls]. Binary: "%11%\rsaenh.dll", flags: 0x0001, timeout: 60s.
+#W374 Digital signature verification was skipped for a file being registered ("C:\WINDOWS\System32\rsaenh.dll"). 
+#-290 Processing REGISTERDLLS section [CryptoDlls]. Binary: "%11%\dssenh.dll", flags: 0x0001, timeout: 60s.
+#W374 Digital signature verification was skipped for a file being registered ("C:\WINDOWS\System32\dssenh.dll"). 
+#-290 Processing REGISTERDLLS section [CryptoDlls]. Binary: "%11%\initpki.dll", flags: 0x0001, timeout: 600s.
+#W374 Digital signature verification was skipped for a file being registered ("C:\WINDOWS\System32\initpki.dll"). 
+#-290 Processing REGISTERDLLS section [OleControlDlls]. Binary: "%11%\bidispl.dll", flags: 0x0001, timeout: 60s.
+#W424 Calling "DllRegisterServer" in OLE Control "C:\WINDOWS\System32\bidispl.dll" succeeded with HRESULT=0x00000001.
+#-290 Processing REGISTERDLLS section [OleControlDlls]. Binary: "%11%\seclogon.dll", flags: 0x0001, timeout: 60s.
+#W424 Calling "DllRegisterServer" in OLE Control "C:\WINDOWS\System32\seclogon.dll" succeeded with HRESULT=0x00000431.
+#-290 Processing REGISTERDLLS section [OleControlDlls]. Binary: "%11%\msisip.dll", flags: 0x0001, timeout: 60s.
+#W424 Calling "DllRegisterServer" in OLE Control "C:\WINDOWS\System32\msisip.dll" succeeded with HRESULT=0x00000001.
+[2007/07/24 19:27:22 1988.1]
+#-198 Command line processed: "C:\Program Files\AOD\AolAod.exe" -put_icons
+#E361 An unsigned or incorrectly signed file "c:\docume~1\admini~1\locals~1\temp\gt58.tmp_tmp_001\changeicon.inf" will be installed (Policy=Ignore). Error 1168: Element not found.
+#-024 Copying file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\gt58.tmp_tmp_001\.\data\highspee.ico" to "C:\Program Files\AOD\aol\highspee.ico".
+#E361 An unsigned or incorrectly signed file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\gt58.tmp_tmp_001\.\data\highspee.ico" will be installed (Policy=Ignore). Error 0xe000022f: The third-party INF does not contain digital signature information.
+[2007/07/24 19:38:28 1692.1]
+#-198 Command line processed: "C:\Program Files\Internet Explorer\iexplore.exe" -nohome http://aimtoday.aol.com/today/aimtoday.adp?type=2&product=9&platform=1&channel=336&build=6089&SN=DFOFHLHIEEDAOCGEHJELDPNLBA&CC=BHNH&PC=HKLEDNCCBE&segment=-1&UTC=1185327463&LT=1185302263&nlogin=1
+#E361 An unsigned or incorrectly signed file "c:\docume~1\admini~1\locals~1\temp\icd1.tmp\swflash.inf" will be installed (Policy=Ignore). Error 1168: Element not found.
+#-024 Copying file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\Flash9d.ocx" to "C:\WINDOWS\System32\Macromed\Flash\Flash9d.ocx".
+#E361 An unsigned or incorrectly signed file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\Flash9d.ocx" will be installed (Policy=Ignore). Error 1168: Element not found.
+#-336 Copying file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\Flash9d.ocx" to "C:\WINDOWS\System32\Macromed\Flash\Flash9d.ocx" via temporary file "C:\WINDOWS\System32\Macromed\Flash\SET64.tmp".
+#E361 An unsigned or incorrectly signed file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\Flash9d.ocx" will be installed (Policy=Ignore). Error 1168: Element not found.
+#-336 Copying file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\FlashUtil9d.exe" to "C:\WINDOWS\System32\Macromed\Flash\FlashUtil9d.exe" via temporary file "C:\WINDOWS\System32\Macromed\Flash\SET65.tmp".
+#E361 An unsigned or incorrectly signed file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\FlashUtil9d.exe" will be installed (Policy=Ignore). Error 0xe000022f: The third-party INF does not contain digital signature information.
+#E197 Writing "C:\WINDOWS\INF\swflash.inf" to "C:\WINDOWS\INF" is not an approved method of installing INF files. Use a 'CopyINF' entry instead.
+#-336 Copying file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ICD1.tmp\swflash.inf" to "C:\WINDOWS\INF\swflash.inf" via temporary file "C:\WINDOWS\INF\SET69.tmp".
+#E361 An unsigned or incorrectly signed file "C:\WINDOWS\INF\SET69.tmp" will be installed (Policy=Ignore). Error 0xe0000237: An INF was copied into the Windows INF directory in an improper manner.
+[2007/07/25 12:22:25 568.3 Driver Install]
+#-019 Searching for hardware ID(s): usb\vid_0781&pid_5150&rev_0020,usb\vid_0781&pid_5150
+#-018 Searching for compatible ID(s): usb\class_08&subclass_06&prot_50,usb\class_08&subclass_06,usb\class_08
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I393 Modified INF cache "C:\WINDOWS\inf\INFCACHE.1".
+#I022 Found "USB\Class_08&SubClass_06&Prot_50" in C:\WINDOWS\inf\usbstor.inf; Device: "USB Mass Storage Device"; Driver: "USB Mass Storage Device"; Provider: "Microsoft"; Mfg: "Compatible USB storage device"; Section name: "USBSTOR_BULK".
+#I023 Actual install section: [USBSTOR_BULK.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [USBSTOR_BULK] in "c:\windows\inf\usbstor.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USB\VID_0781&PID_5150\20043513310C7A22D0C8".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [USBSTOR_BULK.NT.Interfaces] from "c:\windows\inf\usbstor.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\VID_0781&PID_5150\20043513310C7A22D0C8".
+#I121 Device install of "USB\VID_0781&PID_5150\20043513310C7A22D0C8" finished successfully.
+[2007/07/25 12:22:30 568.8 Driver Install]
+#-019 Searching for hardware ID(s): usbstor\disksandisk_cruzer_mini_____0.2_,usbstor\disksandisk_cruzer_mini_____,usbstor\disksandisk_,usbstor\sandisk_cruzer_mini_____0,sandisk_cruzer_mini_____0,usbstor\gendisk,gendisk
+#-018 Searching for compatible ID(s): usbstor\disk,usbstor\raw
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "GenDisk" in C:\WINDOWS\inf\disk.inf; Device: "Disk drive"; Driver: "Disk drive"; Provider: "Microsoft"; Mfg: "(Standard disk drives)"; Section name: "disk_install".
+#I023 Actual install section: [disk_install.NT]. Rank: 0x00000006. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [disk_install] in "c:\windows\inf\disk.inf".
+#I320 Class GUID of device remains: {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043513310C7A22D0C8&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [disk_install.NT.Interfaces] from "c:\windows\inf\disk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043513310C7A22D0C8&0".
+#I121 Device install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043513310C7A22D0C8&0" finished successfully.
+[2007/07/25 12:22:34 568.12 Driver Install]
+#-019 Searching for hardware ID(s): storage\volume
+#-018 Searching for compatible ID(s): storage\volume
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "STORAGE\Volume" in C:\WINDOWS\inf\volume.inf; Device: "Generic volume"; Driver: "Generic volume"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "volume_install".
+#I023 Actual install section: [volume_install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [volume_install] in "c:\windows\inf\volume.inf".
+#I320 Class GUID of device remains: {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "STORAGE\REMOVABLEMEDIA\7&17AE8B73&0&RM".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [volume_install.Interfaces] from "c:\windows\inf\volume.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "STORAGE\REMOVABLEMEDIA\7&17AE8B73&0&RM".
+#I121 Device install of "STORAGE\REMOVABLEMEDIA\7&17AE8B73&0&RM" finished successfully.
+[2007/07/25 13:49:58 568.3 Driver Install]
+#-019 Searching for hardware ID(s): usb\vid_0a16&pid_9005&rev_0071,usb\vid_0a16&pid_9005
+#-018 Searching for compatible ID(s): usb\class_08&subclass_06&prot_50,usb\class_08&subclass_06,usb\class_08
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "USB\Class_08&SubClass_06&Prot_50" in C:\WINDOWS\inf\usbstor.inf; Device: "USB Mass Storage Device"; Driver: "USB Mass Storage Device"; Provider: "Microsoft"; Mfg: "Compatible USB storage device"; Section name: "USBSTOR_BULK".
+#I023 Actual install section: [USBSTOR_BULK.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [USBSTOR_BULK] in "c:\windows\inf\usbstor.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USB\VID_0A16&PID_9005\10120515511949".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [USBSTOR_BULK.NT.Interfaces] from "c:\windows\inf\usbstor.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\VID_0A16&PID_9005\10120515511949".
+#I121 Device install of "USB\VID_0A16&PID_9005\10120515511949" finished successfully.
+[2007/07/25 13:50:02 568.7 Driver Install]
+#-019 Searching for hardware ID(s): usbstor\disktrek____td2smart_g3m____2.40,usbstor\disktrek____td2smart_g3m____,usbstor\disktrek____,usbstor\trek____td2smart_g3m____2,trek____td2smart_g3m____2,usbstor\gendisk,gendisk
+#-018 Searching for compatible ID(s): usbstor\disk,usbstor\raw
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "GenDisk" in C:\WINDOWS\inf\disk.inf; Device: "Disk drive"; Driver: "Disk drive"; Provider: "Microsoft"; Mfg: "(Standard disk drives)"; Section name: "disk_install".
+#I023 Actual install section: [disk_install.NT]. Rank: 0x00000006. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [disk_install] in "c:\windows\inf\disk.inf".
+#I320 Class GUID of device remains: {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USBSTOR\DISK&VEN_TREK&PROD_TD2SMART_G3M&REV_2.40\10120515511949&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [disk_install.NT.Interfaces] from "c:\windows\inf\disk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USBSTOR\DISK&VEN_TREK&PROD_TD2SMART_G3M&REV_2.40\10120515511949&0".
+#I121 Device install of "USBSTOR\DISK&VEN_TREK&PROD_TD2SMART_G3M&REV_2.40\10120515511949&0" finished successfully.
+[2007/07/25 13:50:06 568.11 Driver Install]
+#-019 Searching for hardware ID(s): storage\volume
+#-018 Searching for compatible ID(s): storage\volume
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "STORAGE\Volume" in C:\WINDOWS\inf\volume.inf; Device: "Generic volume"; Driver: "Generic volume"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "volume_install".
+#I023 Actual install section: [volume_install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [volume_install] in "c:\windows\inf\volume.inf".
+#I320 Class GUID of device remains: {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "STORAGE\REMOVABLEMEDIA\7&B7EC37B&0&RM".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [volume_install.Interfaces] from "c:\windows\inf\volume.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "STORAGE\REMOVABLEMEDIA\7&B7EC37B&0&RM".
+#I121 Device install of "STORAGE\REMOVABLEMEDIA\7&B7EC37B&0&RM" finished successfully.
+[2007/07/25 14:14:49 568.3 Driver Install]
+#-019 Searching for hardware ID(s): usb\vid_0781&pid_5150&rev_0020,usb\vid_0781&pid_5150
+#-018 Searching for compatible ID(s): usb\class_08&subclass_06&prot_50,usb\class_08&subclass_06,usb\class_08
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "USB\Class_08&SubClass_06&Prot_50" in C:\WINDOWS\inf\usbstor.inf; Device: "USB Mass Storage Device"; Driver: "USB Mass Storage Device"; Provider: "Microsoft"; Mfg: "Compatible USB storage device"; Section name: "USBSTOR_BULK".
+#I023 Actual install section: [USBSTOR_BULK.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [USBSTOR_BULK] in "c:\windows\inf\usbstor.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USB\VID_0781&PID_5150\20043512300C4E62C465".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [USBSTOR_BULK.NT.Interfaces] from "c:\windows\inf\usbstor.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\VID_0781&PID_5150\20043512300C4E62C465".
+#I121 Device install of "USB\VID_0781&PID_5150\20043512300C4E62C465" finished successfully.
+[2007/07/25 14:14:53 568.7 Driver Install]
+#-019 Searching for hardware ID(s): usbstor\disksandisk_cruzer_mini_____0.2_,usbstor\disksandisk_cruzer_mini_____,usbstor\disksandisk_,usbstor\sandisk_cruzer_mini_____0,sandisk_cruzer_mini_____0,usbstor\gendisk,gendisk
+#-018 Searching for compatible ID(s): usbstor\disk,usbstor\raw
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "GenDisk" in C:\WINDOWS\inf\disk.inf; Device: "Disk drive"; Driver: "Disk drive"; Provider: "Microsoft"; Mfg: "(Standard disk drives)"; Section name: "disk_install".
+#I023 Actual install section: [disk_install.NT]. Rank: 0x00000006. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [disk_install] in "c:\windows\inf\disk.inf".
+#I320 Class GUID of device remains: {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043512300C4E62C465&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [disk_install.NT.Interfaces] from "c:\windows\inf\disk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043512300C4E62C465&0".
+#W100 Query-removal during install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043512300C4E62C465&0" was vetoed by "STORAGE\RemovableMedia\7&1415681&0&RM" (veto type 6: PNP_VetoDevice).
+#W104 Device "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043512300C4E62C465&0" required reboot: Query remove failed (install) CfgMgr32 returned: 0x17: CR_REMOVE_VETOED.
+#I121 Device install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20043512300C4E62C465&0" finished successfully.
+[2007/07/25 14:14:57 568.11 Driver Install]
+#-019 Searching for hardware ID(s): storage\volume
+#-018 Searching for compatible ID(s): storage\volume
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "STORAGE\Volume" in C:\WINDOWS\inf\volume.inf; Device: "Generic volume"; Driver: "Generic volume"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "volume_install".
+#I023 Actual install section: [volume_install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [volume_install] in "c:\windows\inf\volume.inf".
+#I320 Class GUID of device remains: {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "STORAGE\REMOVABLEMEDIA\7&1415681&0&RM".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [volume_install.Interfaces] from "c:\windows\inf\volume.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "STORAGE\REMOVABLEMEDIA\7&1415681&0&RM".
+#I121 Device install of "STORAGE\REMOVABLEMEDIA\7&1415681&0&RM" finished successfully.
+[2008/02/12 19:19:56 560.3 Driver Install]
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+[2008/02/12 19:21:57 864.2]
+#-199 Executing "C:\WINDOWS\system32\rundll32.exe" with command line: rundll32.exe newdev.dll,ClientSideInstall \\.\pipe\PNP_Device_Install_Pipe_0.{D81E3271-054D-4FF4-B223-A3E194A13079}
+#I060 Set selected driver.
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#I060 Set selected driver.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I125 Installing NULL driver for "USB\VID_13B1&PID_000D\5&2013F42E&0&2".
+#I121 Device install of "USB\VID_13B1&PID_000D\5&2013F42E&0&2" finished successfully.
+[2008/02/13 09:55:21 3408.171]
+#-198 Command line processed: C:\WINDOWS\system32\mmc.exe /s C:\WINDOWS\system32\compmgmt.msc
+#I060 Set selected driver.
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#W059 Selecting best compatible driver failed. Error 0xe0000228: There are no compatible drivers for this device.
+#W157 Default installer failed. Error 0xe0000228: There are no compatible drivers for this device.
+#-019 Searching for hardware ID(s): usb\vid_13b1&pid_000d&rev_0004,usb\vid_13b1&pid_000d
+#-018 Searching for compatible ID(s): usb\class_ff&subclass_ff&prot_ff,usb\class_ff&subclass_ff,usb\class_ff
+#I022 Found "USB\VID_13b1&PID_000d" in C:\WUTemp\com_microsoft_whql.11446642\rt2500usb.inf; Device: "Linksys Wireless-G USB Network Adapter"; Driver: "Linksys Wireless-G USB Network Adapter"; Provider: "Linksys"; Mfg: "Linksys, A Division of Cisco Systems, Inc."; Section name: "WUSB54Gv4.ndi".
+#I023 Actual install section: [WUSB54Gv4.ndi.NT]. Rank: 0x00000001. Effective driver date: 10/17/2005.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [WUSB54Gv4.ndi] in "c:\wutemp\com_microsoft_whql.11446642\rt2500usb.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-124 Doing copy-only install of "USB\VID_13B1&PID_000D\5&2013F42E&0&2".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [WUSB54Gv4.ndi.NT.Interfaces] from "c:\wutemp\com_microsoft_whql.11446642\rt2500usb.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\VID_13B1&PID_000D\5&2013F42E&0&2".
+#I121 Device install of "USB\VID_13B1&PID_000D\5&2013F42E&0&2" finished successfully.
+[2008/02/13 09:55:42 3408.212 Driver Install]
+#-019 Searching for hardware ID(s): ms_pschedmp
+#-198 Command line processed: C:\WINDOWS\system32\mmc.exe /s C:\WINDOWS\system32\compmgmt.msc
+#I022 Found "ms_pschedmp" in C:\WINDOWS\INF\netpsa.inf; Device: "Packet Scheduler Miniport"; Driver: "Packet Scheduler Miniport"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "PSchedMP.ndi".
+#I023 Actual install section: [PSchedMP.ndi]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#I063 Selected driver installs from section [PSchedMP.ndi] in "c:\windows\inf\netpsa.inf".
+#I320 Class GUID of device remains: {4D36E972-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [PSchedMP.ndi.Interfaces] from "c:\windows\inf\netpsa.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "ROOT\MS_PSCHEDMP\0002".
+#I121 Device install of "ROOT\MS_PSCHEDMP\0002" finished successfully.
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0002".
+#I306 DICS_START: Device has been started.
+[2008/02/13 09:55:42 3408.206]
+#-198 Command line processed: C:\WINDOWS\system32\mmc.exe /s C:\WINDOWS\system32\compmgmt.msc
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0000".
+#I306 DICS_START: Device has been started.
+[2008/02/13 09:55:42 3408.207]
+#-198 Command line processed: C:\WINDOWS\system32\mmc.exe /s C:\WINDOWS\system32\compmgmt.msc
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "ROOT\MS_PSCHEDMP\0001".
+#I306 DICS_START: Device has been started.
+[2008/02/13 09:55:43 3408.220]
+#-198 Command line processed: C:\WINDOWS\system32\mmc.exe /s C:\WINDOWS\system32\compmgmt.msc
+#-166 Device install function: DIF_PROPERTYCHANGE.
+#I292 Changing device properties of "USB\VID_13B1&PID_000D\5&2013F42E&0&2".
+#I306 DICS_START: Device has been started.
+[2008/02/13 10:16:21 560.3 Driver Install]
+#-019 Searching for hardware ID(s): usb\vid_05ac&pid_1209&rev_0002,usb\vid_05ac&pid_1209
+#-018 Searching for compatible ID(s): usb\class_08&subclass_06&prot_50,usb\class_08&subclass_06,usb\class_08
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I393 Modified INF cache "C:\WINDOWS\inf\INFCACHE.1".
+#I022 Found "USB\Class_08&SubClass_06&Prot_50" in C:\WINDOWS\inf\usbstor.inf; Device: "USB Mass Storage Device"; Driver: "USB Mass Storage Device"; Provider: "Microsoft"; Mfg: "Compatible USB storage device"; Section name: "USBSTOR_BULK".
+#I023 Actual install section: [USBSTOR_BULK.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [USBSTOR_BULK] in "c:\windows\inf\usbstor.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USB\VID_05AC&PID_1209\000A270014B302AB".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [USBSTOR_BULK.NT.Interfaces] from "c:\windows\inf\usbstor.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\VID_05AC&PID_1209\000A270014B302AB".
+#I121 Device install of "USB\VID_05AC&PID_1209\000A270014B302AB" finished successfully.
+[2008/02/13 10:16:28 560.7 Driver Install]
+#-019 Searching for hardware ID(s): usbstor\diskapple___ipod____________1.62,usbstor\diskapple___ipod____________,usbstor\diskapple___,usbstor\apple___ipod____________1,apple___ipod____________1,usbstor\gendisk,gendisk
+#-018 Searching for compatible ID(s): usbstor\disk,usbstor\raw
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "GenDisk" in C:\WINDOWS\inf\disk.inf; Device: "Disk drive"; Driver: "Disk drive"; Provider: "Microsoft"; Mfg: "(Standard disk drives)"; Section name: "disk_install".
+#I023 Actual install section: [disk_install.NT]. Rank: 0x00000006. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [disk_install] in "c:\windows\inf\disk.inf".
+#I320 Class GUID of device remains: {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USBSTOR\DISK&VEN_APPLE&PROD_IPOD&REV_1.62\000A270014B302AB&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [disk_install.NT.Interfaces] from "c:\windows\inf\disk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USBSTOR\DISK&VEN_APPLE&PROD_IPOD&REV_1.62\000A270014B302AB&0".
+#I121 Device install of "USBSTOR\DISK&VEN_APPLE&PROD_IPOD&REV_1.62\000A270014B302AB&0" finished successfully.
+[2008/02/13 10:16:32 560.11 Driver Install]
+#-019 Searching for hardware ID(s): storage\volume
+#-018 Searching for compatible ID(s): storage\volume
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "STORAGE\Volume" in C:\WINDOWS\inf\volume.inf; Device: "Generic volume"; Driver: "Generic volume"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "volume_install".
+#I023 Actual install section: [volume_install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [volume_install] in "c:\windows\inf\volume.inf".
+#I320 Class GUID of device remains: {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "STORAGE\REMOVABLEMEDIA\7&3B4EC5E8&0&RM".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [volume_install.Interfaces] from "c:\windows\inf\volume.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "STORAGE\REMOVABLEMEDIA\7&3B4EC5E8&0&RM".
+#I121 Device install of "STORAGE\REMOVABLEMEDIA\7&3B4EC5E8&0&RM" finished successfully.
+[2008/02/13 13:22:06 560.3 Driver Install]
+#-019 Searching for hardware ID(s): usb\vid_0781&pid_5150&rev_0020,usb\vid_0781&pid_5150
+#-018 Searching for compatible ID(s): usb\class_08&subclass_06&prot_50,usb\class_08&subclass_06,usb\class_08
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "USB\Class_08&SubClass_06&Prot_50" in C:\WINDOWS\inf\usbstor.inf; Device: "USB Mass Storage Device"; Driver: "USB Mass Storage Device"; Provider: "Microsoft"; Mfg: "Compatible USB storage device"; Section name: "USBSTOR_BULK".
+#I023 Actual install section: [USBSTOR_BULK.NT]. Rank: 0x00002000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [USBSTOR_BULK] in "c:\windows\inf\usbstor.inf".
+#I320 Class GUID of device remains: {36FC9E60-C465-11CF-8056-444553540000}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USB\VID_0781&PID_5150\20041101101B4BC0091B".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [USBSTOR_BULK.NT.Interfaces] from "c:\windows\inf\usbstor.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USB\VID_0781&PID_5150\20041101101B4BC0091B".
+#I121 Device install of "USB\VID_0781&PID_5150\20041101101B4BC0091B" finished successfully.
+[2008/02/13 13:22:08 560.7 Driver Install]
+#-019 Searching for hardware ID(s): usbstor\disksandisk_cruzer_mini_____0.2_,usbstor\disksandisk_cruzer_mini_____,usbstor\disksandisk_,usbstor\sandisk_cruzer_mini_____0,sandisk_cruzer_mini_____0,usbstor\gendisk,gendisk
+#-018 Searching for compatible ID(s): usbstor\disk,usbstor\raw
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "GenDisk" in C:\WINDOWS\inf\disk.inf; Device: "Disk drive"; Driver: "Disk drive"; Provider: "Microsoft"; Mfg: "(Standard disk drives)"; Section name: "disk_install".
+#I023 Actual install section: [disk_install.NT]. Rank: 0x00000006. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [disk_install] in "c:\windows\inf\disk.inf".
+#I320 Class GUID of device remains: {4D36E967-E325-11CE-BFC1-08002BE10318}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20041101101B4BC0091B&0".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [disk_install.NT.Interfaces] from "c:\windows\inf\disk.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20041101101B4BC0091B&0".
+#I121 Device install of "USBSTOR\DISK&VEN_SANDISK&PROD_CRUZER_MINI&REV_0.2\20041101101B4BC0091B&0" finished successfully.
+[2008/02/13 13:22:09 560.11 Driver Install]
+#-019 Searching for hardware ID(s): storage\volume
+#-018 Searching for compatible ID(s): storage\volume
+#-198 Command line processed: C:\WINDOWS\system32\services.exe
+#I022 Found "STORAGE\Volume" in C:\WINDOWS\inf\volume.inf; Device: "Generic volume"; Driver: "Generic volume"; Provider: "Microsoft"; Mfg: "Microsoft"; Section name: "volume_install".
+#I023 Actual install section: [volume_install]. Rank: 0x00000000. Effective driver date: 07/01/2001.
+#-166 Device install function: DIF_SELECTBESTCOMPATDRV.
+#I063 Selected driver installs from section [volume_install] in "c:\windows\inf\volume.inf".
+#I320 Class GUID of device remains: {71A27CDD-812A-11D0-BEC7-08002BE2092F}.
+#I060 Set selected driver.
+#I058 Selected best compatible driver.
+#-166 Device install function: DIF_INSTALLDEVICEFILES.
+#I124 Doing copy-only install of "STORAGE\REMOVABLEMEDIA\7&20AF9463&0&RM".
+#-166 Device install function: DIF_REGISTER_COINSTALLERS.
+#I056 Coinstallers registered.
+#-166 Device install function: DIF_INSTALLINTERFACES.
+#-011 Installing section [volume_install.Interfaces] from "c:\windows\inf\volume.inf".
+#I054 Interfaces installed.
+#-166 Device install function: DIF_INSTALLDEVICE.
+#I123 Doing full install of "STORAGE\REMOVABLEMEDIA\7&20AF9463&0&RM".
+#I121 Device install of "STORAGE\REMOVABLEMEDIA\7&20AF9463&0&RM" finished successfully.

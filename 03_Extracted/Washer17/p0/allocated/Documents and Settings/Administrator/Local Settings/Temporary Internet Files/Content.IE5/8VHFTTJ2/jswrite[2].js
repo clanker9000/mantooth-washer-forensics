@@ -1,0 +1,41 @@
+//----------------Hat Id: webmail_cayman2--------------------//
+if(typeof _aol_hat_commonstyle_ =='undefined') var _aol_hat_commonstyle_="";
+_aol_hat_commonstyle_ += '#aol_hat2 {height:25px;min-width:756px; _width:expression(document.body.clientWidth < 757 ? "756px" : "auto" );font-size:11px;font-weight:normal;font-family:Arial;} #aol_hat2 a {font-size: 11px !important;font-weight:bold;font-family:Arial !important;text-decoration: none;background-image:none;} #aol_hat2 a:hover {text-decoration: underline;} div#aol_hat2_links {display:inline;float: left;width: auto; /* for browsers with no escapes at all */\width: auto; /* for IE5/Win */w\idth: auto; /* for good browsers */text-align:left;height:15px;margin:5px 0px 5px 3px;} div#aol_hat2_links ul { font-size: .9em;margin:0;padding:0;list-style:none;display: inline; float: left;} div#aol_hat2_links ul li { font-size: .9em; margin:0;padding:0 ;border: none;display: inline;background:none;} div#aol_hat2_links ul li a {display:inline; padding-left:5px; padding-right:5px;} div#aol_hat2_links ul li.aol_hat2_last {border:none;} div#aol_hat2_search {display:inline;float:right;width:auto;font-size: 10px;font-family:Arial;font-weight:normal;margin:2px 7px 0 10px;_margin:1px 7px 0 10px;} div#aol_hat2_search form{margin:0;padding:0; } div#aol_hat2_search input.aol_hat2_search { font-weight:normal;width:224px;height:15px;vertical-align: middle;margin-right:2px;color:#404040;font:10px Arial;border-color:#dfdbdc;padding-left:6px;} div#aol_hat2_search input.aol_hat2_button {width:62px !important;height:21px;vertical-align: middle;font:11px Arial !important;cursor:pointer;padding:0;color:#04330c;border:1px solid #58b926 !important;text-align:center;} div#aol_hat2_search input.aol_hat2_button {-moz-border-radius:2.5px;border-radius:2.5px;cursor:pointer;width:62px;height:21px;vertical-align: middle;font:11px Arial;cursor:pointer;padding:0;color:#04330c;border:1px solid #58b926;} div#aol_hat2_search input.aol_hat2_button {background:#D4F4C5;-moz-border-radius:2.5px;border-radius:2.5px;cursor:pointer;width:62px;height: 21px;vertical-align: middle;font:11px Arial;cursor:pointer;padding:0;color:#04330c;border:1px solid #58b926;} * html #aol_hat2_search .aol_hat2_button {filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFEF9,endColorStr=#BDEEA6);} div#aol_hat2_search input.aol_hat2_button_ovr {background:#83e839;-moz-border-radius:2.5px;border-radius:2.5px;cursor:pointer;width:62px;height: 21px;vertical-align: middle;font:11px Arial;cursor:pointer;padding:0;color:#04330c;border:1px solid #58b926;} * html div#aol_hat2_search input.aol_hat2_button_ovr {filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F9FEF7,endColorStr=#7BED46);} div#aol_hat2_search input.aol_hat2_button_clk {background:#C6FFA9;-moz-border-radius:2.5px;border-radius:2.5px;cursor:pointer;width:62px;height: 21px;vertical-align: middle;font:11px Arial;cursor:pointer;padding:0;color:#04330c;border:1px solid #58b926;} * html div#aol_hat2_search input.aol_hat2_button_clk {filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#99E576,endColorStr=#F5FCF1);} div#aol_hat2_impr_img {display:none;}';
+if(typeof _aol_hat_browserstyle_ =='undefined') var _aol_hat_browserstyle_="";
+_aol_hat_browserstyle_ += '#aol_hat2 {background-color:#ede1cf;} div#aol_hat2_links a {color:#0066cc} div#aol_hat2_links ul li {border-right:solid 1px #0066cc;} div#aol_hat2_search {color:#0066cc;} span#aol_hat2_search_label {color:#0066cc;} div#aol_hat2_promo {color:#0066cc;display:inline; float:left;margin:5px 0px 5px 15px;padding:0;top:4px;} div#aol_hat2_promo a{color:#0066cc;background:url(https://s.aolcdn.com/art/ch_global/icon_generic) 0 4px no-repeat; padding-left:8px;} div#aol_hat2_promo a:hover {background:url(https://s.aolcdn.com/art/ch_global/icon_generic) 0 4px no-repeat; padding-left:8px;} div#aol_hat2_sns {display:inline;float: right;text-align:right;width:auto;margin:5px 7px 5px -3px;}';
+if(typeof _aol_hat_waolstyle_ =='undefined') var _aol_hat_waolstyle_="";
+_aol_hat_waolstyle_ += '#aol_hat2 {background-color:#3279B4;} div#aol_hat2_links a {color:#ffffff} div#aol_hat2_links ul li {border-right:solid 1px #ffffff;} div#aol_hat2_search {color:#ffffff;margin:1px 7px 0 10px;} span#aol_hat2_search_label {color:#ffffff;} div#aol_hat2_promo {color:#ffffff;display:inline; float:left;margin:5px 0px 5px 39px;padding:0;top:4px;} div#aol_hat2_promo a {color:#ffffff; padding-left:8px;background:url(https://s.aolcdn.com/art/ch_global/icon_generic) 0 4px no-repeat;} div#aol_hat2_promo a:hover {padding-left:8px;background:url(https://s.aolcdn.com/art/ch_global/icon_generic) 0 4px no-repeat;}';
+var _aol_hat_waolpromo_ ="";var _aol_hat_extpromo_ ="";
+var _waol_links_ = '<ul><li><a href="aol://1722:welcome">AOL</a></li><li><a href="http://feeds.my.aol.com/">My AOL</a></li><li class="aol_hat2_last" ><a href="aol://1722:mailbox">Mail</a></li></ul>';
+var _browser_links_ = '<ul><li><A HREF=http://pr.atwola.com/promoclk/100001269x1116143256x1077350428/aol?redir=http:%2F%2Fwww.aol.com>AOL</a></li><li><A HREF=http://pr.atwola.com/promoclk/100001269x1116093114x1077383784/aol?redir=http:%2F%2Ffeeds.my.aol.com>My AOL</a></li><li><A HREF=http://pr.atwola.com/promoclk/100001269x1115193018x1077426358/aol?redir=http:%2F%2Fwebmail.aol.com>Mail</a></li><li class="aol_hat2_last" ><A HREF=http://pr.atwola.com/promoclk/100001269x1115550333x1077361411/aol?redir=http:%2F%2Fwww.aol.com%2Fmksplash.adp>Make AOL Your Homepage</a></li></ul>';
+var _aol_hat_sns_ = "";var _aol_hat_search_ = "";
+function hatGhostText(obj){if(typeof hatClk =='undefined')obj.value='';hatClk ='yes';}_aol_hat_search_+= '<form action="http://search.aol.com/aolcom/search" method="get" target="_top" id="aolhatform" name="aolhatform"><input type="hidden" name="invocationType" value="aolhatmail"> <span id="aol_hat2_search_label"></span>  <input type="text" name="query" maxlength="256" class="aol_hat2_search" value="Search the Web" onClick="javascript:hatGhostText(this);"/><label for="search"><input type="submit" value="Search" name="searchButton" id="aol_hat2_button_id" class="aol_hat2_button" onmouseover="hatBtnOvr(this)" onmouseout="hatBtnOut(this)" onclick="hatBtnClk(this)" /></label></form>';
+var _waol_imp_url_="";var _ext_imp_url_="";
+function hatBtnOvr(btn){ btn.className+="_ovr"; btn.className=btn.className.replace("_clk",""); }
+function hatBtnOut(btn){ btn.className=btn.className.replace("_ovr",""); btn.className=btn.className.replace("_clk", ""); }
+function hatBtnClk(btn){ btn.className+="_clk"; btn.className=btn.className.replace("_ovr",""); }var _agt_ = navigator.userAgent.toLowerCase();
+document.write('<style type="text/css">'+_aol_hat_commonstyle_);
+var _aol_hat_promo_ = "";
+if(_agt_.indexOf("aol") != -1){
+    document.write(_aol_hat_waolstyle_);
+    var _hat_links_ =  _waol_links_;
+    _aol_hat_sns_ = "";
+    _aol_hat_imp_url_=_waol_imp_url_;
+    if(_aol_hat_waolpromo_ != "") {_aol_hat_promo_= _aol_hat_waolpromo_;}
+    if(_agt_.indexOf("macintosh") != -1){
+        document.write('div#aol_hat2_search {margin:2px 7px 0px 10px;} div#aol_hat2_search input.aol_hat2_search {height:21px;} div#aol_hat2_search input.aol_hat2_button {padding-top:4px} div#aol_hat2_search input.aol_hat2_button_ovr {padding-top:4px}');
+    } 
+} else {
+    document.write(_aol_hat_browserstyle_);
+    if(_aol_hat_sns_ == "") {document.write('div#aol_hat2_sns {margin:0px;} div#aol_hat2_search {_margin:1px 7px 0 10px;}');}
+    var _hat_links_ =  _browser_links_;
+    _aol_hat_imp_url_=_ext_imp_url_;
+    if(_aol_hat_extpromo_ != "") {_aol_hat_promo_= _aol_hat_extpromo_;}
+    if(_aol_hat_extpromo_ == "" && _aol_hat_sns_ != "" && _aol_hat_search_ != "" ) {document.write ('div#aol_hat2_search {margin:2px 7px 0 10px;_margin:1px 7px 0 10px;}');}
+}
+document.write('</style>');
+var _aol_hat_="";
+_aol_hat_ += '<div id="aol_hat2"><div id="aol_hat2_links">'+_hat_links_+'</div>';
+if(_aol_hat_imp_url_.length > 0) {_aol_hat_ += '<div id="aol_hat2_impr_img"><img src="'+_aol_hat_imp_url_+'" height="1px" width="1px"/></div>';}
+_aol_hat_ +='<div id="aol_hat2_promo">'+_aol_hat_promo_+'</div><div id="aol_hat2_sns">'+_aol_hat_sns_+'</div><div id="aol_hat2_search">'+_aol_hat_search_+'</div></div>';
+ document.write( _aol_hat_ );

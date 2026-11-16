@@ -1,0 +1,166 @@
+body 	{background-color:#8F939C; margin: 0px; padding: 0px; font: normal 11px arial;}
+sup	{font-size:0.8em; vertical-align: baseline; position: relative; bottom: 0.33em;}
+A	{ text-decoration:none;color:#0066CC; }
+A:hover	{ text-decoration:underline;color:#0066CC; }
+A:visited	{ color:#0066CC; }
+A.black {text-decoration:none; color:#000; font: normal 12px arial;}
+A.black:hover {text-decoration:underline;color:#000; font: normal 12px arial;}
+A.black:active {font-weight:normal;color:#000; font: normal 12px arial;}
+A.black:visited {font-weight:normal;color:#000; font: normal 12px arial;}
+.vs15	{font-size: 10px; height: 15px;}
+.list {font:normal 11px arial;text-indent:-9px;margin-left:9px;line-height: 16px;}
+.sitehelp {text-align:right;padding:5px 0px;}
+.bannerImageStyle {margin:0px;}
+
+.MAINTABLEBACKGROUND   { background-color: #fff; }
+.CHROMEBACKGROUND   { background-color: #eceaeb; }
+.CHROMEBORDER { border : none;}
+.snsSmallTextWhite {color:#000;}
+.snsSmallTextLink  { color: #0033ff; }
+.snsSmallText12Link  { color: #0033ff; }
+
+H3 {
+    font: bold 1.2em Arial, Helvetica, sans-serif;
+    color: #ff3402;
+    margin:0px;
+    margin-bottom:10px;
+}
+
+#bannerFrame {
+        background: #fff url('https://www.aim.com/i/redesign/headerTile_bg.gif') repeat;
+        width:756px;
+        height: 72px;
+        margin:0px;
+        padding:0px;
+}
+
+#bg_container {
+    width:874px;
+    height:auto;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    padding:0px;
+    overflow:hidden;
+}
+
+#left_bg_top {
+    background:#8F939C url('https://www.aim.com/i/redesign/aimRailBG.jpg') no-repeat;
+    background-position: 0px 0px;
+    width: 59px;
+    height:968px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:11;
+}
+
+#left_bg {
+    background:#8F939C url('https://www.aim.com/i/redesign/leftRail_tile.jpg') repeat-y;
+    width: 59px;
+    height:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    _padding-bottom: 5000px;
+    _margin-bottom: -5000px;
+    z-index:1;
+}
+
+#body {
+    background-color:#fff;
+    width: 756px;
+    min-height:968px;
+    height:auto !important;
+    height:968px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-top:0px;
+}
+
+#right_bg_top {
+    background:#8F939C url('https://www.aim.com/i/redesign/aimRailBG.jpg') no-repeat;
+    background-position: -59px 0px;
+    width: 59px;
+    height:968px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    z-index:11;
+}
+
+#right_bg {
+    background:#8F939C url('https://www.aim.com/i/redesign/rightRail_tile.jpg') repeat-y;
+    width: 59px;
+    height:100%;
+    position: absolute;
+    top:0px;
+    right:0px;
+    _padding-bottom: 5000px;
+    _margin-bottom: -5000px;
+    z-index:1;
+}
+
+#contentsFrame {
+    background:#fff;
+    width:756px;
+    margin:0;
+    padding:0 0 30px 0;
+    /*border:1px solid #ff6600;*/
+}
+
+#rightContainer{
+    width:306px;
+    margin:0 10 0 0;
+    padding:0px;
+    float:right;
+}
+
+#contentsRight {
+    background:#fff;
+    border:1px solid #d0d0d0;
+    margin:0px 10px 0px 0px;
+    _margin-right: 5px;
+    padding:10px 7px;
+    width:279px;
+    height:auto;
+    float:right;
+}
+    
+#contentsLeft {
+    background:#fff;
+    border:1px solid #d0d0d0;
+    margin:0px 0px 0px 10px;
+    _margin-left: 10px;
+    padding:0px;
+    width:430px;
+    height:1152px;
+}
+    
+#rightGreyBox {
+    width:260px;
+    margin:0px;
+    padding:10px;
+    background:#eceaeb;
+    margin-bottom:13px;
+    font: normal 12px arial;
+}
+
+#footer {
+    text-align:center;
+    width:756px;
+    margin:0px;
+}
+
+#footer .links {
+    background-color: #fff;
+    font: normal 12px arial;
+    padding:15px 0px;
+}
+
+#footer .links a:hover {
+    font-weight:normal;
+    text-decoration:underline
+}
+

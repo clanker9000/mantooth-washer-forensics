@@ -1,0 +1,1 @@
+if (navigator.appName == "Microsoft Internet Explorer") {var pmFlash = document.getElementById('pmFlash');replaceObj = pmFlash.getElementsByTagName("object");for (i = 0; i < replaceObj.length; i++ ) {var parentObj = replaceObj[i].parentNode;var newHTML = parentObj.innerHTML;parentObj.removeChild(replaceObj[i]);parentObj.innerHTML = newHTML;}}

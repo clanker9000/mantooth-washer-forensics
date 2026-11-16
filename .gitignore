@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Case repository: Mantooth / Washer / Thumbdrive 05
+#
+#  This file keeps unrelated course exercises and oversized binaries OUT of the
+#  committed repo. Nothing here is deleted from disk — these paths simply aren't
+#  tracked by git. In scope: Mantooth.E01, Washer 17.E01, Thumbdrive 05.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# --- Out-of-scope course exercises (NOT this case) ------------------------------
+03_Extracted/Mantooth34/
+03_Extracted/Mantooth_VHD/
+03_Extracted/VSC_Exercise/
+03_Extracted/Win10ClassImage/
+# EncryptedWord_DECRYPTED.docx = separate EFS drill, not case evidence
+03_Extracted/Decrypted/
+
+# Their disk/MFT listings
+04_Analysis/disk/Mantooth_VHD_p0_mft.csv
+04_Analysis/disk/VSC_Exercise_vol_mft.csv
+04_Analysis/disk/Win10ClassImage_p0_mft.csv
+
+# The AD1 teaching datasets are all separate exercises (iOS backup, geotag set,
+# class image, Zipper/Enron mail, Windows CCI, ACEv6, student practical, Mantooth34)
+04_Analysis/ad1_inventory/
+
+# --- Formal report deliverables -------------------------------------------------
+# The written report, summary and presentation are course deliverables, not part
+# of documenting the findings. The 8 analysis figures worth keeping have been
+# copied out to /figures (tracked); everything else under 05_Report stays out.
+05_Report/
+
+# --- Oversized raw working copies (~13 GB) --------------------------------------
+# Full working copies of the evidence disk images are far too large for git.
+# The repo documents the *extracted* evidence (03_Extracted) + hashes (01_Hashes);
+# keep the raw images in external or Git-LFS storage. Delete this line if you
+# intend to track them with Git LFS instead.
+02_WorkingCopies/
+
+# --- Tooling noise --------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+04_Analysis/passwords/_tmp

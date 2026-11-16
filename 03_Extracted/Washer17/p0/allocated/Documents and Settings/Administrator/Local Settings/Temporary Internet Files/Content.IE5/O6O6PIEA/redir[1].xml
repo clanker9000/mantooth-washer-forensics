@@ -1,0 +1,15 @@
+<?xml-stylesheet type="text/xsl" version="1.0" href="../PageTemplate.xsl"?>
+<MSFILEASSOCIATIONS>
+  <FILETYPENAME>PDF - Adobe Portable Document Format</FILETYPENAME>
+  <FILEEXT>pdf</FILEEXT>
+  <DESCRIPTION>Invented by Adobe Systems and perfected over 15 years, Adobe Portable Document Format (PDF) lets you capture and view robust information — from any application, on any computer system — and share it with anyone around the world.</DESCRIPTION>
+  <APP>
+    <NAME>Adobe Reader</NAME>
+    <URL>http://www.adobe.com/products/acrobat/readstep2.html</URL>
+  </APP>
+  <APP>
+    <NAME>Adobe Acrobat Family</NAME>
+    <URL>http://www.adobe.com/products/acrobat/</URL>
+  </APP>
+</MSFILEASSOCIATIONS>
+<!--TOOLBAR_EXEMPT-->

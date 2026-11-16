@@ -1,0 +1,9 @@
+.pagination {text-align:center;}
+.pagination div {padding:3px 0;text-align:left;}
+.topPagination a, .pagination div a {margin:0 3px;}
+.pagination ul {margin:25px auto 30px auto;padding:0;}
+.pagination li {list-style:none;margin:0;padding:0 4px;display:inline;color:#888;}
+.pagination .nav {font-weight:bold;font-size:1.15em;}
+.pagination a.sorted, .pagination a.sorted:hover, .topPagination a.sorted, .topPagination a.sorted:hover, .pagination li.sorted a, .pagination li.sorted a:hover {font-weight:bold;color:#000;text-decoration:none;cursor:text;}
+.topPagination {position:relative;top:-6px;padding-bottom:3px;margin-bottom:4px;}
+* html .topPagination {width:423px;}

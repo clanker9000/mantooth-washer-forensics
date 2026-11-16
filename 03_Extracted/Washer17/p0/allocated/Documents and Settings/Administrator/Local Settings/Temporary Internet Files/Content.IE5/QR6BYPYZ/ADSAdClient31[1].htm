@@ -1,0 +1,166 @@
+
+//<![CDATA[
+var inDapIF_158=false;
+if(typeof(inDapIF) != "undefined"){parent.dap_Resize(document.body.id, 300, 250);
+inDapIF_158=true;}
+var fAObj_158=null;
+document.write('<div>');
+var aURL_158=new Array('','http://g.msn.com/0AD0001I/1320391.5.1??PID=3917378&amp;UIT=G&amp;TargetID=1048194&amp;AN=19611867&amp;PG=MSNREC','','','','','','','');
+var szNameOfFlashObj_158="NGAPFlashObj_158";
+var MSAdsEmbed=0,MSAdsUseFlash=0,MSNadsBGCOLOR="#FFFFFF",MSNadsMENU="FALSE",MSNadsWIDTH=300,MSNadsHEIGHT=250;
+var clickTag_158 = '&clickTAG='+escape('http://g.msn.com/0AD0001I/1320391.5.1??PID=3917378&amp;UIT=G&amp;TargetID=1048194&amp;AN=19611867&amp;PG=MSNREC');
+var fd_158 = "";
+try {fd_158 = location.hostname;} catch (e){}
+for (i = 0; i < aURL_158.length; i++) 
+{
+	if (i>0) clickTag_158 += '&clickTAG' + i + '='+escape(aURL_158[i]);
+}
+
+function NGAPFlashObj_158_DoFSCommand(command, args) 
+{
+	if(command.indexOf("URL")==0)
+	{
+		window.open(aURL_158[command.substr(3)],"_blank");
+		return;
+	}
+	
+	var player = document.getElementById("NGAPFlashObj_158");
+	var urlExtra = '?fd=' + fd_158 + clickTag_158;
+	
+	if(command=="NGAPMovie1")
+	{
+		player.LoadMovie(0, "http://ads1.msn.com/ads/52/0000000052_000000000000000547257.swf" + urlExtra);
+		waitForLoad();	
+	}
+	if(command=="NGAPMovie2")
+	{
+		player.LoadMovie(0,"http://" + urlExtra);
+		waitForLoad();
+		
+	}
+	if(command=="NGAPMovie3")
+	{
+		player.LoadMovie(0,"http://" + urlExtra);
+		waitForLoad();
+		
+	}
+}
+
+var bShowFlash_158=false;
+var isFirefox_158 = (navigator.userAgent.indexOf('Firefox') >= 0 && navigator.appVersion.indexOf("Win")>=0);
+if (isFirefox_158)
+{	// firefox flash detection
+	var plugin = (navigator.mimeTypes &&
+				navigator.mimeTypes["application/x-shockwave-flash"] &&
+				navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) ?
+				navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+	if (plugin) {
+		bShowFlash_158 = true;
+		g_FlashVersion = parseInt(plugin.description.substring(plugin.description.indexOf(".")-1));
+		if (g_FlashVersion < 4) g_bShowFlash = false;
+	}
+}
+else
+{
+	if (navigator.appVersion.indexOf("Win")>=0 && parseFloat(navigator.appVersion.substr(navigator.appVersion.indexOf("MSIE ")+5))>=4)
+	{
+		document.write('<SCR'+'IPT LANGUAGE=VBScript\> \n');
+		document.write('on error resume next \n');
+		document.write('bShowFlash_158=( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4")))\n');
+		document.write('</SCR'+'IPT\>');
+	}
+}
+
+if(bShowFlash_158==true)
+{
+	var sFlashObjName_158 = "NGAPFlashObj_158";
+	var objText_158 = 'classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="'+szNameOfFlashObj_158+'" width="'+MSNadsWIDTH+'"  height="'+MSNadsHEIGHT+'" style="z-index:-1"><param name="movie" value="http://ads1.msn.com/ads/52/0000000052_000000000000000547257.swf?fd=' + fd_158 + clickTag_158 +'"><param name="wmode" value="opaque"><param name="quality" value="high"><param name="loop" value="true"><param name="AllowScriptAccess" value="always">';
+	document.write('<img ID="GTrkImg_158" src="http://" width="1" height="1" style="display: none;"\>');
+	
+	if (isFirefox_158)
+	{
+		document.write('<object type="application/x-shockwave-flash" id="'+szNameOfFlashObj_158+'" name="'+szNameOfFlashObj_158+'" width="'+MSNadsWIDTH+'"  height="'+MSNadsHEIGHT+'" style="z-index:-1" data="http://ads1.msn.com/ads/52/0000000052_000000000000000547257.swf?fd=' + fd_158 + clickTag_158 +'"><param name="wmode" value="opaque"><param name="quality" value="high"><param name="loop" value="true"><param name="AllowScriptAccess" value="always"><param name="swLiveConnect" value="true"></object>');
+	}
+	else
+	{
+		if (typeof(inDapIF) != "undefined")	
+		{
+			document.write('<object ' + objText_158 + '</object>');
+			attachEvents_1320391();
+		}
+		else
+		{
+			if (document.body == null) document.write('<html><body>');
+			document.write('<span id="adspan_1320391"></span>');
+			document.write('<scr' + 'ipt language="javascript" src="http://Ads1.msn.com/library/flashlib.js" onreadystatechange="initFlash_1320391();"><\/scr' + 'ipt>');					
+			if (document.body == null) document.write('</body></html>');
+		}
+	}
+	acbfa_158(fAObj_158);
+}
+else
+{
+		dlWrite_1320391();
+}
+
+function initFlash_1320391()
+{
+	if (event.srcElement.readyState == "complete")
+	{
+		writeObjectTagGeneric("adspan_1320391", objText_158);
+		attachEvents_1320391();
+	}
+}
+
+function attachEvents_1320391()
+{
+	document.all[szNameOfFlashObj_158].attachEvent("fscommand",function (cmd,args) {NGAPFlashObj_158_DoFSCommand(cmd, args);});
+}
+
+function dlWrite_1320391()
+{
+
+	document.write('<a target="_blank" href="http://g.msn.com/0AD0001I/1320391.1??PID=3917378&amp;UIT=G&amp;TargetID=1048194&amp;AN=19611867&amp;PG=MSNREC"><img src="http://ads1.msn.com/ads/52/0000000052_000000000000000547258.gif" width="300" height="250" border="0" alt="Click&#32;Here&#33;" /></a>');
+	document.write('<div style="display:none;"><img src="http://g.msn.com/0AD0001I/1320391.4??PID=3917378&amp;UIT=G&amp;TargetID=1048194&amp;AN=19611867&amp;PG=MSNREC" width="1" height="1" /><img src="http://ads1.msn.com/ads/abuimg/clear1.gif" width="1" height="1" /></div>');
+	acbfa_158("fdl");
+}
+
+function waitForLoad()
+{
+	var fObjLocal_158;
+	if (isFirefox_158)
+	{
+		fObjLocal_158 = document.getElementById(szNameOfFlashObj_158);
+	}
+	else
+	{
+		fObjLocal_158 = document.all[szNameOfFlashObj_158];
+	}
+	
+	if(fObjLocal_158.PercentLoaded() < 100)
+	{
+		window.setTimeout("waitForLoad()",100);
+	}
+	else
+	{
+		fObjLocal_158.TGotoLabel("/","MSNStatic");
+		fObjLocal_158.Play();
+	}
+}
+
+function acbfa_158(f)
+{
+  try
+  {
+    if(inDapIF_158)
+    {
+      parent.ShowAcb(document.body.id, 1320391,  300, 250, 'g.msn.com', '0AD0001I',"3917378", f);
+    }
+  }
+  catch(e){}
+}
+
+
+document.write('</div>');
+document.close();
+//]]>

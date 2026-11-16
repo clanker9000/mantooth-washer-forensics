@@ -1,0 +1,183 @@
+﻿<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<style>
+	body, p, div, span { margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 11pt; color: #333; background: #fff; }
+	a				{ text-decoration: none; color: #1A5C99; }
+	a:hover			{ text-decoration: underline; }
+	h1				{ font: normal 22px Arial, Helvetica, sans-serif; color: #1A5C99; margin: 0px; padding-left: 8px; }
+	p				{ margin: 10px 10px; padding:0px; }
+
+	.ErrorInfo		{ display: none; position: absolute; top: 0px; left; -1000px; height: 100px; width: 100px; visibility: hidden; }
+	.ErrorInfoViz	{ }
+
+	#ErrorTable		{ display: none; visibility: hidden; position: absolute; top:300px; left: -1000px; height: 5px; width: 5px; }
+ 	#PageHeader		{height: 57px; padding: 1px 12px 12px 12px; background: url(images/errorgradient.gif) repeat-x}	
+ 	#PageHeader img	{float:left; margin-top: -4px; }
+	#ErrorCode		{ margin-top: 20px; }
+	#ReportID		{ margin-top: 20px; }
+
+	.offscreen		{ position: absolute; top: 0px; left; -1000px; height: 100px; width: 100px; visibility: hidden; }
+</style>
+</head>
+<body onload="PageLoaded();">
+<div id="Content" class="standard">
+<div id="PageHeader">
+	<img src="images/hat_logo.gif">
+</div>
+<h1 id="PageTitle"></h1>
+<div id="ErrorMessage"></div>
+<div id="SupportMessage" style="display:none;">
+<p>If you continue to see this message, please review the <a href="http://help.channels.aol.com/topic.adp?topicId=SG_AOLOTWAOLcom_AIM" target="_blank">Help pages</a>.
+			To learn more about the Mail service, please visit our <a href="http://www.aim.com" target="_blank">Home page</a>.
+		</p>
+</div>
+<div id="ErrorCode" class="ErrorInfo"><p><b>Error Code</b>: <span id="ErrorCodeSpan"></span></p></div>
+<div id="ReportID" class="ErrorInfo"><p><b>Report ID</b>: <span id="ReportCodeSpan"></span></p></div>
+<div id="ErrorTable">
+<div class="ErrorInfo">
+<h1></h1>
+<p>-----------------------------</p>
+</div>
+<div id="E80070002" name="ERROR_FILE_NOT_FOUND" class="ErrorInfo">
+<h1>Page Not Found</h1>
+<p>I'm sorry but we couldn't find the page you were looking for.</p>
+</div>
+<div id="E80070003" name="ERROR_PATH_NOT_FOUND" class="ErrorInfo">
+<h1>Page Not Found</h1>
+<p>I'm sorry but we couldn't find the page you were looking for.</p>
+</div>
+<div id="EC0FE0223" name="ImapStoreLoginThrottleError" class="ErrorInfo">
+<h1>Account Access Error</h1>
+<p>Your account is temporarily unavailable. Please try again later.</p>
+</div>
+<div id="EC0FE0226" name="ImapStoreLoginAfterAccountCreationError" class="ErrorInfo">
+<h1>Mailbox Creation Error</h1>
+<p>Your user name has been created, but we are unable to create your mailbox at this time. Please try again later. We apologize for any inconvenience.</p>
+</div>
+<div id="EC0FE0227" name="ImapStoreAccountCreationError" class="ErrorInfo">
+<h1>Mailbox Creation Error</h1>
+<p>Your user name has been created, but we are unable to create your mailbox at this time. Please try again later. We apologize for any inconvenience.</p>
+</div>
+<div id="EC0FE0229" name="ImapStoreAccountCancelledError" class="ErrorInfo">
+<h1>Account Cancelled</h1>
+<p>This account has been cancelled.  To reactivate, the master account holder may call 1-888-265-8003.</p>
+</div>
+<div id="EC0FE022B" name="ImapStoreNonUSCancelledAcctError" class="ErrorInfo">
+<h1>Account Cancelled (Non-US)</h1>
+<p>We are sorry.  You will not be able to access this service at this time.  Your screen name is associated with a cancelled account and a mailbox can not be created for you at this time.</p>
+</div>
+<div id="EC0FE0251" name="ImapLoginError" class="ErrorInfo">
+<h1>Mailbox Access Error</h1>
+<p>The mailbox you have tried to access is unavailable.  Please try again later.</p>
+</div>
+<div id="EC0FE1703" name="AOLSNSUserTypeNotAllowed" class="ErrorInfo">
+<h1></h1>
+<p></p>
+</div>
+<div id="EC0FE1704" name="AOLSNSTOSRequired" class="ErrorInfo">
+<h1></h1>
+<p></p>
+</div>
+<div id="EC0FE1705" name="AOLSNSCaptchaRequired" class="ErrorInfo">
+<h1></h1>
+<p></p>
+</div>
+<div id="EC0FE1800" name="WebAppUnspecifiedError" class="ErrorInfo">
+<h1>Service Error</h1>
+<p>There was a problem handling your request. An unspecified error has occurred.</p>
+</div>
+<div id="EC0FE1801" name="WebAppServiceUnavailable" class="ErrorInfo">
+<h1>Service Unavailable</h1>
+<p>The service you are trying to access is currently unavailable. Please try again in a few moments.</p>
+</div>
+<div id="EC0FE1802" name="WebAppFeatureUnavailable" class="ErrorInfo">
+<h1>Feature Unavailable</h1>
+<p>The feature you requested is presently unavailable.</p>
+</div>
+<div id="EC0FE1803" name="WebAppLoginRestricted" class="ErrorInfo">
+<h1>Login Restricted</h1>
+<p>Login to the Mail service on this machine is restricted.  Please contact the Mail product manager for access.</p>
+</div>
+<div id="EC0FE1804" name="WebAppComingSoon" class="ErrorInfo">
+<h1>Coming Soon</h1>
+<p>The feature you requested is not yet available. Please try again later.</p>
+</div>
+<div id="EC0FE1805" name="WebAppTooBusy" class="ErrorInfo">
+<h1>Server Busy</h1>
+<p>The server is currently too busy serving other requests. Please try again later.</p>
+</div>
+<div id="EC0FE1806" name="WebAppUserDisabled" class="ErrorInfo">
+<h1>User Account Disabled</h1>
+<p>This account has been disabled. Please contact customer support for more information.</p>
+</div>
+<div id="EC0FE1807" name="WebAppAccountMaintenance" class="ErrorInfo">
+<h1>Account Maintenance</h1>
+<p>This account is undergoing maintenance and will be accessible shortly. Please contact customer support for more information.</p>
+</div>
+<div id="EC0FE1808" name="WebAppInvalidURL" class="ErrorInfo">
+<h1>Invalid URL</h1>
+<p>The requested URL is invalid. Please contact customer support for more information.</p>
+</div>
+<div id="EC0FE180B" name="WebAppServiceOutageNoETR" class="ErrorInfo">
+<h1></h1>
+<p></p>
+</div>
+<div id="EC0FE180C" name="WebAppRequestThrottled" class="ErrorInfo">
+<h1>Server Busy</h1>
+<p>The server is currently too busy serving other requests. Please try again later.</p>
+</div>
+<div id="EC0FE180D" name="WebAppErrorDownloadingContent" class="ErrorInfo">
+<h1>Error Downloading Required Content</h1>
+<p>An error occurred while downloading required content. Please try again later.</p>
+</div>
+<div id="EC0FE1900" name="WAABContactAccessError" class="ErrorInfo">
+<h1>Contact Error</h1>
+<p>An error occurred while attempting to retrieve the contact information.</p>
+</div>
+<div id="EC0FE1901" name="WAABDistListAccessError" class="ErrorInfo">
+<h1>Distribution List Error</h1>
+<p>An error occurred while attempting to retrieve the distribution list information.</p>
+</div>
+<div id="EC0FE1902" name="WAABSharedGroupAccessError" class="ErrorInfo">
+<h1>Shared Group Error</h1>
+<p>An error occurred while attempting to retrieve the shared group information.</p>
+</div>
+<div id="EC0FE1A00" name="WAAttachmentMessageDeletedOrMoved" class="ErrorInfo">
+<h1>Attachment Error</h1>
+<p>The selected attachment could not be retrieved because the containing message has been deleted or moved.</p>
+</div>
+<div id="EC0FE1A01" name="WAAttachmentNotFound" class="ErrorInfo">
+<h1>Attachment Error</h1>
+<p>The selected attachment could not be retrieved because it could not be found in the containing message.</p>
+</div>
+<div id="EC0FE1A02" name="WAAttachmentContentsMalformed" class="ErrorInfo">
+<h1>Attachment Error</h1>
+<p>The selected attachment could not be retrieved because its contents are malformed.</p>
+</div>
+<div id="EC0FE1A03" name="WAAttachmentUnrecognizedFormat" class="ErrorInfo">
+<h1>Attachment Error</h1>
+<p>The selected attachment could not be retrieved because its contents are in an unrecognized format.</p>
+</div>
+<div id="EC0FE1B00" name="WAReadMessageDeletedOrMoved" class="ErrorInfo">
+<h1>Read Message Error</h1>
+<p>The selected message could not be found, probably because it has been deleted or moved.</p>
+</div>
+<div id="EC0FE1B01" name="WAReadMessageBodyNotFound" class="ErrorInfo">
+<h1>Read Message Error</h1>
+<p>The message body could not be found, probably because it has been deleted or moved.</p>
+</div>
+<div id="EC0FE1B02" name="AimNotFound" class="ErrorInfo">
+<h1>AOL Instant Messger Not Found</h1>
+<p>We could not find an AOL Instant Messenger (AIM) installation on your system. Please visit http://www.aim.com for downloading one.</p>
+</div>
+</div>
+<div id="ClickHereMessage" style="display:none;">
+<p><a href="#" onclick="reloadTop()">Click here</a> to return to mail.</p>
+</div>
+</div>
+
+<script type="text/javascript" src="../../js/error.js"></script>
+
+</body>
+</html>

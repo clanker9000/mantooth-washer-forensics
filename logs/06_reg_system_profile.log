@@ -1,0 +1,82 @@
+﻿====================================================================== 
+SYSTEM IDENTITY
+ ======================================================================
+  ProductName             : Windows 8.1 Pro
+  EditionID               : Professional
+  CurrentBuild            : 9600
+  CurrentBuildNumber      : 9600
+  BuildLab                : 9600.winblue_r4.141028-1500
+  RegisteredOwner         : Windows User
+  RegisteredOrganization  : 
+  InstallDate             : 2020-01-22 21:39:42 UTC
+  ComputerName            : WIN-7COSFT118MT  (active controlset: ControlSet001)
+  TimeZone                : GMT Standard Time bias=4294967236 (min)
+  Last ShutdownTime       : 2020-01-23 13:16:33
+
+====================================================================== 
+LOCAL USERS (SAM)
+ ======================================================================
+  user='7028CEM'              RID=1001   created=2020-01-22 21:37:23 last_login=2020-10-13 13:04:40
+  user='Administrator'        RID=500    created=2020-01-22 21:39:37 last_login=2014-11-21 16:24:04
+  user='Guest'                RID=501    created=2020-01-22 21:39:37 last_login=
+
+====================================================================== 
+NETWORK PROFILES (known networks)
+ ======================================================================
+  'Network  6' created= last= managed_by_dhcp=6
+  'Network  3' created= last= managed_by_dhcp=6
+  'Network  4' created= last= managed_by_dhcp=6
+  'Network  2' created= last= managed_by_dhcp=6
+  'Network' created= last= managed_by_dhcp=6
+  'Network  5' created= last= managed_by_dhcp=6
+
+====================================================================== 
+NETWORK INTERFACES (DHCP/IP)
+ ======================================================================
+  {788E8A42-B3D1-4CDC-99FB-B6AE303808B5}: dhcp_ip=192.168.152.133 ip=None gw=['192.168.152.2'] domain=localdomain server=192.168.152.254 lease=1602593782
+  {C123244D-D892-4543-8CE2-ABD0998A61FA}: dhcp_ip=10.0.18.3 ip=None gw=None domain=None server=10.0.18.254 lease=1580213262
+
+====================================================================== 
+USB / USBSTOR DEVICE HISTORY
+ ======================================================================
+  WPD SWD#WPDBUSENUM#{1BC08976-3DA2-11EA-824E-806E6F6E6963}#0000000EFFF00000 -> 'Data'
+
+====================================================================== 
+INSTALLED SOFTWARE (uninstall entries)
+ ======================================================================
+  7-Zip 19.00 (x64)  19.00  [Igor Pavlov] 
+  Mozilla Firefox 72.0.2 (x64 en-US)  72.0.2  [Mozilla] 
+  Mozilla Maintenance Service  72.0.2  [Mozilla] 
+  OpenVPN 2.4.6-I602   2.4.6-I602  [OpenVPN Technologies, Inc.] 
+  TAP-Windows 9.21.2  9.21.2  [] 
+  AccessData Evidence Processing Engine 10.22  10.22.0.4067  [AccessData] 20200122
+  Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030  11.0.61030  [Microsoft Corporation] 20200122
+  Microsoft Visual C++ 2019 X64 Additional Runtime - 14.20.27508  14.20.27508  [Microsoft Corporation] 20200122
+  AccessData Forensic Tools 7.2  7.2.0.4127  [AccessData] 20200122
+  AccessData Password Recovery Toolkit  8.2.1.971  [AccessData] 20200122
+  Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005  12.0.21005  [Microsoft Corporation] 20200122
+  Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005  12.0.21005  [Microsoft Corporation] 20200122
+  AccessData FTK Imager  4.2.1.4  [AccessData] 20200122
+  CodeMeter Runtime Kit v6.50b  6.50.2631.502  [WIBU-SYSTEMS AG] 20200122
+  Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030  11.0.61030  [Microsoft Corporation] 20200122
+  VMware Tools  11.0.6.15940789  [VMware, Inc.] 20201013
+  Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.20.27508  14.20.27508  [Microsoft Corporation] 20200122
+  AccessData PostgreSQL  11.2.0.10  [AccessData] 20200122
+  Notepad++ (32-bit x86)  7.8.3  [Notepad++ Team] 
+  Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501  12.0.30501.0  [Microsoft Corporation] 
+  Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005  12.0.21005  [Microsoft Corporation] 20200122
+  AccessData Forensic Tools Suite 7.2  7.2.0.4127  [AccessData] 
+  AccessData Registry Viewer  2.0.0.7  [AccessData] 20200122
+  Microsoft Visual C++ 2005 Redistributable  8.0.56336  [Microsoft Corporation] 20200122
+  Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.20.27508  14.20.27508.1  [Microsoft Corporation] 
+  AccessData Forensic Toolkit 1.81.6  1.81.6  [AccessData] 20200123
+  Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.20.27508  14.20.27508.1  [Microsoft Corporation] 
+  AccessData Forensic Toolkit  1.81.6  [AccessData] 20200123
+  Adobe Reader X (10.1.0)  10.1.0  [Adobe Systems Incorporated] 20200123
+  Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.20.27508  14.20.27508  [Microsoft Corporation] 20200122
+  SysTools Outlook PST Viewer version 4.5  4.5  [SysTools Software] 20200123
+  Microsoft Visual C++ 2019 X86 Additional Runtime - 14.20.27508  14.20.27508  [Microsoft Corporation] 20200122
+  Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030  11.0.61030.0  [Microsoft Corporation] 
+  Black Ice ColorPlus Driver (MultiInstance)    [] 
+  Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501  12.0.30501.0  [Microsoft Corporation] 
+  Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005  12.0.21005  [Microsoft Corporation] 20200122

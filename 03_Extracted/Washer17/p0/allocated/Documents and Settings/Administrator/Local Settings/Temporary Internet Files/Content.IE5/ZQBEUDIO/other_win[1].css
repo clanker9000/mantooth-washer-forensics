@@ -1,0 +1,77 @@
+    #topBox {
+    background:#fff;
+    border:1px solid #d0d0d0;
+    margin:0px 0px 0px 10px;
+    padding:10px;
+    height: 165px;
+    width:714px;
+    }
+
+    #contentsRight {
+    background:#fff;
+    border:0px solid #d0d0d0;
+    margin:10px 10px 10px 6px;
+    _margin-right:5px;
+    _margin-left:0px;
+    padding:0px;
+    width:299px;
+    float:right;
+    }
+
+    #contentsLeft {
+    background:#fff;
+    border:0px solid #d0d0d0;
+    margin:10px 0px 10px 28px;
+    _margin-right:0px;
+    padding:0px;
+    width:399px;
+    height:720px;
+    }
+
+    #margin6box {
+    width:270px;
+    padding-left:6px;
+    }
+
+    #margin7box {
+    width:250px;
+    padding-left:6px;
+    }
+
+    h2.title {
+        font-family:arial,sans-serif;
+        color:#FF3300;
+        font-size:20px;
+        font-weight:bold;
+        margin-bottom:15px;
+        _margin-bottom:25px;
+    }
+    h2.osDownload {
+        font-family:arial,sans-serif;
+        color:#FF3300;
+        font-size:18px;
+        font-weight:bold;
+        margin-top:30px;
+        margin-bottom:4px;
+
+    }
+    h2.osDownload2 {
+        font-family:arial,sans-serif;
+        color:#858585;
+        font-size:18px;
+        font-weight:bold;
+        margin-top:0px;
+        margin-bottom:4px;
+    }
+    h2.osDownload3 {
+        font-family:arial,sans-serif;
+        color:#FF3300;
+        font-size:18px;
+        font-weight:bold;
+        margin-top:0px;
+        margin-bottom:4px;
+    }
+.iconBox {width:360px; min-height:100px;height:auto !important;height:100px;}
+.iconImg {margin-right:12px;}
+.greyBox {width:270px; padding:6px; background:#ECEBEB; /*border:1px solid #ff6600;*/}
+.download {font: normal 12px arial; padding: 6px 15px 0px 4px;}

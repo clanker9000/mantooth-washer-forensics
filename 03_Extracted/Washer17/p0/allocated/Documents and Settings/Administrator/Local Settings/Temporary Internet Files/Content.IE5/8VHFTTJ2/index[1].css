@@ -1,0 +1,389 @@
+    .promo_header_lft_bg {
+      background:#fff url('http://cdn.aim.com/i/redesign/promo_header_bg.jpg') no-repeat;
+      height:34px;
+      width:218px;
+    }
+    .promo_header_lft {
+      padding:8px 0px 0px 13px;
+      font: normal 18px arial;
+      color:#0081b5;
+      height:26px;
+      width:205px;
+    }
+
+    .promo_header_lft A, A:hover, A:visited, A:active {color:#0081b5;}
+    .promo_header_rht A, A:hover, A:visited, A:active {color:#0081b5;}
+
+    #promo_lft_content {
+      font: normal 12px arial;
+      color:#161616;
+      height:105px;
+      width:218px;
+      border-bottom: 1px #dedede solid;
+      margin-top:20px;
+      margin-bottom:0px;
+    }
+
+    #promo_lft_content_img {
+        padding-left:10px;
+    padding-right: 8px;
+    _padding-right: 6px;
+        margin-right:15px;
+        float:left;
+    }
+
+    #promo_lft_content ul {
+      font: normal 12px arial;
+      color:#161616;
+      margin:0px;
+      list-style-type: disc;
+
+    }
+
+    .promo_header_rht_bg {
+      background:#fff url('http://cdn.aim.com/i/redesign/promo_header_bg.jpg') no-repeat;
+      height:34px;
+      width:218px;
+    }
+    .promo_header_rht {
+      padding:8px 0px 0px 13px;
+      font: normal 18px arial;
+      color:#0081b5;
+      height:26px;
+      width:205px;
+    }
+
+    #promo_rht_content {
+      font: normal 12px arial;
+      color:#161616;
+      height:105px;
+      width:218px;
+      border-bottom: 1px #dedede solid;
+      margin-top:20px;
+      margin-bottom:0px;
+    }
+
+    #promo_rht_content_img {
+        padding-left:10px;
+    padding-right: 8px;
+    _padding-right: 6px;
+        margin-right:15px;
+        float:left;
+    }
+
+    #promo_rht_content ul {
+      font: normal 12px arial;
+      color:#161616;
+      margin:0px;
+      list-style-type: disc;
+     }
+
+    .promo_rht_content a {
+      font: normal 12px arial;
+      color:#45a0f0;
+    }
+
+    .promo_lft_content a {
+      font: normal 12px arial;
+      color:#45a0f0;
+    }
+
+
+
+    #subPromoTop_Left {
+      background-color:#f4f4f2;
+      padding:4px 6px 0px 10px;
+      font: normal 12px arial;
+      color:#737373;
+      height:67px;
+      _height:74px;
+      width:202px;
+      border-bottom: 2px #fff solid;
+    }
+
+    #subPromoBtm_Left {
+      background-color:#f4f4f2;
+      padding:4px 6px 0px 10px;
+      font: normal 12px arial;
+      color:#737373;
+      height:67px;
+      _height:74px;
+      width:202px;
+      border-top: 1px #dcdcdc solid;
+    }
+
+    #subPromoTop_Right {
+      background-color:#f4f4f2;
+      padding:4px 6px 0px 10px;
+      font: normal 12px arial;
+      color:#737373;
+      height:67px;
+      _height:74px;
+      width:202px;
+      border-bottom: 2px #fff solid;
+    }
+
+    #subPromoBtm_Right {
+      background-color:#f4f4f2;
+      padding:4px 6px 0px 10px;
+      font: normal 12px arial;
+      color:#737373;
+      height:67px;
+      _height:74px;
+      width:202px;
+      border-top: 1px #dcdcdc solid;
+    }
+
+    #subPromoTop_Right h3,#subPromoTop_Left h3,#subPromoBtm_Left h3,#subPromoBtm_Right h3 {
+      font: normal bold 12px arial;
+      margin:0px;
+      padding:0px;
+    }
+
+    #subPromoTop_Right a,#subPromoTop_Left a,#subPromoBtm_Left a,#subPromoBtm_Right a {
+      color:#d92fd6;
+    }
+
+    #outsideContent {
+      font: normal 12px arial;
+      text-decoration:none;
+      padding-left:15px;
+      border: 1px #ff000 solid;
+    }
+
+    #outsideContent a:hover{
+      text-decoration:underline;
+    }
+
+    p.spacer15{margin-top:15px;}
+    p.spacer30{margin-top:30px;}
+
+    #outsideContent h2 {
+      font:normal 18px arial;
+      color:#fe5d03;
+      margin:0px;
+      padding:0px;
+    }
+
+    #aim_xpDL {
+      background:#fff url('../redesign/mainPromoArt_w6.1.jpg') no-repeat;
+      height:198px;
+      width:445px;
+      font:normal 12px arial;
+      color:#3f3f3f;
+      float:left;
+    }
+    #aim_98DL {
+      background:#fff url('http://cdn.aim.com/i/redesign/mainPromoArt_LW98.jpg') no-repeat;
+      height:198px;
+      width:445px;
+      font:normal 12px arial;
+      color:#3f3f3f;
+      float:left;
+    }
+    #aim_macDL {
+      background:#fff url('http://cdn.aim.com/i/redesign/mainPromoArt_m.jpg') no-repeat;
+      height:198px;
+      width:445px;
+      font:normal 12px arial;
+      color:#3f3f3f;
+      float:left;
+    }
+    #aim_linuxDL {
+      background:#fff url('http://cdn.aim.com/i/redesign/mainPromoArt_L.jpg') no-repeat;
+      height:198px;
+      width:445px;
+      font:normal 12px arial;
+      color:#3f3f3f;
+      float:left;
+    }
+
+
+    #aim_xpDL a, #aim_98DL a, #aim_macDL a, #aim_linuxDL a {
+      font:normal bold 12px arial;
+      color:#45a0f0;
+    }
+
+    .padl26 {padding-left:26px;}
+
+    #aim_DL_text {
+      margin:79px 200px 0px 0px;
+      _margin:80px 200px 0px 0px;
+    }
+
+    #downloadLink_DL {
+      position:relative;
+      top:15px;
+      margin-left:32px;
+      z-index:0;
+    }
+
+    #downloadLink_DL a {
+      font:normal bold 12px arial;
+      color:#3a5200;
+    }
+
+    #otherOSLinks_DL {
+      font:normal bold 12px arial;
+      color:#fff;
+      position:relative;
+      top:30px;
+    }
+
+    #otherOSLinks_DL a {
+      font:normal bold 12px arial;
+      color:#fff;
+    }
+
+    #mail_screenName a.mail {
+       background:url("http://cdn.aim.com/i/redesign/mailButton_dbl.jpg") no-repeat;
+       position:absolute;
+       top:0px;
+       left:0px;
+       width:82px;
+       height:86px;
+       margin:0px;
+    }
+    #mail_screenName a.mail:hover {
+        background-position: 0px -43px;
+    }
+
+    #mail_screenName a.screenName {
+       background:url("http://cdn.aim.com/i/redesign/screennameButton_dbl.jpg") no-repeat;
+       position:absolute;
+       top:0px;
+       left:82px;
+       height:43px;
+       width:229px;
+       margin:0px;
+    }
+    #mail_screenName a.screenName:hover {
+        background-position: 0px -43px;
+    }
+
+    #aimExpress a {
+       background:url("http://cdn.aim.com/i/redesign/expressButton_dbl.jpg") no-repeat;
+       position:absolute;
+       top:43px;
+       left:0px;
+       height:53px;
+       width:311px;
+       margin:0px;
+    }
+    #aimExpress a:hover {
+        background-position: 0px -53px;
+    }
+
+    #promo_DL {
+       position:absolute;
+       top:96px;
+       left:0px;
+       height:102px;
+       width:311px;
+       margin:0px;
+    }
+    #promo_DL A {color:#000;cursor:pointer;}
+    #promo_DL_Text {position:absolute;top:35px;left:5px;}
+
+    #right{float:right;position:relative;width:311px;height:198px;margin:0px;}
+    #left{width:456px;}
+
+    .padl5 {padding-left:5px;}
+    .vs4 {height:4px; font-size:4px;}
+    .vs5 {height:5px; font-size:5px;}
+    .vs15 {height:15px; font-size:15px;}
+    .vs20 {height:20px; font-size:20px;}
+    .vs30 {height:30px; font-size:30px;}
+
+    #rightCol_box {
+      border: 1px #ebebeb solid;
+      width:298px;
+      margin:0px;
+      padding:0px;
+    }
+
+    #rightCol_content {
+      background:#fff url('http://cdn.aim.com/i/redesign/rightColumnArt.gif') no-repeat;
+      width:287px;
+      font:normal 12px arial;
+      color:#727272;
+      padding-top:12px;
+      padding-left:11px;
+      margin:0px;
+    }
+
+    #rightCol_content a {
+      font:normal bold 12px arial;
+      color:#45a0f0;
+    }
+
+    #rightCol_content h2 {
+      font:normal 18px arial;
+      color:#fd5f04;
+      margin:0px;
+      _margin:0px;
+    }
+
+    #rightCol_content h3 {
+      font:normal bold 12px arial;
+      color:#727272;
+      margin:0px;
+      _margin:0px;
+    }
+
+
+    .dotted {
+      border-top: 2px dotted #b8b8b8;
+      width: 278px;
+      margin-top:10px;
+      margin-bottom:8px;
+      .margin-bottom:-5px;
+      _margin-bottom:-7px;
+    }
+
+    #topContentContainer{width:100%;}
+    #topContent{
+    background-color: #fff;
+    width: 756px;
+    height:198px;
+    margin: 0px;
+    padding:0px;
+    }
+
+    #btmContentContainer{width:746px;}
+
+    #btmContentOuter{
+    background-color: #fff;
+    width: 746px;
+    height:auto;
+    margin: 0px;
+    padding:0px;
+    }
+
+    #btmContentLeft{
+    background-color: #fff;
+    width: 439px;
+    height:auto;
+    margin-right:3px;
+    padding:0px;
+    float:left;
+    }
+
+    #contentRight{
+      background-color: #fff;
+      width: 300px;
+      margin: 0px;
+      padding:0px;
+      float:right;
+    }
+
+    #btmContentLeftContainer{width:439px;}
+    #btmContentLeftOuter{
+    background-color: #fff;
+    width: 439px;
+    height:auto;
+    margin: 0px;
+    padding:0px;
+    }
+    #btmContentLeftMain{float:left;width:218px;margin-right:3px;}
+    #btmContentRightMain{float:right;width:218px;}

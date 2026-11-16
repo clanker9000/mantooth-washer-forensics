@@ -1,0 +1,14 @@
+/* tips */
+#tips-on .tips-sort {font:normal 10px verdana,helvetica;background: url('http://cnet.com/i/hr-t.gif') repeat-x bottom;margin: 5px;padding: 3px 0 10px 0;}		
+#tips-on .tips-sort .v11{font-size: 11px;font-family:verdana,helvetica;}
+#tips-on .tips-sort .tipscount {margin-top:3px;float:left;}
+#tips-on .tips-sort .tips-sort-c {text-align:right;}
+#tips-on .tips-sort select.tips-select {font: normal 10px verdana,helvetica;}
+#tips-on  p {font: normal 12px arial,helvetica;background: url('http://cnet.com/i/hr-t.gif') repeat-x bottom;margin: 5px;padding: 0 0 5px 0;}
+
+#tips-on span {font: normal 10px verdana,helvetica;line-height: 15px;}
+#tips-on span.gray {color:#666;}
+
+#tips-on .tips-on-btm {float:right;}
+#tips-on .tips-on-btm .hvatp {float:left;margin:15px 10px 0 0;}
+#tips-on .tips-on-btm p {background:none;}

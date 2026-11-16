@@ -1,0 +1,99 @@
+/* snsChoice.jsp */	
+#sns_MainContentDiv #sns_CreateOrExist { padding-left:10px;}
+#sns_MainContentDiv #sns_CreateOrExist div { padding:0 0 9px 20px; width:300px;}
+
+/* snsSNSuggestions.jsp */
+#sns_MainContentDiv #sns_SuggestedNames { margin:-22px 0 0 0px;}
+
+
+/* snsSNTakenSNS.jsp and snsSNTakenONS.jsp */
+#sns_MainContentDiv #sSNTakenTbl { margin:0 0 0 0;}
+#sns_MainContentDiv #sSNTakenTbl th { width:192px; text-align:right;}
+
+/* snsSuggestSN.jsp */
+#sns_MainContentDiv #sns_SnSuggestInputs { margin:4px 0 0 10px;}
+#sns_MainContentDiv #sns_SnSuggestInputs th { width:100px; text-align:right;}
+#sns_MainContentDiv #sns_SnSuggestInputs td { width:189px; text-align:left;}
+
+/* snsRegMain.jsp and snsTosChallenge.jsp */
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableA { width:343px; margin:0; cellpadding:0; cellspacing:0; padding:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableA th { text-align:right; width:179px; cellpadding:0; cellspacing:0}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableA td { text-align:left; width:164px; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD { width:343px; margin:0; cellpadding:0; cellspacing:0; padding:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD tr { height:10px;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD th { text-align:right; width:179px; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD #sns_AltEmail { text-align:right;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD th.sns_AlternateEmail { width:179px; text-align:right; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableD td { width:164px; vertical-align:top; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableE { width:343px; margin:0; cellpadding:0; cellspacing:0; padding:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableE tr { height:10px;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableE th { text-align:right; width:179px; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sns_RegTableE td { text-align:left; vertical-align:top; width:164px; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sTblAudio { width:343px; margin:0; cellpadding:0; cellspacing:0; padding:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sTblAudio tr { height:10px;}
+#sns_MainContentDiv #sns_RegTableDiv .sTblAudio th { text-align:right; width:179px; vertical-align:top; cellpadding:0; cellspacing:0;}
+#sns_MainContentDiv #sns_RegTableDiv .sTblAudio td { text-align:left; vertical-align:top; align:left; width:164px; cellpadding:0; cellspacing:0;}
+.sns_RowGap { height:7px;}
+.sns_AltEmailInput, .sns_TosInputs, .sns_InputException { width:164px;}
+.sns_RowSpacer2 { height:15px;}
+.sns_ZipImageInputs { width:80px;}
+.sns_AsqBox { width:343px;}
+.sns_SuggestedRadioBtns { vertical-align:-2px;}
+
+/* snsTosInclude.jsp */
+#sns_MainContentDiv #sns_ShortTOS { width:305px;}
+#sns_MainContentDiv #sns_ShortTOS ol li, #sns_MainContentDiv #sns_ShortTOS ol { 
+                    list-style:decimal;
+                    _margin-left:0px;
+                    margin-left:25px;
+                   }
+                   
+#sns_MainContentDiv div.snsTosText {padding:0 5px}
+
+/* snsImgInclude.jsp */
+#sns_MainContentDiv #sns_RegImage1 img{ width:242px; height:102px;}
+#sns_MainContentDiv #sns_RegImage th { vertical-align:top; width:140px;}
+#sns_MainContentDiv #sns_RegImage td { text-align:left; width:242px;}
+
+/* snsAudioChallenge.jsp */	
+#sns_MainContentDiv #sns_AudioDesc { width:343px;}
+#sns_MainContentDiv #sns_WordInput { padding-top:10px;}
+#sns_MainContentDiv #sns_AudioBtnGrp { text-align:center;}
+
+/* SECURE ID
+#sns_MainContentDiv #sns_AOLPasscode { margin:10px 0 6px 1px; _margin:10px 0 0 3px; _padding-left:4px;}
+#sns_MainContentDiv #sns_RsaLogo { float:right; margin: -20px 0 -10px 44px;}
+#sns_MainContentDiv #sns_PassCode_icon { margin:5px 0 0 0; _margin:0 0 0 0;}
+#sns_MainContentDiv #sns_Enter6Digit { margin:9px 0 9px 0; }
+#sns_MainContentDiv #sns_PassCdLabel { position:relative; display:block; top:-25px; width:123px; float:right; text-align:right;}
+#sns_MainContentDiv #sns_PassCdLabel2 { position:relative; top:0px;}
+#sns_MainContentDiv #sns_CodeInput { position:relative; top:0px; left:10px;}
+#sns_secBox { position:relative; top:-36px; left:80px; width:250px; margin-bottom:-20px;}
+#sns_MainContentDiv #sns_secBox #sns_LostOrBroken { padding-left:92px;}
+.sns_InputPasscode { width:150px;} */ 
+
+/* ASQ */
+#sns_AsqInstruct { _margin:10px 0 10px 12px; _padding-left:4px; margin:0 0 7px 12px;}
+.sns_AsqForm1 { position:relative; top:0px; width:352px; _width:342px; margin:0; _margin:4px 0 0 -2px; text-align:right;}
+.sns_AsqForm1 table {width:342px;}
+.sns_AsqQtnWidth { width:335px;}
+#sns_SpacerRow { height:15px;}
+
+/*used in snsAsq.jsp*/
+#asqAnswerlbl { width:220px;}
+
+/* used in snsSoftBlock, snsHardBlock and snsTosChallenge*/
+#asqAnswerLbl { width:169px;}
+
+#premasqlbl {width:70px;}
+
+/* MISC */
+#sns_CenteredTextBox {margin-top:20px; margin-bottom:20px; width:auto; height:auto;padding:5px; text-align:center;}
+
+/*HARDBLOCK */
+#sns_MainContentDiv #hbid{width:343px}
+#sns_MainContentDiv #hbid .lt{width:179px;text-align:right;}
+#sns_MainContentDiv #hbid label{padding:0px 5px 0px 0px;font:bold 12px Arial}
+#sns_MainContentDiv #hbid .rt{width:164px;text-align:left;}
+#sns_MainContentDiv #hbid tr{height:25px;}
+#sns_MainContentDiv #hbid .sns_HeadlineBox{margin:5px 0px 5px 0px}

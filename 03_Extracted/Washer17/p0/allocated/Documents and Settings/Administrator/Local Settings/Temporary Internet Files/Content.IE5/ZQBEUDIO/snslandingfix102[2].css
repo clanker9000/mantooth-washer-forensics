@@ -1,0 +1,124 @@
+/* CSS Document */
+body {padding:0;margin:0;font:normal 12px arial;}
+.port_land {width:756px;margin:0px 0px;padding-left:5px;}
+
+body .port_land .footer {height:auto;margin:0;}
+.port_land .landsrt .addl_promo{height:auto;}
+.port_land .landsrt .addl_promo img{_margin:0 0 -3px 0;}
+.port_land .landsrt .login {margin:5px 0 0 0;} 
+
+body .brand h1 {
+  position:relative;
+  display:block;
+  width:756px;
+  height:48px;
+  background:url(https://s.aolcdn.com/art/landing_pages/gradient_cayman_webmail.gif) repeat-x top left;
+  margin:0px;padding:10px 0px 0px 0px;
+  }
+ 
+body .port_land .landslt .prim_promo {
+  position:relative;
+  height:auto;
+  margin:5px 0px 5px 0px;
+}
+  
+body .port_land .contCopy {
+    position:relative;
+    display:block;
+    width:556px;
+    height:192px;
+    margin:0px;padding:20px 0px 0px 10px;
+    background:url(https://s.aolcdn.com/art/registration/lady4_bg.jpg); border:1px solid #858E9D;
+}
+
+body .port_land h2 {
+  position:relative;
+  margin:0px;padding:0px;
+  font:bold 20px arial,sans serif;
+  color:#187A31;
+  }
+  
+body .port_land .contCopy ul {
+  position:relative;
+  display:block;
+  margin:0px 0px 20px 0px;padding:10px 0px 0px 20px;
+  }
+
+body .port_land blockquote {
+    display:block;
+    width:566px;
+    margin:0px;padding:10px 0px 0px 15px;
+    font:9pt arial,sans serif;
+    line-height:13px;
+}
+
+body .port_land blockquote ul {
+    display:block;
+    margin:0px;padding:5px 0px 0px 0px;
+    font:9pt arial,sans serif;
+  }
+body .port_land blockquote p {margin:0px;padding:5px 0px 5px 0px;}
+  
+body .port_land blockquote li {
+    display:inline;
+    margin:0px;padding:0px 10px 0px 0px;
+    font:9pt arial,sans serif;
+    border-right:1px solid #858E9D;
+  }
+body .port_land blockquote li.secLi {margin:0px;padding:0px 0px 0px 10px;border:0px;border:none;}
+
+.eaddresstext, .eaddresstext:visited { color:#2686BC; text-decoration:none;}
+.eaddresstext:hover { text-decoration:underline; }
+
+body .port_land h3 {
+  font:bold 20px arial,sans serif;
+  color:#2686BC;
+  margin:0px;padding:0px;
+  }
+  
+body .port_land .port_button{
+  position:relative;
+  width:160px;
+  top:10px;
+  float:left;
+  height:25px;
+  text-align:center;
+  display:block;
+  -moz-border-radius:2.5px;
+  border-radius:2.5px;
+  cursor:pointer;
+  vertical-align:baseline;
+  padding:7px 0 0 0;
+  font:bold 17px Arial !important;
+  background-color:#D4F4C5;
+  _filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#CEF7B6);
+  text-decoration:none;
+  color:#10230F !important;
+  border:solid 1px #79B368 !important;
+  }
+body .port_land .port_button:hover {
+  background-color:#BFEBAA;_filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F9FEF7,endColorStr=#7BED46);
+  }
+body .port_land .port_button:active {
+  background-color:#C6FFA9;_filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#99E576,endColorStr=#F5FCF1);
+  }
+    
+body .port_land .footer {
+    position:relative;
+    width:754px;
+    height:0px;padding:0px;
+    text-align:center;
+    margin:10px auto 0px auto;
+    border-top:1px solid #959494;
+  }
+
+
+body .port_land #footerlinks{
+  position:relative;
+  display:block;
+  font:10px arial,sans serif;
+  color:#959494;
+  margin:px 0px 0px 0px;
+  }
+body .port_land #footerlinks a, #footerlinks a:visited {color:#959494; text-decoration:none;}
+body .port_land #footerlinks a:hover {text-decoration:underline;}

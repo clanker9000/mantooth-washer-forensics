@@ -1,0 +1,10 @@
+* 14:30:18 ----- PGP Desktop started -----
+* 14:30:18 PGP Desktop 9.6.1 (Build 1012)
+* 14:30:18 Today's date is Saturday, July 07, 2007
+W 14:30:18 Your current PGP Desktop license does not support proxying
+W 14:30:18 Outgoing email messages will not be secured by PGP
+I 14:30:18 Setting logging level to: normal
+W 14:30:18 Your current PGP Desktop license does not support proxying
+W 14:30:18 Outgoing email messages will not be secured by PGP
+I 14:30:20 Initiating daily maintenance procedures
+E 16:12:57 Cannot proxy process 3016 due to insufficient privileges.  Process may be a service.

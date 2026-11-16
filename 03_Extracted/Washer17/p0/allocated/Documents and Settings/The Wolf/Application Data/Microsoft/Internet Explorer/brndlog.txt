@@ -1,0 +1,215 @@
+08/04/2007 09:19:52 NoClear flag is specified.
+
+08/04/2007 09:19:52    COM initialized with S_OK success code.
+
+08/04/2007 09:19:52 Branding Internet Explorer...
+08/04/2007 09:19:52 Command line is "/mode:isp /peruser".
+
+08/04/2007 09:19:52 Global branding settings are:
+08/04/2007 09:19:52    Context is (0x01C00008) "Internet Content Providers, running from per-user stub";
+08/04/2007 09:19:52    Settings file is        "C:\Program Files\Internet Explorer\Signup\install.ins";
+08/04/2007 09:19:52    Target folder path is   "C:\Program Files\Internet Explorer\Signup".
+08/04/2007 09:19:52 Done.
+
+08/04/2007 09:19:52    About to clear previous branding...
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing migration of old settings...
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing wininet setup...
+08/04/2007 09:19:52    There are no connection settings to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing deletion of connection settings...
+08/04/2007 09:19:52    Existing connection settings weren't specified to be deleted!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing zones HKCU settings...
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing local machine policies and restrictions...
+08/04/2007 09:19:52    There are no local machine *.inf files to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing current user policies and restrictions...
+08/04/2007 09:19:52    There are no current user *.inf files to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing legacy policies and restrictions...
+08/04/2007 09:19:52        There are no local machine *.inf files to process!
+08/04/2007 09:19:52        There are no current user *.inf files to process!
+08/04/2007 09:19:52    There are no legacy *.inf files to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing general customizations...
+08/04/2007 09:19:52    Company name is set to "Microsoft Corporation".
+08/04/2007 09:19:52    Custom key is set to "MICROSO".
+08/04/2007 09:19:52    Wizard version is set to "6.0.2600.0000".
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing Help->About customization...
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing browser toolbar buttons...
+08/04/2007 09:19:52    There are no toolbar buttons to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing root certificates...
+08/04/2007 09:19:52    This feature is for ISPs only!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing deletion of favorites and/or quick links...
+08/04/2007 09:19:52    None of the favorites folders were specified to be deleted!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing favorites...
+08/04/2007 09:19:52    Creating separate thread for processing favorites...
+
+08/04/2007 09:19:52    COM initialized with S_OK success code.
+08/04/2007 09:19:52    Using [FavoritesEx] section...
+
+08/04/2007 09:19:52        Preprocessing "Title1" title key...
+08/04/2007 09:19:52        Preprocessing "URL1" URL key...
+08/04/2007 09:19:52        Adding this favorite:
+08/04/2007 09:19:52            Determining favorites attributes...
+08/04/2007 09:19:52                <Favorites> folder location is "C:\Documents and Settings\The Wolf\Favorites".
+08/04/2007 09:19:52            Title     - "MSN.com.url",
+08/04/2007 09:19:52            URL       - "http://www.microsoft.com/isapi/redir.dll?prd=ie&pver=6&ar=IStart",
+08/04/2007 09:19:52            with a default icon,
+08/04/2007 09:19:52            not marked IEAK created,
+08/04/2007 09:19:52            not made available offline
+08/04/2007 09:19:52            Done.
+08/04/2007 09:19:52        Done.
+
+08/04/2007 09:19:52        Preprocessing "Title2" title key...
+08/04/2007 09:19:52        Preprocessing "URL2" URL key...
+08/04/2007 09:19:52        Adding this favorite:
+08/04/2007 09:19:52            Determining favorites attributes...
+08/04/2007 09:19:52            Title     - "Radio Station Guide.url",
+08/04/2007 09:19:52            URL       - "http://www.microsoft.com/isapi/redir.dll?prd=windows&sbp=mediaplayer&plcid=&pver=6.1&os=&over=&olcid=&clcid=&ar=Media&sba=RadioBar&o1=&o2=&o3=",
+08/04/2007 09:19:52            with a default icon,
+08/04/2007 09:19:52            not marked IEAK created,
+08/04/2007 09:19:52            not made available offline
+08/04/2007 09:19:52            Done.
+08/04/2007 09:19:52        Done.
+
+08/04/2007 09:19:52        Preprocessing "Title3" title key...
+08/04/2007 09:19:52        Failed with E_FAIL.
+
+08/04/2007 09:19:52        Preprocessing "Title4" title key...
+08/04/2007 09:19:52        This key doesn't exist indicating that there are no more favorites.
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing ordering of favorites...
+08/04/2007 09:19:52    Favorites will be put into the default position!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing quick links...
+08/04/2007 09:19:52    Creating separate thread for processing quick links...
+
+08/04/2007 09:19:52    COM initialized with S_OK success code.
+08/04/2007 09:19:52        Preprocessing "Quick_Link_1_Name" quick link title key...
+08/04/2007 09:19:52        Preprocessing "Quick_Link_1" quick link URL key...
+08/04/2007 09:19:52        Adding this quick link:
+08/04/2007 09:19:52            Determining favorites attributes...
+08/04/2007 09:19:52            Title     - "Links\Customize Links.url",
+08/04/2007 09:19:52            URL       - "http://www.microsoft.com/isapi/redir.dll?prd=ie&pver=6&ar=CLinks",
+08/04/2007 09:19:52            with a default icon,
+08/04/2007 09:19:52            not marked IEAK created,
+08/04/2007 09:19:52            not made available offline
+08/04/2007 09:19:52            Done.
+08/04/2007 09:19:52        Done.
+
+08/04/2007 09:19:52        Preprocessing "Quick_Link_2_Name" quick link title key...
+08/04/2007 09:19:52        Preprocessing "Quick_Link_2" quick link URL key...
+08/04/2007 09:19:52        Adding this quick link:
+08/04/2007 09:19:52            Determining favorites attributes...
+08/04/2007 09:19:52            Title     - "Links\Free Hotmail.url",
+08/04/2007 09:19:52            URL       - "http://www.microsoft.com/isapi/redir.dll?prd=ie&ar=hotmail",
+08/04/2007 09:19:52            with a default icon,
+08/04/2007 09:19:52            not marked IEAK created,
+08/04/2007 09:19:52            not made available offline
+08/04/2007 09:19:52            Done.
+08/04/2007 09:19:52        Done.
+
+08/04/2007 09:19:52        Preprocessing "Quick_Link_3_Name" quick link title key...
+08/04/2007 09:19:52        Preprocessing "Quick_Link_3" quick link URL key...
+08/04/2007 09:19:52        Adding this quick link:
+08/04/2007 09:19:52            Determining favorites attributes...
+08/04/2007 09:19:52            Title     - "Links\Windows.url",
+08/04/2007 09:19:52            URL       - "http://www.microsoft.com/isapi/redir.dll?prd=ie&ar=windows",
+08/04/2007 09:19:52            with a default icon,
+08/04/2007 09:19:52            not marked IEAK created,
+08/04/2007 09:19:52            not made available offline
+08/04/2007 09:19:52            Done.
+08/04/2007 09:19:52        Done.
+
+08/04/2007 09:19:52        Preprocessing "Quick_Link_4_Name" quick link title key...
+08/04/2007 09:19:52        Preprocessing "Quick_Link_4" quick link URL key...
+08/04/2007 09:19:52        Adding this quick link:
+08/04/2007 09:19:52            Determining favorites attributes...
+08/04/2007 09:19:52            Title     - "Links\Windows Media.url",
+08/04/2007 09:19:52            URL       - "http://www.microsoft.com/isapi/redir.dll?prd=ie&ar=windowsmedia",
+08/04/2007 09:19:52            with a default icon,
+08/04/2007 09:19:52            not marked IEAK created,
+08/04/2007 09:19:52            not made available offline
+08/04/2007 09:19:52            Done.
+08/04/2007 09:19:52        Done.
+
+08/04/2007 09:19:52        Preprocessing "Quick_Link_5_Name" quick link title key...
+08/04/2007 09:19:52        This key doesn't exist indicating that there are no more quick links.
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing ordering of quick links...
+08/04/2007 09:19:52    Quick Links will be put into the default position!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing connection settings...
+08/04/2007 09:19:52    There are no connection settings to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing TrustedPublisherLockdown restriction...
+08/04/2007 09:19:52    This restriction is not set!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Registering download URLs as safe for updating IE...
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Deleting links...
+08/04/2007 09:19:52    No links to delete!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Branding Outlook Express...
+08/04/2007 09:19:52    There are no Outlook Express settings to brand!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing active desktop customizations...
+08/04/2007 09:19:52    No desktop customizations to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing channels and their categories (if any)...
+08/04/2007 09:19:52    There are no channels to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing software update channels...
+08/04/2007 09:19:52        <Web> folder location is "C:\WINDOWS\Web".
+08/04/2007 09:19:52    There are no software update channels to add!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Actual processing of channels by calling webcheck.dll "DllInstall" API...
+08/04/2007 09:19:52    There is no webcheck processing necessary!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Showing channel bar on the desktop...
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Processing subscriptions...
+08/04/2007 09:19:52    There are no subscriptions to process!
+08/04/2007 09:19:52    Done.
+
+08/04/2007 09:19:52    Refreshing browser settings...
+08/04/2007 09:19:52    Broadcasting "Windows settings change" to all top level windows...
+08/04/2007 09:19:52    Done.
+08/04/2007 09:19:52 Done.
+08/04/2007 09:19:52 Done.

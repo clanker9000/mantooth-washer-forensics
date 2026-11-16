@@ -1,0 +1,34 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.08|$
+
+[PLUGINS]
+C:\PROGRA~1\Yahoo!\Common\npyaxmpb.dll|$
+|$
+1155749230000|1|1|$
+Yahoo! activeX Plug-in Bridge|$
+Yahoo! activeX Plug-in Bridge|$
+1
+0|application/YahooActiveXPluginBridge|npyaxmpb.dll||$
+C:\Program Files\Viewpoint\Viewpoint Experience Technology\npViewpoint.dll|$
+|$
+1077308049062|1|1|$
+MetaStream 3 Plugin r4|$
+MetaStream 3 Plugin|$
+1
+0|application/x-mtx|MetaStream Plugin File|mtx|$
+C:\Program Files\Yahoo!\Shared\npYState.dll|$
+|$
+1169236172000|1|1|$
+Yahoo Application State Plugin|$
+Yahoo Application State Plugin|$
+1
+0|application/x-vnd.yahoo.applicationState|npYState|npYState|$
+C:\Program Files\Mozilla Firefox\plugins\npnul32.dll|$
+|$
+1173690103158|1|1|$
+Default Plug-in|$
+Mozilla Default Plug-in|$
+1
+0|*|Mozilla Default Plug-in|*|$

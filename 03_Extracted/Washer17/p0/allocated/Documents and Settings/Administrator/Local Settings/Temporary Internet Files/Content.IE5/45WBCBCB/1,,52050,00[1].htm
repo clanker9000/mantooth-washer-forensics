@@ -1,0 +1,30 @@
+<!-- Vignette V6 Tue Feb 12 08:39:37 2008 -->
+
+
+var fsas = new Array(); //image, href, alt, bgcolor
+
+fsas[0] = new Array("http://www.united.com/ual/asset/fs7_olympic080115_258x350.gif","http://www.united.com/page/article/1,,52475,00.html?navSource=FareSalePromo&linkTitle=fs7_olympic_sweepstakes","8 fans will be on their way to the Beijing 2008 Olympic Games from Visa.","065D7A");
+
+fsas[1] = new Array("http://www.united.com/ual/asset/fs7_olympic080115_258x350.gif","http://www.united.com/page/article/1,,52475,00.html?navSource=FareSalePromo&linkTitle=fs7_olympic_sweepstakes","8 fans will be on their way to the Beijing 2008 Olympic Games from Visa.","065D7A");
+
+fsas[2] = new Array("http://www.united.com/ual/asset/FS7_PresidentsDay_258x350.jpg","http://www.united.com/page/article/0,6722,50469,00.html?navSource=FareSalePromo&linkTitle=fs7_PresidentsDay","Presidents' Day holiday sale","e7e4ce");
+
+fsas[3] = new Array("http://www.united.com/ual/asset/FS7_PresidentsDay_258x350.jpg","http://www.united.com/page/article/0,6722,50469,00.html?navSource=FareSalePromo&linkTitle=fs7_PresidentsDay","Presidents' Day holiday sale","e7e4ce");
+
+fsas[4] = new Array("http://www.united.com/ual/asset/fs7_SpringSale_258x350.jpg","http://www.united.com/page/article/0,6722,50074,00.html?navSource=FareSalePromo&linkTitle=fs7_SpringSale","Springtime Europe sale","BDC0DE");
+
+fsas[5] = new Array("http://www.united.com/ual/asset/fs7_washington080208_258x350.jpg","http://www.united.com/page/article/0,6722,51093,00.html?navSource=FareSalePromo&linkTitle=fs7_Washington","Washington D.C. 4 day sale","C5B93F");
+
+
+// pick a random num
+
+var selPro=(Math.floor(Math.random()*fsas.length)); 
+// write a bg from the picked promo
+
+if (fsas[selPro][3])
+{document.write('<style>.hpFSAbackground { background-color: #'+fsas[selPro][3]+'; }</style>');}
+else
+{document.write('<style>.hpFSAbackground { background-color: #1E398D; }</style>');}
+// write a promo;
+document.write('<a href="'+fsas[selPro][1]+'"><img src="'+fsas[selPro][0]+'" alt="'+fsas[selPro][2]+'" border="0"></a>');
+

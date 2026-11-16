@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	
+	<style type="text/css">@import url(/static/css/legacy/utility.css);</style>
+
+	<title>Comcast.net</title>
+	
+</head>
+
+<body class="loginevo banner">
+
+	<div id="skyscraper">
+		
+
+<!------ NOTES
+Replace **PAGEMANE** with the actual pagename that the user is on. WebAuthentication in this case
+ ------>
+
+<!------ OAS SETUP begin ------>
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+//configuration
+OAS_url = 'https://oasc02.247realmedia.com/RealMedia/ads/';
+//OAS_sitepage = window.location.hostname + window.location.pathname;
+OAS_sitepage = 'comcast.net/login_secure';
+OAS_listpos = 'x32';
+OAS_query = '';
+OAS_target = '_top';
+//end of configuration
+OAS_version = 10;
+OAS_rn = '001234567890'; OAS_rns = '1234567890';
+OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+function OAS_NORMAL(pos) {
+  document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+  document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+}
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript1.1>
+<!--
+OAS_version = 11;
+if (navigator.userAgent.indexOf('Mozilla/3') != -1 || navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)
+  OAS_version = 10;
+if (OAS_version >= 11)
+  document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>');//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+document.write('');
+function OAS_AD(pos) {
+  if (OAS_version >= 11)
+    OAS_RICH(pos);
+  else
+    OAS_NORMAL(pos);
+}
+//-->
+</SCRIPT>
+
+<!------ OAS SETUP end ------>
+
+<!------ OAS AD x32 begin ------>
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+OAS_AD('x32');
+//-->
+</SCRIPT>
+<!------ OAS AD x32 end ------>	
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,158 @@
+    #congratsContentsFrame {
+    background-color: #fff;
+    width:756px;
+    margin:0px;
+    }
+
+    #topBox H3 {font-size:1.1em;}
+
+    #contentsRight {
+    background:#fff;
+    margin:0px 25px 0px 6px;
+    _margin:0px 13px 0px 3px;
+    padding:0px;
+    width:276px;
+    float:right;
+    }
+
+    #contentsLeft {
+    background:#fff;
+    margin:0px 0px 0px 10px;
+    padding:0px;
+    width:400px;
+    }
+
+    #margin6box {
+    width:270px;
+    padding-left:6px;
+    }
+
+
+    H2 {font-size:1.6em; margin-bottom:3px;}
+    H3 {
+        font: bold 14px arial;
+        color: #ff3402;
+        margin:0px;
+        line-height:25px;
+    }
+    .leftColIndent {margin-left:10px;}
+    .imgSpace {margin-right:6px;}
+    .vs7        {font-size: 7px; height: 7px;}
+
+    #topGreyBox {
+        width:260px;
+        background:#eceaeb;
+        padding:10px 15px;
+    }
+    #leftGreyBox {
+        width:378px;
+        background:#eceaeb;
+        padding:10px 15px;
+    }
+
+    .listB  {text-indent:-9px;margin-left:9px;font:normal 12px arial;line-height:16px;color:#000;}
+
+    #screenName {
+        height: 25px;
+        text-align:center;
+        padding:4px 0px 0px 0px;
+        color:#ff3300;
+    }
+    a.linkPhone:link {color: #ff3402;}
+    a.linkPhone:active {color: #ff3402;}
+    a.linkPhone:visited {color: #ff3402;}
+
+    #aim_xpDL {
+    background:#fff url('http://cdn.aim.com/i/redesign/congts61.jpg') no-repeat top center;
+    margin:0px;
+    width:756px;
+    height:223px;
+    }
+    #aim_98DL {
+    background:#fff url('http://cdn.aim.com/i/redesign/AIM_congratsPromo_w98.jpg') no-repeat top center;
+    margin:0px;
+    width:756px;
+    height:223px;
+    }
+    #aim_macDL {
+    background:#fff url('http://cdn.aim.com/i/redesign/AIM_congratsPromo_m.jpg') no-repeat top center;
+    margin:0px;
+    width:756px;
+    height:223px;
+    }
+    #aim_linuxDL {
+    background:#fff url('http://cdn.aim.com/i/redesign/AIM_congratsPromo_L.jpg') no-repeat top center;
+    margin:0px;
+    width:756px;
+    height:223px;
+    }
+
+    #congratsAIM_DL {
+      height:200px;
+      width:445px;
+      font:normal 12px arial;
+      color:#3f3f3f;
+      float:left;
+    }
+
+    #congratsTopRight{
+        float:right;
+        position:relative;
+        width:311px;
+        height:175px;
+        margin:0px;
+        right: 0px;
+        top:15px;
+        }
+
+    #aim_xpDL a, #aim_98DL a, #aim_macDL a, #aim_linuxDL a {
+      font:normal bold 12px arial;
+      color:#45a0f0;
+    }
+
+    .padl26 {padding-left:28px;}
+
+    #aim_DL_text {
+      margin:75px 190px 0px 0px;
+    }
+
+    #downloadLink_DL {
+      position:relative;
+      top:14px;
+      margin-left:28px;
+      z-index:0;
+    }
+
+    #downloadLink_DL a {
+      font:normal bold 12px arial;
+      color:#3a5200;
+    }
+
+    #otherOSLinks_DL {
+      font:normal bold 12px arial;
+      color:#fff;
+      position:relative;
+      top:30px;
+    }
+
+    #otherOSLinks_DL a {
+      font:normal bold 12px arial;
+      color:#fff;
+    }
+
+    #left{width:456px;}
+
+    #congratsTopContainer{width:100%;}
+    #congratsTopContent{
+      width: 756px;
+      height:198px;
+      margin: 0px;
+      padding:0px;
+    }
+
+    h4 {
+    margin:5px 0px 5px 0px;
+    padding:0px;
+    line-height:18px;
+    font: bold 14px arial;
+    }

@@ -1,0 +1,2 @@
+document.write('');
+var bnum=new Number(Math.floor(99999999 * Math.random())+1);document.write('<SCR'+'IPT LANGUAGE="JavaScript" ');document.write('SRC=http://servedby.advertising.com/site=714959/size=728090/ageo=ct=US&st=CO&ac=303&zp=80010&bw=3&dma=171&city=13316=!;/bbv_i=/bbv_ms=/bbv_noc=/bbv_o=/optn=1/bnum='+bnum+'/ctrt=4?http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/u%3B25399869%3B0-0%3B0%3B10915222%3B3454-728/90%3B14643499/14661395/1%3B%3B%7Esscs%3D%3f> </SCR'+'IPT>');document.write('');

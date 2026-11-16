@@ -1,0 +1,1 @@
+document.write('<a href="http://eatps.web.aol.com:9000/open_web_adhoc?subtype=2811&distset=cs0607nonvidT1&click=http%3A%2F%2Fvideo%2Eaol%2Ecom%2Fvideo%2Dcategory%2Fwedding%2Dday%2Ddisasters%2F2826%3Fncid%3DAOLAOF00020000000966" target="_blank"><img src="https://s.aolcdn.com/art/pops_promo/cs_180x150_video_0607b.jpg" border="0" width="180" height="150"></a>');

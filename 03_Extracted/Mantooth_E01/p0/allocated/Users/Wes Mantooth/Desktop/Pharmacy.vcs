@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 11.0 MIMEDIR//EN
+VERSION:1.0
+BEGIN:VEVENT
+DTSTART:20070616T210000Z
+DTEND:20070619T020000Z
+LOCATION;ENCODING=QUOTED-PRINTABLE:Auckland Showgrounds
+UID:040000008200E00074C5B7101A82E0080000000070EC7A5CECD7C4010000000000000000100
+ 000003F665B21F61F1042B6AB23E16231225E
+DESCRIPTION;ENCODING=QUOTED-PRINTABLE:New Zealand's premier pharmaceutical =
+trade-only event - bringing together the entire industry under one roof.=0D=
+=0A=0D=0APharmacy is a trade only show free to pharmacists and their staff =
+- entry is free.=0D=0A=0D=0AAuckland Showgrounds=0D=0A217 Greenlane Road=0D=
+=0AGreenlane, Auckland=0D=0Ainfo@nz.dmgworldmedia.com=0D=0Awww.pharmacyexpo=
+.co.nz=0D=0A+64 9 976 8300=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=
+=0D=0A=0D=0A=0D=0A=0D=0A
+SUMMARY;ENCODING=QUOTED-PRINTABLE:Pharmacy
+PRIORITY:3
+END:VEVENT
+END:VCALENDAR

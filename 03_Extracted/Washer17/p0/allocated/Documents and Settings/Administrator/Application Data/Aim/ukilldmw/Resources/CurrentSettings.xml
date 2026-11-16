@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+    <THEME TYPE="THEME" ID="AIM-STANDARD">
+        <NAME TEXT="Standard" LANG="EN"/>
+        <SET TYPE="DISPLAYSET" ID="AIM-STANDARD"/>
+        <SET TYPE="SMILEYSET" ID="AIM-STANDARD"/>
+        <SET TYPE="SOUNDSET" ID="AIM-STANDARD"/>
+    </THEME>
+    <RESSET TYPE="DISPLAYSET" ID="AIM-STANDARD">
+        <NAME TEXT="Standard" LANG="EN"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="BLBKGND"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="BUDDYSKIN"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="BLIMAGE"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="IMICON"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="IMMIICON"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="IMSKIN"/>
+        <RESREC SETID="AIM-STANDARD" TYPE="Display" ID="IMBKGND"/>
+    </RESSET>
+    <RESSET TYPE="SoundSet" ID="AIM-STANDARD">
+        <NAME TEXT="Standard" LANG="EN"/>
+        <RESREC BART="BWRvb3JvcGVu" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="ArrivalSound" FILE="dooropen.wav">
+            <NAME TEXT="Door Open" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BWRvb3JzbGFt" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="DepartureSound" FILE="doorslam.wav">
+            <NAME TEXT="Door Slam" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BXJpbmc=" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="IMInitRcvSound" FILE="ring.wav">
+            <NAME TEXT="IM Init Receive" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BWltcmN2" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="IMReceiveSound" FILE="imrcv.wav">
+            <NAME TEXT="IM Receive" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BWltc2VuZA==" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="IMSendSound" FILE="imsend.wav">
+            <NAME TEXT="IM Send" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BXBob25l" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="PhonecallSound" FILE="phone.wav">
+            <NAME TEXT="Phone Call" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BW5ld21haWw=" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="YGMSound" FILE="newmail.wav">
+            <NAME TEXT="New Mail" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BXRhbGtiZWc=" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="BeginSndName" FILE="talkbeg.wav">
+            <NAME TEXT="Talk Begin" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BXRhbGtlbmQ=" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="EndSndName" FILE="talkend.wav">
+            <NAME TEXT="Talk End" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BXRhbGtzdG9w" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="StopTalkSndName" FILE="talkstop.wav">
+            <NAME TEXT="Stop Talk" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BWltc2VuZA==" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="ChatSendSound" FILE="imsend.wav">
+            <NAME TEXT="Chat Send" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BWltcmN2" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="ChatRcvdSound" FILE="imrcv.wav">
+            <NAME TEXT="Chat Receive" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BW1vbw==" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="Extra1" FILE="moo.wav">
+            <NAME TEXT="Moo" LANG="EN"/>
+        </RESREC>
+        <RESREC BART="BWNhc2hyZWdpc3Rlcg==" SETID="AIM-STANDARD" TYPE="SOUND" DIRECTORY="$APPSOUNDSDIR$" ID="Extra2" FILE="cashregister.wav">
+            <NAME TEXT="Cash Register" LANG="EN"/>
+        </RESREC>
+        <RESREC SETID="AIM-STANDARD" TYPE="SOUND" ID="BeepSound" FILE="">
+            <NAME TEXT="Beep" LANG="EN"/>
+        </RESREC>
+    </RESSET>
+</DOCUMENT>

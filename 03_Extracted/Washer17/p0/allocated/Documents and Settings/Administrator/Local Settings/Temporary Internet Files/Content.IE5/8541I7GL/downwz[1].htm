@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>WinZip&reg; - Download Evaluation Page</title>
+<link href="css/nav.css" rel="stylesheet" type="text/css"/>
+<link href="css/wz.css" rel="stylesheet" type="text/css"/>
+<script language="javascript" type="text/javascript" src="javascript/scripts.js" ></script>
+<script language="javascript" type="text/javascript">
+var displaytp = false;
+
+function change(off, on)
+{identity=document.getElementById(off);
+identity.setAttribute('id', on);}
+</script>
+<script language="JavaScript" type="text/javascript">
+function Is() {
+agent = navigator.userAgent.toLowerCase();
+this.ie = ((agent.indexOf("msie") != -1)&& (agent.indexOf('opera')==-1));
+this.winie = (this.win && this.ie);
+this.ie3 = (this.ie && (this.major < 4) && !this.ie6);
+this.ie4 = (this.ie && (this.major == 4) && (agent.indexOf("msie 4")!=-1) );
+this.ie401 = (this.ie && (this.major == 4) && (agent.indexOf("msie 4.01")!=-1) );
+this.ie4up = (this.ie && (this.major >= 4));
+this.ie5 = (this.ie && (this.major == 4) && (agent.indexOf("msie 5")!=-1) );
+this.ie51 = (this.ie && (this.major == 4) && (agent.indexOf("msie 5.01")!=-1) );
+this.ie55 = (this.ie && (this.major == 4) && (agent.indexOf("msie 5.5")!=-1) );
+this.ie5up = (this.ie && !this.ie3 && !this.ie4);
+this.ie6 = (this.ie && (agent.indexOf("msie 6.0")!=-1) );
+this.ie7 = (this.ie && (agent.indexOf("msie 7.0")!=-1) );
+}
+var is = new Is();
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<script>
+function openpopup(popurl){
+	var winpops=window.open(popurl,"","width=750,height=550,left=490,top=250")
+}
+function openpopup2(popurl){
+	var winpops=window.open(popurl,"","width=760,height=540,left=490,top=250")
+}
+</script>
+<script>
+var HTTP = new Object;
+/* From Javascript: The Definitive Guide, 5th Edition (O'Reilly) page 480 */
+// return an appropriate XML Request object
+HTTP._factories = [
+    function() { return new XMLHttpRequest(); },                    // most browsers
+    function() { return new ActiveXObject("Msxml2.XMLHTTP"); },     // newer IE
+    function() { return new ActiveXObject("Microsoft.XMLHTTP"); }   // older IE
+];
+
+// when we find a factory that works, store it here
+HTTP._factory = null;
+
+// create and return a new XMLHttpRequestObject
+HTTP.newRequest = function() {
+    if (HTTP._factory != null) return HTTP._factory();
+
+    for (var i = 0; i < HTTP._factories.length; i++) {
+        try {
+            var factory = HTTP._factories[i];
+            var request = factory();
+            if (request != null) {
+                HTTP._factory = factory;
+                return request;
+            }
+        }
+        catch (e) {
+            continue;
+        }
+    }
+
+    // uh oh, no XMLHttpRequest objects are available
+    // don't throw an exception, though, this is merely a nice-to-have.
+}
+
+function adapt_cc ()
+{
+    var request = HTTP.newRequest();
+    var list;
+    if (request != null) {
+        request.open("GET","/cgi-bin/checkcountry.cgi",false);
+        request.send(null);
+
+        if (request.responseText == 'BR') {
+            list = document.getElementsByName("dnldorigin")[0];
+            list.remove(2);
+        }
+    }
+}
+
+function handleOnloadEvent()
+{
+    MM_preloadImages(
+        '/images/nd_1H.gif',
+        '/images/nb_1H.gif',
+        '/images/DL_beta1H.gif',
+        '/images/nt_1H.gif' );
+    change('tab2', 'on');
+    adapt_cc();
+}
+</script></head>
+<body onload="handleOnloadEvent();">
+<script language="JavaScript" type="text/javascript" src="/cgi-bin/getfree.cgi"></script>
+<div class="Parent">
+  <!--htdig_noindex-->
+<script type="text/javascript" src="javascript/lang.js" ></script>
+<div class="MAST">
+    <div class="Header">
+      <div class="TL_cell"><a href="index.htm"><img src="http://image.winzip.com/images/new_wz_logo.gif" alt="WinZip Computing" border="0" style="margin: 3px 0px 0px 10px;"/></a></div>
+      <div class="TR_cell">
+        <div id="S_controls">
+          <div class="con_1" style="text-align:right;">
+		    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+			  <tr>
+			    <td align="right">
+				  <form method="get" action="htsearch.cgi">
+					<table border="0" align="right" cellpadding="0" cellspacing="0" style="margin:5px 0 0 0;" width="100%">
+					  <tr>
+						<td align="right"><input name="words" style="height: 16px; border: #444444 1px solid; font-size:11px;" type="text" id="search" value="Search" onFocus="if (this.value=='Search') this.value='';"/></td>
+						<td width="35" align="right"><input type="image" name="Go" src="http://image.winzip.com/images/sub1.gif" alt="Go"/></td>
+					</tr>
+				  </table>
+			    </form>
+			  </td>
+		  </tr>
+		  <tr>
+			<td><form name="lngfrm" id="lngfrm" action="javascript:switchlang(lngfrm);">
+				<select name="langsel" id="langsel" title="Select Language" onChange="switchlang(lngfrm);" style="font-size:11px; border: #444444 1px solid; color: #333333; margin:9px 0 0 0;">
+				  <option value=EN>English</option>
+				  <option value=ES>Spanish</option>
+				  <option value=FR>French</option>
+				  <option value=DE>German</option>
+				  <option value=JP>Japanese</option>
+				</select>
+				<!--<img src="http://image.winzip.com/images/sub1.gif" alt="Go" border="0" onClick="switchlang(lngfrm);" />-->
+			  </form></td>
+		  </tr>
+		</table>
+      </div>
+      <div class="con_2" style="margin:5px 0 0 0;">
+        <div id="c_container">
+          <ul id="clist">
+            <!-- <li><a href="http://www.winzip.com/es/winzip.htm" class="C1">en Espa&ntilde;ol</a></li>-->
+            <li><a href="index.htm" class="C1">Home</a></li>
+            <li><a href="sitemap.htm" class="C1">Sitemap</a></li>
+            <li id="cap"><a href="contact.htm" id="current" class="C1">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+    <div><img src="http://image.winzip.com/images/tagline.gif" width="212" height="17" style="margin: 0px 0px 0px 30px;"/></div>
+  </div>
+  <div style="clear: both"></div>
+</div>
+  <!--main navigation-->
+     <div class="container4">
+        <div class="menu4" style="z-index: 1;">
+          <ul>
+            <li class="buy"><a href="http://www.winzip.com/order.cgi?wzt">Buy Now</a></li>
+            <li class="download" id="tab2"><a class="drop" href="prod_down.htm">Downloads
+              <!--[if IE 7]><!-->
+              </a>
+              <!--<![endif]-->
+              <table>
+                <tr>
+                  <td><ul>
+                      <li class="subprod"><a href="downwz.htm">WinZip 11.1</a></li>
+                      <li class="subprod"><a href="downec.htm">WinZip E-Mail Companion</a></li>
+					  <li class="subprod"><a href="downse.htm">WinZip Self-Extractor</a></li>
+                      <li class="subprod2"><a href="downcl.htm">WinZip Command Line</a></li>
+                    </ul></td>
+                </tr>
+              </table>
+              <!--[if lte IE 6]></a><![endif]-->
+            </li>
+            <li class="products" id="tab3"><a class="drop" href="prod_info.htm">Products
+              <!--[if IE 7]><!-->
+              </a>
+              <!--<![endif]-->
+              <table>
+                <tr>
+                  <td><ul>
+                      <li class="subprod"><a href="prodpagewz.htm">WinZip 11.1</a></li>
+                      <li class="subprod"><a href="prodpageec.htm">WinZip E-Mail Companion</a></li>
+                      <li class="subprod"><a href="prodpagese.htm">WinZip Self-Extractor</a></li>
+					  <li class="subprod"><a href="prodpagecl.htm">WinZip Command Line</a></li>
+					  <li class="subprod2"><a href="whatsnew.htm">What's New?</a></li>
+                    </ul></td>
+                </tr>
+              </table>
+              <!--[if lte IE 6]></a><![endif]-->
+            </li>
+            <li class="support" id="tab4"><a class="drop" href="land_support.htm">Support
+              <!--[if IE 7]><!-->
+              </a>
+              <!--<![endif]-->
+              <table>
+                <tr>
+                  <td><ul>
+                      <li class="subprod"><a href="faq.htm">FAQ's</a></li>
+                      <li class="subprod"><a href="xaddr.htm">Edit Account Info</a></li>
+					  <li class="subprod"><a href="maillist.htm">Subscribe to News</a></li>
+                      <li class="subprod2"><a href="mailchange.htm">Unsubscribe</a></li>
+                    </ul></td>
+                </tr>
+              </table>
+              <!--[if lte IE 6]></a><![endif]-->
+            </li>
+            <li class="about" id="tab5"><a class="drop" href="land_about.htm">About
+              <!--[if IE 7]><!-->
+              </a>
+              <!--<![endif]-->
+              <table>
+                <tr>
+                  <td><ul>
+				      <li class="subprod"><a href="corel.htm">Corel News</a></li>
+                      <li class="subprod"><a href="awards_and_press.htm">Awards & Press</a></li>
+                      <li class="subprod2"><a href="empopp.htm">Careers</a></li>
+                    </ul></td>
+                </tr>
+              </table>
+              <!--[if lte IE 6]></a><![endif]-->
+            </li>
+            <li class="single" id="tab6"><a href="home_users.htm">Home User</a></li>
+            <li class="enterprise" id="tab7"><a href="enterprise_users.htm" id="special">Enterprise User</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+<!--/htdig_noindex-->
+  <div class="M_Body">
+    <div class="M_Left">
+      <div class="side_nav">
+        <div id="prodcontainer">
+<ul id="prodlist">
+<li id="active"><a href="#" id="caption">Downloads</a></li>
+<li><a href="downwz.htm">WinZip 11.1</a></li>
+<li><a href="downec.htm">WinZip E-Mail Companion</a></li>
+<li><a href="downse.htm">WinZip Self-Extractor</a></li>
+<li><a href="downcl.htm" id="last">WinZip Command Line</a></li>
+</ul>
+</div>
+      </div>
+      <div class="G_Bar" style="height:64em;">
+        <script language="JavaScript" type="text/javascript">if (displaytp==true) {document.write('<a href="/trialpay.htm"><img src="http://image.winzip.com/images/get_wz_free.gif" alt="Get WinZip Free!"  border="0" style="margin-top:10px"/></A>');}</script>
+        <img src="http://image.winzip.com/images/sbar_extras.gif" style="margin: 20px 0px 0px 0px;"/><br/>
+        <div class="side_cd"> <a href="http://www.winzip.com/es/downwz.htm" class="M1">WinZip 11.1 en Espa&ntilde;ol</a><br/><br/></div>
+      <a href="javascript:openpopup2('/ec20demo.htm')"><img src="images/banner_ec_in_action.gif" alt="See WinZip E-Mail Companion In Action" width="162" height="138" border="0" style="margin: 10px 0px 0px 0px;"/></a></div>
+      <div class="G_BB"></div>
+    </div>
+    <div class="M_Right">
+      <div class="M_Module">
+        <div class="mini_control"><a href="index.htm" class="A1">home</a> / <a href="prod_down.htm" class="A1">download</a> / winzip 11.1 / <a href="send_page.htm" target="page" onclick= "window.open('','page','toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=550,height=475,left=50,top=50,titlebar=yes')"><img src="http://image.winzip.com/images/mini_nav_mail_ico.gif" alt="Email" border="0" style="margin-left:10px;"/></a></div>
+      </div>
+      <div class="content">
+        <div class="BTL_cell">
+          <h1>Download WinZip Evaluation Version</h1>
+          <p><strong class="style1">System Requirements:</strong><br/>
+            Windows  2000, XP or Vista</p>
+          <p><a href="elicense.htm" class="M1">License Agreement</a></p>
+        </div>
+        <div class="BTR_cell"><img src="http://image.winzip.com/images/wz_ico1.gif" alt="The Original WinZip!" width="90" height="88"/></div>
+        <div style="clear: both;"></div>
+        <br/>
+        <div class="dl_TH1">
+          <table width="95%" height="29" border="0" cellpadding="0" cellspacing="0">
+            <tr style="font-weight:bold;">
+              <td width="200"><span class="style8">Version:</span></td>
+              <td width="200"><span class="style8">Language:</span></td>
+              <td><span class="style8">File Size:</span></td>
+            </tr>
+          </table>
+        </div>
+        <div class="dl_TH2">
+          <table width="95%" height="29" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="200" valign="bottom"><span class="style8">11.1 (Build 7466)</span></td>
+              <td width="200" valign="bottom"><span class="style8">English</span></td>
+              <td valign="bottom"><span class="style8">12.7MB</span></td>
+            </tr>
+          </table>
+        </div>
+        <script language="JavaScript" src="http://www.winzip.com/downloadNow.js" type="text/javascript"></script>
+        <script>
+                function dln(thisForm,origin) {
+                        if (thisForm.dnldorigin.value == "Download.com") {
+                                //downloadNow('ftp://ftp.download.com/pub/win95/utilities/filecomp/winzip111.exe','/linkfpp.cgi?o=1&email=' + thisForm.email.value,'0');
+                                location.href = '/linkfpp.cgi?o=1&email=' + thisForm.email.value,'0';
+                        } else {
+                                downloadNowWZ('http://download.winzip.com/winzip111.exe','/downauto.cgi?o=1&file=winzip111.exe&email=' + thisForm.email.value,'0');
+                        }
+                }
+                </script>
+        <form name="dlForm" id="dlForm" action="javascript:dln(dlForm);">
+          <div class="dl_stp1">
+            <div class="step_1" style="width:410px;">Please Note: WinZip 11.1 is a free update for WinZip 11.0 users, but <a href="#upgrade" class="M1">not a free upgrade</a> for users running WinZip 10.0 or earlier.<br/>
+              <br/>
+              Select a Download Location:<br/>
+              <select name="dnldorigin">
+                <option>Select download location</option>
+                <option value="Download.com" selected="selected">C|net download.com</option>
+                <option value="Winzip">WinZip Computing</option>
+              </select>
+            </div>
+          </div>
+          <div class="dl_stp2">
+            <div class="step_1">Enter your email address <span class="style9"></span> <br/>
+              <br/>
+              <input type="text" name="email" id="wz_reg" value="your email" onfocus="if (this.value=='your email') this.value='';"/>
+              <br/>
+              <p><a href="privacy.htm" target="_blank" class="M1">view privacy policy</a></p>
+            </div>
+          </div>
+          <div class="dl_stp3">
+            <div class="step_3">
+              <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="30" align="left" valign="top">
+                          <img src="http://image.winzip.com/images/nd_1A.gif" alt="Try it for 45 Days" border="0" id="Image1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','/images/nd_1H.gif',1)" onclick="dln(dlForm);" />
+                          <!-- </a> -->
+                          <br/>
+                          <a href="/order.cgi?wzd1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','/images/nb_1H.gif',1)"><img src="http://image.winzip.com/images/nb_1A.gif" alt="Buy it Now" border="0" id="Image2" /></a>
+                                                  <script language="JavaScript" type="text/javascript">if (displaytp==true) {document.write('<a href="http://www.winzip.com/trialpay.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(\'Image4\',\'\',\'/images/nt_1H.gif\',1)"><img src="http://image.winzip.com/images/nt_1A.gif" alt="Get it Free!" border="0" id="Image4" /></a>');}</script>
+                                            </td>
+                      </tr>
+                    </table></td>
+                  <td align="right" valign="bottom"><a href="#" onclick="toggle('toggle1');window.location='#AI'; return false;"><img src="http://image.winzip.com/images/install_toggle.gif" id="showorhide" alt="Display install Guide" width="153" height="32" border="0" /></a> </td>
+                </tr>
+              </table>
+              <script language="JavaScript" type="text/javascript">
+if (is.ie4||is.ie5||is.ie55||is.ie6||is.ie7) {
+   document.getElementById('showorhide').style.visibility = 'visible';
+}
+else {
+   document.getElementById('showorhide').style.visibility = 'hidden';
+}
+</script>
+            </div>
+          </div>
+          <a name="AI"></a>
+          <div class="install" id="toggle1">
+            <div class="ins_1">
+              <div class="inst1">Select &quot;Run&quot; to begin Installation <br/>
+                <img src="http://image.winzip.com/images/install_1.gif" style="margin: 10px 0px 0px 0px;"/></div>
+            </div>
+            <div class="ins_2">
+              <div class="inst1">Select &quot;Run&quot; Again! <br/>
+                <img src="http://image.winzip.com/images/install_2.gif" width="411" height="196" style="margin: 10px 0px 0px 0px;"/></div>
+            </div>
+            <div class="ins_3">
+              <div class="inst1">Select &quot;Setup&quot; and follow simple instructions <br/>
+                <img src="http://image.winzip.com/images/install_3.gif" width="412" height="144" style="margin: 10px 0px 0px 0px;"/><br/>
+                                <p align="center"><img src="http://image.winzip.com/images/DL_beta1A.gif" alt="Try it for 45 Days" border="0" id="Image3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','/images/DL_beta1H.gif',1)" onclick="dln(dlForm);" /></p>
+                          </div>
+            </div>
+          </div>
+        </form>
+        <div class="B_list"></div>
+        <p class="style1"><strong>Attention Registered Users:</strong></p>
+        <p>Registered users of WinZip 10.0 looking for Build 7245 can <a href="wz7245.htm" class="M1">learn how to download the free update now</a>.</p>
+                <p><a name="upgrade"></a><strong>WinZip 11.1 is a free update for WinZip 11.0 users, but not a free upgrade</a> for users running WinZip 10.0 or earlier</strong>. If you're a registered user of a previous version of WinZip, please note that you are about to overwrite your registered copy with an evaluation version of WinZip 11.1.<strong> You will need a new registration code</strong>. Please see our <a href="upgrade.htm" class="M1">upgrade page</a> for more information about upgrading to WinZip 11.1 at 50% off the regular list price.</p>
+        <p>If you want to try WinZip 11.1 before purchasing the upgrade, please open WinZip, select "About WinZip" from the "Help" menu and record your name and registration number. This will allow you to <a href="dprob.htm" class="M1">reinstall your previous (registered) version</a>, should you decide not to upgrade. If you own a multi-user license, please make a backup copy of your WinZip folder before downloading the trial version of WinZip 11.1.</p>
+        <p>Thank you for supporting WinZip!</p>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="Footer">
+    <div class="cr_cell">Copyright &copy; 2008 WinZip&reg; International LLC | <a href="privacy.htm" class="F1">Privacy Policy</a><br/>
+  WinZip is a Registered Trademark of WinZip International LLC</div>
+<div class="ng_cell"><strong>* WinZip is NOT Free Software</strong><br/>
+  If you are satisfied with the free trial of our software, please buy it after your evaluation period.</div>
+<div style="clear: both"></div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-229838-1";
+urchinTracker();
+</script>
+  </div>
+</div>
+</body>
+</html>

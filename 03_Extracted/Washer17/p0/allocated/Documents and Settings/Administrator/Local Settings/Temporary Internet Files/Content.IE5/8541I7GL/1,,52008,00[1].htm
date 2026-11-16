@@ -1,0 +1,638 @@
+<!-- Vignette V6 Tue Oct 30 16:04:32 2007 -->
+
+
+//3.0
+if (window.ualhpDate) 
+	{}/*do nothing, see else{} statement below, for some reason !window doesnt work*/
+else 
+	{
+		var ff29clientDate = new Date();
+		if (ff29clientDate.getMonth()==0){ff29clientmonth="Jan"} if (ff29clientDate.getMonth()==1){ff29clientmonth="Feb"}
+		if (ff29clientDate.getMonth()==2){ff29clientmonth="Mar"} if (ff29clientDate.getMonth()==3){ff29clientmonth="Apr"}
+		if (ff29clientDate.getMonth()==4){ff29clientmonth="May"} if (ff29clientDate.getMonth()==5){ff29clientmonth="Jun"}
+		if (ff29clientDate.getMonth()==6){ff29clientmonth="Jul"} if (ff29clientDate.getMonth()==7){ff29clientmonth="Aug"}
+		if (ff29clientDate.getMonth()==8){ff29clientmonth="Sep"} if (ff29clientDate.getMonth()==9){ff29clientmonth="Oct"}
+		if (ff29clientDate.getMonth()==10){ff29clientmonth="Nov"} if (ff29clientDate.getMonth()==11){ff29clientmonth="Dec"}
+		ualhpDate = "NONE "+ff29clientmonth+" "+ff29makedoubledigit(ff29clientDate.getDate())+" NO:NE:NO NONE "+ff29clientDate.getFullYear();
+	}
+var ualHPdateArray = new Array(); ualHPdateArray = ualhpDate.split(' ');
+var ualHPtodaysMonth = ualHPdateArray[1]; var ualHPtodaysDay = ualHPdateArray[2]; var ualHPtodaysYear = ualHPdateArray[5];
+if (ualHPtodaysMonth=="Jan"){ualHPtodaysMonth=0;} if (ualHPtodaysMonth=="Feb"){ualHPtodaysMonth=1;}
+if (ualHPtodaysMonth=="Mar"){ualHPtodaysMonth=2;} if (ualHPtodaysMonth=="Apr"){ualHPtodaysMonth=3;}
+if (ualHPtodaysMonth=="May"){ualHPtodaysMonth=4;} if (ualHPtodaysMonth=="Jun"){ualHPtodaysMonth=5;}
+if (ualHPtodaysMonth=="Jul"){ualHPtodaysMonth=6;} if (ualHPtodaysMonth=="Aug"){ualHPtodaysMonth=7;}
+if (ualHPtodaysMonth=="Sep"){ualHPtodaysMonth=8;} if (ualHPtodaysMonth=="Oct"){ualHPtodaysMonth=9;}
+if (ualHPtodaysMonth=="Nov"){ualHPtodaysMonth=10;} if (ualHPtodaysMonth=="Dec"){ualHPtodaysMonth=11;}
+var ualHPyesterday=new Date(ualHPtodaysYear, ualHPtodaysMonth, ualHPtodaysDay);	ualHPyesterday.setDate(ualHPyesterday.getDate()-1);
+var ualHPtoday=new Date(ualHPtodaysYear, ualHPtodaysMonth, ualHPtodaysDay);	ualHPtoday.setDate(ualHPtoday.getDate())
+var ualHPtomorrow=new Date(ualHPtodaysYear, ualHPtodaysMonth, ualHPtodaysDay);	ualHPtomorrow.setDate(ualHPtomorrow.getDate()+1)	
+var ualHPnextWeek=new Date(ualHPtodaysYear, ualHPtodaysMonth, ualHPtodaysDay);	ualHPnextWeek.setDate(ualHPnextWeek.getDate()+14);
+var ualHPtwoWeeks=new Date(ualHPtodaysYear, ualHPtodaysMonth, ualHPtodaysDay);	ualHPtwoWeeks.setDate(ualHPtwoWeeks.getDate()+21);
+var todaysYear = ualHPtoday.getFullYear(); 				var todaysMonth = ualHPtoday.getMonth(); 				var todaysDate = ualHPtoday.getDate()-1;
+var plusFourteenYear = ualHPnextWeek.getFullYear(); 	var plusFourteenMonth = ualHPnextWeek.getMonth(); 	var plusFourteenDate = ualHPnextWeek.getDate()-1;
+var plusTwentyoneYear = ualHPtwoWeeks.getFullYear(); 	var plusTwentyoneMonth = ualHPtwoWeeks.getMonth();	var plusTwentyoneDate = ualHPtwoWeeks.getDate()-1;
+
+var ff29FlightStatusOptions = '<option value="'+ff29makedoubledigit(ualHPyesterday.getFullYear())+ff29makedoubledigit((ualHPyesterday.getMonth()+1))+ff29makedoubledigit(ualHPyesterday.getDate())+'">'+ff29makedoubledigit((ualHPyesterday.getMonth()+1))+'/'+ff29makedoubledigit(ualHPyesterday.getDate())+'/'+ff29makedoubledigit(ualHPyesterday.getFullYear())+'</option>\n';
+ff29FlightStatusOptions += '<option selected value="'+ff29makedoubledigit(ualHPtoday.getFullYear())+ff29makedoubledigit((ualHPtoday.getMonth()+1))+ff29makedoubledigit(ualHPtoday.getDate())+'">'+ff29makedoubledigit((ualHPtoday.getMonth()+1))+'/'+ff29makedoubledigit(ualHPtoday.getDate())+'/'+ff29makedoubledigit(ualHPtoday.getFullYear())+'</option>\n';
+ff29FlightStatusOptions += '<option value="'+ff29makedoubledigit(ualHPtomorrow.getFullYear())+ff29makedoubledigit((ualHPtomorrow.getMonth()+1))+ff29makedoubledigit(ualHPtomorrow.getDate())+'">'+ff29makedoubledigit((ualHPtomorrow.getMonth()+1))+'/'+ff29makedoubledigit(ualHPtomorrow.getDate())+'/'+ff29makedoubledigit(ualHPtomorrow.getFullYear())+'</option>\n';
+
+var writeFFprotocol = "http"; if(document.location.href.indexOf('https://') !=- 1){writeFFprotocol = "https";}
+
+
+
+// these vars are for the DHTML calendars
+var ff29TodayYearMonth=todaysYear+"-";
+if (todaysMonth+1>=10){ff29TodayYearMonth+=(todaysMonth+1)} else {ff29TodayYearMonth+="0"+(todaysMonth+1);}
+var ff29TodayCalendarDay=todaysDate+1;
+
+var ff29DepYearMonth=plusFourteenYear+"-";
+if (plusFourteenMonth+1>=10){ff29DepYearMonth+=(plusFourteenMonth+1)} else {ff29DepYearMonth+="0"+(plusFourteenMonth+1);}
+var ff29DepCalendarDay=plusFourteenDate+1;
+
+var ff29RetYearMonth=plusTwentyoneYear+"-";
+if (plusTwentyoneMonth+1>=10){ff29RetYearMonth+=(plusTwentyoneMonth+1)} else {ff29RetYearMonth+="0"+(plusTwentyoneMonth+1);}
+var ff29RetCalendarDay=plusTwentyoneDate+1;
+
+// ************************************************************************************************************************
+ff29mode=1; // global var of what mode the book travel mode is in (1,2,3)
+ff29tabs = new Array();
+ff29tabs[0]  = new Image(77,25); ff29tabs[0].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_BT_on.gif";
+ff29tabs[1]  = new Image(77,25); ff29tabs[1].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_BT_off.gif";
+ff29tabs[2]  = new Image(77,25); ff29tabs[2].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_BT_off_roll.gif";
+ff29tabs[3]  = new Image(87,25); ff29tabs[3].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_CI_on.gif";
+ff29tabs[4]  = new Image(87,25); ff29tabs[4].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_CI_off.gif";
+ff29tabs[5]  = new Image(87,25); ff29tabs[5].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_CI_off.gif";
+ff29tabs[6]  = new Image(87,25); ff29tabs[6].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_CI_off_roll.gif";
+ff29tabs[7]  = new Image(87,25); ff29tabs[7].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_CI_off_roll.gif";
+ff29tabs[8]  = new Image(80,25); ff29tabs[8].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_FS_off.gif";
+ff29tabs[9]  = new Image(80,25); ff29tabs[9].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_FS_off.gif";
+ff29tabs[10] = new Image(80,25); ff29tabs[10].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_FS_off_roll.gif";
+ff29tabs[11] = new Image(80,25); ff29tabs[11].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_FS_off_roll.gif";
+ff29tabs[12] = new Image(80,25); ff29tabs[12].src = writeFFprotocol+"://www.united.com/ual/asset/hp30_tab_FS_on.gif";
+
+
+// append body tag with onload attribute
+// FOR NON-IE
+if (!document.all) { document.getElementsByTagName('body')[0].setAttribute('onload', 'ff29init();'); }
+// FOR IE 
+if (document.all) { window.attachEvent('onload',ff29init); }
+//-->
+function ff29makedoubledigit(digitString)
+{
+	digitString = digitString.toString();
+	if (digitString.length==1) { digitString = "0"+digitString; }
+	return digitString;
+}
+
+function ff29init()
+{
+document.getElementById('flightADTmain').selectedIndex=0;
+if (document.getElementById('wayOne').checked)
+	{
+		ff29ToggleReturn('wayOne');
+	}
+if (document.getElementById('wayRound').checked)
+	{
+		ff29ToggleReturn('wayRound');
+	}
+
+if ( (document.getElementById('SearchBySCHEDULE').checked==false) && (document.getElementById('SearchByPRICE').checked==false) && (document.getElementById('SearchByFLEXDATE').checked==false) )
+	{
+		document.getElementById('SearchByPRICE').checked=true;
+	}
+}
+
+function ff29roll(currTab,polarity)
+{
+	if (currTab==1 && currTab!=ff29mode) {
+		if(polarity=="over") {document.images['ff29tab1'].src=ff29tabs[2].src;}
+		if(polarity=="out") {document.images['ff29tab1'].src=ff29tabs[1].src;}
+		}
+	if(currTab==2 && currTab!=ff29mode) {
+		if(ff29mode==1) {
+			if(polarity=="over") {document.images['ff29tab2'].src=ff29tabs[6].src;}
+			if(polarity=="out") {document.images['ff29tab2'].src=ff29tabs[4].src;}
+			}
+		if(ff29mode==3) {
+			if(polarity=="over") {document.images['ff29tab2'].src=ff29tabs[7].src;}
+			if(polarity=="out") {document.images['ff29tab2'].src=ff29tabs[5].src;}
+			}
+		}
+	if(currTab==3 && currTab!=ff29mode) {
+		if(ff29mode==1) {
+			if(polarity=="over") {document.images['ff29tab3'].src=ff29tabs[10].src;}
+			if(polarity=="out") {document.images['ff29tab3'].src=ff29tabs[8].src;}
+			}
+		if(ff29mode==2) {
+			if(polarity=="over") {document.images['ff29tab3'].src=ff29tabs[11].src;}
+			if(polarity=="out") {document.images['ff29tab3'].src=ff29tabs[9].src;}
+			}
+		}
+}
+
+function ff29click(currTab)
+{
+	ff29mode=currTab;
+	oCalPopD.ShowCal(false);oCalPopR.ShowCal(false);
+	if (currTab==1) {
+			document.images['ff29tab1'].src=ff29tabs[0].src;
+			document.images['ff29tab2'].src=ff29tabs[4].src;
+			document.images['ff29tab3'].src=ff29tabs[8].src;
+		}
+	if (currTab==2) {
+			document.images['ff29tab1'].src=ff29tabs[1].src;
+			document.images['ff29tab2'].src=ff29tabs[3].src;
+			document.images['ff29tab3'].src=ff29tabs[9].src;
+		}
+	if (currTab==3) {
+			document.images['ff29tab1'].src=ff29tabs[1].src;
+			document.images['ff29tab2'].src=ff29tabs[5].src;
+			document.images['ff29tab3'].src=ff29tabs[12].src;
+		}
+	for(i=1;i<4;i++)
+		{ document.getElementById("ff29pane"+i).style.display="none"; }
+		document.getElementById("ff29pane"+ff29mode).style.display="block";
+		
+// vs | begin
+	for (i=0;i<vsCustomItems.length;i++)
+	{
+		if(currTab==1 && vsCustomItems[i][0]=="v_tab1")
+		{vsCustomItems[i][1]+=1;}
+		if(currTab==2 && vsCustomItems[i][0]=="v_tab2")
+		{vsCustomItems[i][1]+=1;}
+		if(currTab==3 && vsCustomItems[i][0]=="v_tab3")
+		{vsCustomItems[i][1]+=1;}
+	}
+// vs | end		
+		
+}
+
+function travelSearch(tsMode)
+{
+	oCalPopD.ShowCal(false);oCalPopR.ShowCal(false);
+	var panel1Labels = new Array("Flights","Hotels","Cars","Vacations")
+	for(i=1;i<5;i++)
+		{ 
+			document.getElementById("ff29pane1sub"+i+"a").style.display="none";
+			document.getElementById("ff29pane1sub"+i+"b").style.display="none";
+		}
+	document.getElementById("ff29pane1sub"+tsMode+"a").style.display="block";
+	document.getElementById("ff29pane1sub"+tsMode+"b").style.display="block";
+	if (tsMode==1)
+		{
+			document.getElementById("ff29adjacentSearch").innerHTML = "";
+			document.getElementById("dateContainer").style.display="block";
+			document.getElementById("ff29Dlabel").innerHTML = "Departing";
+			document.getElementById("ff29Rlabel").innerHTML = "Returning";
+			document.getElementById("ff29search").style.display="block";
+			document.getElementById("ff29search").style.padding="0px 0px 10px 0px;";
+			document.getElementById("ff29adjacentDep").style.display="inline";
+			document.getElementById("ff29adjacentRet").style.display="inline";
+			document.getElementById("hpHotelsPromo").style.display="none";
+			document.getElementById("ff29Aftersearchbutton").style.display="block";
+			if (document.getElementById("wayRound").checked == true )
+				{
+					document.getElementById("ff29Ritem").style.display="block";
+					document.getElementById("ff29Rlabel").style.display="block";
+				}
+				else
+				{
+					document.getElementById("ff29Ritem").style.display="none";
+					document.getElementById("ff29Rlabel").style.display="none";
+				}
+			document.getElementById("dateContainer").style.backgroundColor="ffffff";
+		}
+	if (tsMode==2)
+		{
+			document.getElementById("ff29adjacentSearch").innerHTML = '<a href="javascript:ff29Submit(\'options\',\'hotelmso\');">More search options</a>';
+			document.getElementById("dateContainer").style.display="block";
+			document.getElementById("ff29Dlabel").innerHTML = "Check-in date";
+			document.getElementById("ff29Rlabel").innerHTML = "Check-out date";
+			document.getElementById("ff29search").style.display="block";
+			document.getElementById("ff29search").style.padding="0px 0px 10px 0px;";
+			document.getElementById("ff29adjacentDep").style.display="none";
+			document.getElementById("ff29adjacentRet").style.display="none";
+			document.getElementById("hpHotelsPromo").style.display="block";
+
+document.getElementById("ff29Aftersearchbutton").style.display="none";
+			document.getElementById("ff29Ritem").style.display="block";
+			document.getElementById("ff29Rlabel").style.display="block";
+			document.getElementById("dateContainer").style.backgroundColor="ffffff";
+		}
+	if (tsMode==3) 
+		{
+			document.getElementById("ff29adjacentSearch").innerHTML = "";
+			document.getElementById("dateContainer").style.display="none"; // hide date picker
+			document.getElementById("ff29Dlabel").innerHTML = " ";
+			document.getElementById("ff29Rlabel").innerHTML = " ";
+			document.getElementById("ff29search").style.display="none";
+			document.getElementById("ff29search").style.padding="0px 0px 10px 0px;";
+			document.getElementById("ff29adjacentDep").style.display="none";
+			document.getElementById("ff29adjacentRet").style.display="none";
+			document.getElementById("hpHotelsPromo").style.display="none";
+
+document.getElementById("ff29Aftersearchbutton").style.display="none";
+			document.getElementById("ff29Ritem").style.display="block";
+			document.getElementById("ff29Rlabel").style.display="block";
+			document.getElementById("dateContainer").style.backgroundColor="ffffff";
+		}
+	if (tsMode==4)
+		{
+			document.getElementById("ff29adjacentSearch").innerHTML = '<a href="http://reservations.unitedvacations.com/search/search.aspx?Referrer=Z24">More search options</a>';
+			document.getElementById("dateContainer").style.display="block";
+			document.getElementById("ff29Dlabel").innerHTML = "Departing";
+			document.getElementById("ff29Rlabel").innerHTML = "Returning";
+			document.getElementById("ff29search").style.display="block";
+			document.getElementById("ff29search").style.padding="0px 0px 10px 0px;";
+			document.getElementById("ff29adjacentDep").style.display="none";
+			document.getElementById("ff29adjacentRet").style.display="none";
+			document.getElementById("hpHotelsPromo").style.display="none";
+
+document.getElementById("ff29Aftersearchbutton").style.display="none";
+			document.getElementById("ff29Ritem").style.display="block";
+			document.getElementById("ff29Rlabel").style.display="block";
+			document.getElementById("dateContainer").style.backgroundColor="f5f5f5";
+		}
+	var ff29controllerstring="";
+	ff29controllerstring+='<div class="btTabsPad"><table border="0" cellpadding="0" cellspacing="0">';
+	ff29controllerstring+='<tr>';
+	for(j=1;j<5;j++)
+		{
+			if (j!=tsMode){ff29controllerstring+='<td onclick="travelSearch('+j+')" id="ff29pane1tab'+j+'"><a href="javascript:travelSearch('+j+')"><img src="http://www.united.com/ual/asset/hp30ffbt'+j+'off.gif" border="0"></a></td>';}
+			else {ff29controllerstring+='<td onclick="travelSearch('+j+')" id="ff29pane1tab'+j+'"><img src="http://www.united.com/ual/asset/hp30ffbt'+j+'on.gif" border="0"></td>';}
+		}
+	ff29controllerstring+='</tr>';
+	ff29controllerstring+='</table></div>';
+	document.getElementById("ff29pane1controller").innerHTML = ff29controllerstring;
+// vs | begin
+	for (i=0;i<vsCustomItems.length;i++)
+	{
+		if(tsMode==1 && vsCustomItems[i][0]=="v_tab1sub1")
+		{vsCustomItems[i][1]+=1;}
+		if(tsMode==2 && vsCustomItems[i][0]=="v_tab1sub2")
+		{vsCustomItems[i][1]+=1;}
+		if(tsMode==3 && vsCustomItems[i][0]=="v_tab1sub3")
+		{vsCustomItems[i][1]+=1;}
+		if(tsMode==4 && vsCustomItems[i][0]=="v_tab1sub4")
+		{vsCustomItems[i][1]+=1;}
+	}
+// vs | end		
+
+}
+
+var flightschildandseniorvisible = false;
+function showChildandSenior()
+{
+	flightschildandseniorvisible = true;
+	document.getElementById("childseniorcompact").style.display = "none";
+	document.getElementById("childseniorfull").style.display = "block";
+	document.getElementById("flightADT").selectedIndex = document.getElementById("flightADTmain").selectedIndex+1;
+}
+
+function showMoreSearch()
+{
+if (document.getElementById("ff29upprclnoarrowa").style.display != "none")
+	{
+	document.getElementById("ff29upprclnoarrowa").style.display = "none";
+	document.getElementById("ff29upprclnoarrowb").style.display = "inline";
+	document.getElementById("ff29upprclnolink").style.display = "none";
+	document.getElementById("ff29upprclno").style.display = "block";
+	}
+	else
+	{
+	document.getElementById("ff29upprclnoarrowa").style.display = "inline";
+	document.getElementById("ff29upprclnoarrowb").style.display = "none";
+	document.getElementById("ff29upprclnolink").style.display = "inline";
+	document.getElementById("ff29upprclno").style.display = "none";
+	}
+}
+
+function openAiportLookupWin(url)
+{
+var tempurl = document.location.href;
+if (tempurl.indexOf('www.united.com')!=-1)
+	{
+		document.domain = "united.com";
+	}
+popWin = window.open(url,'popDoc','width=539,height=500,scrollbars=yes,status=yes,resizable=yes,toolbar=no,dependent=yes','AirportLookup');
+}
+
+function ff29ToggleReturn(tempId)
+{
+if (tempId == "wayOne")
+	{
+		document.getElementById("ff29Ritem").style.display="none";
+		document.getElementById("ff29Rlabel").style.display="none";
+		if (document.getElementById('SearchByFLEXDATE').checked==true)
+		{
+		document.getElementById('SearchByPRICE').checked=true;
+		}
+		document.getElementById("SearchByFLEXDATE").checked=false;
+		document.getElementById("SearchByFLEXDATE").disabled=true;
+
+		document.getElementById("SearchByFLEXDATE").style.display="none"; // from rel night
+		document.getElementById("SearchByFLEXDATElabel").style.display="none";  // from rel night
+
+
+	}
+	else
+	{
+		document.getElementById("ff29Ritem").style.display="block";
+		document.getElementById("ff29Rlabel").style.display="block";
+
+		if( document.getElementById("SearchByFLEXDATE").checked==true && document.getElementById("SearchByFLEXDATE").disabled==true)
+			{
+				document.getElementById("SearchByPRICE").checked=true;
+			}
+		document.getElementById("SearchByFLEXDATE").disabled=false;
+		document.getElementById("SearchByFLEXDATE").style.display="inline";  // from rel night
+		document.getElementById("SearchByFLEXDATElabel").style.display="inline";  // from rel night
+	}
+}
+
+function ff29searchByUpdate(tempId)
+{
+if (document.getElementById("SearchByFLEXDATE").disabled==false)
+	{
+	if (tempId == "SearchByFLEXDATE")
+		{
+			document.getElementById("wayOne").disabled=true;
+			ff29ToggleReturn('wayRound');
+		}
+		else
+		{
+			document.getElementById("wayOne").disabled=false;
+		}
+	}
+}
+
+
+function ff29updateOthers()
+{
+	currOrig = document.getElementById("shop_from0").value;
+	currDest = document.getElementById("shop_to0").value;
+	document.getElementById("hotelD").value = currDest;
+	document.getElementById("vacationO").value = currOrig;
+	document.getElementById("vacationD").value = currDest;
+}
+
+
+function ff29multiCity()
+{
+	var telescopeQuery="";
+	telescopeQuery+="http://travel.united.com/ube/core/us/shop.do?Log=1&shop_triptype=multicity";
+	telescopeQuery+="&shop_from0="+document.getElementById("shop_from0").value;
+	telescopeQuery+="&shop_to0="+document.getElementById("shop_to0").value;
+	if (document.getElementById("fromnearby1").checked==true) {telescopeQuery+="&shop_fromnearbyairport0=on";}
+	if (document.getElementById("tonearby1").checked==true) {telescopeQuery+="&shop_tonearbyairport0=on";}
+	telescopeQuery+="&shop_departmonth0="+document.getElementById("shop_departmonth").value; 
+	telescopeQuery+="&shop_departday0="+document.getElementById("shop_departday").value;
+	telescopeQuery+="&shop_departtime0="+document.getElementById("shop_departtime").value;
+	telescopeQuery+="&shop_departmonth1="+document.getElementById("shop_arrivemonth").value;
+	telescopeQuery+="&shop_departday1="+document.getElementById("shop_arriveday").value;
+	telescopeQuery+="&shop_departtime1="+document.getElementById("shop_arrivetime").value;
+
+	if (document.getElementById("SearchBySCHEDULE").checked==true) {telescopeQuery+="&shop_viewresults=SCHEDULE";}
+	if (document.getElementById("SearchByPRICE").checked==true) {telescopeQuery+="&shop_viewresults=PRICE";}
+	if (document.getElementById("SearchByFLEXDATE").checked==true) {telescopeQuery+="&shop_viewresults=PRICE";}
+
+	if (flightschildandseniorvisible!=true)
+		{
+			telescopeQuery+="&shop_passenger0="+document.getElementById("flightADTmain").value;
+			telescopeQuery+="&shop_passenger1=0-SRC";
+			telescopeQuery+="&shop_passenger2=0-CNN";
+		}
+		else
+		{
+			telescopeQuery+="&shop_passenger0="+document.getElementById("flightADT").value;
+			telescopeQuery+="&shop_passenger1="+document.getElementById("flightSRC").value;
+			telescopeQuery+="&shop_passenger2="+document.getElementById("flightCNN").value;
+		}
+	if(document.getElementById("ff29upprclno").style.display != "none") // if flight "more search options is expanded
+		{
+			telescopeQuery+="&shop_serviceclass="+document.getElementById("serviceclass").value;
+			telescopeQuery+="&shop_upgrade="+document.getElementById("upgrade").value;
+			telescopeQuery+="&shop_stops="+document.getElementById("stops").value;
+			telescopeQuery+="&shop_promotioncode="+document.getElementById("flightPromocode").value;
+			if (document.getElementById("flightIncludeSA").checked==true) {telescopeQuery+="&carrierPref=on";}
+		}
+		else // default settings
+		{
+			telescopeQuery+="&shop_serviceclass=ECONOMY-NON-REFUNDABLE";
+			telescopeQuery+="&shop_upgrade=";
+			telescopeQuery+="&shop_stops=1";
+			telescopeQuery+="&shop_promotioncode=";
+		}
+		
+	window.location=telescopeQuery;
+}
+
+function ff29Submit(typeOfsearch,linkName)
+{
+var ff29tsMode=1;
+// first find out what ts mode we are in
+
+if ((document.getElementById("ff29pane1sub2a").style.display == "none") && (document.getElementById("ff29pane1sub3a").style.display == "none") && (document.getElementById("ff29pane1sub4a").style.display == "none"))
+	{ff29tsMode=1;}
+
+if((document.getElementById("ff29pane1sub1a").style.display == "none") && (document.getElementById("ff29pane1sub3a").style.display == "none") && (document.getElementById("ff29pane1sub4a").style.display == "none"))
+	{ff29tsMode=2;}
+
+if((document.getElementById("ff29pane1sub1a").style.display == "none") && (document.getElementById("ff29pane1sub2a").style.display == "none") && (document.getElementById("ff29pane1sub4a").style.display == "none"))
+	{ff29tsMode=3;}
+
+if((document.getElementById("ff29pane1sub1a").style.display == "none") && (document.getElementById("ff29pane1sub2a").style.display == "none") && (document.getElementById("ff29pane1sub3a").style.display == "none"))
+	{ff29tsMode=4;}
+
+if (ff29tsMode==1)
+	{
+		if (typeOfsearch=="normal")
+			{
+				if (document.getElementById("shop_from0").value == "")
+					{
+						alert("Departing location (From) is a required field.")
+						return false;
+					}
+				if (document.getElementById("shop_to0").value == "")
+					{
+						alert("Destination location (To) is a required field")
+						return false;
+					}
+				// query flights and ping site metrics (insight first)
+				var telescopeQuery="";
+				telescopeQuery+="http://travel.united.com/ube/core/us/compactSearch.do?Log=1&";
+				telescopeQuery+="submitingShopInputForm=true";
+				telescopeQuery+="&shop_flightCount=2";
+				telescopeQuery+="&changeLanguage=false";
+				telescopeQuery+="&languageRedisplayPage=%2Fjsp%2Fshop%2FShop.jsp";
+				telescopeQuery+="&actionType=search";
+				telescopeQuery+="&waiting=true";
+				if (document.getElementById("wayRound").checked==true) {telescopeQuery+="&shop_triptype=roundtrip";}
+				if (document.getElementById("wayOne").checked==true) {telescopeQuery+="&shop_triptype=oneway";}
+				telescopeQuery+="&shop_from0="+document.getElementById("shop_from0").value;
+				telescopeQuery+="&shop_to0="+document.getElementById("shop_to0").value;
+				if (document.getElementById("fromnearby1").checked==true) {telescopeQuery+="&shop_fromnearbyairport0=on";}
+				if (document.getElementById("tonearby1").checked==true) {telescopeQuery+="&shop_tonearbyairport0=on";}
+				telescopeQuery+="&shop_departmonth0="+document.getElementById("shop_departmonth").value; 
+				telescopeQuery+="&shop_departday0="+document.getElementById("shop_departday").value;
+				telescopeQuery+="&shop_departtime0="+document.getElementById("shop_departtime").value;
+				telescopeQuery+="&shop_arrivemonth0="+document.getElementById("shop_arrivemonth").value;
+				telescopeQuery+="&shop_arriveday0="+document.getElementById("shop_arriveday").value;
+				telescopeQuery+="&shop_arrivetime0="+document.getElementById("shop_arrivetime").value;
+				if (document.getElementById("SearchBySCHEDULE").checked==true) {telescopeQuery+="&shop_viewresults=SCHEDULE";}
+				if (document.getElementById("SearchByPRICE").checked==true) {telescopeQuery+="&shop_viewresults=PRICE";}
+				if (document.getElementById("SearchByFLEXDATE").checked==true) {telescopeQuery+="&shop_viewresults=FLEXDATE";}
+				if (flightschildandseniorvisible!=true)
+					{
+						telescopeQuery+="&shop_passenger0="+document.getElementById("flightADTmain").value;
+						telescopeQuery+="&shop_passenger1=0-SRC";
+						telescopeQuery+="&shop_passenger2=0-CNN";
+					}
+					else
+					{
+						telescopeQuery+="&shop_passenger0="+document.getElementById("flightADT").value;
+						telescopeQuery+="&shop_passenger1="+document.getElementById("flightSRC").value;
+						telescopeQuery+="&shop_passenger2="+document.getElementById("flightCNN").value;
+					}
+				if(document.getElementById("ff29upprclno").style.display != "none") // if flight "more search options is expanded
+					{
+						telescopeQuery+="&shop_serviceclass="+document.getElementById("serviceclass").value;
+						telescopeQuery+="&shop_upgrade="+document.getElementById("upgrade").value;
+						telescopeQuery+="&shop_stops="+document.getElementById("stops").value;
+						telescopeQuery+="&shop_promotioncode="+document.getElementById("flightPromocode").value;
+						if (document.getElementById("flightIncludeSA").checked==true) {telescopeQuery+="&carrierPref=on";}
+					}
+				else // if flight "more search options is NOT expanded", set variables to defaults
+					{
+						telescopeQuery+="&shop_serviceclass=ECONOMY-NON-REFUNDABLE"; // reset values from award search patch | begin
+						telescopeQuery+="&shop_upgrade=";
+						telescopeQuery+="&shop_stops=1";
+						telescopeQuery+="&shop_promotioncode=";  // reset values from award search patch | begin
+					}
+
+
+
+			window.location=telescopeQuery;//window.location=IF_Flight+telescopeQuery;
+				return false;
+			}
+	}
+if (ff29tsMode==2)
+	{
+		if (typeOfsearch=="normal")
+			{
+				if (document.getElementById("hotelD").value == "")
+					{
+						alert("A city or airport code is required to search for a hotel.")
+						return false;
+					}
+			}
+				// query hotels
+				var hotelD = document.getElementById("shop_departmonth").value;
+				var hotelDsplit = new Array(); hotelDsplit = hotelD.split('-');
+				var hotelR = document.getElementById("shop_arrivemonth").value;
+				var hotelRsplit = new Array(); hotelRsplit = hotelR.split('-');
+				var hotelQueryStr ="";
+				hotelQueryStr+="united.wwte1.com/pubspec/scripts/eap.asp%3Feapid=11378-30001&GOTO=HOTSEARCH&lang=1033&ovrd=3&rfrr=-34980";
+				if ( (typeOfsearch=="options") || (typeOfsearch=="nearanattraction") || (typeOfsearch=="nearanaddress"))
+					{
+						hotelQueryStr="";//reset hotel query
+   					hotelQueryStr+="united.wwte1.com/pub/agent.dll%3Fqscr=htwv&from=m&eapi=11378-30001";
+						if (typeOfsearch=="options") { hotelQueryStr+="&khst=1" }
+						if (typeOfsearch=="nearanattraction") { hotelQueryStr+="&khst=3" }
+						if (typeOfsearch=="nearanaddress") { hotelQueryStr+="&khst=4" }
+						hotelQueryStr+="&date1="+hotelDsplit[1]+"%2F"+document.getElementById("shop_departday").value+"%2F"+hotelDsplit[0];
+						hotelQueryStr+="&date2="+hotelRsplit[1]+"%2F"+document.getElementById("shop_arriveday").value+"%2F"+hotelRsplit[0];
+						hotelQueryStr+="&cadu1="+document.getElementById('hotelAdults').value;
+						if ( (document.getElementById('hotelD').value.length > 0) && (typeOfsearch=="options") )
+							{
+								hotelQueryStr+="&loid=-1";
+								hotelQueryStr+="&locn="+document.getElementById('hotelD').value;
+							}
+								vsCustomItems[vsCustomItems.length] = new Array("v_pc","HP07");
+								vsCustomItems[vsCustomItems.length] = new Array("v_ln",linkName);
+						window.location="http://www.united.com/ual/asset/vsRedirection.html?Log=1&v_redirection="+hotelQueryStr;
+						return false;
+					}
+				hotelQueryStr+="&olid=&mdpcid=11378-30001.13.";
+				hotelQueryStr+="&CityName="+document.getElementById('hotelD').value;
+				hotelQueryStr+="&InDate="+hotelDsplit[1]+"/"+document.getElementById("shop_departday").value+"/"+hotelDsplit[0];
+				hotelQueryStr+="&OutDate="+hotelRsplit[1]+"/"+document.getElementById("shop_arriveday").value+"/"+hotelRsplit[0];
+				hotelQueryStr+="&NumRoom=1";
+				hotelQueryStr+="&NumAdult="+document.getElementById('hotelAdults').value+"&NumChild=0";
+				window.location="http://www.united.com/ual/asset/vsRedirection.html?Log=1&v_redirection="+hotelQueryStr;
+				return false;
+	}
+if (ff29tsMode==3)
+	{
+		//do nothing, this is the car rental section
+		//if necessary a car-quote HTTP GET could be formulated here
+	}
+if (ff29tsMode==4)
+	{
+		if (typeOfsearch=="normal")
+			{
+				if (document.getElementById('vacationO').value == "")
+					{
+						alert("Departing location (From) is a required field.");
+						return false;
+					}
+				if (document.getElementById('vacationD').value == "")
+					{ 
+						alert("Destination location (To) is a required field");
+						return false;
+					}
+			}
+		// query vacations (united vacations)
+		var vacationsD = document.getElementById("shop_departmonth").value;
+		var vacationsDsplit = new Array(); vacationsDsplit = vacationsD.split('-');
+		var vacationsR = document.getElementById("shop_arrivemonth").value;
+		var vacationsRsplit = new Array(); vacationsRsplit = vacationsR.split('-');
+		var VacationsQueryStr ="";
+
+		VacationsQueryStr+="reservations.unitedvacations.com/search/search.aspx?";
+		VacationsQueryStr+="&gsVendor=UAT&cartid=&customerid=&plcode="; // irrelevant at the moment, but must be in the search string..
+
+		if(document.getElementById("vacAHC").checked==true) { VacationsQueryStr+="&gsvacationtype=AHC01"};
+		if(document.getElementById("vacAH").checked==true)  { VacationsQueryStr+="&gsvacationtype=AH01" };
+		if(document.getElementById("vacAC").checked==true)  { VacationsQueryStr+="&gsvacationtype=AC01" };
+		if(document.getElementById("vacHC").checked==true)  { VacationsQueryStr+="&gsvacationtype=HC01" };
+		if (typeOfsearch=="options")
+			{
+				window.location = "http://reservations.unitedvacations.com/search/search.aspx?Referrer=Z24";
+			}
+		VacationsQueryStr+="&gsOrigin="+document.getElementById('vacationO').value; // orig 
+VacationsQueryStr+="&gsDestination="+document.getElementById('vacationD').value; // dest
+VacationsQueryStr+="&gsNumberOfTravelers="+document.getElementById('vacationsAdults').value; // number of travelers
+var qpfdepartMonth=document.getElementById('shop_departmonth').value;
+var qpfarriveMonth=document.getElementById('shop_arrivemonth').value;
+VacationsQueryStr+="&gsDepartureDate="+qpfdepartMonth.substr(5,2)+"/"+document.getElementById('shop_departday').value+"/"+qpfdepartMonth.substr(2,2); // ret
+VacationsQueryStr+="&gslengthofstay="; // irrelevant at the moment, but must be in the search string..
+VacationsQueryStr+="&gsReturnDate="+qpfarriveMonth.substr(5,2)+"/"+document.getElementById('shop_arriveday').value+"/"+qpfarriveMonth.substr(2,2); // dep
+VacationsQueryStr+="&Referrer=Z24";  // this is really important to have in the string..
+
+/*
+		VacationsQueryStr += "combinationType="+vactype;
+		VacationsQueryStr += "&fromLocation="+document.getElementById('vacationO').value;
+		VacationsQueryStr += "&toLocation="+document.getElementById('vacationD').value;
+		VacationsQueryStr += "&adultsNum="+document.getElementById('vacationsAdults').value;
+		VacationsQueryStr += "&fromDate="+vacationsDsplit[1]+"%2F"+document.getElementById("shop_departday").value+"%2F"+(vacationsDsplit[0].substr(2,2));
+		VacationsQueryStr += "&toDate="+vacationsRsplit[1]+"%2F"+document.getElementById("shop_arriveday").value+"%2F"+(vacationsRsplit[0].substr(2,2));
+		VacationsQueryStr += "&airFromDate="+vacationsDsplit[1]+"%2F"+document.getElementById("shop_departday").value+"%2F"+(vacationsDsplit[0].substr(2,2));
+		VacationsQueryStr += "&airToDate="+vacationsRsplit[1]+"%2F"+document.getElementById("shop_arriveday").value+"%2F"+(vacationsRsplit[0].substr(2,2));
+		VacationsQueryStr += "&hotelFromDate="+vacationsDsplit[1]+"%2F"+document.getElementById("shop_departday").value+"%2F"+(vacationsDsplit[0].substr(2,2));
+		VacationsQueryStr += "&hotelToDate="+vacationsRsplit[1]+"%2F"+document.getElementById("shop_arriveday").value+"%2F"+(vacationsRsplit[0].substr(2,2));
+		VacationsQueryStr += "&carFromtDate="+vacationsDsplit[1]+"%2F"+document.getElementById("shop_departday").value+"%2F"+(vacationsDsplit[0].substr(2,2));
+		VacationsQueryStr += "&carToDate="+vacationsRsplit[1]+"%2F"+document.getElementById("shop_arriveday").value+"%2F"+(vacationsRsplit[0].substr(2,2));
+		VacationsQueryStr += "&referrerId=UAhomepage&hotelCompany=&hotelName=&hotelLocation=&lockHotelName=&lockDestinations=&landing=T&DD=UA&doSearch=T";
+*/
+		window.location="http://www.united.com/ual/asset/vsRedirection.html?Log=1&v_redirection="+VacationsQueryStr;
+		return false;
+	}
+}
+
+function ff29popup(wURL) 
+{
+	window.open(wURL,"ff29","width=550,height=400,top=20,left=20,menubar=no,status=no,toolbar=no,resizable=yes,scrollbars=yes")
+}
+
+

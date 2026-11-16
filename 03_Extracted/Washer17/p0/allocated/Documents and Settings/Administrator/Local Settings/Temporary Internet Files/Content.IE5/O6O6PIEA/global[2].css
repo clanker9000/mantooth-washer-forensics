@@ -1,0 +1,67 @@
+body {
+padding:0; margin:0;
+font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif; font-size:11px; line-height:16px;
+}
+
+img {border:none;}
+a{color:#266289; text-decoration:underline;}
+a:hover{text-decoration:none;}
+a:visited{color:#695269; text-decoration:none;}
+.banner {height:150px; background: url(../images/bg.png) repeat-x;}
+.content {width:794px; background:#fff; margin:0 auto;}
+
+div#centerBox {margin:0; padding:0; width:265px; background: url(../images/bg_center.gif) repeat-y;}
+div#centerBox img#stumblers {margin:15px 0 5px 100px; padding:0;}
+div#centerBox a img.center{margin:0; padding:0 0 0 15px;}
+div#centerBox div#interCenterBox {margin:0 0 0 15px; padding:0; width:228px;}
+div#centerBox div#interCenterBox p#bgT {margin:2px 0 0; padding:0; background: url(../images/bg_white_top.gif) repeat-y; line-height:10px; }
+div#centerBox div#interCenterBox p#bgB {margin:0; padding:0; background: url(../images/bg_white_bottom.gif) repeat-y; line-height:10px;}
+div#centerBox div#interCenterBox p {margin:0; padding:0 10px 0; color:#266289; font-weight:bold; font-size:13px; background: url(../images/bg_white.gif) repeat-y;}
+div#centerBox div#interCenterBox p a {text-decoration:none; line-height:1.4em;}
+
+p#backgroundT {margin:0; padding:0; background: url(../images/bg_center_top.gif) repeat-y; line-height:10px;}
+p#backgroundB {margin:0; padding:0; background: url(../images/bg_center_bottom.gif) repeat-y; line-height:10px;}
+
+div#centerBox div#centerNav {margin:0; padding:10px 0 14px 8px;}
+/* div#centerBox div#centerNav img {margin:0; padding:0 3px; display:inline; float:left;}
+div#centerBox div#centerNav a img {margin:0; padding:25px 0 0; display:inline; float:left;} */
+
+div#reviews {margin:5px 0 0; padding:0;}
+div#reviews img {margin:0; padding:7px 0 0 10px; display:inline;}
+
+#left {padding:20px 0 0 12px; width:240px; color:#323244; font-size:13px;}
+#left p {margin:7px 12px 20px 12px;}
+#left h2, #left h3, #right h2, #right h3{padding:0; margin:12px 12px 0 12px;}
+#left form {font-size:12px; color:#323244; width:188px; margin:0; display:block; padding:7px 12px 20px 12px;}
+#left form input {margin:3px 0 0 0; padding:0;}
+
+#center h2, #center h3{padding:0; margin:12px;}
+#center {padding:3px 0 0 0;}
+#center .content {background:#ebf8fd; width:264px; text-align:center; padding-bottom:15px; margin-bottom:12px;}
+
+.content td#copy {width:534px; padding:30px 0 0 12px; color:#323244; font-size:12px; }
+#copy h2, #copy h3{padding:0; margin:12px 12px 0 12px;}
+#copy  p {margin:7px 12px 20px 12px;}
+
+table.stumble_box {margin:0; padding:0;}
+
+#right{padding:20px 5px 0 8px;width:240px; color:#323244; font-size:13px;}
+#right p {margin:7px 12px 20px 12px;}
+#footer{padding: 0 22px 25px 22px;color:#266289;text-align:center;}
+#footer p {margin: 12px 0 0 0 ; padding:0; text-align:left;}
+#footer img{margin:0; }
+#footer a {text-decoration:none;}
+#footer a:hover {text-decoration:underline;}
+#footer .copyright {float:right; color:#323244;}
+.content .copyright {color:#323244;}
+
+.geoff {font-family:verdana,tahoma,arial,helvetica,sans-serif; font-size:18px; line-height:20px; text-align:center; font-weight:bold; background:#fff;}
+
+/* help icon */
+.helpIcon {text-align:center; font: 11px verdana, arial, sans-serif; color: #ff6600; font-weight:bold; margin-left:7px; background-color:#cce3ec; padding:0px 3px 0px 3px; cursor:hand;}
+
+table.edit_section td.campaign_field {
+  border:1px solid #b0b0b0;
+  background-color: #dbe6de;
+}
+

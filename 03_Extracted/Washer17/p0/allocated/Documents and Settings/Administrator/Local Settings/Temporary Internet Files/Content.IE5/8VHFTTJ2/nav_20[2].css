@@ -1,0 +1,42 @@
+#navigation {
+        width:128px;
+        text-align:left;
+}
+#navigation a, #navigation a:hover {text-decoration:none;}
+#navigation h3 {font-size: .98em;}
+
+.navOff {background:   url("sidenav_btn_a.gif") top left repeat; width:127px;height:30px; }/*Remove -- should be part of the global style */
+.navOn {background:   url("sidenav_btn_b.gif") top left  repeat; width:127px;height:30px; }/*Remove -- should be part of the global style */
+#buttonNav {margin-bottom:0px;}
+#buttonNav h3, #buttonNav a {color:#fff; cursor:pointer; cursor:hand;}
+#buttonNav h3, #aimDirectory {text-indent: 10px; margin:0px; padding-top:8px;}
+
+#aimDirectory{
+                width:127px;
+                height:33px;
+                line-height:5px;
+                background:url("aim_directory_title_bg.gif")  no-repeat;
+}
+#aimDirectory h3 {color:#c8d5e5; padding:8px 0px 0px 0px;cursor: default;cursor: default;}
+html>body #textNav {position:relative;top:-8px;margin:0px;padding:0px;}
+
+#textNav h3 {
+                font-size: .9em;
+                margin:5px 0px;
+                *margin:0px;
+                text-indent: 10px;
+}
+
+#textNav a {
+        color:97cdfc;
+        text-decoration:none;/*remove*/
+
+}
+#textNav a:hover {color:#c4e4ff;}
+#textNav img {
+        *position:relative;
+        *top:-5px;
+        width: 126px;
+        height: 1px;
+        border: 0; background:url("side_nav_dotted_div.gif") no-repeat;
+}

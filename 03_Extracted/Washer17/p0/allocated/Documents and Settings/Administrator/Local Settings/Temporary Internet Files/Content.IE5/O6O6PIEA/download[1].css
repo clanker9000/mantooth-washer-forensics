@@ -1,0 +1,75 @@
+#topBox {
+    background:#fff;
+    border:1px solid #d0d0d0;
+    margin:0px 0px 0px 10px;
+    padding:10px;
+    height: 75px;
+    _height:auto;
+    width:715px;
+    line-height:16px;
+}
+
+#topBoxContainer {
+    padding-right: 90px;
+}
+
+
+#contentsRight {
+    background:#fff;
+    border:0px solid #d0d0d0;
+    margin-right:15px;
+    _margin-right:7px;
+    padding:0px;
+    width:295px;
+    height:auto;
+    _height:100%;
+    float:right;
+}
+
+#contentsLeft {
+    background:#fff;
+    border:0px solid #d0d0d0;
+    margin:0px 0px 0px 25px;
+    padding:0px;
+    height:auto;
+    width:400px;
+}
+
+#contentsRight H3 {
+    color:#727272;
+    font: normal bold 16px arial;
+    line-height:20px;
+    margin:0px;
+}
+
+#contentsLeft H3 {
+    color:#ff3300;
+    font: normal bold 16px arial;
+    line-height:25px;
+    margin:0px;
+}
+
+#topBoxImage {
+    padding-right:15px;
+    height:75px;
+    width:75px;
+    float: left;
+}
+
+#contentImageLeft {
+    padding-right:10px;
+    margin-bottom:30px;
+    height:75px;
+    width:75px;
+    float:left;
+}
+
+#contentTextRight {
+    line-height:16px;
+    color: #000000;
+}
+
+.learnLink {padding:20px 0px 0px 0px;}
+.boxTitle {font:normal bold 18px arial;color:#ff3402;padding-bottom:5px;width:390px;}
+.iconBox {width:390px;height:auto;margin-bottom:30px;}
+

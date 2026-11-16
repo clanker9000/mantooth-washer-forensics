@@ -1,0 +1,13 @@
+* 01:14:17 ----- PGP Desktop continuing -----
+* 01:14:17 Today's date is Saturday, June 23, 2007
+I 01:14:17 Initiating daily maintenance procedures
+* 17:58:12 ----- PGP Desktop started -----
+* 17:58:12 PGP Desktop 9.6.1 (Build 1012)
+* 17:58:12 Today's date is Saturday, June 23, 2007
+W 17:58:12 Your current PGP Desktop license does not support proxying
+W 17:58:12 Outgoing email messages will not be secured by PGP
+I 17:58:12 Setting logging level to: normal
+W 17:58:12 Your current PGP Desktop license does not support proxying
+W 17:58:12 Outgoing email messages will not be secured by PGP
+I 17:58:14 Initiating daily maintenance procedures
+E 18:47:50 Cannot proxy process 2188 due to insufficient privileges.  Process may be a service.

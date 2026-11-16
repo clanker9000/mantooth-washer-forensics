@@ -1,0 +1,2 @@
+var bnum=new Number(Math.floor(99999999 * Math.random())+1);
+document.write('<a href="https://servedby.advertising.com/click/site=732343/ageo=??ZIP??/bnum='+bnum+'/optn=17"><img src="https://servedby.advertising.com/site=732343/size=180150/optn=17/bins=1/ageo=??ZIP??/bnum='+bnum+'" width="180" height="150" border="0"></a>');

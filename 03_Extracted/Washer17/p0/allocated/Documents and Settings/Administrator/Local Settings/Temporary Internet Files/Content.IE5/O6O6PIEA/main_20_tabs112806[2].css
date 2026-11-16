@@ -1,0 +1,133 @@
+	#tabContainer { padding:0px !important; margin:0px !important;}
+
+
+	body{font-size: 76%;font-family: arial;}
+	a {text-decoration:none;}
+	a:hover{text-decoration:underline;}
+	.btnOff {background: #A1A4A9 	url("graybut_tile_normal.gif")  repeat; width:60px;height:20px;color:#000;}
+	.btnOn {background: #A1A4A9 	url("graybut_tile_on.gif") repeat; width:60px;height:20px;color:#000;}
+	.outer { width:760px; font-	size:1.0em; /*border : 1px solid #ff3399;*/ position:relative;}
+
+          #outer {
+               position:absolute;
+               margin-left:15px;
+          }
+
+		#outer a {
+			float:left;
+			width : auto;
+			/*height:30px;*/
+			font-weight:normal;
+			margin-right: 2px;
+			padding:6px 15px;
+			*padding:6px 8px;
+			color:#000;
+			background:url("tab_not_selected_bg.gif")  top left repeat;
+			border-right: 1px solid #70747a;
+			border-left: 1px solid #70747a;
+			text-decoration:none;
+			white-space: nowrap;
+	}
+		#outer a:hover {
+			text-decoration:none;
+			color:#fff;
+			cursor: pointer;
+			cursor: hand;
+
+		}
+
+		#addTabCont a {
+			float:left;
+			/*width : auto;
+			height:30px;*/
+			background:none;
+			border: 0px solid #70747a;
+			position:relative;
+
+		}
+		#addTabCont a:hover {
+			color:#000;
+			text-decoration:underline;
+		}
+
+		#showRight, #showLeft, #aimtodayContent {display:block;}
+		#hideRight, #hideLeft, #otherContent, #addTabBox, #editBox, #controlMenu {display:none;}
+		#otherContent, #tabURL, #newURL {position:relative;}
+		#addTabBox, #editBox, #controlMenu {position:absolute;}
+		#addTabBox, #controlMenu{z-index:600;}
+		#editBox {z-index:700;}
+		#controlMenu {width:190px;}
+		#tabURL, #newURL {left:3px;}
+
+		.focusTab {
+			font-weight:bolder  !important;
+			color:#000 !important;
+			background:url("tab_selected_bg.gif")  top left repeat !important;
+		}
+
+		#bottomNavBar {
+			height:4px;
+			width:865px !important;
+			*width:870px !important;
+			background:url("tab_btm_bar.gif")  top left repeat-x;
+               position:relative;
+               top:12px;
+		}
+
+
+		.controlMenu {
+			width:220px;
+			border:1px solid #000;
+			background-color : #c4c5c9;
+			padding:5px;
+			font-size:.95em;
+		}
+		#controlMenu A {
+			color:#3f4247;
+		}
+
+		.inactive {
+			color:#e4e4e4;
+		}
+		.editRow {
+			width:100%;
+			margin-bottom:5px;
+		}
+
+		.addTabBox H3 {
+			font-size:1.15em;
+		}
+
+		.editBoxH3 {
+			font-size:1.1em;
+			margin:5px 0px;
+		}
+		.editBoxHr {
+			background: #ccc;
+			border: 0;
+			color: #585858;
+			height: 1px;
+			margin: 8px 0px;
+			*margin: 4px 0px;
+		}
+		#addTabBox h3 {
+			font-size:1.1em;
+			margin:10px 0px 1px 0px;
+		}
+		#addTabBox li {
+			list-style:none;
+			margin:4px 0px 0px 0px;
+			*text-indent:-15px;
+		}
+
+		.footnote{
+			font-size:.9em;
+			margin:0px 0px 10px 45px;
+		}
+		#otherContent {
+			z-index:1;
+		}
+
+        #tabContainer {                                                                                             
+                z-index:1000;                                                                                       
+        } 

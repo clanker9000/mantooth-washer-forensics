@@ -1,0 +1,219 @@
+form { margin: 0px; }
+
+td.rightborder {
+	border-right-style: solid;
+	border-right-width: 1;
+	border-right-color: #e8eaf5;
+}
+
+td.leftborder {
+	border-left-style: solid;
+	border-left-width: 1;
+	border-left-color: #e8eaf5;
+}
+
+span.text1 {
+	color:#009900;
+	font-weight: bold;
+}
+
+span.text2 {
+	color:#888888;
+}
+
+span.bold {
+	color:#323244;
+	font-weight: bold;
+}
+
+span.red {
+	font-weight: bold;
+        color:#ee0000;
+}
+
+input.bold {
+        font-weight:bold;
+        color:#bb0000; 
+}
+
+/*
+input.mini {
+        font-weight:bold;
+	font-size: 9px;
+        color:#ee0000;
+}
+*/
+
+
+.darkbox {background-color:#efeff5;}
+
+body,td {
+        font-size: 13px;
+        font-family:arial, helvetica, san-serif;
+}
+.mini {
+        font-size: 11px;
+}
+
+.big {
+        font-size: 18px;
+	color:#222255;
+}
+
+#tablink {
+	text-decoration: none;
+	color:#002288;
+}
+#tablink:visited {
+	text-decoration: none;
+	color:#002288;
+}
+
+#tablink_highlight {
+	text-decoration: none;
+	color:#2040ee;
+}
+#tablink_highlight:visited {
+	text-decoration: none;
+	color:#2040ee;
+}
+
+#tablink2 {
+	text-decoration: none;
+	color:#002288;
+}
+#tablink2:visited {
+	text-decoration: none;
+	color:#002288;
+}
+
+#tablink2_highlight {
+	text-decoration: none;
+	color:#2040ee;
+}
+#tablink2_highlight:visited {
+	text-decoration: none;
+	color:#2040ee;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+} 
+a:visited:hover {
+	text-decoration: underline;
+}
+
+.lightbg {
+	background-color: #ffffff; 
+}
+
+.bg {
+	background-color: #ebf8fd;
+}
+
+hr.bg {
+	border:0; 
+	background-color: #e8eaf5;
+	height: 1px; 
+	color: #e8eaf5;
+}
+
+.darkbg {
+	background-color: #cce3ec;
+}
+
+.darkerbg {
+	background-color: #cce3ec;
+}
+
+#tab {
+	cursor:pointer;
+	background-color: #ffffff; 
+}
+
+#highlight {
+	cursor:pointer;
+	background-color: #d6f1fb;
+}
+
+#highlight3 {
+	cursor:pointer;
+	background-color: #e6fafd;
+}
+
+#tab2 {
+	cursor:pointer;
+	background-color: #d6f1fb;
+}
+
+#highlight2 {
+	cursor:pointer;
+	background-color: #ffffff; 
+}
+
+/*
+input.mini {
+	font-size:9px;
+}
+*/
+
+span.status {
+	color:#ff0000;
+	font-weight: bold;
+}
+
+span.white {
+	color:#ffffff;
+	font-weight: bold;
+}
+
+span.yellow {
+	color:#ffff00;
+	font-weight: bold;
+}
+
+
+
+/* start stuff that doesn't change... */
+
+
+span.menuselected {
+	color: #ff0000;
+	font-size: 15px;
+	font-weight: bold;
+}
+span.homedate {
+	color: #2b5a8f;
+}
+span.date {
+	color:#009900;
+	font-size: 11px;
+	font-weight: bold;
+}
+span.text2 {
+	color:#888888;
+}
+p {
+	font-family: arial, helvetica, san-serif;
+	font-size: 13px;
+	text-align: justify;
+}
+a.small {
+	font-family: arial, helvetica, san-serif;
+	font-size: 11px;
+	text-align: justify;
+}
+a.small:hover {
+	color:#ff0000;
+} 
+td.justify {
+	font-family: arial, helvetica, san-serif;
+	font-size: 13px;
+	text-align: justify; 
+}

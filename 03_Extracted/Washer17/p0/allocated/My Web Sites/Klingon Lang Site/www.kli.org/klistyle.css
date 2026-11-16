@@ -1,0 +1,88 @@
+BODY { background: #c0c0c0 url(http://www.kli.org/pics/KLIbackg.gif);
+       background-attachment: fixed; 
+       color : #000050 ;
+       font-family : times, serif ; 
+       font-size : 12pt;
+     }
+
+A:link { color : #7000ff }
+A:visited { color : #902090 }
+A[href]:hover { color : #ff00a4 }
+A:active { color : #ff0000 ; }
+/*      background-color : #ffff00 ; font-size : x-large } */
+
+/* in case I need to get to normalcy... */
+.norm { 
+  color : #000050 ;
+  font-family : times, serif ;
+}
+
+TD.norm {
+  color : #000050 ; 
+  font-family : times, serif;
+  font-size : 12pt;
+}
+
+SMALL {
+  font-size : 10pt;
+}
+
+PRE { font-family : monospace ; }
+
+.norm A:link { color : #7000ff }
+.norm A:visited { color : #902090 }
+.norm A[href]:hover { color : #ff00a4 }
+.norm A:active { color : #ff0000 ; }
+/*
+H1 { font-size : 140% ; font-weight : bold ; }
+H2 { font-size : 140% ; font-weight : normal ; }
+H3 { font-size : 120% ; font-weight : bold ; }
+H4 { font-size : 100% ; font-weight : bold ; }
+H5 { font-size : 80% ; font-weight : bold ; }
+H6 { font-size : 60% ; font-weight : bold ; }
+*/
+
+H1 { font-size : 24pt ; font-weight : bold ; }
+H2 { font-size : 24pt ; font-weight : normal ; }
+H3 { font-size : 18pt ; font-weight : bold ; }
+H4 { font-size : 18pt ; font-weight : normal ; }
+H5 { font-size : 14pt ; font-weight : bold ; }
+H6 { font-size : 12pt ; font-weight : bold ; }
+
+TD.nav, TD.subnav {
+	font-family : helvetica, sans-serif;
+	/* font-weight : bold; */
+	font-size : large;
+	/* background-color : #ffffff; */
+	background : #000000 url(http://www.kli.org/pics/buttonback.jpg);
+	color : #ffffff /* #685000 */ ;
+}
+.nav A, .subnav A { color : #ffffff ; text-decoration : none; }
+.nav A:hover, .subnav A:hover { color : #ffc1c1; }
+.nav A:active, .subnav A:active { color : #ffff00; }
+
+TD.current, TD.subcurrent {
+	font-family : helvetica, sans-serif;
+	font-size : large ;
+	color : #000000 ;
+	background : #ffffff url(http://www.kli.org/pics/selectedback.jpg) ;
+	border: thin solid #407d40;
+}
+.current A, .subcurrent A { color : #000000; text-decoration : none; }
+.current .tlh A, .subcurrent .tlh A { color : #800000 ; }
+.current A.tlh, .subcurrent A.tlh { color : #800000 ; }
+
+TD.subnav, TD.subcurrent { font-weight : bold; font-size: medium; }
+
+.subnav .tlh { color : #ff7090; } 
+.subnav A:hover .tlh, .subnav .tlh A:hover,
+  .subcurrent A:hover .tlh, .subcurrent .tlh A:hover { color : #ffc1c1 }
+.subnav A:active .tlh, .subcurrent A:active .tlh,
+  .subnav .tlh A:active, .subcurrent .tlh A:active  { color : #ffff00; }
+
+.tlh { color : #800000 ; font-weight : bold ; }
+A .tlh, .tlh A, A.tlh { color : #e02020 }
+A:hover .tlh, .tlh A:hover, A:hover.tlh { color : #ff5030 }
+A:active .tlh, .tlh A:active, A:active.tlh { color : #ff0000; }
+A:name .tlh, .tlh A:name, A:name.tlh { color : #800000 ; }
+TT.tlh, STRONG.tlh { font-family : monospace ; }

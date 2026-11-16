@@ -1,0 +1,46 @@
+function setCookie(name, value, expire) 	{		document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString()));	}
+function getCookieVal (offset) 
+{ 
+var endstr = document.cookie.indexOf (";", offset); 
+if (endstr == -1) endstr = document.cookie.length; 
+return unescape(document.cookie.substring(offset, endstr)); 
+} 
+   function GetCookie (name) { 
+var arg = name + "="; 
+var alen = arg.length; 
+var clen = document.cookie.length; 
+if( (document.cookie == null) || (document.cookie.length == null)) 
+return null; 
+var i = 0; 
+while (i < clen) 
+{ 
+var j = i + alen; 
+if (document.cookie.substring(i, j) == arg) return getCookieVal (j); 
+i = document.cookie.indexOf(" ", i) + 1; 
+if (i == 0) break;  
+} 
+return null; 
+}       
+var ixurl='http://core.insightexpressai.com/adServer/acceptInvite.aspx?BannerID=20551&adiqs=bannerID%3d20551%26siteID%3ddvrtmssc0760000004m0n%26creativeID%3d28529960&'
+var SurveyURL=ixurl;
+var CookiesOn = true;
+setCookie('AICookieTest', 'test', null);
+if (GetCookie('AICookieTest') == null) CookiesOn = false;
+if (GetCookie('IXAIInvited755_local') != null) CookiesOn = false;
+function adServerInvite() {
+if (!CookiesOn) return; 
+var expire = new Date();expire.setTime(expire.getTime() + 3600000*24*365);
+setCookie('IXAIInvited755_local', 'true', expire);
+ixurl = 'http://ad.insightexpressai.com/adServer/showInvite.aspx?uninvite=0&branding=0&SiteID=dvrtmssc0760000004m0n&BannerID=20551&CampaignID=755&redir='+escape(ixurl);
+var win2 = window.open(ixurl,'new_window','width=250,height=250,resizable=yes,scrollbars=yes');
+}
+
+var onUnloadFunction = window.onunload;
+window.onunload = newOnUnLoad;
+function newOnUnLoad()
+{
+	adServerInvite();
+    if(onUnloadFunction) 
+        onUnloadFunction();
+}
+                    //</script>

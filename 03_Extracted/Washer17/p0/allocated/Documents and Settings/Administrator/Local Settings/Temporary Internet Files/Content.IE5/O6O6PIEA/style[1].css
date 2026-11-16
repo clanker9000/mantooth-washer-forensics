@@ -1,0 +1,198 @@
+/* CSS Document */
+body{
+background-color: #5E5D5D;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 12px ;
+}
+.text {font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#000000;}
+.text a:link ,.texta:visited{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#000000;}
+.text a:hover{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#EF7508;}
+
+a:link{font-family:Arial, Helvetica, sans-serif;
+font-size: 12px ; text-decoration:none;color:#605E5E;}
+		a:hover{font-family:Arial, Helvetica, sans-serif;
+		font-size: 12px ; text-decoration:none;color:#EF7508;}
+		a:visited{font-family:Arial, Helvetica, sans-serif;
+		font-size: 12px ; text-decoration:none;color:#605E5E;}
+		
+		
+.tnav {font-family:Arial, Helvetica, sans-serif;
+ 	font-size:15px ;
+	   	
+ 	text-decoration:none; 
+  	background-image: url(../images/navbg.gif);
+    background-repeat:repeat-x; 
+    color:#FFFFFF; 
+	
+   }
+	 .tnav a:link , .tnav a:visited{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:15px ;
+		
+		text-decoration:none;
+		color:#FFFFFF;
+		
+		}
+	.tnav a:hover{font-family:Arial, Helvetica, sans-serif;
+	  font-size:15px ;
+	  
+	  text-decoration:none;
+	  color:#FFEAC4;
+	 }
+
+
+.orangebg{background-color:#FFA200;}
+.advt{background-color:#5E5D5D; height:93px}
+.mhead{color:#FFEAC4;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:30px; font-weight:bold; text-align:center; }
+.bdrbot{border-bottom:1px solid #000000;}
+
+
+.shead{color:#EF7508;font-family:Arial, Helvetica, sans-serif;height:31px; font-weight:bold;  background-image:url(../images/mheadbg.gif); color:#EF7508;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; font-weight:bold; padding-left:25px; }
+.shead a:link ,.shead a:visited{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none; color:#EF7508;}
+.shead a:hover{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#EF7508;}
+
+.ornhead{color:#EF7508;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; font-weight:bold; padding-left:25px;height:20px; }
+.whead,.whead a:link ,.whead a:visited{color:#ffffff;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; font-weight:bold; text-align:center ;height:20px; background-image:url(../images/body_08.gif)  }
+.whead a:hover{color:#ffffff;font-family:Arial, Helvetica, sans-serif; text-decoration:underline; font-size: 12px ; font-weight:bold; text-align:center ;height:20px; background-image:url(../images/body_08.gif)  }
+
+.leftnav {font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#000000;background-image: url(../images/navbgleft.gif);padding-left:25px; height:20px;}
+.leftnav a:link ,.leftnav a:visited{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#000000; height:20px;}
+.leftnav a:hover{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#EF7508;height:20px;}
+	.mhead1, .mhead1 a:link , .mhead1 a:visited{color:#FFEAC4;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; font-weight:bold;  }
+	.mhead1 a:hover{color:#ffffff;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; font-weight:bold; }	
+.news {font-family:Arial, Helvetica, sans-serif;
+font-size: 0px ; text-decoration:none; height:200px; width:100px; color:#605E5E; border:0px solid; color:#605E5E; background-color:#FFA200;}
+.mhead1, .mhead1 a:link , .mhead1 a:visited{color:#FFEAC4;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; font-weight:bold;  }
+	.mhead1 a:hover{color:#ffffff;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; font-weight:bold; }
+	
+	
+.footer ,.footer a:link ,.footer a:visited{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#FFA200;}
+.footer a:hover{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#FFEAC4;}
+
+div.scroll-news {
+	height: 95px;
+	width: 170px;
+	overflow: auto;
+	border: 0px;
+	background-color: 000000;
+	padding-right: 10px;
+	scrollbar-face-color:EF7508;
+	scrollbar-highlight-color:000000;
+	scrollbar-3dlight-color:000000;
+	scrollbar-shadow-color:000000;
+	scrollbar-darkshadow-color:000000;
+	scrollbar-arrow-color:000000;
+	scrollbar-track-color:000000;
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFFFFF;
+	}
+div.scroll-news a:link {
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFA200;
+	}
+div.scroll-news a:visited{
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFA200;
+	}
+div.scroll-news a:hover{
+	font-family:Arial, Helvetica, sans-serif;font-size: 11px ; text-decoration:none;color:#FFEAC4;
+	}
+	div.scroll-tutorials {
+	height: 120px;
+	width: 250px;
+	overflow: auto;
+	border: 0px;
+	background-color: ffffff;
+	padding-right: 10px;
+	scrollbar-face-color:EF7508;
+	scrollbar-highlight-color:000000;
+	scrollbar-3dlight-color:000000;
+	scrollbar-shadow-color:000000;
+	scrollbar-darkshadow-color:000000;
+	scrollbar-arrow-color:000000;
+	scrollbar-track-color:000000;
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFFFFF;
+	}
+	div.scroll-generators  {
+	height: 120px;
+	width: 250px;
+	overflow: auto;
+	border: 0px;
+	background-color: ffffff;
+	padding-right: 10px;
+	scrollbar-face-color:EF7508;
+	scrollbar-highlight-color:000000;
+	scrollbar-3dlight-color:000000;
+	scrollbar-shadow-color:000000;
+	scrollbar-darkshadow-color:000000;
+	scrollbar-arrow-color:000000;
+	scrollbar-track-color:000000;
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFFFFF;
+	}
+		div.scroll-commemts  {
+	height: 120px;
+	width: 250px;
+	overflow: auto;
+	border: 0px;
+	background-color: ffffff;
+	padding-right: 10px;
+	scrollbar-face-color:EF7508;
+	scrollbar-highlight-color:000000;
+	scrollbar-3dlight-color:000000;
+	scrollbar-shadow-color:000000;
+	scrollbar-darkshadow-color:000000;
+	scrollbar-arrow-color:000000;
+	scrollbar-track-color:000000;
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFFFFF;
+	}
+		div.scroll-layouts  {
+	height: 120px;
+	width: 250px;
+	overflow: auto;
+	border: 0px;
+	background-color: ffffff;
+	padding-right: 10px;
+	scrollbar-face-color:EF7508;
+	scrollbar-highlight-color:000000;
+	scrollbar-3dlight-color:000000;
+	scrollbar-shadow-color:000000;
+	scrollbar-darkshadow-color:000000;
+	scrollbar-arrow-color:000000;
+	scrollbar-track-color:000000;
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFFFFF;
+	}
+	.arow1{
+		background-color: #E7E7E7;
+		}
+	.arow2{
+		background-color: ffffff;
+		}
+	.date{color:#FFA200;font-family:Arial, Helvetica, sans-serif;
+		font-size: 10px ; text-decoration:none;  }	
+		
+.leftnav1 {font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#000000;background-image: url(../images/navbgleft.gif);padding-left:25px; height:20px;}
+.leftnav1 a:link ,.leftnav1 a:visited{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#000000; height:20px;}
+.leftnav1 a:hover{font-family:Arial, Helvetica, sans-serif;font-size: 12px ; text-decoration:none;color:#EF7508;height:20px;}
+
+.bmhead1, .bmhead1 a:link , .bmhead1 a:visited{color:#000000;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; font-weight:bold;  }
+.gmhead1, .gmhead1 a:link , .gmhead1 a:visited{color:#ffffff;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; font-weight:bold;  }
+
+.valday{
+cursor:url(http://www.go4myspacelayouts.com/myspace_cursors/cursorimages/cursor/cursor27.ani);
+}
+
+		div.scroll-recentlyadded  {
+	height: 300px;
+	width: 600px;
+	overflow: auto;
+	border: 0px;
+	background-color: ffffff;
+	padding-right: 10px;
+	scrollbar-face-color:EF7508;
+	scrollbar-highlight-color:000000;
+	scrollbar-3dlight-color:000000;
+	scrollbar-shadow-color:000000;
+	scrollbar-darkshadow-color:000000;
+	scrollbar-arrow-color:000000;
+	scrollbar-track-color:000000;
+	font-family:Arial, Helvetica, sans-serif;font-size: 10px ; text-decoration:none;color:#FFFFFF;
+	}	
+.rahead, .rahead a:link , .rahead a:visited{color:#000000;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; }
+	.rahead a:hover{color:#000000;font-family:Arial, Helvetica, sans-serif;font-size: 12px ; height:20px; text-decoration:underline; }

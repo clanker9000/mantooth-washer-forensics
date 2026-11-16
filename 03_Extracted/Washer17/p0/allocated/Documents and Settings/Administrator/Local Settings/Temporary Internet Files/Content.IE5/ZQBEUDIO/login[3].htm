@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<SCRIPT LANGUAGE="JavaScript" SRC="http://sns-static.aolcdn.com/sns/3.4r4/js/mainValidations.js"></SCRIPT>
+
+
+<script language="javascript" type="text/javascript">
+	prereqchecks('/badbrowser.psp?source=login&seamless=novl&sitedomain=sns.webmail.aol.com&lang=en&locale=us&authLev=2&siteState=ver%3a1%252c0%26ac%3aWS%26at%3aSNS%26ld%3amail.aol.com%26uv%3aAOL%26lc%3aen-us%26ud%3aaol.com%26br%3aWebSuite-Prod&checkAIM=1');
+</script>
+
+
+
+
+
+
+<script type="text/javascript"><!--
+var s_account="aolsnssignin,aolsvc";
+var s_linkInternalFilters="javascript:,.,/";
+var s_server="my.screenname.aol.com";
+var s_pfxID="sso";
+var s_pageName="sso : init_login";
+var s_channel="us.snssignin";
+var s_prop1='ssologin';
+var s_prop3='1';
+var s_prop12="/snsInit.jsp";
+var s_prop15="d2FzaGVyZ29uZWJhZA%3D%3D";
+var s_prop16="sns.webmail.aol.com";
+var s_prop17="std";
+var s_prop18="2";
+var s_prop19="wa3";
+var s_prop20="en-us";
+var s_prop21="AOLPortal";
+var s_prop22=".aol.com";
+//--></script>
+<script type="text/javascript" src="https://sns-static.aolcdn.com/omni/G.9/omniuni.js"></script>
+
+
+
+ <noscript>
+<p class="snsSmallText"><b> We are sorry, but you will need to enable cookies and Javascript to use your Screen Name with this site.</b><br/> Click <a href="/badbrowser.psp?source=login&seamless=novl&sitedomain=sns.webmail.aol.com&lang=en&locale=us&authLev=2&siteState=ver%3a1%252c0%26ac%3aWS%26at%3aSNS%26ld%3amail.aol.com%26uv%3aAOL%26lc%3aen-us%26ud%3aaol.com%26br%3aWebSuite-Prod&checkAIM=1">here</a> if your browser does not automatically redirect you.</p><meta HTTP-EQUIV=Refresh CONTENT="0; URL=/badbrowser.psp?source=login&seamless=novl&sitedomain=sns.webmail.aol.com&lang=en&locale=us&authLev=2&siteState=ver%3a1%252c0%26ac%3aWS%26at%3aSNS%26ld%3amail.aol.com%26uv%3aAOL%26lc%3aen-us%26ud%3aaol.com%26br%3aWebSuite-Prod&checkAIM=1"/>
+</noscript>
+</head>
+<body>
+
+    <SCRIPT LANGUAGE="JavaScript" SRC="http://sns-static.aolcdn.com/sns/3.4r4/js/window.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+var t;
+var wsc_t;
+var tryingWSC = 1;
+var waitCounter = 0;
+var tryingAIM = 1;
+var MAX_WAIT_TIME = 15000;
+function goToWaitPage() {
+  clearTimeout(t);
+  tryingAIM = 2;
+  if( tryingWSC == 0){ 
+    snsRedir("http://my.screenname.aol.com/_cqr/login/aimPrelogin.psp?seamless=novl&sitedomain=sns.webmail.aol.com&lang=en&locale=us&authLev=2&siteState=ver%3a1%252c0%26ac%3aWS%26at%3aSNS%26ld%3amail.aol.com%26uv%3aAOL%26lc%3aen-us%26ud%3aaol.com%26br%3aWebSuite-Prod&checkAIM=1");
+  } else {
+  } 
+}
+function goToLoginUrl() {
+  clearTimeout(t);
+  tryingAIM = 0; 
+  if( tryingWSC == 0){ 
+    snsRedir("https://my.screenname.aol.com/_cqr/login/login.psp?mcState=initialized&seamless=novl&sitedomain=sns.webmail.aol.com&lang=en&locale=us&authLev=2&siteState=ver%3a1%252c0%26ac%3aWS%26at%3aSNS%26ld%3amail.aol.com%26uv%3aAOL%26lc%3aen-us%26ud%3aaol.com%26br%3aWebSuite-Prod&checkAIM=1");
+  } else {
+  } 
+}
+function tryAIM() {
+  clearTimeout(wsc_t);
+  tryingWSC = 0; 
+  if(tryingAIM == 1){
+    var timeout = '2000';
+    t=setTimeout("goToLoginUrl()",timeout);
+    window.defaultStatus=' ';
+    window.status=' ';
+  } else if(tryingAIM == 2){
+	goToWaitPage();
+  } else {
+	goToLoginUrl();
+  }
+}
+function continueLogin() {
+  tryingWSC = 0;
+  if( tryingAIM == 2 ) {
+    goToWaitPage();
+  } else {
+    goToLoginUrl();
+  }
+}
+wsc_t=setTimeout("continueLogin()",MAX_WAIT_TIME);
+window.defaultStatus=' ';
+window.status=' ';
+</SCRIPT>
+<!-- WSC Login - DISABLED -->
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+  tryingWSC = 0; 
+tryAIM();
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+  // try AIM 
+  tryingAIM = 1; 
+tryAIM();
+</SCRIPT>
+<img src="http://127.0.0.1:5180/sns/image" height=1 width=1 onLoad="goToWaitPage()" onError="goToLoginUrl()" onAbort="goToLoginUrl()">
+
+
+
+
+    
+
+</body>
+</html>
+
+

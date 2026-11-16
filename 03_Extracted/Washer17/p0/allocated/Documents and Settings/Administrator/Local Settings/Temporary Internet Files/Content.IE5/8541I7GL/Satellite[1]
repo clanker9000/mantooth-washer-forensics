@@ -1,0 +1,1761 @@
+
+
+
+<!-- 6.3 Code -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<html>
+<head>
+
+	<title>Welcome to Linksys.com</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	
+	<meta name="description" content="Linksys, a division of Cisco Systems, Inc. (NASDAQ: CSCO) is the global leader in Wireless and Ethernet networking for consumer and SOHO users.  Linksys is dedicated to making networking easy and affordable for its customers, offering innovative, award-winning products with free best-in-class technical support.">
+	
+	
+	<meta name="keywords" content="Wireless, RouterGateway, Access, PointNetwork, Networking, Home Networking, SwitchesAdapter, USB, PC Cards, PCI Cards, KVM, Rackmount, Connected Home,, Wireless Home, Network Security, Firewall, Parental Control, Internet Sharing, 802.11g, 802.11b, 802.11a, Dual Band, Wireless-G, Wireless-B, Wireless-A, Compact Flash, Printserver, WPA, CCX, Broadband, Cable, DSL, Speedbooster, SPI, VPN, Gaming, Range Expander, Bridge, Antenna, Video Camera, Hub, Media Adapter, Music Link, DMA, Centrino Verified, UPnP, Wi-Fi, WiFi, Gigabit">
+	
+
+	
+
+		 
+			
+			
+		
+
+
+<link rel="stylesheet" type="text/css" href="/css/main_style.css">
+
+	
+		
+	
+	
+		
+		
+	
+
+
+
+
+<script language="javascript">
+<!--
+
+function Search_StringTrim(){
+	var TestString = this;
+	var SpaceChar  = " ";
+	while (TestString.charAt(0) == SpaceChar) {TestString = TestString.substr(1)};
+	while (TestString.charAt(TestString.length-1) == SpaceChar) {TestString = TestString.substr(0,TestString.length-1)};
+	return TestString.toString();
+}
+
+String.prototype.trim = Search_StringTrim;
+
+function FlashTracking(hbxid) 
+{	
+	_hbSet("c1",hbxid);
+	_hbSend();	
+
+}
+
+function changeImages() {
+	if (document.images) {
+		for (var i=0; i < changeImages.arguments.length; i+=2) {
+			document.getElementById(changeImages.arguments[i]).src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+function preloadImage(url)
+{	if (document.images)
+	{	rslt = new Image();
+		rslt.src = url;
+	}
+}
+
+function callFlashTracking(url)
+{
+	var lidpos = url.indexOf("lid");
+	if(lidpos > -1) {
+		var lid = "";
+		lid = url.substring(lidpos+4);
+		var islast = lid.indexOf("&");
+		if (islast > -1)
+		{
+			lid = lid.substring(0, islast);
+		}
+		FlashTracking (lid);
+	}
+}
+
+function openWindow(url, w, h)
+{	
+
+	callFlashTracking (url);
+	popup=window.open(url,'','width='+w+',height='+h+',top=20,left=20,alwaysRaised=yes,toolbar=0,directories=0,menubar=1,status=1,resizable=yes,location=0,scrollbars=1,copyhistory=0');	
+	popup.focus();
+
+}
+
+function isAlphaNumeric(str, onlyspecial) {
+
+	var alphanumerics="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -_";
+	var specials="- _";
+	var valid = alphanumerics;
+	 
+	if (onlyspecial) {
+	  valid = specials;
+	}
+
+	var sizechar = str.length;
+	try {
+		for (var i=0; i<sizechar; i++) {
+			if (valid.indexOf(str.charAt(i)) < 0) {
+				return false;
+			}
+		}
+		return true;
+	} catch (err) {
+		return false;
+	}
+}
+
+function openSecuredWindow(surl, sw, sh) {
+
+	try	{
+		var blankURL = "/servlet/Satellite?pagename=Linksys/Utilities/Blank";
+		var ind=surl.indexOf("?");
+
+		if (ind<0) {
+			openWindow(surl, sw, sh);
+		
+		} else {
+
+			callFlashTracking (surl);
+			popup=window.open(blankURL,'secwindow','width='+sw+',height='+sh+',top=20,left=20,alwaysRaised=yes,toolbar=0,directories=0,menubar=1,status=1,resizable=yes,location=0,scrollbars=1,copyhistory=0');
+
+			var var1,var2,vlinkurl;		
+
+			vlinkurl=surl.substring(0,ind);
+
+			var htmlform = "<html><head><title>Linksys</title></head><body><form method='post' action='"+vlinkurl+"'>";
+			if(ind>0){
+				var vqstring=surl.substring(ind+1,surl.length);
+				var vamp = vqstring.split("&");		
+				for (var i=0;i<vamp.length;i++) { 
+					var vequal = vamp[i].split("="); 
+					for (var j=0;j<vequal.length;j++) {			
+						var1=vequal[j];
+						var2=vequal[j+1];					
+						var vinput="<input type=hidden name='"+var1+"' value='"+var2+"'>";
+						htmlform=htmlform+vinput;					
+						break;			
+					}		
+				}		 
+			 }
+			
+			 
+			 htmlform=htmlform + '</form>';
+			 htmlform=htmlform + '<scr' + 'ipt>document.forms[0].submit();';
+			 htmlform = htmlform + '</scr' + 'ipt></body></html>';
+			 popup.document.write(htmlform);
+		}
+	 } catch (e){
+		
+	}
+}
+
+function openTop(url)
+{		
+	window.top.location = url;	
+}
+
+
+
+function toggle_help(el) {
+	if (document.all) {
+		el = document.all[el];
+		if (el != null) {
+
+			if (el.style.display == '') {
+				el.style.display='none';
+			} else {
+				el.style.display='';
+			}
+		}
+	} else if (document.layers) {
+		el = document.layers[el];
+		if (el != null) {
+			if (el.display == '') {
+				el.display='none';
+			} else {
+				el.display='';
+			}
+		}
+	} else if (document.getElementById) {
+		el = document.getElementById(el);
+		if (el != null) {
+			if (el.style.display == '') {
+				el.style.display='none';
+			} else {
+				el.style.display='';
+			}
+		}
+	}
+}
+/* Added for Community Forums Localization*/
+
+function openScreenName(url){
+
+
+/* Code Added for Community Forums Localization. Redirection to GetScreenName page.*/
+	 try{
+		var pageurl='/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1175234246545&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4654527773B01';
+		pageurl=pageurl+"&URL="+url;
+		if(logged_in_user!='null' && user_screen_name=='null'){	
+			document.location.href=pageurl;			
+		}else{
+			document.location.href=url;
+		}
+	}catch(e){
+
+	}
+}
+
+
+function setAcceptTerms(el){
+	if(el.checked) {
+		document.forum.AcceptTerms.value="Yes";
+	} else {
+		document.forum.AcceptTerms.value="No";
+	}
+}
+
+var strTermsAlert;
+var strScreenNameAlert;
+var strInvalidScreenName;
+
+function checkSubmit(){
+
+	try {
+		
+		var el = document.getElementById("chkAcceptTerms");
+		var screenName = document.getElementById("ScreenName").value;
+		screenName = screenName.trim();
+		if(screenName!=null && screenName!=""){
+			if (isAlphaNumeric(screenName) && !isAlphaNumeric(screenName, true)) {
+
+				if(el.checked) {
+					document.forum.AcceptTerms.value="Yes";
+					document.getElementById("ScreenName").value = screenName;
+					return true;
+				} else {
+					document.forum.AcceptTerms.value="No";
+					alert(strTermsAlert);
+					document.getElementById("chkAcceptTerms").focus();
+					return false;
+				}
+			} else {
+				//alert("Please enter the alphabets,-,_ and spaces only in Screen Name");
+				alert(strInvalidScreenName);
+				document.getElementById("ScreenName").focus();
+				return false;
+			}
+		}else{		
+			alert(strScreenNameAlert);
+			document.getElementById("ScreenName").value = screenName;
+			document.getElementById("ScreenName").focus();
+			return false;
+		}
+		return false;
+
+	} catch (err){
+
+	}
+}
+/* End Community Forums Localization */
+// -->
+</script>
+
+	<link rel="shortcut icon" href="/favicon.ico" >
+	<script language="javascript">
+
+		var downloads_text = "";
+		var currentid = '1115417027773';
+		var c = 'L_Content_C1';
+		var flexdefinition = 'Homepage';
+		
+		var shorttitle = 'Home';
+
+		var leftnavlinkcnt = 0;
+		var headerlinkcnt = 0;
+		var logged_in_user = 'null';
+		var user_screen_name = 'null';
+		var sourceelement = 'Homepage';
+
+
+		function replaceLinkID(urlvalue, section, linkcount)
+		{
+			var linkid_index = -1;
+			var sAssetID = "";
+			var sPageID = "";
+			var sLinkID = "";
+			var sLinkID_QS = "";
+			linkid_index = urlvalue.indexOf("lid=JavaScript");
+			if (linkid_index > -1)
+			{
+				sPageID = 1115417027773;
+
+				sLinkID_QS = urlvalue.substring(linkid_index,linkid_index+28);
+				sAssetID = sLinkID_QS.substring(23,28);
+				sPageID = sPageID + "";
+				sPageID = sPageID.substring(8);
+
+				if (linkcount <= 9)
+				{
+					linkcount = "0" + parseInt(linkcount);
+				}
+				sLinkID = "lid=" + sAssetID + sPageID + section + linkcount;
+				urlvalue = urlvalue.replace(sLinkID_QS, sLinkID);
+			}
+			return urlvalue;
+		}
+	</script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+		var userid=null;  
+	</script>
+	
+
+
+
+
+
+
+
+
+
+
+<script>
+	var isPrintablePage = 'null';
+	var isDownloadPage = 'null';
+</script>
+ 	
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><script language="javascript">
+		var ProductSKU='';	
+	</script>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td background="/images/head_back.gif">
+
+	<script language="JavaScript1.2" src="/js/FW_Menu.js" type='text/javascript'></script>
+	<script language="JavaScript1.2" type="text/javascript">
+
+	if(FW_IsMenu)
+	{
+		
+	FW_Array1 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Wireless",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1118181591233&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9123342255H01')","H",headerlinkcnt++)],
+["Wired",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1117775462139&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6213942255H02')","H",headerlinkcnt++)],
+["Business",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1117775461982&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6198242255H03')","H",headerlinkcnt++)],
+["Accessories",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1115416946883&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4688342255H04')","H",headerlinkcnt++)],
+["Services ",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1118334628902&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2890242255H05')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array2 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Solutions for Your Home",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037290583&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9058342255H06')","H",headerlinkcnt++)],
+["Solutions for Your Business",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037290447&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9044742255H07')","H",headerlinkcnt++)],
+["Distributors",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037290483&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9048342255H08')","H",headerlinkcnt++)],
+["Find a Local Value Added Reseller",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1145390139971&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=3997142255H09')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array3 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Technical Support",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1175238819816&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1981642255H10')","H",headerlinkcnt++)],
+["Customer Service",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1166859677851&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7785142255H11')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array4 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Network Basics",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291160&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9116042255H12')","H",headerlinkcnt++)],
+["Network Security",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291212&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9121242255H13')","H",headerlinkcnt++)],
+["Networking Tips",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1172713141456&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=4145642255H14')","H",headerlinkcnt++)],
+["Connected Home",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1123638089355&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8935542255H15')","H",headerlinkcnt++)],
+["Video Tutorials",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1175232776818&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7681842255H16')","H",headerlinkcnt++)],
+["Glossary",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291108&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9110842255H17')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array5 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["About Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114633975818&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7581842255H18')","H",headerlinkcnt++)],
+["News@Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114633918648&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1864842255H19')","H",headerlinkcnt++)],
+["Contact Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291276&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9127642255H20')","H",headerlinkcnt++)],
+["Careers@Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519875121&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7512142255H21')","H",headerlinkcnt++)],
+["Policies & Procedures",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519876545&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7654542255H22')","H",headerlinkcnt++)]
+
+	]
+
+	FW_Array6 = [   
+	[0,	// left_position
+	94,				// top_position
+	"#2F2F2F",		// font_color
+	"#2F2F2F",		// mouseover_font_color
+	"#E0E0E0",   	// background_color
+	"#FFFFFF",    	// mouseover_background_color
+	"#808080",     	// border_color
+	"#E0E0E0"    	// separator_color
+	],
+["Partnering With Linksys",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083754353&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5435342255H23')","H",headerlinkcnt++)],
+["Value Added Resellers",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083624730&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2473042255H24')","H",headerlinkcnt++)],
+["Service Providers",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083622379&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2237942255H25')","H",headerlinkcnt++)],
+["Apply For Partnership",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1169083626501&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2650142255H26')","H",headerlinkcnt++)],
+["Partner Login",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1129150950837&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5083742255H27')","H",headerlinkcnt++)],
+["Service Provider Products",replaceLinkID("javascript:openTop('/servlet/Satellite?c=L_Product_C1&childpagename=US%2FLayout&cid=1126197001941&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0194142255H28')","H",headerlinkcnt++)]
+
+	]
+
+		buildIt();
+	}
+
+	function adjustpos(obj,item)
+	{
+		tempobj1 = document.getElementById(menuPrefix+item);
+		tempobj1.style.left = obj.offsetLeft;
+	}
+
+	</script>
+
+		
+			<script language="javascript">
+				var homepagetitle = 'Home';
+			</script>
+			<table border="0" cellpadding="0" cellspacing="0" width="780">
+		<tr>
+			<td valign='top'>
+				<a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777342255H29" target="_top"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dlinksys_logo.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193763767354&ssbinary=true" alt="Linksys.com Logo" title="Linksys.com Logo" border="0" height="73" width="227"></a></td>
+			<td background="/images/head_back.gif" align="right" valign="bottom">
+				<table border="0" cellpadding="0" cellspacing="0">
+				<tr><td align="right" class="text-white" nowrap="nowrap"><a href="/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1175238286492&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8649242255H30&displaypage=download" target="_top" class='header-link'>Downloads</a> | <a href="/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1169671210496&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1049642255H31" target="_top" class='header-link'>Sitemap</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115416906014&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0601442255H32" target="_top" class='header-link'>Customer Login</a> / <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115416906014&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0601442255H32" target="_top" class='header-link'>Registration</a></td>
+					<td><img src="/images/spacer.gif" width="8" height="1" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="2"><img src="/images/spacer.gif" width="1" height="10" alt=""></td>
+				</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td align="right" valign="bottom">
+						<table width="311" border="0" cellpadding="0" cellspacing="0">
+						<form action="/servlet/Satellite" method="post" enctype="multipart/form-data" name="srch">	
+							<input type="hidden" name="pagename" value="Linksys/Common/VisitorWrapper" />
+							<input type="hidden" name="packedargs" value='siteid=1115416834707&site=US&cid=1140539745019&c=L_Content_C1' />
+							<input type="hidden" name="SubmittedElement" value="Linksys/FormSubmit/SearchProc" />
+							<input type="hidden" name="cid" value='1140539745019' />
+							<input type="hidden" name="childpagename" value='US/Layout' />
+							<input type="hidden" name="searchhost" value="search.linksys.com" />
+							<input type="hidden" name="searchsite" value="Linksys_US" />
+							<input type="hidden" name="searchfront" value="Linksys_US" />
+							<tr>
+								<td align="right">
+									<table border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="padding-right: 5px" class="search">SEARCH</td>
+										<td style="padding-right: 3px" valign="bottom" align="center"><input type="text" name="term" size="19" class="form"></td>
+										<td style="padding-right: 3px"><input type="image" src="/images/search_03.jpg" value="Submit" alt="No [en] translation for asset: SearchImageAlt"></td>
+									</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="/images/search_05.gif" alt="" width="311" height="17" border="0"></td>
+							</tr>
+							</form>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td bgcolor="336699" class="text-white" height="21">
+				<table cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td width="228">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr>
+							<td><img src="/images/spacer.gif" width="25" height="1"></td><td class="text-white" align="left" nowrap><strong>United States</strong> <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1119591482400&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8240042255H34" class="text-white">[Change]</a></td>
+						</tr>
+						</table>
+					</td>
+					<td class="text-white" align="center">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 1);show(1)" onmouseout="hide(1)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />PRODUCTS</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 2);show(2)" onmouseout="hide(2)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />WHERE TO BUY</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 3);show(3)" onmouseout="hide(3)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />SUPPORT</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 4);show(4)" onmouseout="hide(4)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />LEARNING CENTER</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 5);show(5)" onmouseout="hide(5)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />COMPANY</span></strong></td><td><img src="/images/dot.gif" width="1" height="21"></td><td class="text-white"><strong><span class="text-topnav" onmouseover="adjustpos(this, 6);show(6)" onmouseout="hide(6)" style="cursor: hand; cursor: pointer; padding: 5px 8px 5px 8px; position: relative;" />PARTNERS</span></strong></td></tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table></td>
+</tr>
+<tr><td background="/images/stripe_back.gif">
+
+		<table width="760" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td colspan="2"><img src="/images/spacer.gif" alt="" width="1" height="10" border="0"></td>
+		</tr>
+		<tr>
+			<td height="100%"><img src="/images/spacer.gif" alt="" width="22" height="585" border="0"></td>
+			<td valign="top" height="100%">
+						
+						<script language="JavaScript" type="text/javascript">
+		<!--
+		/**
+		 * Sets a Cookie with the given name and value.
+		 *
+		 * name       Name of the cookie
+		 * value      Value of the cookie
+		 * [expires]  Expiration date of the cookie (default: end of current session)
+		 * [path]     Path where the cookie is valid (default: path of calling document)
+		 * [domain]   Domain where the cookie is valid
+		 *              (default: domain of calling document)
+		 * [secure]   Boolean value indicating if the cookie transmission requires a
+		 *              secure transmission
+		 */
+		function setCookie(name, value, expires, path, domain, secure)
+		{
+			document.cookie= name + "=" + escape(value) +
+				((expires) ? "; expires=" + expires.toGMTString() : "") +
+				((path) ? "; path=" + path : "") +
+				((domain) ? "; domain=" + domain : "") +
+				((secure) ? "; secure" : "");
+		}
+
+		/**
+		 * Gets the value of the specified cookie.
+		 *
+		 * name  Name of the desired cookie.
+		 *
+		 * Returns a string containing value of specified cookie,
+		 *   or null if cookie does not exist.
+		 */
+		function getCookie(name)
+		{
+			var dc = document.cookie;
+			var prefix = name + "=";
+			var begin = dc.indexOf("; " + prefix);
+			if (begin == -1)
+			{
+				begin = dc.indexOf(prefix);
+				if (begin != 0) return null;
+			}
+			else
+			{
+				begin += 2;
+			}
+			var end = document.cookie.indexOf(";", begin);
+			if (end == -1)
+			{
+				end = dc.length;
+			}
+			return unescape(dc.substring(begin + prefix.length, end));
+		}
+
+		/**
+		 * Deletes the specified cookie.
+		 *
+		 * name      name of the cookie
+		 * [path]    path of the cookie (must be same as path used to create cookie)
+		 * [domain]  domain of the cookie (must be same as domain used to create cookie)
+		 */
+		function deleteCookie(name, path, domain)
+		{
+			if (getCookie(name))
+			{
+				document.cookie = name + "=" + 
+					((path) ? "; path=" + path : "") +
+					((domain) ? "; domain=" + domain : "") +
+					"; expires=Thu, 01-Jan-70 00:00:01 GMT";
+			}
+		}
+		//-->
+	</script>
+<script language="JavaScript" type="text/javascript">
+	<!--
+		//alert('cookie: '+getCookie('LinksysHomePage'));
+		//sValue = getCookie('LinksysHomePage');
+		var sValue = null;
+		if(sValue != null) {
+			if (sValue.indexOf("www.linksys.com") > -1)
+			{	deleteCookie('LinksysHomePage');
+			}
+			else
+			{	//window.location = sValue;
+			}
+		}
+	//-->
+</script>
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		
+		<td valign="top">
+			
+		<!--Begin Left Nav Table-->
+		<table width="189" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td colspan="3"><img src="/images/leftnav_01.gif" width="189" height="11" alt=""></td>
+		</tr>
+		<tr>
+			<td background="/images/leftnav_02.gif">&nbsp;</td>
+			<td valign="top" bgcolor="ffffff">
+				
+		<table width="177" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><img src="/images/spacer.gif" width="177" height="12" alt=""></td>
+		</tr>
+		<tr>
+			<td><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DUS_spotlight_top.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130850378529&ssbinary=true" alt="Spotlight" title="Spotlight" border="0" height="23" width="177"></td>
+		</tr>
+		
+		<tr>
+			<td><a href="http://www.wherelifeconnects.com/files/#navigation/home/eZine/eZine3/article2" target="new?lid=2471427773L00"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dbutton_mce%252C4.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770949469&ssbinary=true" alt="Media Center Extender" title="Media Center Extender" border="0" height="105" width="177"></a></td>
+		</tr>
+		</table>
+		
+		<table width="177" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><img src="/images/spacer.gif" width="177" height="12" alt=""></td>
+		</tr>
+		<tr>
+			<td><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DUS_awards_top%252C0.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130823447247&ssbinary=true" alt="Linksys Awards" title="Linksys Awards" border="0" height="23" width="177"></td>
+		</tr>
+		
+		<tr>
+			<td><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115416912654&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=1265427773L01"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DEHouse_Button.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130874192578&ssbinary=true" alt="Electronic House Best Product Of the Year NAS200" title="Electronic House Best Product Of the Year NAS200" border="0" height="105" width="177"></a></td>
+		</tr>
+		</table>
+		
+		<table width="177" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><img src="/images/spacer.gif" width="177" height="12" alt=""></td>
+		</tr>
+		<tr>
+			<td><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DUS_now_shipping_top.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193773837425&ssbinary=true" alt="Linksys - Now Shipping" title="Linksys - Now Shipping" border="0" height="23" width="177"></td>
+		</tr>
+		
+		<tr>
+			<td><a href="/servlet/Satellite?c=L_Promotion_C2&childpagename=US%2FLayout&cid=1175239823413&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2341327773L02"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DWRT310N_Button.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770927652&ssbinary=true" alt="WRT310N" title="WRT310N" border="0" height="105" width="177"></a></td>
+		</tr>
+		</table>
+		
+			</td>
+			</td>
+			</td>
+			<td background="/images/leftnav_04.gif"><img src="/images/leftnav_04.gif" alt="" width="8" height="47" border="0"></td>
+		</tr>
+		<tr>
+			<td background="/images/leftnav_02.gif">&nbsp;</td>
+			<td valign="top" bgcolor="ffffff">
+			<!--Get the Newsletter signup content asset-->
+			
+
+
+
+<style type="text/css"><!--
+	form {margin-bottom : 0; }
+//--></style>
+<script>
+var newsletterAssetArray=new Array();
+var newsletterAssetcount;
+</script>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	<!--
+	// START - EMAIL
+	function checkChar(ch)
+	{
+		if ((ch >= 'a' && ch <= 'z')
+			|| (ch >= 'A' && ch <= 'Z')
+			|| (ch >= '0' && ch <= '9')
+			|| ch == '.'
+			|| ch == '_'
+			|| ch == '-'
+			|| ch == '!'
+			|| ch == '#'
+			|| ch == '$'
+			|| ch == '%'
+			|| ch == '&'
+			|| ch == '!'
+			|| ch == "'"
+			|| ch == "\""
+			|| ch == '*'
+			|| ch == '+'
+			|| ch == '-'
+			|| ch == '/'			
+			|| ch == '\\'			
+			|| ch == '='
+			|| ch == '?'
+			|| ch == '^'
+			|| ch == '`'
+			|| ch == '{'
+			|| ch == '}'
+			|| ch == '|'
+			|| ch == '~'
+			|| ch == ''
+			|| ch == '>'
+			|| ch == '<'
+			|| ch == ','
+			|| ch == ';'
+			|| ch == ':'
+			|| ch == '('
+			|| ch == ')'
+			|| ch == ']'
+			|| ch == '['
+		)
+			return true;
+		else
+			return false;
+	}
+
+	function emailCheck (StrEmailName, StrEmailValue, StrReq, StrRaiseAlert,strErrorSpan) {
+		var isAlertReq = true;
+		var divVar=null;
+		if(strErrorSpan==null || strErrorSpan=='null'||strErrorSpan.trim()=='')
+		{
+			strErrorSpan="error_span";
+		}
+		divVar = document.getElementById(strErrorSpan);
+		if (StrRaiseAlert == false ) {
+			isAlertReq = false;
+		} else {
+			isAlertReq = true;
+		}
+		var obj = document.forms[0].elements[0];
+		if (StrEmailValue) {
+			StrEmailValue = StrEmailValue.toLowerCase();
+		}
+		var emailStr = StrEmailValue;
+		if (StrEmailValue=='') {
+			divVar.innerHTML ="Enter E-mail Address";
+			//alert("Enter E-mail Address");
+			return false;
+		}
+		if((StrReq=="ReqTrue") || (StrReq=="ReqFalse" && emailStr!="")) {
+			var knownDomsPat=/^((com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)|(ac|as|be|ca|cc|de|dk|fm|gs|il|jp|kz|lt|ms|name|nz|ph|ro|sh|st|tc|to|tv|uk|us|vg|vu|ws|za))$/;
+			var emailPat=/^(.+)@(.+)$/;
+			//var specialChars="\\(\\)><@,;:\\\\\\\"\\.\\[\\]";
+			var specialChars="@";
+			var validChars="\[^\\s" + specialChars + "\]";
+			var quotedUser="(\"[^\"]*\")";
+			var ipDomainPat=/^\[(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\]$/;
+			var atom=validChars + '+';
+			var word="(" + atom + "|" + quotedUser + ")";
+			var userPat=new RegExp("^" + word + "(\\." + word + ")*$");
+			var domainPat=new RegExp("^" + atom + "(\\." + atom +")*$");
+			var matchArray=emailStr.match(emailPat);
+			if (matchArray==null) {
+				
+				//alert("The Email Address Is Invalid");
+				if (isAlertReq==true) {
+					divVar.innerHTML ="The Email Address Is Invalid.";
+					//alert("The Email Address Is Invalid.");
+				}
+				//obj.form.elements[StrEmailName].focus();
+				return false;
+			}
+			var user=matchArray[1];
+			var domain=matchArray[2];
+			for (i=0; i<user.length; i++) {
+				if ( !checkChar( user.charAt(i) ) )
+				{	//alert("The Username Contains Invalid Characters. Only letters, numbers, '.', '-', and '_' are allowed.");
+					if (isAlertReq==true) {
+						divVar.innerHTML ="The Username Contains Invalid Characters. Only letters, numbers, [.], [-], and [_] are allowed.";
+						//alert("The Username Contains Invalid Characters. Only letters, numbers, [.], [-], and [_] are allowed.");
+					}
+					return false;
+				}
+
+				if (user.charCodeAt(i)>127) {
+					//alert("The Username Contains Invalid Characters.");
+					if (isAlertReq==true) {
+						divVar.innerHTML ="The Username Contains Invalid Characters.";
+						//alert("The Username Contains Invalid Characters.");
+					}
+					//obj.form.elements[StrEmailName].focus();
+					return false;
+				}
+			}
+			var dotPosition=domain.indexOf(".");
+			if(dotPosition==0)
+			{
+				divVar.innerHTML ="Enter Server Name";
+				return false;
+			}
+			if(dotPosition==domain.length-1)
+			{
+				divVar.innerHTML ="Enter Domain Name";
+				return false;
+			}
+
+			for (i=0; i<domain.length; i++) {
+				if (domain.charCodeAt(i)>127) {
+					//alert("The Domain Name Contains Invalid Characters.");
+					if (isAlertReq==true) {
+						divVar.innerHTML ="The Domain Name Contains Invalid Characters.";
+						//alert("The Domain Name Contains Invalid Characters.");
+					}
+					//obj.form.elements[StrEmailName].focus();
+					return false;
+				}
+			}
+			if (user.match(userPat)==null) {
+				//alert("The Username Is Invalid.");
+				if (isAlertReq==true) {
+					divVar.innerHTML ="The Username Is Invalid.";
+					//alert("The Username Is Invalid.");
+				}
+				//obj.form.elements[StrEmailName].focus();
+				return false;
+			}
+			var IPArray=domain.match(ipDomainPat);
+			if (IPArray!=null) {
+				for (var i=1;i<=4;i++) {
+					if (IPArray[i]>255) {
+						//alert("The Destination IP Address Is Invalid.");
+						if (isAlertReq==true) {
+							divVar.innerHTML ="The Destination IP Address Is Invalid.";
+							//alert("The Destination IP Address Is Invalid.");
+						}
+						//obj.form.elements[StrEmailName].focus();
+						return false;
+					}
+				}
+				return true;
+			}
+			var atomPat=new RegExp("^" + atom + "$");
+			var domArr=domain.split(".");
+			var len=domArr.length;
+			for (i=0;i<len;i++) {
+				if (domArr[i].search(atomPat)==-1) {
+					//alert("The Domain Name Is Invalid.");
+					if (isAlertReq==true) {
+						divVar.innerHTML ="The Domain Name Contains Invalid Characters.";
+						//alert("The Domain Name Contains Invalid Characters.");
+					}
+					//obj.form.elements[StrEmailName].focus();
+					return false;
+				}
+			}
+			if (domArr[domArr.length-1].length!=2 && domArr[domArr.length-1].search(knownDomsPat)==-1) {
+				//alert("The Domain Name Extension Is Invalid");
+				if (isAlertReq==true) {
+					divVar.innerHTML ="The Domain Name Extension Is Invalid.";
+					//alert("The Domain Name Extension Is Invalid.");
+				}
+				//obj.form.elements[StrEmailName].focus();
+				return false;
+			}
+			if (len<2) {
+				//alert("The Address Is Missing A Hostname.");
+				if (isAlertReq==true) {
+					divVar.innerHTML ="The Address Is Missing A Hostname.";
+					//alert("The Address Is Missing A Hostname.");
+				}
+				//obj.form.elements[StrEmailName].focus();
+				return false;
+			}
+		}
+		return true;
+	}
+
+
+	function HM_f_StringTrim(){
+		var TestString = this;
+		var SpaceChar  = " ";
+		while (TestString.charAt(0) == SpaceChar) {TestString = TestString.substr(1)};
+		while (TestString.charAt(TestString.length-1) == SpaceChar) {TestString = TestString.substr(0,TestString.length-1)};
+		return TestString.toString();
+	}
+	String.prototype.trim = HM_f_StringTrim;
+
+	// END - EMAIL
+	//-->
+	</script>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function seturl()
+{
+	document.forms.link.submit();
+}
+function hideblock()
+{	
+	var newsletterblock;
+	var innewsletterarray=false;
+	var inparentarray=false;
+	var inheaderarray=false;
+	for(ln=0; ln < newsletterAssetcount;ln++)
+	{
+		if(currentid==newsletterAssetArray[ln])
+		{
+			innewsletterarray=true;
+			inparentarray=true;
+			inheaderarray=true;
+			break;
+		}
+
+	}
+	if(!innewsletterarray)
+	{
+		if(typeof arrParentIds =='object'){
+			for(ln=0; ln < arrParentIds.length;ln++)
+			{
+				for(inner=0; inner < newsletterAssetcount; inner++)
+				{
+					
+					if(newsletterAssetArray[inner]==arrParentIds[ln])
+					{
+						inparentarray=true;
+						inheaderarray=true;
+						break;
+					}
+				}
+			}
+		}
+	}
+	
+	if(!inheaderarray)
+	{
+		if(typeof HeaderArray =='object'){
+			for(hr=0;hr<HeaderArray.length;hr++)
+			{
+				var temp=HeaderArray[hr];
+				for(inner=0; inner < newsletterAssetcount; inner++)
+				{
+					if(newsletterAssetArray[inner]==temp[0])
+					{
+						inheaderarray=true;					
+						break;
+					}
+				}
+
+				
+			}
+		}
+	}
+	if(!inheaderarray)
+	{
+		newsletterblock='none'
+	}
+	if(newsletterblock=='none')
+	{
+		document.getElementById("completeblock").style.display="none";
+		
+	}
+	else
+	{
+		if(userid==null)
+		{
+			document.getElementById("textbox").style.display="";
+			document.getElementById("link").style.display="none";
+		}
+		else
+		{
+			document.getElementById("textbox").style.display="none";
+			document.getElementById("link").style.display="";
+		}
+	}
+}
+function clearNewsLetterError()
+{
+	var objSpan=null;
+	objSpan = document.getElementById('error_span_leftnav');
+	if(objSpan!=null)
+	{
+		objSpan.innerHTML="";
+	}	
+}
+var defaultValue="Enter E-mail Address";
+function checkValidation() {
+	var emailvalue=document.newsletter.email.value;
+	clearNewsLetterError();
+	var divVar=null;
+	if(emailvalue==null || emailvalue.trim()==''||emailvalue.trim()==defaultValue)
+	{
+		divVar = document.getElementById('error_span_leftnav');
+		divVar.innerHTML ="Enter E-mail Address" ;
+		//alert('Enter E-mail Address');
+		return false;
+	}
+	if(!emailCheck("email", document.newsletter.email.value, "ReqTrue","true","error_span_leftnav")) {
+		return false;
+	}
+	else{
+			return true;
+		//document.forms.newsletter.submit();
+	}
+	
+}
+
+function clearValue(text,caption)
+{
+	var textValue = document.getElementById(text).value;
+	if(textValue.trim()==caption)
+	{
+		document.getElementById(text).value='';
+	}
+	return true;
+}
+
+function loadValue(text,caption)
+{
+	var textValue = document.getElementById(text).value;
+	if(textValue.trim()=='')
+	{
+		document.getElementById(text).value=caption;
+	}
+	return true;
+}
+
+function setFocus() {
+	document.forms["newsletter"].elements["email"].focus();
+}
+//-->
+</SCRIPT>
+<script>				
+				 newsletterAssetcount= 3;	
+			
+					newsletterAssetArray[0] = 1126197001941;
+				
+					newsletterAssetArray[1] = 1114633911364;
+				
+					newsletterAssetArray[2] = 1115417027773;
+				</script>
+
+		
+			<div id="completeblock" style="display:block">	
+
+			<div id="textbox" style="display:none">
+				<form action="/servlet/Satellite" method="post" enctype="multipart/form-data" name="newsletter" onsubmit="return checkValidation();">
+					<table id="" height="105" cellSpacing="0" cellPadding="0" width="177" border="0">
+					<tr>
+						<td><img src="/images/spacer.gif" width="177" height="12" alt=""></td>
+					</tr>
+					<tr>
+						<td>
+							<img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dlinksysconnection_top.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765922036&ssbinary=true" alt="Linksys Connection" title="Linksys Connection" border="0" height="23" width="177"></td>
+					</tr>
+				
+					<tr>
+						<td>
+							<img height="30" alt=""   src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DRegistrationButton_1_US.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765922007&ssbinary=true" width="177"></td>
+					</tr>							
+					<tr>
+						<td align="middle" width="177" 	background="/images/button_home1_02.jpg" height="28">
+								<span id='error_span_leftnav' class="error-msg"></span>
+							 <input type = "TEXT" id="leftnav" class ="form-n" name="email" value="Enter E-mail Address"  onfocus='return clearValue("leftnav","Enter E-mail Address");'  onblur='return loadValue("leftnav","Enter E-mail Address");'/>
+
+							<input name="submittedform" type="hidden" value="NewsletterSignup">
+							<input name="SubmittedElement" type="hidden" value="Linksys/AccountRegistration/AccountRegistrationHandler">
+							<input type="hidden" name="childpagename" value='US/Layout' />
+							<input type="hidden" name="pagename" value="Linksys/Common/VisitorWrapper" />
+							<input type="hidden" name="cid" value='1175236418680'/>
+							<input type="hidden" name="c" value='L_Content_C1'/>
+							<input type="hidden" name="site" value='US'/>
+							<input type="hidden" name="siteid" value='1115416834707'/>
+						</td>
+					</tr>
+					<tr>
+						<td align="middle" width="177" background="/images/button_home1_03.jpg" height="20">
+							
+									<input type="image" name="submit" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dsignup_button%252C11.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765922021&ssbinary=true" alt="Newsletter" title="Newsletter" border="0"  height="25" width="63" >
+								
+							<!-- <img  height="22" alt="" src="/images/button.gif" width="66"  border="0" onclick="return checkValidation('Enter E-mail Address');" > -->
+						</td>
+					</tr>
+					 <tr>
+						<td class="text-c" vAlign="top" width="177" background="/images/button_home1_04.jpg" height="27">View
+						  <A class="link"  	href="javascript:void(0)" onclick="openWindow('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DNewsletter2.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765921918&ssbinary=true&lid=4888527773B02','600','400')">sample</A><BR>
+						</td>
+					</tr>
+					</table>
+				</form>
+			</div>
+
+
+			<div id="link" style="display:none">
+				<form action="/servlet/Satellite" method="post" enctype="multipart/form-data" name="link">
+					<table id="" height="105" cellSpacing="0" cellPadding="0" width="177" border="0">
+					<tr>
+						<td><img src="/images/spacer.gif" width="177" height="12" alt=""></td>
+					</tr>
+					<tr>
+						<td>
+							<img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dlinksysconnection_top.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765922036&ssbinary=true" alt="Linksys Connection" title="Linksys Connection" border="0" height="23" width="177"></td>
+					</tr>
+				
+					<tr>
+						<td>
+							<img height="30" alt=""   src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DRegistrationButton_1_US.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765922007&ssbinary=true" width="177"></td>
+					</tr>							
+					<tr>
+						<td align="center" class="link" width="177" 	background="/images/button_home1_02.jpg" height="28"  valign="bottom">
+							<input name="submittedform" type="hidden" value="NewsletterSignup">
+							<input name="SubmittedElement" type="hidden" value="Linksys/AccountRegistration/AccountRegistrationHandler">
+							<input type="hidden" name="childpagename" value='US/Layout' />
+							<input type="hidden" name="pagename" value="Linksys/Common/VisitorWrapper" />
+							<input type="hidden" name="cid" value='1175236418680'/>
+							<input type="hidden" name="c" value='L_Content_C1'/>
+							<input type="hidden" name="site" value='US'/>
+							<input type="hidden" name="siteid" value='1115416834707'/>
+							<a href="#" onclick="javacript:seturl()"><img name="1116602707236" id="1116602707236" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dbutton_subscribe.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1130886292162&ssbinary=true" alt="Subscribe" title="Subscribe" border="0" height="25" width="72" /></a>
+							<!-- <img  height="22" alt="" src="/images/button.gif" width="66"  border="0" onclick="javacript:seturl()" > -->
+						</td>
+					</tr>   
+					<tr>
+						<td class="text-c" align="middle" width="177" background="/images/button_home1_03.jpg" height="20">
+							View&nbsp;<A class="link"  	href="javascript:void(0)" onclick="openWindow('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DNewsletter2.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193765921918&ssbinary=true&lid=4888527773B02','600','400')">sample</A><BR>
+						</td>
+					</tr>
+					 <tr>
+						<td class="text-c" vAlign="top" width="177" background="/images/button_home1_04.jpg" height="27">
+						</td>
+					</tr>
+					</table>
+				</form>
+			</div>
+
+		</div>
+		
+		<script>
+		hideblock();
+		</script>
+	
+
+			</td>
+			<td background="/images/leftnav_04.gif"><img src="/images/leftnav_04.gif" alt="" width="8" height="47" border="0"></td>
+		</tr>
+				
+		<tr>
+			<td colspan="3"><img src="/images/leftnav_06.gif" alt="" width="189" height="25" border="0"></td>
+		</tr>
+		</table>
+
+		<!--End Left Nav Table-->
+		
+
+		</td>
+		<td><img src="/images/spacer.gif" alt="" width="20" height="585" border="0"></td>
+		<td valign="top">
+			<!--Nested Main Splash, Solutions & News Tale Container-->	
+			<table width="545" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+				<a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1175239274323&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7432345678B08"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DDMA_main-pg.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770116519&ssbinary=true" alt="Windows Media Center Extender" title="Windows Media Center Extender" border="0" height="214" width="540"></a></td>
+				<td><img src="/images/main_content_02.gif" width="5" height="214" alt=""></td>
+			</tr>
+			<tr>
+				<td colspan="2" background="/images/main_content_03.jpg" align="right">
+				
+					<!--rollover table-->
+					<style>
+					a.rollover:hover { text-decoration:none; font-weight:bold; color:#0283FC; }
+					a.rollover-on { text-decoration:none; font-weight:bold; color:#0283FC; }
+					.rollover { text-align:center; color:#7E7E7E; text-decoration:none;
+						font-family: verdana,arial,helvetica,sans-serif; font-size:10px; }
+					.text { text-align: center; color:#dedede; text-decoration:none; 
+						font-family: verdana,arial,helvetica,sans-serif; font-size:10px; }
+					</style> 
+					<table width="172" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><IMG SRC="/images/spacer.gif" WIDTH="190" HEIGHT="0" ALT=""></td>
+						<td></td>
+						<td></td><td class="text"><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&packedargs=page%3D1%26random%3D0&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B01" class="rollover-on">[1]</a></td><td></td><td class="text"><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&packedargs=page%3D2%26random%3D0&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B02" class="rollover">[2]</a></td><td></td><td class="text"><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&packedargs=page%3D3%26random%3D0&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B03" class="rollover">[3]</a></td><td></td><td class="text"><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&packedargs=page%3D4%26random%3D0&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B04" class="rollover">[4]</a></td><td></td><td class="text"><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&packedargs=page%3D5%26random%3D0&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B05" class="rollover">[5]</a></td><td></td><td class="text"><a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&packedargs=page%3D6%26random%3D0&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B06" class="rollover">[6]</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						
+						<td class="text-r">Current Promotions ></td>
+						<td><IMG SRC="/images/spacer.gif" WIDTH="3" HEIGHT="25" ALT=""></td>
+						<td><img src="/images/spacer.gif" width="4" height="1" alt=""></td><td><a name="ROLL_1175239274323" id="ROLL_1175239274323" href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B09"><img name="1175239517184" id="1175239517184" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWMCE-rollover-on.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770116676&ssbinary=true" alt="Windows Media Center Extender" title="Windows Media Center Extender" border="0" height="25" width="34" 
+			onmouseover="changeImages('1175239517184', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWMCE-rollover-on.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770116676&ssbinary=true'); return true;"
+			onmouseout="changeImages('1175239517184', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWMCE-rollover-on.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770116676&ssbinary=true'); return true;"
+			onload="preloadImage('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWMCE-rollover-on.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193770116676&ssbinary=true'); return true;" /></a></td>
+							<script language="javascript">
+								obj = document.getElementById("ROLL_1175239274323");
+								obj.href = obj.href + "&page=1&random=0";
+							</script>
+							<td><img src="/images/spacer.gif" width="4" height="1" alt=""></td><td><a name="ROLL_1175238342255" id="ROLL_1175238342255" href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B12"><img name="1175238484296" id="1175238484296" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DRollover-Off%252C16.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193764407305&ssbinary=true" alt="Smart Switches" title="Smart Switches" border="0" height="25" width="34" 
+			onmouseover="changeImages('1175238484296', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DRollover-On%252C16.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193764407306&ssbinary=true'); return true;"
+			onmouseout="changeImages('1175238484296', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DRollover-Off%252C16.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193764407305&ssbinary=true'); return true;"
+			onload="preloadImage('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DRollover-On%252C16.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193764407306&ssbinary=true'); return true;" /></a></td>
+							<script language="javascript">
+								obj = document.getElementById("ROLL_1175238342255");
+								obj.href = obj.href + "&page=2&random=0";
+							</script>
+							<td><img src="/images/spacer.gif" width="4" height="1" alt=""></td><td><a name="ROLL_1175240966919" id="ROLL_1175240966919" href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B07"><img name="1175240391467" id="1175240391467" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dsurveillance_rollover_off%252C12.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772802561&ssbinary=true" alt="Linksys Surveillance Solutions" title="Linksys Surveillance Solutions" border="0" height="25" width="34" 
+			onmouseover="changeImages('1175240391467', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dsurveillance_rollover%252C12.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772802562&ssbinary=true'); return true;"
+			onmouseout="changeImages('1175240391467', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dsurveillance_rollover_off%252C12.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772802561&ssbinary=true'); return true;"
+			onload="preloadImage('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dsurveillance_rollover%252C12.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772802562&ssbinary=true'); return true;" /></a></td>
+							<script language="javascript">
+								obj = document.getElementById("ROLL_1175240966919");
+								obj.href = obj.href + "&page=3&random=0";
+							</script>
+							<td><img src="/images/spacer.gif" width="4" height="1" alt=""></td><td><a name="ROLL_1169672129207" id="ROLL_1169672129207" href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B01"><img name="1175240307356" id="1175240307356" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWRT160N_rollover_off.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772354058&ssbinary=true" alt="WRT160N" title="WRT160N" border="0" height="25" width="34" 
+			onmouseover="changeImages('1175240307356', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWRT160N_rollover_on.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772354059&ssbinary=true'); return true;"
+			onmouseout="changeImages('1175240307356', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWRT160N_rollover_off.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772354058&ssbinary=true'); return true;"
+			onload="preloadImage('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DWRT160N_rollover_on.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193772354059&ssbinary=true'); return true;" /></a></td>
+							<script language="javascript">
+								obj = document.getElementById("ROLL_1169672129207");
+								obj.href = obj.href + "&page=4&random=0";
+							</script>
+							<td><img src="/images/spacer.gif" width="4" height="1" alt=""></td><td><a name="ROLL_1175240306598" id="ROLL_1175240306598" href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B07"><img name="1175241132198" id="1175241132198" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Drollover_newIDoff.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193774263623&ssbinary=true" alt="Better Together!" title="Better Together!" border="0" height="25" width="34" 
+			onmouseover="changeImages('1175241132198', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Drollover_newID.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193774263624&ssbinary=true'); return true;"
+			onmouseout="changeImages('1175241132198', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Drollover_newIDoff.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193774263623&ssbinary=true'); return true;"
+			onload="preloadImage('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Drollover_newID.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193774263624&ssbinary=true'); return true;" /></a></td>
+							<script language="javascript">
+								obj = document.getElementById("ROLL_1175240306598");
+								obj.href = obj.href + "&page=5&random=0";
+							</script>
+							<td><img src="/images/spacer.gif" width="4" height="1" alt=""></td><td><a name="ROLL_1175238374553" id="ROLL_1175238374553" href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1115417027773&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2777327773B10"><img name="1175238484823" id="1175238484823" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dn_off%252C2.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193762359376&ssbinary=true" alt="Where's Your Point N?" title="Where's Your Point N?" border="0" height="25" width="34" 
+			onmouseover="changeImages('1175238484823', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DN_rollover_on%252C20.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193762359377&ssbinary=true'); return true;"
+			onmouseout="changeImages('1175238484823', '/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3Dn_off%252C2.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193762359376&ssbinary=true'); return true;"
+			onload="preloadImage('/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DN_rollover_on%252C20.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1193762359377&ssbinary=true'); return true;" /></a></td>
+							<script language="javascript">
+								obj = document.getElementById("ROLL_1175238374553");
+								obj.href = obj.href + "&page=6&random=0";
+							</script>
+							
+						<td><img src="/images/spacer.gif" width="34" height="1" alt=""></td>
+					</tr>
+					</table>
+					<!--end rollover table-->	
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><img src="/images/main_content_05.jpg" alt="" width="545" height="11" border="0"></td>
+			</tr>
+			<tr>
+				<td colspan="2" background="/images/main_content_05.jpg">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td width="1"><img src="/images/spacer.gif" width="1" height="1" alt=""></td>
+						<td bgcolor="ffffff" valign="top">
+							
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td colspan="2"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DUS_tab_solutions.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130870765080&ssbinary=true" alt="Solutions" title="Solutions" border="0" height="21" width="268"></td>
+	</tr>
+	<tr>
+		<td align="center" style="padding-top: 2px;">
+			<table width="259" border="0" cellspacing="0" cellpadding="0">
+			<!-- iListAbstract is not null and does indeed have data -->
+
+					<tr>
+						<td valign="bottom"><img src="/images/solutions_09.jpg" alt="" width="8" height="21" border="0"></td>
+						<td><img src="/images/solutions_10.jpg" alt="" width="116" height="24" border="0"></td>
+						<td><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1119460400523&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0052327773B01"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dicon_connectedoffice_EN.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130870765123&ssbinary=true" alt="Connected Office" title="Connected Office" border="0" height="24" width="131"></a></td>
+						<td><img src="/images/spacer.gif" alt="" width="4" height="24" border="0"></td>
+					</tr>
+					<tr>
+						<td background="/images/solutions_13.jpg">&nbsp;</td>
+						<td valign="middle"><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1119460400523&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0052327773B01"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DCO_thumb2.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130870765224&ssbinary=true" alt="Business Solutions" title="Business Solutions" border="0" height="126" width="103"></a></td>
+						<td valign="top">
+						<table width="130" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td valign="top"><img src="/images/spacer.gif" alt="" width="10" height="5" border="0"></td>
+								<td><img src="/images/spacer.gif" width="1" height="2"></td>
+							</tr>
+							<tr>
+								<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+								<td valign="top"><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1119460400523&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0052327773B01" class="text-news">Products and solutions to help your small business communicate, collaborate and compete.</a></td>
+							</tr>
+							<tr>
+								<td colspan="2"><img src="/images/spacer.gif" width="1" height="5"></td>
+							</tr>
+							</table>
+						</td>
+						<td><img src="/images/spacer.gif" width="4" height="107" alt=""></td>
+					</tr>
+					<!-- iListAbstract is not null and does indeed have data -->
+
+					<tr>
+						<td background="/images/solutions_13.jpg">&nbsp;</td>
+						<td><img src="/images/solutions_10.jpg" alt="" width="116" height="24" border="0"></td>
+						<td><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1119460400406&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0040627773B02"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DConnected-Home.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130870765100&ssbinary=true" alt="Connected Home" title="Connected Home" border="0" height="24" width="131"></a></td>
+						<td><img src="/images/spacer.gif" alt="" width="4" height="24" border="0"></td>
+					</tr>
+					<tr>
+						<td background="/images/solutions_13.jpg">&nbsp;</td>
+						<td valign="middle"><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1119460400406&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=0040627773B02"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DUS_home_gfx%252C0.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130870765192&ssbinary=true" alt="Wireless Home Solutions" title="Wireless Home Solutions" border="0" height="103" width="116"></a></td>
+						<td valign="top">
+						
+							<table width="130" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td valign="top"><img src="/images/spacer.gif" alt="" width="10" height="5" border="0"></td>
+								<td><img src="/images/spacer.gif" width="1" height="2"></td>
+							</tr>
+							
+								 
+
+								<tr>
+									<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+									<td><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1175235633111&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=3311127773B03" class="text-news">Share Your Digital Life</a></td>
+								</tr>
+								<tr>
+									<td colspan="2"><img src="/images/spacer.gif" width="1" height="5"></td>
+								</tr>
+								
+								 
+
+								<tr>
+									<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+									<td><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1156806458184&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=5818427773B04" class="text-news">Linksys Connected Home Solutions</a></td>
+								</tr>
+								<tr>
+									<td colspan="2"><img src="/images/spacer.gif" width="1" height="5"></td>
+								</tr>
+								
+								 
+
+								<tr>
+									<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+									<td><a href="/servlet/Satellite?c=L_Promotion_C1&childpagename=US%2FLayout&cid=1175235632762&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=3276227773B05" class="text-news">Wireless-N Home Router</a></td>
+								</tr>
+								<tr>
+									<td colspan="2"><img src="/images/spacer.gif" width="1" height="5"></td>
+								</tr>
+								
+							</table>
+						</td>
+						<td><img src="/images/spacer.gif" width="4" height="107" alt=""></td>
+					</tr>
+					
+			<tr>
+				<td><img src="/images/solutions_17.jpg" alt="" width="8" height="16" border="0"></td>
+				<td><img src="/images/solutions_18.jpg" alt="" width="116" height="16" border="0"></td>
+				<td><img src="/images/solutions_19.jpg" alt="" width="131" height="16" border="0"></td>
+				<td><img src="/images/solutions_20.jpg" alt="" width="4" height="16" border="0"></td>
+			</tr>
+			</table>
+		</td>
+		<td style="background-color: #D4D4D4;" width="1"><img src="/images/spacer.gif" width="1" height="1" alt=""></td>
+	</tr>
+	</table>
+	
+						</td>
+						<td bgcolor="ffffff" valign="top">
+							
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fgif&blobheadervalue2=inline%3B+filename%3DUS_tab_news.gif&blobkey=id&blobtable=MungoBlobs&blobwhere=1130870765060&ssbinary=true" alt="News" title="News" border="0" height="21" width="271"></td>
+	</tr>
+	<tr>
+		<td style="padding: 3px;">
+			<table width="260" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td><img src="/images/news_02.jpg" width="10" height="5" alt=""></td>
+				<td><img src="/images/news_03.jpg" width="236" height="5" alt=""></td>
+			</tr>
+			<tr>
+				<td colspan="2"><img src="/images/spacer.gif" width="1" height="4" alt=""></td>
+			</tr>
+			
+					<tr>
+						<td align="center" colspan="4"><a href="/servlet/Satellite?c=L_CASupport_C1&childpagename=US%2FLayout&cid=1169671929625&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=2962527773B02"><img src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3DVista_homepage_banner%252C0.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1193762832060&ssbinary=true" alt="Linksys.com - Vista" title="Linksys.com - Vista" border="0" height="47" width="243"></a></td>
+					</tr>
+					<tr>
+						<td colspan="2"><img src="/images/spacer.gif" width="1" height="8" alt=""></td>
+					</tr>
+					
+					<tr>
+						<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+						<td class="text-news">Linksys Hit the Market with a Cost-Effective Triple-Play Router Packed with Advanced Features <a href="/servlet/Satellite?c=L_News_C2&childpagename=US%2FLayout&cid=1175239786089&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8608927773B01" class='news-link' >more></a></td>
+					</tr>
+					
+						<tr>
+							<td colspan="2"><img src="/images/spacer.gif" width="1" height="7" alt=""></td>
+						</tr>
+						
+					<tr>
+						<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+						<td class="text-news">Linksys Strengthens Home Networking Leadership with CES Debuts <a href="/servlet/Satellite?c=L_News_C2&childpagename=US%2FLayout&cid=1175239785260&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8526027773B01" class='news-link' >more></a></td>
+					</tr>
+					
+						<tr>
+							<td colspan="2"><img src="/images/spacer.gif" width="1" height="7" alt=""></td>
+						</tr>
+						
+					<tr>
+						<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+						<td class="text-news">Linksys Speeds Up Internet Gaming with New Wireless-N Dual Band Gaming Adapter <a href="/servlet/Satellite?c=L_News_C2&childpagename=US%2FLayout&cid=1175239784555&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8455527773B10" class='news-link' >more></a></td>
+					</tr>
+					
+						<tr>
+							<td colspan="2"><img src="/images/spacer.gif" width="1" height="7" alt=""></td>
+						</tr>
+						
+					<tr>
+						<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+						<td class="text-news">Linksys Reveals Personal Technology Expert <a href="/servlet/Satellite?c=L_News_C2&childpagename=US%2FLayout&cid=1175239784015&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8401527773B01" class='news-link' >more></a></td>
+					</tr>
+					
+						<tr>
+							<td colspan="2"><img src="/images/spacer.gif" width="1" height="7" alt=""></td>
+						</tr>
+						
+					<tr>
+						<td valign="top"><img src="/images/news_05.jpg" alt="" width="10" height="15" border="0"></td>
+						<td class="text-news">Linksys Announces Plans to Expand Digital Home with New Media Center Extenders <a href="/servlet/Satellite?c=L_News_C2&childpagename=US%2FLayout&cid=1175239781106&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=8110627773B01" class='news-link' >more></a></td>
+					</tr>
+					
+			<tr>
+				<td><img src="/images/news_02.jpg" alt="" width="10" height="5" border="0"></td>
+				<td><img src="/images/news_03.jpg" alt="" width="236" height="5" border="0"></td> 
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+
+						</td>
+						<td width="5"><img src="/images/spacer.gif" width="5" height="1" alt=""></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><img src="/images/main_content_13.gif" alt="" width="545" height="14" border="0"></td>
+			</tr>
+			<tr>
+				<td><img src="/images/spacer.gif" width="539" height="1" alt=""></td>
+				<td><img src="/images/spacer.gif" width="5" height="1" alt=""></td>
+			</tr>
+			</table>
+			<!--Nested Main Splash, Solutions & News Container-->
+		</td>
+	</tr>
+	</table>
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<!--WEBSIDESTORY CODE HBX1.0 (Universal)-->
+<!--COPYRIGHT 1997-2005 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+<script language="javascript" src="/js/Site_Array.js"></script>
+<script language="javascript">
+
+var site='US';
+
+//**************************************************************************************************
+//The following function replaces some specified charecters by one blank space.....added by Venkat on 6/12/2006
+function replaceSpecificChars(item,replaceChar)
+{
+	try
+	{
+		var returnStr="";
+		var newItem=item.split("");
+		var allSpecificChars = ",|;";
+		for(var i=0;i<newItem.length;i++)
+		{
+			if(allSpecificChars.indexOf(newItem[i])>-1)
+			{
+				newItem[i]=replaceChar;
+			}
+			returnStr+=newItem[i];
+		}
+		return(returnStr);
+	}
+	catch (e)
+	{
+		return(item);
+	}
+ 
+}
+//The following function was added by Venkat on 6/1/2006 to retrieve the product categories
+//Modified by D. Coble 2006.12.11 to add site name to custom metric to get around some HBX filtering limitations
+function getTitlesString(productParentArrName) {
+	try {
+		if (productParentArrName) {
+			var parentProductIds = productParentArrName.split("_");
+				var nLength = parentProductIds.length;
+				var tempParentArrName = parentProductIds[0];
+				var tempId = "";
+				var parentTitles = "";
+				var productCat = "";
+				for (ind=1; ind<nLength; ind++) {
+					tempId = parentProductIds[ind];
+					productCat = getArrayValue(tempParentArrName, tempId);
+					productCat = replaceSpecificChars(productCat," ");
+					//alert(productCat);
+					parentTitles = parentTitles + productCat + ";" ;
+					tempParentArrName = tempParentArrName + "_" + tempId;
+				}
+				if((parentTitles != null )&&(parentTitles.length>0))
+				{
+					parentTitles = parentTitles.substring(0, parentTitles.length-1);
+				}
+				return parentTitles;
+			
+		}else {
+			return "";
+		}
+	}catch(e)
+	{
+		return "";
+	}
+}
+
+var allProductCategories = "";
+
+try
+{
+	if(c == 'L_Product_C2')
+	{
+		if(parentArrayName)
+		{
+			allProductCategories = getTitlesString(parentArrayName);
+			allProductCategories = site + ';' + allProductCategories;
+			//alert(allProductCategories);
+		}
+	}
+}
+catch (e)
+{
+}
+//******************************************************************************************************
+var _hbEC=0,_hbE=new Array;function _hbEvent(a,b){b=_hbE[_hbEC++]=new Object();b._N=a;b._C=0;return b;}
+var hbx=_hbEvent("pv");hbx.vpc="HBX0100u";hbx.gn="ehg-linksys.hitbox.com";
+
+
+
+
+//BEGIN EDITABLE SECTION
+//CONFIGURATION VARIABLES
+hbx.acct="DM55101196CC28EN3";//ACCOUNT NUMBER(S)
+hbx.pn="Welcome to Linksys.com" ;//PAGE NAME(S)
+hbx.mlc="/US" ;//MULTI-LEVEL CONTENT CATEGORY
+hbx.pndef="title";//DEFAULT PAGE NAME
+hbx.ctdef="full";//DEFAULT CONTENT CATEGORY
+
+//OPTIONAL PAGE VARIABLES
+//ACTION SETTINGS
+hbx.fv="";//FORM VALIDATION MINIMUM ELEMENTS OR SUBMIT FUNCTION NAME
+hbx.lt="auto";//LINK TRACKING
+hbx.dlf="n";//DOWNLOAD FILTER
+hbx.dft="n";//DOWNLOAD FILE NAMING
+hbx.elf="n";//EXIT LINK FILTER
+
+//SEGMENTS AND FUNNELS
+hbx.seg="";//VISITOR SEGMENTATION
+hbx.fnl="";//FUNNELS
+
+//CAMPAIGNS
+hbx.cmp="";//CAMPAIGN ID
+hbx.cmpn="";//CAMPAIGN ID IN QUERY
+hbx.dcmp="";//DYNAMIC CAMPAIGN ID
+hbx.dcmpn="";//DYNAMIC CAMPAIGN ID IN QUERY
+hbx.dcmpe="";//DYNAMIC CAMPAIGN EXPIRATION
+hbx.dcmpre="";//DYNAMIC CAMPAIGN RESPONSE EXPIRATION
+hbx.hra="";//RESPONSE ATTRIBUTE
+hbx.hqsr="";//RESPONSE ATTRIBUTE IN REFERRAL QUERY
+hbx.hqsp="";//RESPONSE ATTRIBUTE IN QUERY
+hbx.hlt="";//LEAD TRACKING
+hbx.hla="";//LEAD ATTRIBUTE
+hbx.gp="";//CAMPAIGN GOAL
+hbx.gpn="";//CAMPAIGN GOAL IN QUERY
+hbx.hcn="";//CONVERSION ATTRIBUTE
+hbx.hcv="";//CONVERSION VALUE
+hbx.cp="null";//LEGACY CAMPAIGN
+hbx.cpd="";//CAMPAIGN DOMAIN
+hbx.lvm="300";//LINKID TRACKING
+
+//CUSTOM VARIABLES
+hbx.ci="";//CUSTOMER ID
+hbx.hc1="";//CUSTOM 1 - DOWNLOAD TYPES and DOWNLOADS
+hbx.hc2="|" + allProductCategories;//CUSTOM 2 - PRODUCT SKU and PRODUCT CATEGORY
+hbx.hc3="";//CUSTOM 3
+hbx.hc4="";//CUSTOM 4
+hbx.hrf="";//CUSTOM REFERRER
+hbx.pec='';//ERROR CODES
+
+//INSERT CUSTOM EVENTS
+//Code for population group
+
+for(i=0; i< SID_Array.length; i++){
+	sToken = SID_Array[i];
+	if(sToken.indexOf("-") == -1) {
+		SID_Array[i]=SID_Array[i]*-1;
+		//break;
+	}
+}
+
+for(i=0; i< Site_Array.length; i++) {
+	sidIdx = 0;
+	sToken = Site_Array[i][0];
+	if(sToken.toUpperCase()==site.toUpperCase()) {
+		sidIdx = Site_Array[i][1];
+		SID_Array[sidIdx]=SID_Array[sidIdx]*-1;				
+		break;	
+	}
+}
+
+hbx.seg = SID_Array.toString();
+//alert("hbx.seg:"+hbx.seg);
+//Code for population group ends.
+//END EDITABLE SECTION
+
+//REQUIRED SECTION. CHANGE "YOURSERVER" TO VALID LOCATION ON YOUR WEB SERVER (HTTPS IF FROM SECURE SERVER)
+</script><script language="javascript1.1" defer src='/js/hbx/hbx.js'></script>
+<!--END WEBSIDESTORY CODE-->
+</td>
+		</tr>
+		<tr>
+			<td colspan="2"><img src="/images/spacer.gif" alt="" width="1" height="10" border="0"></td>
+		</tr>
+		</table>
+		
+	</td>
+</tr>
+<tr>
+	<td bgcolor="ffffff"><table cellpadding="0" cellspacing="2" border="0" width="100%">
+<tr>
+	<td><img src="/images/spacer.gif" alt="" width="1" height="10" border="0"></td>
+</tr>
+<tr>
+	<td class="text-footer">
+			
+				
+				
+				
+			
+		&copy; 1992-2008 Cisco Systems, Inc.  All rights reserved.<br>
+		<a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519876545&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7654586492F262" target="_top" class='footer-link'>Terms & Conditions</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519876585&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7658586492F263" target="_top" class='footer-link'>Privacy Policy</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1116519875121&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=7512186492F264" target="_top" class='footer-link'>Careers</a> | <a href="/servlet/Satellite?c=L_Content_C1&childpagename=US%2FLayout&cid=1114037291276&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=9127686492F265" target="_top" class='footer-link'>Contact Us</a></td>
+</tr>
+<tr>
+	<td align="center">
+	
+		
+		
+		
+	
+	
+	<a href="http://www.cisco.com/" target="new"><img name="1119591372525" id="1119591372525" src="/servlet/Satellite?blobcol=urldata&blobheadername1=Content-Type&blobheadername2=Content-Disposition&blobheadervalue1=image%2Fjpeg&blobheadervalue2=inline%3B+filename%3Dcisco_logo%252C0.jpg&blobkey=id&blobtable=MungoBlobs&blobwhere=1130877220706&ssbinary=true" alt="Cisco Systems, Inc." title="Cisco Systems, Inc." border="0" height="55" width="85" /></a></td>
+</tr>
+</table>
+	</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-504560-1";
+	urchinTracker();
+	</script>
+
+
+</body>
+</html>

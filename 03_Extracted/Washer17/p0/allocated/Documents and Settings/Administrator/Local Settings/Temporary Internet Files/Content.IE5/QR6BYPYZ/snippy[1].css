@@ -1,0 +1,45 @@
+/* lists */
+ul.snp_gray {margin:0;padding:0;}
+ul.snp_gray li {background:url('http://img.com.com/i/fd/arrow_gray.gif') no-repeat 0 2px;padding-left:8px;}
+ul.snp_blue {margin:0;padding:0;}
+ul.snp_blue li {background:url('http://img.com.com/i/fd/arrow_blue.gif') no-repeat 0 2px;padding-left:8px;}
+ul.snp_ltblue {margin:0;padding:0;}
+ul.snp_ltblue li {background:url('http://img.com.com/i/fd/arrow_ltblue.gif') no-repeat 0 2px;padding-left:8px;}
+
+/* floats */
+.snp_flt_r {float:right;}
+.snp_flt_l {float:left;}
+
+/* text align */
+.snp_txt_r {text-align:right;}
+.snp_txt_l {text-align:left;}
+.snp_txt_c {text-align:center;}
+
+/* image alignment */
+.snp_ss_l8 {float:left;margin:0 5px 5px 0;text-align:center;width:103px;*width:95px;font:bold 11px verdana,geneva,helvetica;}
+.snp_ss_l8 img {margin:3px 0;}
+
+/* fonts */
+.v10 {font:normal 11px verdana,geneva,helvetica;}
+.v10b {font:bold 11px verdana,geneva,helvetica;}
+.v11 {font:normal 12px verdana,geneva,helvetica;}
+.v11b, h4 {font:bold 12px verdana,geneva,helvetica;}
+.a12 {font:normal 13px arial,helvetica;}
+.a12b, h3 {font:bold 13px arial,helvetica;}
+.a18, h2 {font:normal 18px arial,helvetica;}
+.a32, h1 {font:normal 26px arial,helvetica;}
+
+/*colors*/
+a:link.gld, a:hover.gld, a:visited.gld, a:active.gld, .gld {color:#FC0;}
+a:link.grn, a:hover.grn, a:visited.grn, a:active.grn, .grn, a:link.hd, a:hover.hd, a:visited.hd, a:active.hd, .hd {color:#390;}
+a:link.g4, a:hover.g4, a:visited.g4, a:active.g4, .g4, a:link.bdy, a:hover.bdy, a:visited.bdy, a:active.bdy, .bdy {color:#444;}
+a:link.rd, a:hover.rd, a:visited.rd, a:active.rd, .rd, a:link.alert, a:hover.alert, a:visited.alert, a:active.alert, .alert {color:#C00;}
+
+/* link backgrounds */
+a.digg {background:url('http://i.i.com.com/cnwk.1d/i/ne05/fmwk/digg_16x16.gif') no-repeat 0 2px;padding-left:20px;}
+a.deli {background:url('http://i.i.com.com/cnwk.1d/i/ne05/fmwk/delicious_14x14.gif') no-repeat 0 4px;padding-left:18px;}
+li.rr_deli, li.rr_digg  {list-style:none;height:15px;margin-right:10px;display:inline;padding-bottom:3px;font-weight:bold;}
+li.rr_deli {background:url('http://i.i.com.com/cnwk.1d/i/ne05/fmwk/delicious_14x14.gif') no-repeat;padding-left:16px;}
+li.rr_digg {background:url('http://i.i.com.com/cnwk.1d/i/ne05/fmwk/digg_16x16.gif') no-repeat;padding-left:20px;}
+
+

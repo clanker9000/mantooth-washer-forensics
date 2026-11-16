@@ -1,0 +1,484 @@
+  
+  
+	
+	<!-- <div id="assistant" class="collapsed"> -->
+	
+		<div id="a-head">
+
+			<h2><a href="#" id="a-toggle" title="Toggle the Assistant on or off" rel="assistant track">Assistant<!-- TRACKING
+    ! hier4: assistant:home:       --></a></h2>
+			
+			<h3></h3>			
+							
+			<div id="a-preview" style="display: none;">
+			
+				<ul class="weather">
+				
+				
+					<li class="weather">
+					
+	
+<dl class="current">
+	<dt>Current</dt>
+	<dd class="time">Recorded at </dd>
+	<dd class="temp"></dd>
+	<dd class="loc">, </dd>
+    <dd class="icon"><img class="png" src="" alt="" /></dd>
+</dl>
+					
+					</li>
+					
+				
+					<li class="horoscopes">
+					
+<dl><dd></dd></dl>					
+					</li>
+					
+				
+					<li class="portfolio">
+					
+<dl id="portfolio-preview" class="clearfix" style="display: none;">
+  <dt id="portfolio-preview-portfolioname"> </dt>
+  <dd class="pagination"><a href="#" class="prev">Previous</a> <span class="paging-wrapper"><span id="portfolio-preview-current" class="current"> </span>&nbsp;of&nbsp;<span id="portfolio-preview-count" class="count"> </span></span> <a href="#" class="next">Next</a></dd>
+  <dd id="portfolio-preview-stockitem-a" class="stockitem">
+    <table class="stockitem" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="symbol"> </td>
+          <td class="last"> </td>
+          <td class="change"><span class="positive"> </span></td>
+        </tr>
+      </tbody>
+    </table>
+    <i class="l"> </i><i class="r"> </i>
+  </dd>
+  <dd id="portfolio-preview-stockitem-b" class="stockitem">
+    <table class="stockitem" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="symbol"> </td>
+          <td class="last"> </td>
+          <td class="change"><span class="positive"> </span></td>
+        </tr>
+      </tbody>
+    </table>
+    <i class="l"> </i><i class="r"> </i>
+  </dd>
+</dl>					
+					</li>
+					
+				
+					<li class="scoreboard">
+					
+
+<dl id="scoreboard-preview-sport0" class="scoreboard-preview clearfix active">
+  <dt>NHL</dt>
+  <dd class="pagination"><a href="#" class="prev">Previous</a> <span class="paging-wrapper"><span id="scoreboard-preview-nhl-current" class="current"> </span>&nbsp;of&nbsp;<span id="scoreboard-preview-nhl-count" class="count"> </span></span> <a href="#" class="next">Next</a></dd>
+  <dd id="scoreboard-preview-sports-panel0">
+<div class="scoreboard-scores-wrapper clearfix">
+  <div id="scoreboard-preview-nhl-panel0" class="scoreboard-panel">
+  	<div class="loading">
+    	<p>Loading...</p>
+	</div>
+  </div>
+  <div id="scoreboard-preview-nhl-panel1" class="scoreboard-panel active">
+  	<div class="loading">
+    	<p>Loading...</p>
+	</div>
+  </div>
+  <div id="scoreboard-preview-nhl-panel2" class="scoreboard-panel">
+  	<div class="loading">
+    	<p>Loading...</p>
+	</div>
+  </div>
+</div>
+  </dd>
+</dl>
+					
+					</li>
+					
+					
+				</ul>
+			
+			</div>
+			<div id="a-loading"><span>Loading...</span></div>
+		
+		</div>
+		
+		<div id="a-body">
+		
+			<div class="body">
+		
+				<div id="a-modify" class="collapsed">
+			
+					<h3><a id="a-modify-toggle" href="#" title="Add or Remove modules in the Assistant.">Modify Assistant</a></h3>
+				
+					<form action="#" method="post" class="widget">
+					
+						<fieldset>
+						
+										
+							<input type="checkbox" value="weather" id="m-weather" class="fancy-checkbox" checked="checked" /><label for="m-weather">Weather</label>
+							
+										
+							<input type="checkbox" value="horoscopes" id="m-horoscopes" class="fancy-checkbox" checked="checked" /><label for="m-horoscopes">Horoscopes</label>
+							
+										
+							<input type="checkbox" value="portfolio" id="m-portfolio" class="fancy-checkbox" checked="checked" /><label for="m-portfolio">Stock Watch List</label>
+							
+										
+							<input type="checkbox" value="scoreboard" id="m-scoreboard" class="fancy-checkbox" checked="checked" /><label for="m-scoreboard">Scoreboard</label>
+							
+							
+							<button type="submit" id="a-modify-done" value="Done" class="done">Done</button>
+						
+						</fieldset>
+						
+					</form>
+					
+					<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+			
+				</div>
+			
+				<ul class="modules">
+				
+					
+					<li id="weather" class="module expanded">
+					
+						<div class="panel">
+						
+						<h4>
+              <a href="#" class="a-toggle" title="Toggle weather module"></a>
+              <a href="#" class="label" title="Click to make this module active in the Assistant Preview.">weather</a>
+              <a href="#" class="drag" title="Drag modules to rearrange"></a>
+            </h4>
+						
+							<div class="panel-body">
+				
+                
+                <div id="weather-forecast">
+								
+
+	
+<dl class="current">
+	<dt>Current</dt>
+	<dd class="time">Recorded at </dd>
+	<dd class="temp"></dd>
+	<dd class="loc">, </dd>
+    <dd class="icon"><img class="png" src="" alt="" /></dd>
+</dl>
+
+
+
+<dl class="forecast today">
+  <dt>Today</dt>
+  <dd class="desc"></dd>
+  <dd class="temp hi"><b>H:</b></dd>
+  <dd class="temp lo"><b>L:</b></dd>
+   <dd class="icon"><img src="" class="png" alt="" /></dd>
+</dl>
+
+<dl class="forecast tomorrow">
+  <dt>Tomorrow</dt>
+  <dd class="desc"></dd>
+  <dd class="temp hi"><b>H:</b></dd>
+  <dd class="temp lo"><b>L:</b></dd>
+  <dd class="icon"><img src="" class="png" alt="" /></dd>
+</dl>
+								
+								</div>
+								
+								<div id="weather-prefs" class="collapsed">
+								
+									<h5><a id="weather-prefs-toggle" href="#">Change or Add Location</a></h5>
+									
+									<ul>
+                    <li>
+                      <a href="#" class="add">Add Location</a>
+                      
+                      <form action="#" method="post" class="widget"><fieldset>
+                        <span class="text"><b class="default"><input type="text" value="Enter City or Zip Code" /></b></span>
+                        <button type="submit" value="GO" class="go">GO</button>
+                      </fieldset></form>
+                    </li>
+                    <li class="empty"></li>
+                    <li class="empty"></li>
+                    <li class="empty"></li>
+                  </ul>
+								
+								</div>
+								
+								<ul class="links">
+									<li class="logo"><a href="http://comcast.weather.com" class="weatherlogo" rel="external">The Weather Channel</a></li>
+									<li><a href="http://comcast.weather.com/coldandflu?par=comcast&amp;site=assistlink&amp;promo=0&amp;cm_ven=Comcast&amp;cm_cat=www.comcast.net&amp;cm_pla=Assistant&amp;cm_ite=ColdFlu" rel="external">Cold &amp; Flu Reports</a></li>
+									<li><a href="http://comcast.weather.com/ski?par=comcast&amp;site=assistlink&amp;promo=0&amp;cm_ven=Comcast&amp;cm_cat=www.comcast.net&amp;cm_pla=Assistant&amp;cm_ite=Ski" rel="external">Ski Conditions</a></li>
+									<li><a href="http://comcast.weather.com/services/comcastdesktop.html?par=comcast&amp;site=assistlink&amp;refer=comcastassistant&amp;from=comcastassistant&amp;cm_ven=Comcast&amp;cm_cat=www.comcast.net&amp;cm_pla=Assistant&amp;cm_ite=Desktop" rel="external">Free Weather Alerts</a></li>
+									<li><a id="weather-tenday-link" href="#" rel="external">Ten Day Forecast</a></li>
+								</ul>
+								
+								<div id="weather-city">
+								
+									<h5>Choose City</h5>
+									
+									<ul>
+										<li><a href="#">Philadelphia, PA</a></li>
+										<li><a href="#">Philadelphia, NY</a></li>
+										<li><a href="#">Philadelphia, TX</a></li>
+										<li><a href="#">Philadelphia, FL</a></li>
+										<li><a href="#">Philadelphia, MN</a></li>
+										<li><a href="#">Philadelphia, AK</a></li>
+										<li><a href="#">Philadelphia, MO</a></li>
+									</ul>
+								
+									<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+								
+								</div>								
+							</div>
+							
+							<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+						
+						</div>
+					
+					</li>
+					
+					
+					<li id="horoscopes" class="module expanded">
+					
+						<div class="panel">
+						
+						<h4>
+              <a href="#" class="a-toggle" title="Toggle horoscopes module"></a>
+              <a href="#" class="label" title="Click to make this module active in the Assistant Preview.">horoscopes</a>
+              <a href="#" class="drag" title="Drag modules to rearrange"></a>
+            </h4>
+						
+							<div class="panel-body">
+				
+                
+                <div id="a-horoscopes-fortunes" class="fortunes">
+                  
+                  <dl id="a-horoscopes-sagittarius">
+                    <dt>Sagittarius</dt>
+                    <dd class="desc">Pleasing others will give you pleasure today, so don't hesitate to oblige people.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-capricorn">
+                    <dt>Capricorn</dt>
+                    <dd class="desc">While you might not have as much discipline as you'd like, you can still succeed!</dd>
+                  </dl>
+                  <dl id="a-horoscopes-gemini">
+                    <dt>Gemini</dt>
+                    <dd class="desc">A reunion with an ex forces you to ask questions about how much you've changed.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-scorpio">
+                    <dt>Scorpio</dt>
+                    <dd class="desc">The irritation you have been feeling from a certain person is about to dissipate.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-taurus">
+                    <dt>Taurus</dt>
+                    <dd class="desc">Imitation is the sincerest form of flattery, but don't let anyone steal your ideas!</dd>
+                  </dl>
+                  <dl id="a-horoscopes-pisces">
+                    <dt>Pisces</dt>
+                    <dd class="desc">You have a lot of beauty people don't often get a chance to see -- let it out today!</dd>
+                  </dl>
+                  <dl id="a-horoscopes-virgo">
+                    <dt>Virgo</dt>
+                    <dd class="desc">Are you getting too deep with someone? Make sure that you're both on the same page.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-aries">
+                    <dt>Aries</dt>
+                    <dd class="desc">There will be a pause in the action today -- it will help you learn some patience.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-leo">
+                    <dt>Leo</dt>
+                    <dd class="desc">You'll find the energy you need to finish what you have started, so don't panic!</dd>
+                  </dl>
+                  <dl id="a-horoscopes-aquarius">
+                    <dt>Aquarius</dt>
+                    <dd class="desc">Make a concerted effort to keep the past in the past today! Focus on your future.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-cancer">
+                    <dt>Cancer</dt>
+                    <dd class="desc">You'll meet some new people today, but one of them will have a very familiar face.</dd>
+                  </dl>
+                  <dl id="a-horoscopes-libra">
+                    <dt>Libra</dt>
+                    <dd class="desc">Your kindness is a quality you should cherish. But you should know when to say no.</dd>
+                  </dl>
+									
+                  <a href="http://www.astrology.com" class="source">Astrology.com</a>
+                  
+								</div>
+								
+								<form action="#" method="post" class="widget">
+								
+									<fieldset>
+									
+										<select class="small">
+											<option value="aries">March 21 - April 19</option>
+											<option value="taurus">April 20 - May 20</option>
+											<option value="gemini">May 21 - June 21</option>
+											<option value="cancer">June 22 - July 22</option>
+											<option value="leo">July 23 - August 22</option>
+											<option value="virgo">August 23 - September 22</option>
+											<option value="libra">September 23 - October 22</option>
+											<option value="scorpio">October 23 - November 21</option>
+											<option value="sagittarius">November 22 - December 21</option>
+											<option value="capricorn">December 22 - January 19</option>
+											<option value="aquarius">January 20 - February 18</option>
+											<option value="pisces">February 19 - March 20</option>
+										</select>
+									
+									</fieldset>
+								
+								</form>								
+							</div>
+							
+							<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+						
+						</div>
+					
+					</li>
+					
+					
+					<li id="portfolio" class="module expanded">
+					
+						<div class="panel">
+						
+						<h4>
+              <a href="#" class="a-toggle" title="Toggle stock watch list module"></a>
+              <a href="#" class="label" title="Click to make this module active in the Assistant Preview.">stock watch list</a>
+              <a href="#" class="drag" title="Drag modules to rearrange"></a>
+            </h4>
+						
+							<div class="panel-body">
+				
+<div id="portfolio-wrapper">
+  <div id="portfolio-container">
+	<div class="loading">
+    	<p>Loading...</p>
+		<img src="http://chrome-p-a.comcast.net/ui/images/lib/loaders/loader_am.gif" alt="Loading Stock Watch List" />
+	</div>
+  </div>
+  <a href="http://finance.comcast.net/portfolio/watchlist.html" rel="external" title="Edit Watchlist" id="portfolio-edit-button" style="display: none;">Edit Watchlist</a>
+</div>
+
+
+								
+							</div>
+							
+							<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+						
+						</div>
+					
+					</li>
+					
+					
+					<li id="scoreboard" class="module expanded">
+					
+						<div class="panel">
+						
+						<h4>
+              <a href="#" class="a-toggle" title="Toggle scoreboard module"></a>
+              <a href="#" class="label" title="Click to make this module active in the Assistant Preview.">scoreboard</a>
+              <a href="#" class="drag" title="Drag modules to rearrange"></a>
+            </h4>
+						
+							<div class="panel-body">
+				
+
+<div id="scoreboard-container">
+  <div id="scoreboard-tabbar" class="darkbox">
+    <ul class="clearfix">
+        <li class="tab active" id="scoreboard-sports-tab0">
+          <a href="#" rel="sport-nhl">NHL</a>
+    
+          <i class="ul"> </i><i class="ur"> </i>
+        </li>
+    </ul>
+    <i class="ul"> </i><i class="ur"> </i>
+    <i class="ll"> </i><i class="lr"> </i>
+  </div>
+  
+    <div id="scoreboard-sports-panel0" class="scoreboard-panel active">
+  
+  <ul class="scoreboard-datetabs nhl clearfix">
+    <li id="scoreboard-scores-nhl-tab0" class="prev small">
+      <a href="#/2008/02/11/"> </a>
+      <i class="l"> </i><i class="r"> </i>
+    </li>
+
+    <li id="scoreboard-scores-nhl-tab1" class="active">
+      <a href="#/2008/02/12/"> </a>
+      <i class="l"> </i><i class="r"> </i>
+    </li>
+
+    <li id="scoreboard-scores-nhl-tab2" class="next small">
+      <a href="#/2008/02/13/"> </a>
+      <i class="l"> </i><i class="r"> </i>
+    </li>
+  </ul>
+
+  <div class="scoreboard-scores-wrapper clearfix">
+    <div class="scoreboard-scroll-up">
+      <a href="#"> </a>
+    </div>
+    <h2>National Hockey League</h2>
+    
+    <div id="scoreboard-scores-nhl-panel0" class="scoreboard-panel">
+      	<div class="loading">
+	    	<p>Loading...</p>
+			<img src="http://chrome-p-a.comcast.net/ui/images/lib/loaders/loader_am.gif" alt="Loading Stock Watch List" />
+		</div>
+    </div>
+    <div id="scoreboard-scores-nhl-panel1" class="scoreboard-panel active">
+      	<div class="loading">
+	    	<p>Loading...</p>
+			<img src="http://chrome-p-a.comcast.net/ui/images/lib/loaders/loader_am.gif" alt="Loading Stock Watch List" />
+		</div>
+    </div>
+    <div id="scoreboard-scores-nhl-panel2" class="scoreboard-panel">
+      	<div class="loading">
+	    	<p>Loading...</p>
+			<img src="http://chrome-p-a.comcast.net/ui/images/lib/loaders/loader_am.gif" alt="Loading Stock Watch List" />
+		</div>
+    </div>
+    <div class="scoreboard-scroll-down">
+      <a href="#"> </a>
+    </div>
+  </div>
+    </div>
+  <span id="ate">All Times Eastern</span>
+  
+  <!-- <div id="scoreboard-customize-container">
+    <p>Customize to highlight your favorite teams.</p>
+    <input type="image" src="http://chrome-p-a.comcast.net/ui/images/modules/assistant/buttons/edit.jpg"/>
+  </div> -->
+</div>
+								
+							</div>
+							
+							<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+						
+						</div>
+					
+					</li>
+					
+					
+				</ul>
+				
+				</div>
+		
+		</div>
+		
+		<div id="a-foot">
+		
+			<div class="theme"></div>
+		
+		</div>
+	
+	<!-- </div> -->
+
+
+
+

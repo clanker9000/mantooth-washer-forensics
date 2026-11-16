@@ -1,0 +1,621 @@
+var isNN = (navigator.appName.indexOf("Netscape")!=-1);
+function ValidateJoinMileagePlus(f) {
+	var theIndex=0;
+	var a;
+	var theField="";
+	var name;
+	msg="";
+	var pwdLength=6;
+	var alphaText="can only contain alphabetical (Aa-Zz) characters\n";
+	var alpha2Text="must be alphabetical (Aa-Zz), with the following exceptions: .- and space\n";
+	var streetText="must be alphanumeric (Aa-Zz,0-9), with the following exceptions: ()'-;:,/%#.+= and space\n";
+	var phoneText="must contain only numbers\n";
+	var usa_states="-AA-AE-AK-AL-AP-AR-AS-AZ-CA-CO-CT-DC-DE-FL-FM-GA-GU-HI-IA-ID-IL-IN-KS-KY-LA-MA-MD-ME-MH-MI-MN-MO-MP-MS-MT-NC-ND-NE-NH-NJ-NM-NV-NY-OH-OK-OR-PA-PR-PW-RI-SC-SD-TN-TX-UT-VA-VI-VT-WA-WI-WV-WY-";
+	var canada_states="-AB-BC-MB-NB-NF-NS-NT-ON-PE-PQ-SK-YT-";
+	var firstFlag = true;
+
+
+
+        // accept terms checkbox validity - error will be not appended to msg
+        if ( f.terms.checked == false )
+        {
+           alert(getTermsText());
+           return false;
+        }
+
+	if( f.userId){
+		if(!isMpNumber(f.userId.value)){
+		      msg+="Mileage Plus is a required field.\n";
+		      msg+="It must contain number(0-9)\n";
+		      msg+="Please enter a valid Mileage Plus number\n";
+		      a=f.userId;
+			if (a && a.value!="" && a.value.length<11) {
+				while (a.value.length<11) {
+					a.value="0"+a.value;
+				}
+	}
+    	}
+	}
+	if (f.namePrefix && f.namePrefix.selectedIndex==0) {
+		msg+="Title (Mr,Mrs,etc) is a required field.\n";
+	}
+	f.firstName.value = alltrim( f.firstName.value);
+	if (FieldExists(f.firstName,"firstName","First Name")
+		&& !IsAlpha(f.firstName,".- ")) {
+		msg+="First name "+alpha2Text;
+	}
+	
+	f.middleInitial.value = alltrim(f.middleInitial.value);
+	if (f.middleInitial.value.length > 0
+		&& !IsAlpha(f.middleInitial)) {
+			msg+="Middle Initial "+alphaText;
+	}
+	
+	f.lastName.value = alltrim(f.lastName.value);
+	if (FieldExists(f.lastName,"lastName","Last Name")
+		&& !IsAlpha(f.lastName,".- ")) {
+		msg+="Last name "+alpha2Text;
+	} else if (f.lastName.value.length==1) {
+		msg+="Last Name cannot be a single letter.\n";
+	}
+	
+	f.street.value = alltrim(f.street.value);
+	if (f.street.value.length > 0) {
+		if (!IsAlphaNumeric(f.street,"()'-;:,/%#.+= ")) {
+			msg+="Street 1 "+streetText;
+		}
+	} else {
+		msg+="Street Address 1 is a required field.\n";
+	}
+			
+	f.street2.value = alltrim(f.street2.value);
+	if (alltrim(f.street2.value).length > 0) {
+		if (!IsAlphaNumeric(f.street2,"()'-;:,/%#.+= ")) {
+			msg+="Street 2 "+streetText;
+		}
+	}
+
+	f.city.value = alltrim( f.city.value); 
+	if ( FieldExists(f.city,"city","City")
+		&& !IsAlpha(f.city, ".-,' ")) {
+		msg+="City "+alpha2Text;
+	}
+	
+	a= f.state;
+	a.value=alltrim(a.value);
+	if (a) {
+		a.value = a.value.toUpperCase();
+	}
+
+	if (f.country && f.country.selectedIndex==0) {
+		msg+="Country code is a required field.\n";
+	}
+
+    theIndex=f.country.selectedIndex;
+    theField=f.country.options[theIndex].value;
+
+	if ((theField=="USA" || theField=="CAN")
+         && FieldExists(f.state,"state","State/Prov")) {
+		if (!IsAlpha(a," ")) {
+			msg+="State "+alphaText;
+		}
+		if (theField=="USA" && usa_states.indexOf("-"+a.value.toUpperCase()+"-")==-1) {
+			msg+="'"+a.value+"' is not a valid USA state.\n";
+		}
+		if (theField=="CAN" && canada_states.indexOf("-"+a.value.toUpperCase()+"-")==-1) {
+			msg+="'"+a.value+"' is not a valid Canadian province.\n";
+		}
+	}
+	a=f.postalCode;
+	a.value=alltrim(f.postalCode.value);
+	if ((theField=="USA")
+		&& FieldExists(a,"postalCode","Postal Code")
+		&& (!IsNumeric(a,"- "))
+		|| !postalLengthCharCheck(a.value, 9)) {
+		msg+="Postal Code must contain numbers and/or a dash(-) and space.\n";
+	}
+	if ((theField=="CAN")
+		&& FieldExists(a,"postalCode","Postal Code")
+		&& (!isCAPostCode(a.value))) {
+		msg+="Please provide an accurate Postal Code.\n";
+	}
+	
+	if (!IsNumeric(f.phoneCntryCode,"+") || alltrim(f.phoneCntryCode.value) == "") {
+		msg+="Country Code "+phoneText;
+	}
+	stripPhoneNumber(f.phoneCntryCode);
+
+	if( theField=="USA"){
+		
+		if( FieldExistsJoin(f.phoneNpa,"phoneNpa","Area Code") &&
+	   !IsNumeric(f.phoneNpa,"")|| f.phoneNpa.value.length <3) {
+		msg+="Area Code is a required field.\n";
+		}
+		stripPhoneNumber(f.phoneNpa);
+		if (FieldExistsJoin(f.phoneNxxLine,"phoneNxxLine","Phone")
+					&& !IsNumeric(f.phoneNxxLine,"-") || f.phoneNxxLine.value.length <3) {
+					msg+="Phone number is a required field.\n";
+		}
+			
+		stripPhoneNumber(f.phoneNxxLine);
+		
+			if (FieldExistsJoin(f.phone,"phone","Phone")
+				&& !IsNumeric(f.phone,"-")|| f.phone.value.length <4) {
+				msg+="Phone is a required field.\n";
+			}
+			
+			stripPhoneNumber(f.phone);
+	} else{
+			if( FieldExistsJoin(f.phoneNpa,"phoneNpa","Area Code") &&
+				   !IsNumeric(f.phoneNpa,"")|| f.phoneNpa.value.length <1) {
+					msg+="Area Code is a required field.\n";
+				}
+			stripPhoneNumber(f.phoneNpa);
+			if (FieldExistsJoin(f.phoneNxxLine,"phoneNxxLine","Phone")
+					&& !IsNumeric(f.phoneNxxLine,"- ") || f.phoneNxxLine.value.length <1) {
+					msg+="Phone number is a required field.\n";
+			}
+			f.phoneNxxLine.value = stripCharsInBag(f.phoneNxxLine.value, " ");
+	      	stripPhoneNumber(f.phoneNxxLine);
+	      	if(f.phoneNxxLine.value.length !=0)
+	      	{
+			phoneNoSize=10;
+			phoneNxxLineSize=phoneNoSize-f.phoneNpa.value.length;
+			if( f.phoneNxxLine.value.length >phoneNxxLineSize || f.phoneNxxLine.value.length == 0 ){
+				msg+="Area code/Phone number is required and cannot be greater then 10 digits\n";
+			}
+			}
+	}
+	
+	if (!IsNumeric(f.phoneExt,"x. ")) {
+				msg+="Phone extension " + phoneText;
+	}
+	stripPhoneNumber(f.phoneExt);
+			
+
+	
+
+	if( alltrim(f.birthYear.value).length != 0){
+		var s = alltrim(f.birthYear.value);
+	   	var i;
+	   	if( s.length != 4){
+	   		msg+="Please provide an accuate Birthdate with the year in YYYY format\n";
+	   	}else{
+			for (i = 0; i < s.length; i++){   
+	        	// Check that current character is number.
+	        	var c = s.charAt(i);
+	        	if (((c < "0") || (c > "9"))){
+					msg+="Please provide an accurate birthdate and in the format MM/DD/YYYY \n";
+					break;
+	        	}
+	    	}
+	    }
+	}
+	var mydata =f.birthMonth.value + "/" +f.birthDay.value + "/"+f.birthYear.value;
+	if( mydata != "//" && !isDate( mydata )){
+					msg+="Please enter an accurate birth date. \n";
+	}
+	if(!CheckEmail(f.email)) {
+		msg+="Email is required, and must be in the format: name@place.domain  \nAppropriate characters: @-_.\n";
+	}
+
+	if( f.email.value != f.email2.value){
+		msg+="Email addresses don't match.";
+	}
+	msg = ValidateJoinPassword(f, msg);
+	msg = ValidateJoinQuestions(f, msg);
+	
+	if (msg) {
+		msg="Please supply the following:\n\n"+msg;
+		alert(msg);
+		return false;
+	}
+	
+	return true;
+}
+
+function ValidateJoinQuestions(f, msg) {
+	var a;
+	var theIndex=0;
+	var theField=0;
+	var questionsAnswered = 0;
+	var i;
+	var questionInd = "D";
+	if (f.questionId != null && f.questionId.value == 0) {
+		msg+= "Secret Security Question is a required field.";
+	}
+	var trimmed = alltrim(f.answer.value);
+	if (trimmed.length == 0) {
+		msg+= "\nPlease provide an answer to the selected security question";
+	}
+	
+	if (trimmed.length > 59) {
+		msg+= "\nSecurity answer must be less than 59 characters";
+	}
+	return  msg;
+}
+function ValidateJoinPassword(f, msg) {
+	var a, b;
+	var pwdLength=6;
+
+	a=alltrim(f.password.value);
+	
+	if (a == "password"
+		|| a == "united"
+		|| a == "mileageplus") {
+		msg+="\"" + a + "\" is not a valid Password.\n";
+	}
+
+	b=alltrim(f.password_1.value);
+
+	if (a !="" && a.length < pwdLength ) {
+		//msg+="Password length is too short ("+pwdLength+"-32 characters).\n";
+		msg+="The password you entered is not valid. Passwords \n"; 
+		msg+="may contain any combination of characters and \n";
+		msg+="must be at least six (6) characters in length.\n";
+		msg+="Certain passwords, such as “united” and \n";
+		msg+="“password” are not allowed for your security.\n\n";
+		msg+="Passwords are case insensitive.\n";
+		
+	} else if (a !="" && a.length > 32) {
+		msg+="Password length is too long ("+pwdLength+"-32 characters).\n";
+		
+	} else if (a=="" && b=="") {
+			msg+="Password is a required field.\n";
+	
+	} else if (a=="" || b=="") {
+		
+		if (b!="" && a =="") {
+			msg+="The re-typed password is not the same as the first.\n";
+		}
+		if (a!="" && b=="") {
+			msg+="The re-typed password is not the same as the first.\n";
+		}
+	} else if (a!="" && a!=b) {
+		msg+="The re-typed password is not the same as the first.\n";
+	} else {
+       	valid = false;              
+      	for(i=0;i<a.length;i++) {
+	        var c=a.charAt(i);
+	        if (isDigit(c) || isLetter(c)) {
+	                valid = true;
+	                msg+=""; break;
+	        }
+     	}
+     	if( !valid){
+      		msg="Password must contain at least one alpha numeric character.\n";
+      	}
+   }
+
+	return msg;
+}
+function aboutBDay(){
+	var s = "We ask your birth date to verify you are \n";
+	s+= "over 12 years of age, as required by the \n";
+	s+= "Child Online Privacy Protection Act (COPPA).";
+	
+	return s;
+}
+function aboutPasswd(){
+
+	var s = "Passwords may contain any combination of characters \n";
+	s+="and must be at least six (6) characters in length. \n\n";
+	
+	s+="Your password will grant you access to\n";
+	s+="certain united.com features\n\n";
+	
+	s+="Certain passwords, such as \'united\' and \'password\' \n";
+	s+="are not allowed for your security.\n\n";
+	
+	s+="Passwords are case insensitive; please remember how \n";
+	s+="it is entered.\n\n";
+	
+	s+="United.com will never request your password in\n";
+	s+="an unsolicted email or phone call\n";
+
+	return s;
+}
+function getTermsText(){
+	var	s = "The Terms and Conditions box is not \n";
+	s+="checked. Please check the box to accept the \n";
+	s+="terms and conditions to join Mileage Plus.\n";
+	
+	return s;
+}
+
+function checkCountry(){
+
+	regForm = document.forms['RegistrationForm'];
+	cntrySelect = regForm.country;
+	destination = cntrySelect.options[cntrySelect.selectedIndex].value;
+	if( destination == 'USA' ){
+		document.all.hiddenPhone.style.display= 'inline';
+		document.all.countryCodeTxt.style.color= '#999999';
+		regForm.phoneCntryCode.value='001';
+		regForm.phoneCntryCode.disabled=true;
+		regForm.phoneNpa.maxLength = 3;
+		regForm.phoneNpa.size = 3;
+		regForm.phoneNxxLine.disabled=false;
+		regForm.phoneNxxLine.size = 3;
+		regForm.phone.disabled=false;
+		regForm.phoneNpa.value='';
+		regForm.phoneNxxLine.value='';
+		regForm.phone.value='';
+		
+		regForm.phoneNpa.focus();
+	}else{
+		document.all.countryCodeTxt.style.color= 'black';
+		regForm.phoneCntryCode.disabled=false;
+		regForm.phoneNpa.maxLength = 3;
+		regForm.phoneNpa.size = 3;
+		regForm.phoneNxxLine.maxLength = 10;
+		regForm.phoneNxxLine.size = 10;
+
+		regForm.phoneCntryCode.value='';
+		regForm.phoneNpa.value = '';
+		regForm.phoneNxxLine.value='';
+		regForm.phone.value='';
+
+		document.all.hiddenPhone.style.display ='none';
+		regForm.phoneCntryCode.focus();
+		return false;
+	}
+}
+
+function autoTab(input,len, e) {
+	regForm = document.forms['RegistrationForm'];
+	cntrySelect = regForm.country;
+	
+	var keyCode = (isNN) ? e.which : e.keyCode; 
+	var filter = (isNN) ? [0,8,9] : [0,8,9,16,17,18,37,38,39,40,46];
+	var isUSA = (cntrySelect.options[cntrySelect.selectedIndex].value == 'USA');
+	
+	if(input.value.length >= len && !containsElement(filter,keyCode) && isUSA) {
+		input.value = input.value.slice(0, len);
+		input.form[(getIndex(input)+1) % input.form.length].focus();
+	}
+}
+function containsElement(arr, ele) {
+	var found = false, index = 0;
+	while(!found && index < arr.length){
+		if(arr[index] == ele){
+			found = true;
+		}
+		else{
+			index++;
+		}
+	}	
+	return found;
+}
+
+function getIndex(input) {
+	var index = -1, i = 0, found = false;
+	while (i < input.form.length && index == -1){
+		if (input.form[i] == input){
+			index = i;
+		}
+		else{
+			i++;
+		}
+	}
+	return index;
+
+}
+
+function alltrim( str){
+	if( str != null){
+		str = str.replace(/^\s*|\s*$/g,"");
+	}
+	return str;
+	
+}
+
+var popupWin;
+function popItUp(url){
+    popupWin=window.open(url,'remote','width=500,height=400,scrollbars=yes')
+    if (window.focus) {newwindow.focus()}
+    return false;
+}
+
+/**
+ * DHTML date validation script. 
+ */
+// Declaring valid date character, minimum year and maximum year
+var dtCh= "/";
+var minYear=1900;
+var today = new Date()
+var maxYear = today.getFullYear();
+var maxDay = today.getDay();
+var maxMonth= today.getMonth();
+
+function isInteger(s){
+	var i;
+    for (i = 0; i < s.length; i++){   
+        // Check that current character is number.
+        var c = s.charAt(i);
+        if (((c < "0") || (c > "9"))) return false;
+    }
+    // All characters are numbers.
+    return true;
+}
+
+function stripCharsInBag(s, bag){
+	var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not in bag, append to returnString.
+    for (i = 0; i < s.length; i++){   
+        var c = s.charAt(i);
+        if (bag.indexOf(c) == -1) returnString += c;
+    }
+    return returnString;
+}
+
+function daysInFebruary (year){
+	// February has 29 days in any year evenly divisible by four,
+    // EXCEPT for centurial years which are not also divisible by 400.
+    return (((year % 4 == 0) && ( (!(year % 100 == 0)) || (year % 400 == 0))) ? 29 : 28 );
+}
+function DaysArray(n) {
+	for (var i = 1; i <= n; i++) {
+		this[i] = 31
+		if (i==4 || i==6 || i==9 || i==11) {this[i] = 30}
+		if (i==2) {this[i] = 29}
+   } 
+   return this
+}
+
+function isDate(dtStr){
+	var daysInMonth = DaysArray(12)
+	var pos1=dtStr.indexOf(dtCh)
+	var pos2=dtStr.indexOf(dtCh,pos1+1)
+	var strMonth=dtStr.substring(0,pos1)
+	var strDay=dtStr.substring(pos1+1,pos2)
+	var strYear=dtStr.substring(pos2+1)
+	var now = new Date();
+	
+	strYr=strYear
+	if (strDay.charAt(0)=="0" && strDay.length>1) strDay=strDay.substring(1)
+	if (strMonth.charAt(0)=="0" && strMonth.length>1) strMonth=strMonth.substring(1)
+	for (var i = 1; i <= 3; i++) {
+		if (strYr.charAt(0)=="0" && strYr.length>1) strYr=strYr.substring(1)
+	}
+	month=parseInt(strMonth)
+	day=parseInt(strDay)
+	year=parseInt(strYr)
+	if (pos1==-1 || pos2==-1){
+		//alert("The date format should be : mm/dd/yyyy")
+		return false
+	}
+	if (strMonth.length<1 || month<1 || month>12){
+		//alert("Please enter a valid month")
+		return false
+	}
+	if (strDay.length<1 || day<1 || day>31 || (month==2 && day>daysInFebruary(year)) || day > daysInMonth[month]){
+		//alert("Please enter a valid day")
+		return false
+	}
+	if (strYear.length != 4 || year==0 || year<minYear || year>maxYear){
+		//alert("Please enter a valid 4 digit year between "+minYear+" and "+maxYear)
+		return false
+	}
+	if (dtStr.indexOf(dtCh,pos2+1)!=-1 || isInteger(stripCharsInBag(dtStr, dtCh))==false){
+		//alert("Please enter a valid date")
+		return false
+	}
+	var dateEntered = new Date();
+	dateEntered.setDate(day);
+	dateEntered.setMonth(month-1); // January = 0
+	dateEntered.setFullYear(year);
+	dateEntered.setHours(0);
+	dateEntered.setMinutes(0);
+	dateEntered.setSeconds(0);
+	dateEntered.setMilliseconds(0);
+	if (dateEntered > today){
+		return false;
+	}
+	return true
+}
+
+function postalLengthCharCheck( value, len ){
+	value = stripChars( '- ', value);
+	if( value.length > len){
+		return false;
+	}
+	return true;
+
+}
+
+function stripChars(s, bag){
+	var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not in bag, append to returnString.
+    for (i = 0; i < bag.length; i++){   
+        var c = bag.charAt(i);
+        var add = true;
+        for (j = 0; j < s.length; j++){   
+     		  var cc = s.charAt(j);
+     		  if (cc == c){
+     		  	add = false;
+     		  	break;
+     		  }
+        }
+        if( add ){
+     		  	returnString += c;
+     		}
+    }
+    return returnString;
+}
+
+function replaceSpan(_parent, txt, _oldSpan){
+
+    //create the new span
+    var newSpan = document.createElement("span");
+    var newText = document.createTextNode(txt);
+
+    newSpan.appendChild(newText);
+    newSpan.setAttribute( "id", _oldSpan);
+		newSpan.setAttribute("style", "color:");     
+    
+		// get the parent of the span
+    var parent = document.getElementById(_parent);
+    var spanElm = document.getElementById(_oldSpan);
+    var replaced = parent.replaceChild(newSpan,spanElm);
+        
+				
+    return newSpan;
+        
+}
+
+function FieldExistsJoin(e,s,s2) {
+	if (!e) {
+		msg+="Form Element "+s+" not found.\n";
+		return false;
+	}
+	return true;
+}
+
+function checkCountryState(){
+
+	regForm = document.forms['RegistrationForm'];
+	cntrySelect = regForm.country;
+	destination = cntrySelect.options[cntrySelect.selectedIndex].value;
+
+	if( destination != 'USA' && destination != ''){
+		document.all.countryCodeTxt.style.color= 'black';
+		regForm.phone.disabled=false;
+		regForm.phoneNpa.maxLength = 3;
+		regForm.phoneNpa.size = 3;
+		regForm.phoneNxxLine.maxLength = 8;
+		regForm.phoneNxxLine.size = 8;
+		document.all.hiddenPhone.style.display ='none';
+	}else if( destination == 'USA' ){
+		document.all.hiddenPhone.style.display= 'inline';
+		document.all.countryCodeTxt.style.color= '#999999';
+		regForm.phoneCntryCode.value='001';
+		regForm.phoneCntryCode.disabled=true;
+		regForm.phoneNpa.maxLength = 3;
+		regForm.phoneNpa.size = 3;
+		regForm.phoneNxxLine.disabled=false;
+		regForm.phoneNxxLine.size = 3;
+		regForm.phone.disabled=false;
+	}
+	
+
+}
+
+function isCAPostCode(entry){ // CANADIAN CODES ONLY
+	entry = trim(entry);
+	entry = stripCharsInBag( entry, "- ");
+	strlen=entry.length; if (strlen!=6 ) {return false}
+	entry=entry.toUpperCase();    // in case of lowercase characters
+	// Check for legal characters in string - note index starts at zero
+	if ('ABCEGHJKLMNPRSTVXY'.indexOf(entry.charAt(0))<0) {return false}
+	if ('0123456789'.indexOf(entry.charAt(1))<0) {return false}
+	if ('ABCDEFGHJKLMNPQRSTUVWXYZ'.indexOf(entry.charAt(2))<0) {return false}
+	if ('0123456789'.indexOf(entry.charAt(3))<0) {return false}
+	if ('ABCDEFGHJKLMNPQRSTUVWXYZ'.indexOf(entry.charAt(4))<0) {return false}
+	if ('0123456789'.indexOf(entry.charAt(5))<0) {return false}
+	return true; 
+}

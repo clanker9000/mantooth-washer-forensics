@@ -1,0 +1,15 @@
+* 09:30:46 ----- PGP Desktop started -----
+* 09:30:46 PGP Desktop 9.6.1 (Build 1012)
+* 09:30:46 Today's date is Wednesday, June 20, 2007
+W 09:30:46 Your current PGP Desktop license does not support proxying
+W 09:30:46 Outgoing email messages will not be secured by PGP
+I 09:30:46 Setting logging level to: normal
+W 09:30:46 Your current PGP Desktop license does not support proxying
+W 09:30:46 Outgoing email messages will not be secured by PGP
+I 09:30:48 Initiating daily maintenance procedures
+E 11:25:13 Cannot proxy process 3964 due to insufficient privileges.  Process may be a service.
+I 11:50:57 Processing message from <dollarhyde86@comcast.net> with subject: Microsoft Office Outlook Test Message
+I 11:51:01 Processing message from <olteam@microsoft.com> with subject: Welcome to Microsoft Office Outlook 2003
+I 11:51:02 Processing message from <dollarhyde86@comcast.net> with subject: Microsoft Office Outlook Test Message
+I 11:51:10 Processing message from <olteam@microsoft.com> with subject: Welcome to Microsoft Office Outlook 2003
+I 11:56:39 Processing message from <chkwasher@comcast.net> with subject: Whats up in D town?

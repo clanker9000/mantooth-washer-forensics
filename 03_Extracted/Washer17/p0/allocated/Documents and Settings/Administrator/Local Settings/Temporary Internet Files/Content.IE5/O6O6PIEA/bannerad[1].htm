@@ -1,0 +1,135 @@
+document.write("<div id='clicksorarea799' align='center' style='width:468px; height:60px'></div>");function clck_get_url(){
+var clck_pageurl;
+var clck_temp;
+clck_temp = self;
+var clck_max_f = 0;
+while(clck_max_f < 10){
+clck_max_f++;
+if (clck_max_f == 10){return document.URL};
+try
+  {
+	clck_pageurl = clck_temp.parent.document.referrer;
+	if (clck_pageurl == ""){
+		return clck_temp.parent.document.URL;
+	}else{
+		if (clck_temp.parent == clck_temp.self){
+			return clck_temp.document.URL;
+		}
+	}
+	clck_temp = clck_temp.parent;
+  }
+catch(err)
+  {
+	return clck_temp.document.referrer;
+  }
+}
+}
+var clk_ref = clck_get_url();
+var clicksor_search_ary='';if(typeof(clicksor_search)=='object'){for(var i=0;i<clicksor_search.length;i++){if(i<5)clicksor_search_ary+= clicksor_search[i] +'|';else break;}}clicksor_search_ary = clicksor_search_ary.substring(0, clicksor_search_ary.length-1);clk_siteID='118519';clk_pid='81367';clk_adtype='2';uw1185297635=2; var clk_ClIEtest=/MSIE/.test(navigator.userAgent);clk_ClOperatest=/Opera/.test(navigator.userAgent);clk_Clgeckotest=/Gecko/.test(navigator.userAgent);uselink=0;
+
+clklw=275;clklh=140;
+
+
+/*
+var my_clicksor_text_link_bg = '';
+var my_clicksor_layer_border_color ='B4D0DC';
+var my_clicksor_layer_ad_bg ='ECF8FF';
+var my_clicksor_layer_ad_text_color = '000000';
+var my_clicksor_layer_ad_link_color = '0000CC';
+
+if(typeof(clicksor_text_link_bg)!="undefined")my_clicksor_text_link_bg = clicksor_text_link_bg;
+if(typeof(clicksor_layer_border_color)!="undefined")my_clicksor_layer_border_color = clicksor_layer_border_color;
+if(typeof(clicksor_layer_ad_bg)!="undefined")my_clicksor_layer_ad_bg = clicksor_layer_ad_bg;
+if(typeof(clicksor_layer_ad_text_color)!="undefined")my_clicksor_layer_ad_text_color = clicksor_layer_ad_text_color;
+if(typeof(clicksor_layer_ad_link_color)!="undefined")my_clicksor_layer_ad_link_color = clicksor_layer_ad_link_color;
+*/
+
+
+
+var my_clicksor_def_url = '';
+if(typeof(durl)=="undefined")durl='';
+
+if(typeof(clicksor_default_url)!="undefined")
+my_clicksor_def_url = clicksor_default_url;
+
+
+var my_clicksor_text_link_color ='000FFF';
+if(typeof(clicksor_text_link_color)!="undefined")
+my_clicksor_text_link_color = clicksor_text_link_color;
+
+
+extra_search='';if(typeof(clicksor_search_ary)!="undefined")extra_search=escape(clicksor_search_ary);
+
+clk_first_loaded1543=false;
+ndload='y';
+if(typeof(clk_started)=="undefined"){
+	window.clk_started=true;
+	clk_first_loaded1543=true;
+	ndload='n';
+}else{
+	clk_first_loaded1543=false;
+	ndload='y';
+}
+clk_go_spd=0;
+
+
+
+if(typeof(clicksor_enable_text_link)!="undefined"){// && clicksor_enable_text_link){
+	if(typeof(enabled_4)!="undefined")	uw1185297635 = uw1185297635 & 11;
+	else{
+		function ClKflaVer(req){
+			var ver = '';
+			if (navigator.plugins != null && navigator.plugins.length > 0) {
+				if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+					var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+					var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;			
+					var descArray = flashDescription.split(" ");
+					var tempArrayMajor = descArray[2].split(".");
+					ver = tempArrayMajor[0];
+				}
+			}else if(clk_ClIEtest || clk_ClOperatest){
+				try {
+					var axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.8");
+					ver = axo.GetVariable("$version");
+					var tempArray = ver.split(" ");
+					var tempString = tempArray[1];
+					var versionArray = tempString.split(",");
+					ver = versionArray[0];
+				} catch (e) {}
+			}
+			if(ver!='' && parseFloat(ver)>=req)
+				return true;
+			return false;
+		}
+		
+		if(ClKflaVer(8)){
+			enabled_4=true;uw1185297635=uw1185297635|4;
+		
+			document.write('<div id="CL3O7MDG" style="z-index:9999999;visibility:visible;display:block;position:absolute;width:1px;height:1px;left:3px;top:3px;overflow:hidden"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="clicksorBanner" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+clklw+'" height="'+clklh+'">  <param name="movie" value="http://ads.clicksor.com/serving/flash/clicksorTextLink.swf?c='+escape(my_clicksor_text_link_color)+'&p=81367&s=118519&nid=1&r='+escape(clk_ref)+'">  <param name="quality" value="high">  <param name="allowScriptAccess" value="always"> <PARAM NAME=wmode VALUE=transparent>  <embed src="http://ads.clicksor.com/serving/flash/clicksorTextLink.swf?r='+escape(clk_ref)+'&c='+escape(my_clicksor_text_link_color)+'&p=81367&s=118519&nid=1" quality="high" name="clicksorBanner" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="'+clklw+'" height="'+clklh+'" swliveconnect="true" allowScriptAccess="always"></embed></object></div>');
+		}
+	}
+}
+
+
+if(clk_first_loaded1543){
+	clicksor_loaded=false;
+
+	function CLKLD2_1543(){
+		clicksor_loaded=true	
+	}
+	CLK_oldonload2=window.onload;
+	if(typeof(CLK_oldonload2)!='function'){
+		onload=CLKLD2_1543	}else{
+		onload=function(){
+				CLK_oldonload2();
+				CLKLD2_1543();
+		}
+	}
+}
+
+
+
+if(clk_first_loaded1543 && uw1185297635|4)clk_go_spd=1;
+
+popenable=0;
+if(typeof(clicksor_enable_pop)!="undefined"&&clicksor_enable_pop){if(typeof(enabled_8)!="undefined")uw1185297635=uw1185297635&7;else{popenable=1;enabled_8=true;uw1185297635=uw1185297635|8}}document.write("<scrip"+"t type='text/javas"+"cript'");document.write(" src='http://ads.clicksor.com/serving/contextualAd.php?uw="+uw1185297635+"&spd="+clk_go_spd+"&ndload="+ndload+"&sid=118519&pid=81367&adtype=2&zone=&uid=24321911004019&an=clicksorarea799&cterm="+extra_search+"&cpa=&tl="+escape(document.title)+"&ref="+escape(clk_ref)+"&dfurl="+escape(my_clicksor_def_url)+"&durl="+escape(durl)+"'></sc"+"ript>");

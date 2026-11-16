@@ -1,0 +1,160 @@
+
+
+
+<div class="scoreboard-scores-viewport scroller-container">
+    <!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Philadelphia</td>
+                    <td class="score"><span class="lose">3</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">NY Islanders</td>
+                    <td class="score"><span class="win">4</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Carolina</td>
+                    <td class="score"><span class="win">3</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">Boston</td>
+                    <td class="score"><span class="lose">2</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Montreal</td>
+                    <td class="score"><span class="lose">2</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">Tampa Bay</td>
+                    <td class="score"><span class="win">3</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Buffalo</td>
+                    <td class="score"><span class="win">5</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">Ottawa</td>
+                    <td class="score"><span class="lose">1</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Detroit</td>
+                    <td class="score"><span class="lose">2</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">Nashville</td>
+                    <td class="score"><span class="win">4</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Los Angeles</td>
+                    <td class="score"><span class="lose">2</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">St. Louis</td>
+                    <td class="score"><span class="win">4</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Minnesota</td>
+                    <td class="score"><span class="lose">2</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">Edmonton</td>
+                    <td class="score"><span class="win">4</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Anaheim</td>
+                    <td class="score"><span class="win">2</span></td>
+                    <td class="time" rowspan="2">Final</td>
+                  </tr>
+                  <tr>
+                    <td class="team">Colorado</td>
+                    <td class="score"><span class="lose">1</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+          --><div class="scoreboard-scores-container darkbox">
+            <table cellspacing="0">
+              <tbody>
+                  <tr>
+                    <td class="team">Calgary</td>
+                    <td class="score"><span class="win">4</span></td>
+                    <td class="time" rowspan="2">Final - OT</td>
+                  </tr>
+                  <tr>
+                    <td class="team">San Jose</td>
+                    <td class="score"><span class="lose">3</span></td>
+                  </tr>
+              </tbody>
+            </table>
+            <i class="ul"> </i><i class="ur"> </i>
+            <i class="ll"> </i><i class="lr"> </i>
+          </div><!--
+    -->
+</div>

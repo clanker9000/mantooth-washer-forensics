@@ -1,0 +1,1 @@
+document.write('<a href="http://eatps.web.aol.com:9000/open_web_adhoc?subtype=2811&distset=cs0307nonreal&click=http%3A%2F%2Frealestate%2Eaol%2Ecom%2F" target="_blank"><img src="https://s.aolcdn.com/art/pops_promo/cs_180x150_realest_0806.gif" border="0" width="180" height="150"></a>');

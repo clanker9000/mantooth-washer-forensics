@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+<xsl:stylesheet version='1.0' xmlns:xsl="http://www.w3.org/TR/WD-xsl">
+<xsl:template match="/">
+<HTML>
+<HEAD>
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0" />
+  <meta name="ProgId" content="FrontPage.Editor.Document" />
+  <title>Microsoft Application Search</title>
+  <LINK REL="stylesheet" TYPE="text/css" HREF="..\fileassoc.css" />
+</HEAD>
+<BODY TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+<xsl:for-each select="MSFILEASSOCIATIONS">
+  <table border="0" width="100%" cellspacing="0" cellpadding="0" style="background-image: url(../../HeaderSlice.jpg); background-repeat: repeat-x;">
+    <tr>
+      <td>
+        <img border="0" src="../../Win_FileAssoc_Header.jpg"/>
+      </td>
+    </tr>
+  </table>
+  <DIV STYLE="margin-left: 15; margin-right: 15;">
+  <font size="2">
+  <BR/>
+  Windows has the following information about this file type.
+  This page will help you find software needed to open your file.
+  <BR/>
+  <BR/>
+  <BR/>
+  <P><b>File Type: </b> <xsl:value-of select="FILETYPENAME"/> </P>
+  <xsl:if test="FILEEXT">
+    <P><b>File Extension: </b> .<xsl:value-of select="FILEEXT"/> </P>
+  </xsl:if>
+  <b>Description: </b> <xsl:value-of select="DESCRIPTION" disable-output-escaping='yes'/>
+
+  <xsl:if test=".[UNKNOWN='TRUE']">
+  Windows does not recognize this file type.  
+  <BR/>
+  <BR/> 
+  </xsl:if>
+
+  
+  <xsl:if test="APP">
+  Software or information available at:
+  <ul>
+    <xsl:for-each select="APP">
+    <li>
+      <xsl:choose>
+        <xsl:when test="URL">
+          <A>
+          <xsl:attribute name="HREF"> <xsl:value-of select="URL"/> </xsl:attribute>
+          <xsl:value-of select="NAME"/>
+          </A>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="NAME"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </li>
+    </xsl:for-each>
+  </ul>
+   <BR/>
+  </xsl:if>
+
+       <!-- Replaced IFRAME with actual code from SearchEngine.asp; this is due to avoid content hidden when browser window size is very small-->
+      <!--	    <IFRAME FRAMEBORDER="0" SCROLLING="NO" WIDTH="100%" HEIGHT="80" SRC="../SearchEngine.asp"></IFRAME>  -->
+
+   <font size="2">
+      You may search the following Web site for related software and information: <BR/>
+      <UL>
+        <LI>
+          <A HREF="JavaScript:window.parent.location.assign('http://go.microsoft.com/fwlink/?LinkID=83833&amp;clcid=0x409&amp;q=file+extension+' + location.search.substring(5, location.search.length));">
+            Windows Live Search
+          </A>
+        </LI>
+      </UL>
+
+      You may purchase or download software related to this file type from the following Web site: <BR/>
+      <UL>
+        <LI>
+          <A HREF="JavaScript:window.parent.location.assign('http://go.microsoft.com/fwlink/?LinkID=88239&amp;text=.' + location.search.substring(5, location.search.length)+ '&amp;WT.mc_id=' + location.search.substring(5, location.search.length));">
+            Windows Marketplace
+          </A>
+        </LI>
+      </UL>
+    </font>
+  <BR/>
+
+Have questions?  See these
+<a href="../faq.asp">Frequently Asked Questions</a>.
+<BR/>
+<BR/>
+<font size="1">
+<hr color="#cccccc" noShade="true" SIZE="1" />
+</font>
+
+<copyright>Copyright © 2007 Microsoft Corporation. All rights reserved.</copyright>
+<a href="http://www.microsoft.com/info/cpyright.htm">Terms of Use</a>
+<font color="#3366cc">|</font>
+<a href="http://www.microsoft.com/enable">Disability/accessibility</a>
+<font color="#3366cc">|</font> <a href="http://www.microsoft.com/info/privacy.htm">Privacy Statement</a>
+</font>
+</DIV>
+</xsl:for-each>
+</BODY>
+
+</HTML>
+</xsl:template>
+</xsl:stylesheet>

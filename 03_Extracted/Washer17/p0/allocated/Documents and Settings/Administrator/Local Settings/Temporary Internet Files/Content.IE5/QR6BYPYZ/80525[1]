@@ -1,0 +1,26 @@
+
+<dl class="current">
+	<dt>Current</dt>
+	<dd class="time">Recorded at 7:29 AM</dd>
+	<dd class="temp">25&deg;</dd>
+	<dd class="loc">Fort Collins, CO</dd>
+    <dd class="icon"><img class="png" src="http://chrome-p-a.comcast.net/ui/images/modules/assistant/modules/weather/icons/large/34.png" alt="" /></dd>
+</dl>
+
+
+
+<dl class="forecast today">
+  <dt>Today</dt>
+  <dd class="desc">Partly Cloud...</dd>
+  <dd class="temp hi"><b>H:</b>52&deg;</dd>
+  <dd class="temp lo"><b>L:</b>16&deg;</dd>
+   <dd class="icon"><img src="http://chrome-p-a.comcast.net/ui/images/modules/assistant/modules/weather/icons/medium/30.png" class="png" alt="" /></dd>
+</dl>
+
+<dl class="forecast tomorrow">
+  <dt>Tomorrow</dt>
+  <dd class="desc">Snow Shower</dd>
+  <dd class="temp hi"><b>H:</b>28&deg;</dd>
+  <dd class="temp lo"><b>L:</b>6&deg;</dd>
+  <dd class="icon"><img src="http://chrome-p-a.comcast.net/ui/images/modules/assistant/modules/weather/icons/medium/14.png" class="png" alt="" /></dd>
+</dl>

@@ -1,0 +1,25 @@
+.contestBox {color:#000;margin:0 0 16px 0;padding:11px 5px 11px 85px;border-top:2px solid #E3BA14;min-height:49px;background:#F8F4E2 url(/images2/photo_contest/photo_feud_small.gif) 7px 4px no-repeat;}
+/*\*/
+* html .contestBox {height:49px;}
+/**/
+.floatRight .contestBox {margin:-130px 0 5px 0;width:142px;padding:7px 80px 11px 8px;text-align:left;height:54px;background-position:158px 4px;}
+* html .floatRight .contestBox {height:71px;width:230px;}
+.floatRight .contestBox h3 {padding-top:0;}
+.floatRight .contestBox input {width:auto;height:auto;margin:0 3px 0 0;}
+p.contestInfo {width:230px;}
+p.contestInfo strong {color:#000;}
+
+.photoThumb {position:relative;}
+.photoThumb .contest a {cursor:hand;position:absolute;top:-2px;left:67px;width:66px;height:66px;background:url(/images2/photo_contest/sash.gif) no-repeat 0 0;}
+.bigPhoto .sash span, .photoThumb .contest a span {display:none;}
+.photoThumb .addContest a {cursor:hand;position:absolute;left:1px;top:31px;width:129px;padding:4px 0;border-top:1px solid #CECEBD;border-bottom:1px solid #CECEBD;background:url(/images2/photo_contest/banner.gif) 0 0;}
+
+.contestAcct {float:left;background:#F7EFD6 url(/images2/photo_contest/feud_acct.gif) no-repeat 4px 1px;padding:2px 6px 3px 0;position:relative;top:-2px;left:-2px;}
+.contestAcct a {padding-left:97px;}
+* html #accountBar {overflow:hidden;}
+* html .contestAcct {padding-bottom:0;top:-1px;height:17px;}
+
+.bigPhoto {position:relative;}
+.bigPhoto .sash {position:absolute;top:-1px;left:334px;width:88px;height:88px;background:url(/images2/photo_contest/sash_viewer.gif) no-repeat 0 0;}
+
+.submitBig {cursor:hand;font-size:16px;font-weight:bold;font-family:Arial,Verdana,Helvetica;border:2px solid #000!important;background:#fff url(/images/topNav/search_button.gif) repeat-x bottom left;padding:3px;margin:0 0 20px 0;width:auto!important;}

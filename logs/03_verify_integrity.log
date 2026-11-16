@@ -1,0 +1,19 @@
+﻿== 1. Originals vs working copies ==
+  files compared=157 mismatches=0 extra_in_copy=0
+== 2. E01 media hash vs acquisition log ==
+  VERIFIED  BootCamp\Evidence Files\Mantooth.E01  bytes=128,450,048  md5=31217210a1a69f272079a3bde3d9d8fc
+  VERIFIED  BootCamp\Evidence Files\Sheldon Thumbdrive.E01  bytes=49,283,072  md5=5c13b47e952511f0bdd34f1e234f27dd
+  VERIFIED  BootCamp\Evidence Files\Thumbdrive 05.E01  bytes=128,450,048  md5=40fc41a365f6d1c3f524661dc06eb912
+  VERIFIED  BootCamp\Evidence Files\Washer 17.E01  bytes=128,450,048  md5=147307d626aa2c090bd6abfe4a9a1909
+  VERIFIED  Intermediate\Evidence FIles\Thumbdrive 05.E01  bytes=128,450,048  md5=40fc41a365f6d1c3f524661dc06eb912
+  VERIFIED  Intermediate\Evidence FIles\VSC - Exercise.E01  bytes=2,154,823,680  md5=bf9c69dc8f549813372c636311d90a1b
+  VERIFIED  Intermediate\Evidence FIles\Washer 17.E01  bytes=128,450,048  md5=147307d626aa2c090bd6abfe4a9a1909
+  VERIFIED  Intermediate\Evidence FIles\Win10ClassImage.E01  bytes=1,503,657,984  md5=72d51e6e2acbc6730dbe6351e4ffe0e8
+== 3. AD1 logical image hash vs acquisition log ==
+  ERROR UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 1: invalid start byte  BootCamp\Evidence Files\Student Practical.ad1  bytes=0  md5=  logged=5e9ac1e255480dece01be94505872359
+  ERROR UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd2 in position 1: invalid continuation byte  Intermediate\Evidence FIles\Andy_Zipper_Emails.ad1  bytes=0  md5=  logged=b3b41e0f02b5433511dbf31327bcfadf
+  NOT REPRODUCED  Intermediate\Evidence FIles\Class Image.ad1  bytes=3,782,471,564  md5=cabd7eb6757d18b77c0fc4f9b753ba51  logged=206a7ca277efd20d372792819f83e04d
+  NOT REPRODUCED  Intermediate\Evidence FIles\Geotag_Files.ad1  bytes=174,693,635  md5=92621352a7cafa078daa19c7fffddbe5  logged=1e2fb421a04931feebec717541966dc0
+  ERROR UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 1: invalid continuation byte  Intermediate\Evidence FIles\Mantooth34.ad1  bytes=0  md5=  logged=5ae0b45a38014bd2e2d7eab37678efd3
+  NOT REPRODUCED  Mobile\iOSBackupParsed.ad1  bytes=452,764,610  md5=eb3a9198c191e585003792e5eb6c7c25  logged=22fef2fe7bdb8b46a556903f683d1dfe
+  NOT REPRODUCED  Mobile\Windows_CCI_Nov2017.ad1  bytes=825,675,474  md5=a42ec6951d5a997080c606615d44ed26  logged=1ee0f99f9cf0bcb96adaa2032347c22d

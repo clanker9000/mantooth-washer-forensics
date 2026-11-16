@@ -1,0 +1,310 @@
+/* ------------------------------------------------------------------------- */
+/* Global Overrides                                                          */
+/* ------------------------------------------------------------------------- */
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+/*
+The panacea for IE6 resize problems, stemming from its treatment of
+height as a min-height:   overflow:hidden
+*/
+.dojoTabPaneWrapper,
+.dojoTabPane
+{
+	overflow: hidden;	
+}
+
+/* ------------------------------------------------------------------------- */
+/* Links                                                                     */
+/* ------------------------------------------------------------------------- */
+.wsLink, .wsLink:visited
+{
+	text-decoration: none;
+	color: #0066CC;
+	cursor: pointer;
+	cursor: hand;	/* For IE 5.5 */
+}
+.wsLink:hover, .wsLink:focus
+{
+	text-decoration: underline;
+	color: #0066CC;
+}
+.wsLinkDisabled, .wsLinkDisabled:hover, .wsLinkDisabled:focus
+{
+	cursor: default;
+	text-decoration: none;
+	color: #999999;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Input fields                                                              */
+/* ------------------------------------------------------------------------- */
+.wsInput
+{
+	border: 1px solid #85817c;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.wsInputDefault
+{
+	color: #999999;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Standard buttons                                                          */
+/* ------------------------------------------------------------------------- */
+.wsSmallCoolCloseButton
+{
+	display: block;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	background: url("images/main.gif") -1424px -0px;
+}
+.wsSmallCoolCloseButton:hover
+{
+	background-position: -1439px -0px;
+}
+
+.wsSmallAddButton
+{
+	width: 14px;
+	height: 14px;
+	background: url("images/main.gif") -1259px -0px;
+}
+.wsSmallAddButton:hover
+{
+	background-position: -1274px -0px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Suite Layout                                                              */
+/* ------------------------------------------------------------------------- */
+
+#ws_hat
+{
+	position: absolute;
+	overflow: hidden;
+	height: 111px;
+	/* Values below are overwritten during init/resize; fallback only. */
+	width: 1024px;
+}
+
+#ws_ad
+{
+	position: absolute;
+	overflow: hidden;
+	background: #94918C;
+	border-bottom: solid 1px #b5b5b5;
+	/* values below are overwritten during init/resize; fallback only. */
+	top: 654px;
+	width: 819px;
+}
+
+#ws_footer
+{
+	position: absolute;
+	overflow: hidden;
+	border-top: 1px solid #ADAAA6;
+	/* Values below are overwritten during init/resize; fallback only. */
+	top: 748px;
+	width: 1024px;
+}
+
+#ws_nav
+{
+	position: absolute;
+	overflow: auto;
+	background-color: #f3ece0;
+	width: 160px;
+	color: #000000;
+	/* Values below are overwritten during init/resize; fallback only. */
+	top: 66px;
+	height: 683px;
+}
+
+#ws_southwestad
+{
+	position: absolute;
+	overflow: hidden;
+	width: 150px;
+	background-color: #ffffff;
+}
+
+#ws_navsplitter
+{
+	/* Values below are overwritten during init/resize; fallback only. */
+	left: 150px;
+	top: 36px;
+	height: 708px;
+}
+
+#ws_view
+{
+	position: absolute;
+	/* Values below are overwritten during init/resize; fallback only. */
+	left: 205px;
+	top: 36px;
+	width: 614px;
+	height: 618px;
+}
+
+#ws_panelsplitter
+{
+	/* values below are overwritten during init/resize; fallback only. */
+	left: 819px;
+	top: 36px;
+	height: 618px;
+}
+
+#ws_panel
+{
+	position: absolute;
+	width: 150px;
+	border: 0px;
+	overflow: hidden;
+	/* Values below are overwritten during init/resize; fallback only. */
+	left: 824px;
+	top: 36px;
+	height: 618px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Calendar                                                                  */
+/* ------------------------------------------------------------------------- */
+
+.gridViewMoveGhost
+{
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #FFFFFF;
+	cursor: move;
+}
+
+.untimedViewMoveGhost
+{
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #FFFFFF;
+	cursor: move;
+}
+
+.columnViewMoveGhost
+{
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;
+	color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	cursor: move;
+}
+
+.columnViewResizeGhost
+{
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;
+	color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	cursor: n-resize;
+}
+
+.columnViewDirectEntryGhost
+{
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	cursor: crosshair;
+}
+/* Need to add body in front of declarations in this style sheet because
+   it's loaded before any of the widget-specific style sheets.. so in order
+   to override them, it has to have more specific selectors.  */
+
+body .WSHat {
+	color: #ffffff;
+}
+
+body .WSHat a, body .WSHat a:visited, body .WSHat .wsLink {
+	color: #ffffff;
+}
+
+body .WSHat .topHat {
+	border-bottom: 1px solid #000000;
+}
+
+body .WSNavigation {
+	background-color: #e8e8e8;
+}
+
+/* Override the hover color for list views and menus */
+
+body .listView .turbogrid-row-over .turbogrid-cell { background-color: #fef2c1 !important; }
+
+body .peoplePicker .showHighlight .row-highlight .turbogrid-cell { background-color: #fef2c1 !important; }
+
+body .wsMenu .dojoMenuItem2Hover {	background-color: #fef2c1; }
+
+/* Black border for buttons */
+body .wsButtonBlue .content,
+body .WSHat .searchArea .wsButton .content,
+body div.wsButtonBlue:hover .content,
+body div.wsButtonHoverBlue .content,
+body div.wsButtonBlue:hover .contentDisabled,
+body div.wsButtonHoverBlue .contentDisabled {
+	border: 1px solid black;
+}
+
+body .editCalendar .screenNameRowHover {background-color: #fef2c1 !important;}
+
+body .settings .pageList
+{
+	background-color: #e8e8e8;
+}
+
+body .footer_container
+{
+	background-color: #e8e8e8;
+}
+
+body .messageListView .turbogrid-header-sort-down	{	background-color: #fef2c1 !important; }
+body .messageListView .turbogrid-header-sort-up		{	background-color: #fef2c1 !important; }
+
+/* IM style overrides */
+body .buddyList .groupTitle {
+	background-color: #dfe0e5;
+}
+body .buddyList .groupTitle a:hover, body .buddyList .buddy a:hover {
+	background-color: #fef2c2;
+}
+body .imGroup .nav {
+	background-color: #e8e8e8;
+}
+
+/* This stylesheet gives us a method of overriding values for International.
+   This blank version will get copied to each static directory during the build process
+   and will then get overwritten if there's a copy in resources/$brand/$lang-$locale/
+*/

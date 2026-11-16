@@ -1,0 +1,60 @@
+body,
+div#container,
+div#whiteWrap,
+div.tr,
+#footer,
+.dotTop,
+.dotBot {background:none;}
+body {font-size:1em;}
+
+div#topNavSearch {margin:0;padding:0;background:none;}
+div#topNavSearch h2,
+div#topNavSearch h3 {background:none;width:auto;height:auto;}
+div#topNavSearch h2 a {width:auto;height:auto;text-decoration:none;color:#000;}
+div#topNavSearch h2 a span,
+div#topNavSearch h3 span {display:block;font-size:1.4em;}
+div#topNavSearch h2 a span:after {content:'.com';}
+div#topNavSearch h3 {margin-top:1.2em;}
+div#topNavSearch h3 span {font-size:.9em;}
+
+div#accountBarWrap,
+div#topNavSearch ul,
+div#topSearch,
+div#topNavSearch b,
+table.bannerTable,
+div#breadcrumbTabs,
+div#rightColumn,
+div#indivNav div,
+div#amenitiesBox,
+div#topRating,
+div.googleAdjust,
+div.indivNav,
+div#ratingOptions,
+div.photoThumb a,
+div.reviewerProfile a.contact,
+div.google,
+div.squareAd,
+div#bottomBannerAd,
+div#footer ul li,
+div#homeAd {display:none!important;}
+
+div#footer ul li#right {display:block!important;}
+
+div#container,
+div#white,
+div#whiteWrap,
+div#topNavSearch,
+div#leftColumn,
+div#rightColumn,
+div#footer,
+div#home {float:none;width:auto!important;margin:0!important;padding:0!important;}
+div#home {left:0;}
+div#spotlight p {float:none;width:auto;padding:0 0 0 139px;}
+
+div#white {border:none;}
+div.reviewBlurb {border-top:1px solid #666;border-bottom:1px solid #666;}
+div.blurb {line-height:1.5em;}
+div.blurb p,
+.reviewFull div.blurb p {width:auto;}
+div.blurb a[href]:after {content:" (" attr(href) ") ";font-size:90%;}
+div.blurb a[href^="/"]:after {content:" (http://igougo.com" attr(href) ") ";}

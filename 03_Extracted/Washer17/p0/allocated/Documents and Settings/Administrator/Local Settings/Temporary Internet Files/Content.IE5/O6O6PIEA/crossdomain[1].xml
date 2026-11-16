@@ -1,0 +1,21 @@
+
+
+<?xml version="1.0"?>
+<!-- http://aolcomspdev.office.aol.com/crossdomain.xml -->
+<cross-domain-policy>
+  <allow-access-from domain="cdn-aimtoday.aol.com" />
+  <allow-access-from domain="aimtoday.aolcdn.com" />
+  <allow-access-from domain="aimtoday.aol.com" />
+  <allow-access-from domain="*.aol.com" />
+  <allow-access-from domain="*.channels.aol.com" />
+  <allow-access-from domain="*.web.aol.com" />
+  <allow-access-from domain="*.websys.aol.com" />
+  <allow-access-from domain="*.my.aol.com" />
+  <allow-access-from domain="*.office.aol.com" />
+  <allow-access-from domain="*.digitalcity.com" /> 
+</cross-domain-policy>
+<!-- ntc5-l09.sis.aol.com -->
+
+
+
+

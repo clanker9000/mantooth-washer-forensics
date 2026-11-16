@@ -1,0 +1,17 @@
+document.write('');
+
+
+	var clickTag1 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://www.fxnetworks.com/shows/originals/damages/";
+	var clickTag2 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://www.fxnetwork.com/shows/originals/downloads/DmgsWallpaper_1_800.jpg";
+	var clickTag3 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://www.fxnetwork.com/shows/originals/downloads/DmgsWallpaper_1_1024.jpg";
+	var clickTag4 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://www.fxnetwork.com/shows/originals/downloads/DmgsWallpaper_1_1280.jpg";
+	var clickTag5 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://cdn.eyewonder.com/100125/fxdamages/FXDamages.html";
+	var clickTag6 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://television.aol.com/show/damages/SH9244230000/main";
+	var clickTag7 = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://cdn.eyewonder.com/100125/fxdamages/FX_Damages.ics";
+	var failclickTag = "http://twx.doubleclick.net/click%3Bh=v8/35b5/3/0/%2a/c%3B104493017%3B0-0%3B0%3B11774305%3B4307-300/250%3B21904220/21922110/1%3B%3B%7Esscs%3D%3fhttp://www.fxnetworks.com/shows/originals/damages/";
+
+
+
+//-->    
+
+document.write('\n\n\n<script language=\"Javascript\" type=\"text/javascript\" src=\"http://cdn.eyewonder.com/100125/752145/907926/exp_Proxy.js\"><\/script>');document.write('');

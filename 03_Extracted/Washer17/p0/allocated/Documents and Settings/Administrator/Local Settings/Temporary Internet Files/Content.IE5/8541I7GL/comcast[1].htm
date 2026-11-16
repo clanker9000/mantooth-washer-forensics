@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<title>Comcast.net</title>
+
+	<script type="text/javascript" src="/js/global/header_c_002.js"></script>
+	<script type="text/javascript" src="/js/global/001.js"></script>
+	<script type="text/javascript" src="/js/UrlGenerator.js"></script>
+
+	<script type="text/javascript">var stamp = new String(Math.random()); stamp = "&swfID="+stamp.substr(4);</script>
+	<noscript><meta http-equiv="refresh" content="0; URL=/home.html" /></noscript>
+
+	<link rel="stylesheet" href="/styles/global.css" type="text/css" media="screen" />
+
+
+</head>
+
+<body id="comcastnet" class="index">
+
+	<div id="express">
+
+	<script type="text/javascript">
+	function getCookieVal (offset) {
+    var endstr = document.cookie.indexOf (";", offset);
+    if (endstr == -1) {
+        endstr = document.cookie.length;
+    }
+    return unescape(document.cookie.substring(offset, endstr));
+	}
+	function GetCookie (name) {
+    var arg = name + "=";
+    var alen = arg.length;
+    var clen = document.cookie.length;
+    var i = 0;
+    while (i < clen) {
+        var j = i + alen;
+        if (document.cookie.substring(i, j) == arg) {
+            return getCookieVal(j);
+        }
+        i = document.cookie.indexOf(" ", i) + 1;
+        if (i == 0) {
+            break;
+        }
+    }
+    return '';
+	}
+	function homeRedirect() {
+
+		var queryStr = new String(window.location.search);
+		var sessionHomeCookie = GetCookie("SESSIONHOME");
+		var skinChoice = sessionHomeCookie;
+		var myportal = GetCookie("MYPORTAL");
+		var loggedin = false;
+		var upgradePage = "/flashUpgrade.html";
+		var exploreAuth = "/explore.html";
+		var exploreSemi = "/home.html";
+		var exploreAnon = "/home.html";
+		var litePage = "/lite";
+		var expressPage = "/express.html";
+
+
+		// Inits the game variables for real.com's code
+	if (document.getElementById) { initGameScript("comcast_"); }
+	// No Flash
+	if (!hasRightVersion) {
+		// Auth
+		if (myportal != "") {
+			if ((sessionHomeCookie == "express") || (sessionHomeCookie == "forcedexpress")) {
+				setSessionCookie('SESSIONHOME', 'express', '/', sessiondomain, false);
+				document.location.href = upgradePage;
+
+			}
+			else if (sessionHomeCookie == "lite") {
+				document.location.href = litePage;
+			}
+			else {
+				document.location.href = exploreSemi;
+			}
+		}
+		// Anon
+		else  {
+			if ((sessionHomeCookie == "express") || (sessionHomeCookie == "forcedexpress")) {
+				setSessionCookie('SESSIONHOME', 'express', '/', sessiondomain, false);
+				document.location.href = upgradePage;
+			}
+			else if (sessionHomeCookie == "lite") {
+				document.location.href = litePage;
+			}
+			else if (isInNetwork) {
+				document.location.href = exploreSemi;
+			}
+			else {
+				document.location.href = exploreAnon;
+			}
+		}
+	}
+
+	// Flash
+	else {
+		// Auth
+		if (myportal != "") {
+			if (sessionHomeCookie == "forcedexplore") {
+				document.location.href = exploreAuth;
+			}
+			else if (sessionHomeCookie == "lite") {
+				document.location.href = litePage;
+			}
+	 		else if (sessionHomeCookie == "forcedexpress") {
+				setSessionCookie('SESSIONHOME', 'express', '/', sessiondomain, false);
+				document.location.href = expressPage;
+			}
+			else if ((sessionHomeCookie == "home") || (sessionHomeCookie == "explore")) {
+				document.location.href = exploreAuth;
+			}
+		 	else if (myportal.indexOf("&v=&") == -1) {
+				var skin = GetCrumb(myportal, "v");
+				if (skin=="express") {
+					document.location.href = expressPage;
+				}
+				else {
+					document.location.href = exploreAuth;
+				}
+			}
+			else {
+				document.location.href = exploreAuth;
+			}
+		}
+		// Anon
+		else {
+			if ((sessionHomeCookie == "express") || (sessionHomeCookie == "forcedexpress")) {
+				//setSessionCookie('SESSIONHOME', 'express', '/', sessiondomain, false);
+				document.location.href = expressPage;
+			}
+			else if ((sessionHomeCookie == "home") || (sessionHomeCookie == "explore") || (sessionHomeCookie == "forcedexplore") || (sessionHomeCookie == "")) {
+				if (isInNetwork) {
+					document.location.href = exploreSemi;
+				}
+				else {
+					document.location.href = exploreAnon;
+				}
+			}
+			else if (sessionHomeCookie == "lite") {
+				document.location.href = litePage;
+			}
+			else {
+				document.location.href = exploreAnon;
+			}
+		}
+	}
+	betaredirect();
+}
+
+function writeExpress() {
+	var queryStr = new String(window.location.search);
+	queryStr = queryStr.substr(1);
+	if (queryStr.length > 0) queryStr += "&";
+	queryStr += "un="+GetCrumb(myportal, "em")+"&";
+	queryStr += "&is=express&";
+	queryStr += "ion="+isInNetwork+"&";
+	queryStr += stamp;
+
+	var w = "100%";
+	if ((is_ie) || (is_linux)) { w = "995"; }
+
+	document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="'+w+'" height="2000" id="site" align="middle">');
+	document.write('  <param name="allowScriptAccess" value="sameDomain" />');
+	document.write('  <param name="movie" value="Canvas.swf" />');
+	document.write('  <param name="FlashVars" value="'+queryStr+'" />');
+	document.write('  <param name="quality" value="high" />');
+	document.write('  <param name="menu" value="false" />');
+	document.write('  <param name="salign" value="lt" />');
+	document.write('  <param name="bgcolor" value="#19314B" />');
+	document.write('  <embed src="Canvas.swf" quality="high" FlashVars="'+queryStr+'" salign="lt" bgcolor="#19314B" width="'+w+'" height="2000" name="site" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+	document.write('<\/object>');
+	document.write('<iframe id="page" name="page" src="page.html?section=0&content=0&name=HOME - Comcast.net" noresize="noresize" width="400" height="0" frameborder="0" scrolling="no"><\/iframe>');
+}
+
+homeRedirect();
+	</script>
+
+	</div>
+
+	<div class="skip">This page requires the <a href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">Flash 7 plugin.</a> If you are unable to install Flash 7 Player or are using a screen reader, please visit our <a href="/lite">Lite home page</a>.</div>
+
+	<script type="text/javascript">dcsTag();</script>
+
+	<script type="text/javascript" src="/providers/fsr/site/fsrParams.js"></script>
+	<script type="text/javascript" src="/providers/fsr/fsrFunctions.js"></script>
+	<script type="text/javascript">
+		//catches any undefined errors and ignores them
+		try {
+			if (loggedin || isInNetwork) {
+				Poll();
+			}
+		} catch(er) {}
+	</script>
+
+	<div id="statusmsg" class="errormsg">
+
+		<div id="statushead">
+
+			<h1>Comcast</h1>
+
+		</div>
+
+		<div id="statusbody">
+
+			<h3>Why am I seeing this message?</h3>
+
+			<p>If your Web browser is stuck on this page, Comcast.net may have a conflict with your Internet security software. <a href="http://www.comcastsupport.com/sdcuser/asp/chatform.asp">Click here</a> to chat live with a Comcast support representative who will walk you through the steps to resolve this issue.</p>
+
+		</div>
+
+	</div>
+	<script type="text/javascript">hideStatusMsg();</script>
+
+</body>
+</html>
+
+
+
+<!-- root726f6f74 -->

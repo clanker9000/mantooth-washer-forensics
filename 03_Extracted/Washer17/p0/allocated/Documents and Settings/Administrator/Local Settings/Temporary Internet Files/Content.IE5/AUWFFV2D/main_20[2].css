@@ -1,0 +1,195 @@
+   body {
+        1font: 12px normal Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+    #header {
+    background-image: url('header_bg_1px.gif');
+    background-repeat: repeat-x;
+        height: 85px;
+    margin-bottom:2px;
+    position:relative;
+    }
+
+    #auth {
+        font: .9em normal Arial, Helvetica, sans-serif;
+    color:white;
+    }
+    #auth A{
+    color:white;
+    font-weight:bold;
+    text-decoration:underline;
+    }
+
+    #searchContainer {
+    top:25px;
+    left:265px;
+    position:absolute;  
+   }
+
+    #greetingContainer {
+        text-align: right;
+    padding:10px;
+    }
+
+    #brandingContainer {
+        float: left;
+    background-image: url('header_branding.gif');
+    background-repeat: no-repeat;
+    width:160px;
+    height:70px;
+    margin-left:5px;
+    }
+html>body #brandingContainer { margin-left:15px; }  /* this ID will be ignored by IE */
+
+    #p_footer {
+        height: 85px;
+        color: #999;
+        text-align: center;
+    }
+
+    #p_footer a{
+        font: .9em normal Arial, Helvetica, sans-serif;
+    color:#999
+    }
+
+    #tabContainer {
+        height: 30px;
+    padding-left:15px;
+    position:absolute;
+    top:55px;
+    }
+html>body #tabContainer { top:55px; }  /* this ID will be ignored by IE */
+
+    #mainContainer {
+    width:870px;
+    padding:0;
+    text-align:left;
+    float:left;
+    }
+
+    #shadowContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width:890px;
+    height:100%;
+     position:relative;                                                                                          
+     top:-15px;                                                                                                  
+    }
+    html>body #shadowContainer { top:0px; }  /* this ID will be ignored by IE */
+.shadow {
+    float:left;
+    width:5px;
+    height:1300px;
+}
+
+#leftShadow {
+    background:url("shadow_left.gif") top left repeat-y;
+}
+#rightShadow {
+    background:url("shadow_right.gif") top left repeat-y;
+}
+
+html>body #mainContainer { width:865px; }  /* this ID will be ignored by IE */
+
+    #leftColumn {
+        width:127px;
+        padding:0;
+        float:left;
+        background:#777;
+            height: 100%;
+        background:url("sidenav_aim_directory_bg.gif") #727883 top left repeat-x;
+        }
+
+    #midColumn {
+        width:395px;
+        float:left;
+        margin-left: 15px;
+        margin-right: 10px;
+        }
+
+    #rightColumn {
+    width:310px;
+        padding:0;
+    float:left;
+    1height: 100%;
+    }
+
+    #lowerright {
+    background: #727883 url('at_prog_bg.jpg') no-repeat;
+    }
+
+    .midContent {
+        padding: 5px 0;
+        background: #fff;
+    }
+
+    .rightContent {
+        color: #999;
+    text-align:center;
+    }
+
+    .leftContent {
+        color: #999;
+    text-align:center;
+    }
+
+    .ad { background: #fff; padding-bottom:5px; padding-top:5px }
+
+    .vspace3 {
+        height: 3px;
+        font-size: 1px
+    }
+
+    .vspace5 {
+        height: 5px;
+        font-size: 1px
+    }
+
+    .vspace8 {
+        height: 8px;
+        font-size: 1px
+    }
+
+    .vspace10 {
+        height: 10px;
+        font-size: 1px;
+    }
+
+    h1 {
+    font-size:100%;
+    font-weight:normal;
+    display:inline;
+    }
+
+    .acchidden {
+    display:none;
+    }
+
+.clear {clear: both;}
+
+#subcontainer {
+    height:1100px;
+}
+
+a.info{
+    position:relative; /*this is the key*/
+    z-index:24; 
+    color:#45a0f0;
+}
+
+a.info:hover{z-index:25; background-color:#fff; text-decoration: none;}
+
+a.info span{display: none; }
+
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:2em; left:2em; width:15em;
+    border:3px solid #dddddd;
+    background-color:#edeef0; color:#666666;
+    font-family: arial;
+    font-size:12px;
+    text-align: center;
+    padding:5px;
+}

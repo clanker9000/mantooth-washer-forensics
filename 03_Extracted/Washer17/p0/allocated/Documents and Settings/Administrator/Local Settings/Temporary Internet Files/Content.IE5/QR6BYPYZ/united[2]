@@ -1,0 +1,1234 @@
+<!-- Vignette V6 Wed Feb 13 06:37:57 2008 -->
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var ualhpDate = "Wed Feb 13 06:37:57 CST 2008";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        var maImg="/ual/asset/hdg_UnitedNews.gif";
+
+		
+		
+    var ualhpNews = new Array();		
+
+
+                ualhpNews[0] = new Array ("","","New domestic checked baggage policy", "/link/0,6746,52481,00.html?trackingType=promoTracking&contentType=page&navSource=UnitedNews&linkTitle=New+domestic+checked+baggage+policy&pos=1"," 	");
+
+                ualhpNews[1] = new Array ("","","E-Fares, get away this weekend or next", "/link/0,6746,50431,00.html?trackingType=promoTracking&contentType=link&fromComponent=UN&navSource=UnitedNews&linkTitle=E-Fares%2C+get+away+this+weekend+or+next&pos=2"," 	");
+
+                ualhpNews[2] = new Array ("","","Share your miles with friends & family", "/link/0,6746,58080,00.html?trackingType=promoTracking&contentType=link&fromComponent=UN&navSource=UnitedNews&linkTitle=Share+your+miles+with+friends+%26+family&pos=3"," 	");
+
+                ualhpNews[3] = new Array ("","","Add 1,000 miles to your next flight", "/link/0,6746,58229,00.html?trackingType=promoTracking&contentType=link&fromComponent=UN&navSource=UnitedNews&linkTitle=Add+1%2C000+miles+to+your+next+flight&pos=4"," 	");
+
+                ualhpNews[4] = new Array ("","","Travel the world with PassPlus", "/link/0,6746,2964,00.html?trackingType=promoTracking&contentType=page&navSource=UnitedNews&linkTitle=Travel+the+world+with+PassPlus&pos=5"," 	");
+
+                ualhpNews[5] = new Array ("","","Fly now, pay later", "/link/0,6746,51711,00.html?trackingType=promoTracking&contentType=page&navSource=UnitedNews&linkTitle=Fly+now%2C+pay+later&pos=6"," 	");
+
+                ualhpNews[6] = new Array ("","","Travel requirements and regulations", "/link/0,6746,52070,00.html?trackingType=promoTracking&contentType=page&navSource=UnitedNews&linkTitle=Travel+requirements+and+regulations&pos=7"," 	");
+
+    </script>
+
+
+
+
+
+	
+	
+	<script type="text/javascript">
+	var ualhpvaloffers = new Array();
+	
+			
+		ualhpvaloffers[0] = new Array ("/link/0,6746,58099,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Hertz+Offer&pos=1","/ual/asset/tile2_hertzcont_234x80.gif","Hertz Offer");
+		
+			
+		ualhpvaloffers[1] = new Array ("/link/0,6746,58108,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Mileage+Plus+Visa%2C+earn+21%2C000+bonus+miles*&pos=2","/ual/asset/tile1_MPVisa_H_234x109_link1.gif","Mileage Plus Visa, earn 21,000 bonus miles*");
+		
+			
+		ualhpvaloffers[2] = new Array ("/link/0,6746,58109,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Mileage+Plus+Visa+earn+21%2C000+bonus+miles*&pos=3","/ual/asset/tile1_MPVisa_H_234x109_link2.gif","Mileage Plus Visa earn 21,000 bonus miles*");
+		
+			
+		ualhpvaloffers[3] = new Array ("/link/0,6746,58110,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Mileage+Plus+Visa-earn+21%2C000+bonus+miles*&pos=4","/ual/asset/tile1_MPVisa_H_234x109_link3.gif","Mileage Plus Visa-earn 21,000 bonus miles*");
+		
+			
+		ualhpvaloffers[4] = new Array ("/link/0,6746,58111,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Mileage+Plus+Visa--earn+21%2C000+bonus+miles*&pos=5","/ual/asset/tile1_MPVisa_H_234x109_link4.gif","Mileage Plus Visa--earn 21,000 bonus miles*");
+		
+			
+		ualhpvaloffers[5] = new Array ("/link/0,6746,58269,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Earn+25+miles+per+%241+spent+with+FTD&pos=6","/ual/asset/tile2_ftd_valentines_234x80.gif","Earn 25 miles per $1 spent with FTD");
+		
+			
+		ualhpvaloffers[6] = new Array ("/link/0,6746,58275,00.html?trackingType=promoTracking&contentType=link&fromComponent=VO&navSource=ValuableOffers&linkTitle=Earn+your+choice+of+exclusive+rewards+this+year.&pos=7","/ual/asset/tile2_eliteChoice_234x80.gif","Earn your choice of exclusive rewards this year.");
+		
+			
+		ualhpvaloffers[7] = new Array ("/link/0,6746,52163,00.html?trackingType=promoTracking&contentType=page&linkTitle=Our+customer+commitment&navSource=ValuableOffers&pos=8","/ual/asset/tile2_OCC_234x80.gif","Our customer commitment");
+		
+			
+		ualhpvaloffers[8] = new Array ("/link/0,6746,52475,00.html?trackingType=promoTracking&contentType=page&linkTitle=8+fans+will+be+on+their+way+to+the+Beijing+2008+Olympic+Games+from+Visa.&navSource=ValuableOffers&pos=9","/ual/asset/tile2_olympic_234x80.gif","8 fans will be on their way to the Beijing 2008 Olympic Games from Visa.");
+		
+		</script>
+		
+
+
+
+
+
+
+
+<html>
+<head>
+	<title>United Airlines - Airline Ticket Reservations, Vacation packages and deals to Domestic and International travel destinations</title>
+	<meta name="Keywords" content="United Airlines,UAL,UAUA">
+	<meta name="Description" content="United Airlines online reservations and airline ticket purchase, electronic tickets, flight search, fares and availability, seats flights destinations departures and more">
+<link rel="stylesheet" type="text/css" href="/ual/asset/c2007.css" media="screen">
+<style type="text/css">
+#joinMPcontainer, #mploggedin, #mpLoggedinContainer, #mileagePlus_login, #ff29pane2, #ff29pane3, #ff29pane1sub2a, #ff29pane1sub3a, #ff29pane1sub4a, #childseniorfull, #ff29upprclnoarrowb, #ff29upprclno, #ff29pane1sub2b, #ff29pane1sub3b, #ff29pane1sub4b, #hpHotelsPromo {display:none;}
+#forHold {float:left;padding-right:3px}
+#mploggedin {padding-bottom:9px;font-family:Arial, Helvetica; background:#EBE6DB url('/ual/asset/hp30mpheader.gif') no-repeat;}
+*html #mploggedin {padding-bottom:12px}
+#mileagePlus_login {font-family:Arial, Helvetica; padding:38px 0px 0px 12px;background:#EBE6DB url('/ual/asset/hp30mpheader.gif') no-repeat;}
+#mpLevelHold {padding:0px 0px 9px 12px;font-family:arial,helvetica;font-size:11px;color:#333333;}
+#toppiece {padding:11px 0;margin:0 0 13px 111px;font-size:11px;font-weight:bold;color:#535353; }
+*html #mpLevelHold {padding-bottom:4px;}
+
+.carret {  float:left;  padding:0;}
+.carret ul {	margin:0;	padding:0;}
+.carret li {	font-size:10px;	padding-left: 10px;	list-style: none;	background:   url("/ual/asset/333333_bullet.gif") 0 .4em no-repeat;}
+*html .carret li {background-position: 0 .7em}
+.carret a {text-decoration:none;}
+.carret a:hover {text-decoration: underline}
+
+.col3 {
+	background: #F5F5F5 url(/ual/asset/landing6_bg.gif) repeat-x left top;
+	font: normal 11px/1.2 Arial, Helvetica, sans-serif; 
+}
+.dashedBorder {margin:4px 0; border: 1px dashed #B7B7B7; padding: 7px;background-color:#EFEFEF;
+}
+.dashTop {
+  border: 1px dashed #B7B7B7;
+  border-width:1px 0 0 0;
+  padding-top:5px;
+}
+h6, .col3 label, .col3 label {
+	color:#333333; 
+	font-weight:bold; 
+	font-size:11px; 
+	margin:0; padding:0;
+}
+h6 {
+	margin:5px 0;
+}
+#or {
+	padding: 4px 0 4px 11px;
+}
+.clearer {
+	clear: both;
+	font-size: 1px;
+}
+.login {
+  margin:17px 0 0px 4px;
+  float:left;
+}
+/*IE hack */
+*html .login {
+  margin-left:5px;
+}
+.login a {
+  background-image:  url(/ual/asset/login_bttn_77x36.png);
+  background-repeat: no-repeat;
+  margin:0;
+  padding:0;
+  cursor:pointer;cursor:hand;
+  border:0;
+  width:77px;
+  height:18px;
+  background-position:100% 0px;
+  text-align:center;
+  display:block;
+}
+ .login a:hover {
+  background-position:0% -18px;
+}
+.fltRight {float:right;}
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+	width: 250px;
+	font: normal 10px 'lucida grande', helvetica, verdana, arial, sans-serif;
+	margin: 0;
+	color: #333;
+	text-align: left;
+}
+#tooltip h3 {margin: 0;padding:0;font-size:14px;}
+/*hpFSAbackground is dynamically written from the FSA gen orph pg*/
+.hpFSApad {
+	padding:3px 0px 0px 3px;
+}
+.hpRightCol {
+	background-color: #F1EDE1;
+}
+/*a {color:0038A5;}
+a:link,a:visited {text-decoration:none;}
+a:active,a:hover {text-decoration:underline;}
+*/
+</style><script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/a84b7052914718/www.united.com/ual/asset/global_2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/e0ea764139f309/www.united.com/ual/asset/jquery.js"></script>
+<script type="text/javascript" language="JavaScript" src="http://a56.g.akamai.net/7/56/7207/a53051dd3ab8a3/www.united.com/ual/asset/jquery.dimensions.js"></script>
+<script type="text/javascript" language="JavaScript" src="http://a56.g.akamai.net/7/56/7207/c2419c93e3aa02/www.united.com/ual/asset/jquery.tooltip.js"></script>
+</head>
+<body>
+<script type="text/javascript"> 
+	var selectedSection = "HP";
+// to be stored EXTERNALLY
+// for this function to work correctly each image must start with tile+#+_ 
+// (i.e. tile3_VOmpVisaoffer.gif)
+// a maximum of 5 tiles will be supported, minimum of 0
+function embedVOtiles()
+{
+// establish pools (0-5), infer number of tiles that will be present (0-5)
+var ualHPnumVOtiles = 0;
+var ualTileIndex = new Array();
+ualTileIndex[0] = new Array(); ualTileIndex[1] = new Array(); ualTileIndex[2] = new Array(); 
+ualTileIndex[3] = new Array(); ualTileIndex[4] = new Array();
+for (i=0; i<ualhpvaloffers.length; i++)
+	{
+		for (j=0; j<5; j++)
+		{
+			if (ualhpvaloffers[i][1].indexOf('tile'+(j+1)) != -1)
+				{
+					ualTileIndex[j].push(i)
+				}
+		}
+	}
+// make selection for each pool, pick one ad from each pool at random
+var VOtileSelectedPromos = new Array();
+for (i=0;i<5;i++)
+	{
+		if (ualTileIndex[i].length>=1)
+		{
+			var selectedTile=(Math.floor(Math.random()*ualTileIndex[i].length)); 
+			VOtileSelectedPromos[i]=selectedTile;
+		}
+	}
+// embed tiles (executed on page)
+	for (i=0;i<5;i++)
+		{
+			if(ualTileIndex[i].length>=1)
+			{
+				writeVOtile(ualTileIndex[i][VOtileSelectedPromos[i]]); // write vo tile
+			}
+		}
+}
+/* this block of script must appear right after the <body> tag */
+var ualhpDate = ""; // temp date fix 08/31
+var vsCustomItems = new Array(); // VS Custom Items Init
+// var ishomepage = true; // no longer used, vs can drill down by page/section
+var writeSWNprotocol = "http"; if(document.location.href.indexOf('https://') != -1){writeSWNprotocol = "https";}
+</script>
+						<link rel="stylesheet" type="text/css" href="/ual/asset/gll.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/ual/asset/c2007_print.css" media="print">
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/1fca291c93c91a/www.united.com/ual/asset/swn-styles-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/e574df9bf1e4bd/www.united.com/ual/asset/udm-custom-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/691d8be4f62e87/www.united.com/ual/asset/udm-control-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/87c348c6535454/www.united.com/ual/asset/udm-style-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/163b3c9119216b/www.united.com/ual/asset/udm-dom-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://www.united.com/ual/asset/udm-contents-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/d837b199b95e3b/www.united.com/ual/asset/udm-embed-2007.js"></script>
+<script type="text/javascript" language="javascript" src="http://a56.g.akamai.net/7/56/7207/043661648ae2b5/www.united.com/ual/asset/swn-scripts-2007.js"></script>
+<div id="hpContainer">
+<table cellpadding="0" cellspacing="0" width="770">
+	<col width="5"><col width="760"><col width="5">
+	<tr>
+		<td id="containerLeft"></td>
+		<td id="containerCenter">
+<!-- swnheader.jsp | begin -->
+	<div id="ualheader">
+		<div id="ualbranded">
+			<table border="0" cellpadding="0" cellspacing="0" style="height:46px;width:760px;">		
+				<tr>
+					<td id="ualbrandedlogo" valign="top" align="left"><img src="http://a56.g.akamai.net/7/56/7207/1579300b2b6778/www.united.com/ual/asset/swn_2007_united_brand.gif" height="15" width="144" alt="United" border="0"></td>
+					<td id="ualbrandedlinks" valign="top" align="right" width="100%"><a href="http://www.united.com/myprofile?navSource=HP07&linkTitle=a1myprofile">My profile</a>  <span class="headerpipe">|</span>  <a href="http://www.united.com/worldwide?navSource=HP07&linkTitle=a2worldwidesites">Worldwide sites</a>  <span class="headerpipe">|</span>  <a href="http://www.united.com/customerservice?navSource=HP07&linkTitle=a3customerservice">Customer service</a></td>
+					<td id="ualbrandedflyted" valign="top" align="right"><a title="flyted.com" href="http://www.flyted.com/?navSource=HP07&linkTitle=a4flyted"><img src="http://a56.g.akamai.net/7/56/7207/1e7dce65676667/www.united.com/ual/asset/swn_2007_flyted.gif" height="20" width="87" alt="flyted.com" border="0"></a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="ualswnarea">
+			<form style="margin:0px;" method="get" id="Homepagesearch" name="Sitesearch" action="http://www.united.com/cgi-bin/texis/webinator/search/" onSubmit="if ( document.getElementById('swnquerytext').value=='Search site') {return false;} HPSearch(this)">
+			<table border="0" cellpadding="0" cellspacing="0" style="height:32px;" width="100%">
+			<tr>
+			<td width="10" bgcolor="#FFFFFF"></td>
+			<td id="tN"><ul id="udm" class="udm"><li id="tab1"><a id="tab1Button" class="navButton" href="http://www.united.com/planningandbooking"><span></span></a></li><li id="tab2"><a id="tab2Button" class="navButton" href="http://www.united.com/itinerariesandcheckin"><span></span></a></li><li id="tab3"><a id="tab3Button" class="navButton" href="http://www.united.com/servicesandsupport"><span></span></a></li><li id="tab4"><a id="tab4Button" class="navButton" href="http://www.united.com/mileageplus"><span></span></a></li></ul></td>
+			<td width="132" align="right">
+			<table border="0" cellpadding="0" cellspacing="0" width="100" style="height:32px;">
+			<tr><td align="right" valign="middle">
+			<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+			<td><input onkeypress="if (window.quickUASearch){quickUASearch(event)}" id="swnquerytext" name="query" type="text" value="Search site" onfocus="if (this.value == 'Search site'){this.value='';}this.style.textAlign='left';" onblur="if (this.value == ''){this.value='Search site';this.style.textAlign='center';}"></td>
+			<td><input id="swnquerybutton" type="image" name="querybtn" value="Search" src="http://a56.g.akamai.net/7/56/7207/8756bac3fcf0f8/www.united.com/ual/asset/swn_search_button.gif"><input type="hidden" name="pr" value="siteprofile"></td>
+			<td style="width:8px;"> </td></tr></table></td></tr></table></td><td width="16"><img src="http://a56.g.akamai.net/7/56/7207/92621a287e5d9b/www.united.com/ual/asset/swn_bar_right.gif" width="16" height="32" alt=""></td></tr></table></form>
+		</div><script type="text/javascript">writeSWNav(0);</script>
+		<div id="ualbonusbar"><script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="http://www.united.com/ual/asset/bonusbar-embed-2007-us-en.js"><\/scr'+'ipt>');</script></div>
+	</div>
+<!-- swnheader.jsp | end -->
+	<div id="ualbody">
+		<table border="0" cellpadding="0" cellspacing="0" width="760">
+		<tr>
+			<td class="bodyColSpace"><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/d.gif" width="1" height="290" border="0" alt=""></td>
+			<td valign="top" align="center" style="padding-bottom:8px;">
+				<div style="padding-bottom:5px;">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td align="left"><img src="http://a56.g.akamai.net/7/56/7207/d1826bb786ce70/www.united.com/ual/asset/swn_bonusbar_bottom_left_noshade.gif" height="5" width="5" alt=""></td>
+					<td align="right"><img src="http://a56.g.akamai.net/7/56/7207/b5e79d5c852eb3/www.united.com/ual/asset/swn_bonusbar_bottom_right.gif" height="5" width="5" alt=""></td>
+				</tr>
+				</table>
+				</div>
+<table width="740" cellpadding="0" cellspacing="0" border="0">
+	<col width="247"><col width="258"><col width="1"><col width="234">
+	<tr>
+		<td valign="top" class="hpFSApad hpFSAbackground" align="left" height="1">
+<!--FARE FINDER BEGIN-->
+<script type="text/javascript" src="http://a56.g.akamai.net/7/56/7207/9cc7a80df60e6e/www.united.com/ual/asset/ff29calendar.js"></script>
+<link type="text/css" href="/ual/asset/ff29calendar.css" rel="stylesheet"/>
+<link type="text/css" href="/ual/asset/hpff30style.css" rel="stylesheet"/>
+<script type="text/javascript" src="http://www.united.com/page/genericpage/1,,52008,00.html?Log=0"></script>
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><a title="Book Travel" onmouseover="ff29roll(1,'over');" onmouseout="ff29roll(1,'out')" href="javascript:ff29click(1)"><img height="40" width="81" name="ff29tab1" border="0" alt="Book travel" src="http://a56.g.akamai.net/7/56/7207/563ee69e9ab95f/www.united.com/ual/asset/hp30_tab_BT_on.gif"></a></td>
+		<td><a title="EasyCheck-in" onmouseover="ff29roll(2,'over');" onmouseout="ff29roll(2,'out')" href="javascript:ff29click(2)"><img height="40" width="82" name="ff29tab2" border="0" alt="EasyCheck-in" src="http://a56.g.akamai.net/7/56/7207/846aee033f268e/www.united.com/ual/asset/hp30_tab_CI_off.gif"></a></td>
+		<td><a title="Flight Status" onmouseover="ff29roll(3,'over');" onmouseout="ff29roll(3,'out')" href="javascript:ff29click(3)"><img height="40" width="81" name="ff29tab3" border="0" alt="Flight Status" src="http://a56.g.akamai.net/7/56/7207/c296c666d66679/www.united.com/ual/asset/hp30_tab_FS_off.gif"></a></td>
+	</tr>
+</table>
+<div style="padding-bottom:3px;">
+<div id="ff29container">
+	<div id="ff29pane1"> 
+<style>.btTabsPad{padding:10px 0px 0px 4px;}</style>
+		<div id="ff29pane1controller" style="background-image:url('/ual/asset/hp30fftopgradient.gif');height:52px;">
+			<div class="btTabsPad">
+				<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="ff29pane1tab1"><img src="http://a56.g.akamai.net/7/56/7207/47706214f7a27f/www.united.com/ual/asset/hp30ffbt1on.gif" border="0"></td>
+							<td id="ff29pane1tab2"  onclick="travelSearch(2)"><a href="javascript:travelSearch(2)"><img src="http://a56.g.akamai.net/7/56/7207/7cc3dfdd2315ef/www.united.com/ual/asset/hp30ffbt2off.gif" border="0"></a></td>
+							<td id="ff29pane1tab3"  onclick="travelSearch(3)"><a href="javascript:travelSearch(3)"><img src="http://a56.g.akamai.net/7/56/7207/bf0d0bf99b87f2/www.united.com/ual/asset/hp30ffbt3off.gif" border="0"></a></td>
+							<td id="ff29pane1tab4"  onclick="travelSearch(4)"><a href="javascript:travelSearch(4)"><img src="http://a56.g.akamai.net/7/56/7207/10c2f82bb04a34/www.united.com/ual/asset/hp30ffbt4off.gif" border="0"></a></td>
+						</tr>
+				</table>
+			</div>
+		</div>
+		<form id="sideform" name="shopInputForm" method="post" style="margin:0px;" onsubmit="return ff29Submit('normal');" action="">   
+			<div id="ff29pane1sub1a" style="display:block;">
+<!-- flight search top half | begin -->
+<script type="text/javascript" src="http://www.united.com/page/genericpage/1,,52405,00.html"></script>
+<script type="text/javascript">
+if (window.hpffMsgSwitch)
+  { 
+    if (window.hpffMsgSwitch)
+    {
+      document.write('<div style="padding:0px 5px 10px 5px; color:#CC0000">'+hpffMsgContent+'</div>');
+    }
+  }
+</script>
+				<div style="padding:0px 0px 5px 0px;background-color:#f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div style="padding:0px 3px 3px 3px; font-size:11px;background-color:#f5f5f5;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top" style="font-size:11px;color:333;"><label for="wayRound"><input onclick="ff29ToggleReturn('wayRound');" id="wayRound" checked="checked" type="radio" name="Way" value="RoundTrip"> Roundtrip</label></td>
+							<td valign="top"><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/trans.gif" border="0" width="7" height="1"></td>
+							<td valign="top" style="font-size:11px;color:333;"><label for="wayOne"><input onclick="ff29ToggleReturn('wayOne');" id="wayOne" type="radio" name="Way" value="OneWay"> One-way</label></td>
+							<td valign="top"><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/trans.gif" border="0" width="13" height="1"></td>
+							<td valign="bottom" style="padding-bottom:6px;padding-right:5px;"><img src="http://a56.g.akamai.net/7/56/7207/0924dbe822b875/www.united.com/ual/asset/hp30fauxgt.gif" border="0" width="3" height="5"></td>
+							<td valign="bottom" style="padding-bottom:1px;font-size:11px;color:333;font-family:arial,helvetica;"><a href="javascript:ff29multiCity();">Multicity</a></td>
+						</tr>
+					</table>
+				</div>
+				<!-- help link <div style="padding:0px 4px 3px 7px; text-align:right;font-size:9px;"><a href="javascript:ff29popup('http://travel.united.com/ube/articleLookup.do?lookup=article&code=ui.text.help.FareShopping_OriginDest&popup=true');">Help</a>&nbsp;</span><a href="javascript:ff29popup('http://travel.united.com/ube/articleLookup.do?lookup=article&code=ui.text.help.FareShopping_OriginDest&popup=true');"><img src="/ual/asset/ff29help.gif" align="top" border="0"></a></div>-->
+				<div style="padding:0px 0px 7px 8px;background-color:#f5f5f5;">
+<table border="0" cellpadding="0" cellspacing="0">
+	<col width="110">
+	<col width="5">
+	<col width="110">
+	<tr>
+		<td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td class="ff29generic" nowrap="nowrap" style="font-size:11px;color:333;font-weight:bold;">From</td>
+				<td class="ff29genericSmall" nowrap="nowrap" align="right">(<a href="javascript:openAiportLookupWin('http://travel.united.com/ube/aiportcitylookup.do?originFormName=shopInputForm&originFieldName=shop_from0&odFlag=origin&homepage=1')">Find airport</a>)</td>
+			</tr>
+			</table>
+		</td>
+		<td></td>
+		<td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td class="ff29generic" nowrap="nowrap" style="font-size:11px;color:333;font-weight:bold;">To</td>
+				<td class="ff29genericSmall" nowrap="nowrap" align="right">(<a href="javascript:openAiportLookupWin('http://travel.united.com/ube/aiportcitylookup.do?originFormName=shopInputForm&originFieldName=shop_to0&odFlag=destination&homepage=1')">Find airport</a>)</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="ff29genericSmall"><input onchange="ff29updateOthers();" name="shop_from0" id="shop_from0" style="width:109px; font-size:11px;" type="text" value=""></td>
+		<td class="ff29generic"></td>
+		<td class="ff29genericSmall"><input onchange="ff29updateOthers();" name="shop_to0" id="shop_to0" style="width:109px; font-size:11px;" type="text" value=""></td>
+	</tr>
+	<tr>
+		<td valign="bottom" style="height:21px;" class="ff29genericSmall" colspan="2" nowrap="nowrap"><label><input style="width:15px; margin:0px; padding:0px;" type="checkbox" id="fromnearby1"><span style="color:#444">Search nearby airports</span></label></td>
+		<td valign="bottom" style="height:21px;" class="ff29genericSmall" nowrap="nowrap"><label><input style="width:15px; margin:0px; padding:0px;" type="checkbox" id="tonearby1"><span style="color:#444">Search nearby airports</span></label></td>
+	</tr>
+</table>				
+				</div>
+				<div style="margin:0px 0px 0px 0px;background-color:#f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+<!-- flight search top half | end -->
+			</div>
+			<div id="ff29pane1sub2a">
+<!-- hotel search top half | begin -->
+				<div style="padding:0px 0px 8px 0px;background-color:#f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel" style="background-color:#f5f5f5;">Where do you want to find a hotel?</div>
+				<div style="padding-top:1px;background-color:#f5f5f5;" class="ff29minorlabel">City or airport code</div>
+				<div class="ff29minoritem" style="background-color:#f5f5f5;"><input type="text" id="hotelD" name="hotelCity" style="width:215px;font-size:11px;"></div>
+				<div class="ff29minorlabel" style="background-color:#f5f5f5;padding-bottom:12px;">Also: <a href="javascript:ff29Submit('nearanattraction','hotelsnearattr');" >Near an attraction</a> | <a href="javascript:ff29Submit('nearanaddress','hotelsnearadd');" >Near an address</a></div>
+				<div style="margin:0px 0px 0px 0px; background-color:#f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+<!-- hotel search top half | end -->
+			</div>
+			<div id="ff29pane1sub3a">
+<!-- car search (entire) | begin -->
+				<div style="padding:0px 0px 5px 0px;background-color:#f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+			<div style="padding:0px 9px 9px 9px;background-color:#f5f5f5;">
+
+ 
+<div style="padding:5px 0px 5px 0px;" valign="top" class="ff29carContent"><a href="http://www.united.com/hertzhp?navSource=hpCars&linkTitle=hertz"><img src="http://a56.g.akamai.net/7/56/7207/5475f29fd5cdd6/www.united.com/ual/asset/hphertz.gif" border="0"></a></div>
+<div style="padding:9px 0px 4px 0px;">	Other car partners:</div>
+<table border="0" cellpadding="4" cellspacing="0">
+	<tr>
+		<td valign="top" class="ff29carContent"><a href="https://www.budget.com/budgetWeb/html/en/partners/partners/mileageplus_Farefinder.html?navSource=hpCars&linkTitle=budget"><img src="http://a56.g.akamai.net/7/56/7207/a9ceebc7e846cd/www.united.com/ual/asset/carRental_budget.gif" alt="Budget offers" width="68" height="31" border="0"></a></td>
+		<td valign="top" class="ff29carContent"><a href="https://www.budget.com/budgetWeb/html/en/partners/partners/mileageplus_Farefinder.html?navSource=hpCars&linkTitle=budget">Save up to 20%</a> and earn triple miles.</td>
+	</tr>
+	<tr>
+		<td valign="top" class="ff29carContent"><a href="http://www.avis.com/AvisWeb/html/partner/750/uafinder.html?ICID=PartnerUA&IID=750miles_finder&navSource=hpCars&linkTitle=avis"><img src="http://a56.g.akamai.net/7/56/7207/7ef7fb771c657c/www.united.com/ual/asset/avisbrand.gif" alt="Avis offers" width="68" height="23" vspace="3" border="0"></a></td>
+		<td valign="top" class="ff29carContent"><a href="http://www.avis.com/AvisWeb/html/partner/750/uafinder.html?ICID=PartnerUA&IID=750miles_finder&navSource=hpCars&linkTitle=avis">Save up to 25%</a> on rentals and earn up to 750 bonus miles. </td>
+	</tr>
+	<tr>
+		<td valign="top" class="ff29carContent"><a href="http://www.alamo.com/offer/United2008specials?navSource=hpCars&linkTitle=alamo"><img src="http://a56.g.akamai.net/7/56/7207/a7650615823e64/www.united.com/ual/asset/carRental_alamo.gif" alt="Alamo offers" width="68" height="32" border="0"></a></td>
+		<td valign="top" class="ff29carContent"><a href="http://www.alamo.com/offer/United2008specials?navSource=hpCars&linkTitle=alamo">Save up to 25%</a> and earn triple miles in the U.S. and Canada. </td>
+	</tr>
+	<tr>
+		<td valign="top" class="ff29carContent"><a href="http://ww2.dollar.com/specials/partners/uacm8.aspx?iata_number=10004155&navSource=hpCars&linkTitle=dollar"><img src="http://a56.g.akamai.net/7/56/7207/2ad961d06bb0cc/www.united.com/ual/asset/carRental_dollar.gif" alt="dollar offers" width="68" height="32" border="0"></a></td>
+		<td valign="top" class="ff29carContent"><a href="http://ww2.dollar.com/specials/partners/uacm8.aspx?iata_number=10004155&navSource=hpCars&linkTitle=dollar">Earn double miles</a> on rentals of four days or longer. </td>
+	</tr>
+	<tr>
+		<td valign="top" class="ff29carContent"><a href="http://www.nationalcar.com/offer/United2008specials"><img src="http://a56.g.akamai.net/7/56/7207/4aab11b011284c/www.united.com/ual/asset/carRental_national.gif" alt="National offers" width="68" height="23" border="0"></a></td>
+		<td valign="top" class="ff29carContent"><a href="http://www.nationalcar.com/offer/United2008specials">Earn 500 bonus miles</a>, save up to 20% and receive a free weekend day.  </td>
+	</tr>
+		<TR><!--thrifty-->
+		<td valign="top" class="ff29carContent"><a href="http://www.thrifty.com/specials/uacm.aspx?IATA=00227077?navSource=lpCars&linkTitle=thrifty"><img src="http://www.united.com/ual/asset/logo_thrifty_68x27.gif" height="27" width="68" border="0"></a></TD>
+		<td valign="top" class="ff29carContent"><a href="http://www.thrifty.com/specials/uacm.aspx?IATA=00227077?navSource=lpCars&linkTitle=thrifty">Earn double miles</a> on rentals of three days or longer. </TD>
+	</TR>
+	<tr>
+		<td valign="top" class="ff29carContent"><a href="http://www.sixt.com/partner/united/?navSource=hpCars&linkTitle=sixt"><img src="http://a56.g.akamai.net/7/56/7207/30b7bc2bcb0552/www.united.com/ual/asset/carRental_sixt.gif" alt="Sixt offers" width="68" height="30" border="0"></a></td>
+		<td valign="top" class="ff29carContent"><a href="http://www.sixt.com/partner/united/?navSource=hpCars&linkTitle=sixt">Earn 1,000 miles</a> and more worldwide. </td>
+	</tr>
+</table>
+			</div>
+<!-- car search (entire) | end -->
+			</div>
+			<div id="ff29pane1sub4a">
+<!-- vacation search top half | begin -->
+				<div style="padding:0px 0px 7px 0px; background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel" style="background-color:f5f5f5;">Vacation type</div>
+				<div class="ff29minoritem" style="padding-left:4px;background-color:f5f5f5;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td class="ff29generic"><input type="radio" name="vacType" value="AHC" id="vacAHC"></td>
+							<td style="padding:0 10px 0 3px;" class="ff29generic"><label for="vacAHC">Flight + hotel + car</label></td>
+							<td class="ff29generic"><input type="radio" name="vacType" value="AC" id="vacAC"></td>
+							<td style="padding:0 10px 0 3px;" class="ff29generic"><label for="vacAC">Flight + car</label></td>
+						</tr>
+						<tr>
+							<td style="height:25px;" class="ff29generic"><input type="radio" name="vacType" value="AH" id="vacAH" checked="checked"></td>
+							<td style="padding:0 10px 0 3px;" class="ff29generic"><label for="vacAH">Flight + hotel</label></td>
+							<td class="ff29generic"><input type="radio" name="vacType" value="HC" id="vacHC"></td>
+							<td style="padding:0 10px 0 3px;" class="ff29generic"><label for="vacHC">Hotel + car</label></td>
+						</tr>
+					</table>
+				</div>
+				<div style="margin-bottom:7px;padding:5px 0px 0px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel">From</div>
+				<div class="ff29minoritem"><input id="vacationO" type="text" name="vacO" style="width:150px;font-size:11px;"></div>
+				<div class="ff29genericlabel">To</div>
+				<div class="ff29minoritem"><input id="vacationD" type="text" name="vacD" style="width:150px;font-size:11px;"></div>
+				<div style="padding:7px 0px 0px 0px;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+<!-- vacation search top half | end -->
+			</div>
+			<div id="dateContainer" style="padding:7px 0px 7px 0px;">
+				<div class="ff29genericlabel" id="ff29Dlabel">Departing</div>
+				<div class="ff29minoritem" id="ff29Ditem" style="padding:0px 0px 3px 3px; text-align:left;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td class="ff29Dateitem"><select style="width:74px" name="depMonth" id="shop_departmonth" onChange="oCalPopD.ChgM();" class="month"><option> </option></select></td>
+							<td class="ff29Dateitem"><select style="width:40px;" name="depDay" id="shop_departday" onChange="oCalPopD.ChgD();" class="day"><option> </option><option>01</option></select></td>
+							<td id="ff29adjacentDep"><select style="width:92px;" id="shop_departtime"><option value="">Any  time</option><option value="4:30:00">Early  morning</option><option value="9:00:00">Morning</option><option value="14:30:00">Afternoon</option><option value="17:30:00">Late  afternoon</option><option value="21:00:00">Evening</option><option value="00:30:00">12:00 AM</option><option value="01:30:00">1:00 AM</option><option value="02:30:00">2:00 AM</option><option value="03:30:00">3:00 AM</option><option value="04:30:00">4:00 AM</option><option value="05:30:00">5:00 AM</option><option value="06:30:00">6:00 AM</option><option value="07:30:00">7:00 AM</option><option value="08:30:00">8:00 AM</option><option value="09:30:00">9:00 AM</option><option value="10:30:00">10:00 AM</option><option value="11:30:00">11:00 AM</option><option value="12:30:00">12:00 PM</option><option value="13:30:00">1:00 PM</option><option value="14:30:00">2:00 PM</option><option value="15:30:00">3:00 PM</option><option value="16:30:00">4:00 PM</option><option value="17:30:00">5:00 PM</option><option value="18:30:00">6:00 PM</option><option value="19:30:00">7:00 PM</option><option value="20:30:00">8:00 PM</option><option value="21:30:00">9:00 PM</option><option value="22:30:00">10:00 PM</option><option value="23:30:00">11:00 PM</option></select></select></td>
+							<td class="ff29Dateitem" style="padding:0px 3px 0px 0px;"><a href="javascript:oCalPopR.ShowCal(false);oCalPopD.ShowCal();" id="launch_oCalPopD"><img width="19" height="17" src="http://a56.g.akamai.net/7/56/7207/188d140e6a897b/www.united.com/ual/asset/tlsCalendarIcon.gif" border="0"></a></td>
+						</tr>
+					</table>
+				</div>
+				<div style="padding-top:4px;" class="ff29genericlabel" id="ff29Rlabel">Returning</div>
+				<div class="ff29minoritem" id="ff29Ritem" style="padding:0px 0px 3px 3px; text-align:left;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td class="ff29Dateitem"><select style="width:74px;" name="retMonth" id="shop_arrivemonth" onChange="oCalPopR.ChgM();" class="month"><option> </option></select></td>
+							<td class="ff29Dateitem"><select style="width:40px;" name="retDay" id="shop_arriveday" onChange="oCalPopR.ChgD();" class="day"><option> </option><option>01</option></select></td>
+							<td id="ff29adjacentRet"><select style="width:92px;" id="shop_arrivetime"><option value="">Any  time</option><option value="4:30:00">Early  morning</option><option value="9:00:00">Morning</option><option value="14:30:00">Afternoon</option><option value="17:30:00">Late  afternoon</option><option value="21:00:00">Evening</option><option value="00:30:00">12:00 AM</option><option value="01:30:00">1:00 AM</option><option value="02:30:00">2:00 AM</option><option value="03:30:00">3:00 AM</option><option value="04:30:00">4:00 AM</option><option value="05:30:00">5:00 AM</option><option value="06:30:00">6:00 AM</option><option value="07:30:00">7:00 AM</option><option value="08:30:00">8:00 AM</option><option value="09:30:00">9:00 AM</option><option value="10:30:00">10:00 AM</option><option value="11:30:00">11:00 AM</option><option value="12:30:00">12:00 PM</option><option value="13:30:00">1:00 PM</option><option value="14:30:00">2:00 PM</option><option value="15:30:00">3:00 PM</option><option value="16:30:00">4:00 PM</option><option value="17:30:00">5:00 PM</option><option value="18:30:00">6:00 PM</option><option value="19:30:00">7:00 PM</option><option value="20:30:00">8:00 PM</option><option value="21:30:00">9:00 PM</option><option value="22:30:00">10:00 PM</option><option value="23:30:00">11:00 PM</option></select></select></td>
+							<td class="ff29Dateitem" style="padding:0px 3px 0px 0px;"><a href="javascript:oCalPopD.ShowCal(false);oCalPopR.ShowCal();" id="launch_oCalPopR"><img width="19" height="17" src="http://a56.g.akamai.net/7/56/7207/188d140e6a897b/www.united.com/ual/asset/tlsCalendarIcon.gif" border="0"></a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="ff29pane1sub1b" style="display:block;">
+<!-- flight search bottom half | begin -->
+				<div style="padding:0px 0px 7px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel" style="padding-bottom:0px;background-color:f5f5f5;">Search by</div>
+				<div style="padding:0px 0px 0px 10px;background-color:f5f5f5;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="height:22px;" class="ff29generic" valign="center"><input onclick="ff29searchByUpdate('SearchBySCHEDULE')" checked="checked" type="radio" id="SearchBySCHEDULE" name="shop_viewresults" value="SCHEDULE"></td><td class="ff29generic" valign="center" style="padding-right:10px;"><label onclick="ff29searchByUpdate('SearchBySCHEDULE')" for="SearchBySCHEDULE">schedule</label></td>
+							<td class="ff29generic" valign="center"><input onclick="ff29searchByUpdate('SearchByPRICE')" type="radio" id="SearchByPRICE" name="shop_viewresults" value="PRICE"></td><td class="ff29generic" valign="center" style="padding-right:10px;"><label onchange="ff29searchByUpdate('SearchByPRICE')" for="SearchByPRICE">price</label></td>
+							<td style="height:22px;" class="ff29generic" valign="center"><span><input onclick="ff29searchByUpdate('SearchByFLEXDATE')" type="radio" id="SearchByFLEXDATE" name="shop_viewresults" value="FLEXDATE"></span></td><td class="ff29generic" valign="center" style="padding-right:10px;"><span><label id="SearchByFLEXDATElabel" onclick="ff29searchByUpdate('SearchByFLEXDATE')" for="SearchByFLEXDATE">flexible dates</label></span></td>
+						</tr>			
+					</table>
+				<script>document.getElementById("SearchBySCHEDULE").checked = true;/*init routine, used when back & forward buttons are pressed*/</script>
+				</div>
+				<div style="padding:7px 0px 0px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel" style="padding-top:7px;">Number of passengers</div>
+				<div class="ff29minoritem">
+				<table border="0" cellpadding="0" cellspacing="0" id="childseniorcompact"> 
+					<tr>
+						<td class="ff29generic">Adult  </td>
+						<td><select style="font-size:11px;" id="flightADTmain" name="adults"><option value="1-ADT" selected>1</option><option value="2-ADT">2</option><option value="3-ADT">3</option><option value="4-ADT">4</option><option value="5-ADT">5</option><option value="6-ADT">6</option><option value="7-ADT">7</option><option value="8-ADT">8</option><option value="9-ADT">9</option></select></td>
+						<td><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/trans.gif" border="0" width="10" height="1"></td>
+						<td width="100%" class="ff29generic"><a href="javascript:showChildandSenior();">(child or senior?)</a></td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="0" id="childseniorfull">
+					<col width="45">
+					<col width="85">
+					<col width="65">
+					<tr>
+						<td align="center" class="ff29generic" style="padding:3px 0px 5px 0px;">Adult</td>
+						<td align="center" class="ff29generic" style="padding:3px 0px 5px 0px;">Senior (65+)</td>
+						<td align="center" class="ff29generic" style="padding:3px 0px 5px 0px;">Child (2-11)</td>
+					</tr>
+					<tr>
+						<td align="center"><select style="font-size:11px;" id="flightADT" name="fltadt"><option value="0-ADT">0</option><option value="1-ADT" selected>1</option><option value="2-ADT">2</option><option value="3-ADT">3</option><option value="4-ADT">4</option><option value="5-ADT">5</option><option value="6-ADT">6</option><option value="7-ADT">7</option><option value="8-ADT">8</option><option value="9-ADT">9</option></select></td>
+						<td align="center"><select style="font-size:11px;" id="flightSRC" name="fltsrc"><option value="0-SRC" selected>0</option><option value="1-SRC">1</option><option value="2-SRC">2</option><option value="3-SRC">3</option><option value="4-SRC">4</option><option value="5-SRC">5</option><option value="6-SRC">6</option><option value="7-SRC">7</option><option value="8-SRC">8</option><option value="9-SRC">9</option></select></td>
+						<td align="center"><select style="font-size:11px;" id="flightCNN" name="fltcnn"><option value="0-CNN" selected>0</option><option value="1-CNN">1</option><option value="2-CNN">2</option><option value="3-CNN">3</option><option value="4-CNN">4</option><option value="5-CNN">5</option><option value="6-CNN">6</option><option value="7-CNN">7</option><option value="8-CNN">8</option></select></td>
+					</tr>
+				</table>
+				</div>
+				<div style="margin-top:7px;padding:0px 0px 7px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div style="padding:0px 0px 9px 9px;background-color:f5f5f5;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top" class="ff29generic" style="padding-top:1px; width:18px;" nowrap="nowrap">
+								<div id="ff29upprclnoarrowa"><a href="javascript:showMoreSearch();"><img id="ff29fltoptionsexpander" border="0" src="http://a56.g.akamai.net/7/56/7207/7654f510b796b2/www.united.com/ual/asset/ff29moresearchright.gif"></a></div>
+								<div id="ff29upprclnoarrowb"><a href="javascript:showMoreSearch();"><img id="ff29fltoptionsexpander" border="0" src="http://a56.g.akamai.net/7/56/7207/429d25915d4a6b/www.united.com/ual/asset/ff29moresearchdown.gif"></a></div>
+							</td>
+							<td id="ff29upprclnolabel" valign="top" class="ff29genericlabel" style="padding:0px;"><a style="text-decoration:none;color:#321321;" href="javascript:showMoreSearch();">More search options</a></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td width="100%" class="ff29generic" style="padding-top:3px;"><div id="ff29upprclnolink"><a href="javascript:showMoreSearch();">Upgrades, promotions, class, non-stops...</a></div></td>
+						</tr>
+					</table>
+				</div>
+				<div id="ff29upprclno" style="background-color:f5f5f5;">
+				<div style="padding:0px 0px 9px 9px;">
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="ff29generic" nowrap="nowrap" style="padding-bottom:3px;">Service class</td>
+	</tr>
+	<tr>
+		<td class="ff29generic" colspan="2" style="padding-bottom:7px;">
+			<select style="font-size:11px; width:100%;" name="shop_serviceclass" tabindex="81" id="serviceclass">
+				<option value="ECONOMY-NON-REFUNDABLE" selected="selected">Economy (lowest)</option><option value="ECONOMY-REFUNDABLE">Economy (refundable)</option>
+				<option value="BUSINESS-NON-REFUNDABLE">Business (lowest)</option><option value="BUSINESS-REFUNDABLE">Business (refundable)</option>
+				<option value="FIRST-NON-REFUNDABLE">First (lowest)</option><option value="FIRST-REFUNDABLE">First (refundable)</option>
+			</select>	
+		</td>
+		<td class="ff29generic"> </td>
+	</tr>
+	<tr>
+		<td colspan="3" class="ff29generic" nowrap="nowrap" style="padding-bottom:3px;">I would like to use this upgrade</td>
+	</tr>
+	<tr>
+		<td class="ff29generic" colspan="2" style="padding-bottom:10px;">
+			<select name="shop_upgrade" tabindex="82" id="upgrade" style="font-size:11px; width:100%;">
+				<option value="" selected="selected">No upgrade</option><option value="GTC500 Mile Upgrade">500 Mile Upgrade</option> 
+				<option value="GTCRegional Upgrade">Regional Upgrade</option><option value="GTCSystemwide Region 1">Systemwide Region 1</option> 
+				<option value="GTCSystemwide Region 2">Systemwide Region 2</option><option value="GTCMiles-EMUHQVKWSTL">Miles-EMUHQVKWSTL</option> 
+				<option value="GTCMiles-MH">Miles-MH</option><option value="GTCMiles-YB">Miles-YB</option>
+			</select>
+		</td>
+		<td class="ff29generic" style="padding-left:5px;padding-bottom:10px;font-size:10px;"><a href="javascript:ff29popup('http://travel.united.com/ube/upgradedesc.do?shop_upgrade=')">More info</a></td>
+	</tr>
+	<tr>
+		<td class="ff29generic" nowrap="nowrap" style="padding-bottom:10px;">Maximum stops</td>
+		<td class="ff29generic" align="right" style="padding-bottom:10px;">
+			<select name="shop_stops" tabindex="83" id="stops" style="font-size:11px;">
+				<option value="0">Non-stop</option>
+				<option value="1" selected="selected">1-stop</option>
+				<option value="2">2-stops</option>
+			</select>	
+		</td>
+		<td class="ff29generic"> </td>
+	</tr>
+	<tr>
+		<td colspan="3" class="ff29generic" nowrap="nowrap" style="padding-bottom:3px;">Electronic certificate or promotion code</td>
+	</tr>
+	<tr>
+		<td class="ff29generic" colspan="2" style="padding-bottom:7px;">
+			<input id="flightPromocode" type="text" style="font-size:11px; width:100%;">
+		</td>
+		<td class="ff29generic" style="padding-left:5px;padding-bottom:7px;font-size:10px;"><a href="javascript:ff29popup('http://travel.united.com/ube/promodesc.do?navSource=MoFo&linkTitle=create_itin_search_moreinfo2&shop_promotioncode=')">More info</a></td>
+	</tr>
+	<tr>
+		<td class="ff29generic" colspan="2" valign="top">
+			<input id="flightIncludeSA" type="checkbox" style="width:15px; margin:0px; padding:0px;"><label for="flightIncludeSA"> Include Star Alliance flights</label>
+		</td>
+		<td class="ff29generic" style="padding-left:5px;font-size:10px;padding-top:6px;" valign="top"><a href="javascript:ff29popup('http://travel.united.com/ube/articleLookup.do?lookup=article&code=ui.text.help.FareFinders_StarAlliance&popup=true&navSource=MoFo&linkTitle=create_itin_search_moreinfo3')">More info</a></td>
+	</tr>
+</table>
+					</div>
+					<div style="padding:5px 0px 14px 0px;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				</div>
+<!-- flight search bottom half | end -->
+			</div>
+			<div id="ff29pane1sub2b">
+<!-- hotel search bottom half | begin -->
+				<div style="padding:0px 0px 7px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel" style="background-color:f5f5f5;">Adults</div>
+				<div class="ff29minoritem" style="background-color:f5f5f5;">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td><select id="hotelAdults" name="adults" style="font-size:11px;"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option></select></td>
+						<td><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/trans.gif" border="0" width="10" height="1"></td>
+						<td width="100%" class="ff29generic"><a href="javascript:ff29Submit('options','hotelcmr');">Children, multiple rooms...</a></td>
+					</tr>
+				</table>
+				</div>
+				<div style="padding:7px 0px 14px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+<!-- hotel search bottom half | end -->
+			</div>
+			<div id="ff29pane1sub3b"><!--nothing in here at the moment--></div>
+			<div id="ff29pane1sub4b">
+<!-- vacations search bottom half | begin -->
+				<div style="padding:0px 0px 7px 0px;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div class="ff29genericlabel">Number of passengers</div>
+				<div class="ff29minoritem">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="ff29generic" style="padding-bottom:5px;">Adults</td>
+						<td class="ff29generic"></td>
+						<td class="ff29generic"></td>
+					</tr>
+					<tr>
+						<td><select id="vacationsAdults" name="adults" style="font-size:11px;"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select></td>
+						<td><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/trans.gif" border="0" width="10" height="1"></td>
+						<td width="100%" class="ff29generic"><a href="http://reservations.unitedvacations.com/search/search.aspx?Referrer=Z24">package with children</a></td>
+					</tr>
+				</table>
+				</div>
+				<div style="margin-top:7px;padding:0px 0px 14px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+<!-- vacations search bottom half | end -->
+			</div>
+			<div id="ff29search" style="background-color:#f5f5f5;">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="100%" id="ff29adjacentSearch" class="ff29generic" style="padding:0px 0px 0px 6px;"> </td>
+						<td style="padding-right:10px" align="right"><input type="image" value="submit" src="http://a56.g.akamai.net/7/56/7207/34ad5fdb4fdc8c/www.united.com/ual/asset/ff29search.gif" border="0"></td>
+					</tr>
+				</table>
+					<div id="hpHotelsPromo" style="background-color:#f5f5f5;"><a href="http://www.united.com/hpffhotels"><img src="http://a56.g.akamai.net/7/56/7207/b5e37396762f23/www.united.com/ual/asset/hotelspromoforFF.gif" border="0"></a></div>
+			</div>
+			<div id="ff29Aftersearchbutton">
+				<div style="padding:17px 0px 2px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div>
+				<div style="background-color:#F5F5F5;padding:2px 0px 2px 0px;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td align="right" style="width:130px;font-size:11px;color:#666666;padding-right:18px;"><a href="http://travel.united.com/ube/award/us/secure/awardShop.do?navSource=HP07&linkTitle=a21bookawardtravel">Book with miles</a></td>
+	<td align="center" style="width:6px;font-size:11px;color:#666666;">|</td>
+	<td align="left" style="width:106px;font-size:11px;color:#666666;padding-left:16px;"><a href="/page/genericpage/0,,52172,00.html?navSource=HP07&linkTitle=a22myitineraries">My itineraries</a></td>
+</tr>
+</table>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div id="ff29pane2" class="ffheight">
+<!-- eco begin -->
+<script type="text/javascript">
+<!--/*<![CDATA[*/-->
+$(document).ready(function() {
+	$('div.col3').css('padding', 5);
+	$('#ci_logged').hide();
+	$('#myItinsEmplCheckin').addClass('dashTop');		
+//determine login state
+if (isDefined(myCookies['rememberProfile'])&& isDefined(myCookies['isSecure']) && myCookies['isSecure']=="true") {
+		var parsedValue=unescape(myCookies['rememberProfile']).split("||");
+		var mpiNumber=parsedValue[0];
+		var firstName=parsedValue[1];
+		var lastName=parsedValue[2];
+		var mpLevel=parsedValue[3];
+		var mpBal=parsedValue[4];
+		var homeArpt=parsedValue[5];
+		var strFirstAndLastName=firstName+lastName;
+		if(strFirstAndLastName != "")
+			{
+				if(document.getElementById("nameHold"))
+					{
+						if (strFirstAndLastName.length <= 30 && (firstName.length<=15 && lastName.length<=15))
+							{
+								// write both
+								document.getElementById("nameHold").innerHTML = firstName+' '+lastName;
+								document.getElementById("forHold").innerHTML = 'for ';
+							}
+						else
+							{
+								if (firstName.length<=15)
+									{
+										// write first
+										document.getElementById("nameHold").innerHTML = firstName;
+										document.getElementById("forHold").innerHTML = 'for ';
+									}
+							}
+						if (firstName.length>15)
+							{
+								// remove "for"
+								document.getElementById("nameHold").innerHTML = firstName;
+							}
+					}
+			}
+		if (mpLevel != "" && mpBal != "")
+			{
+				document.getElementById('mpLevelHold').innerHTML = '<nobr>'+mpLevel+' <span style="color:#999;"> | </span> </nobr><nobr>Miles: '+mpBal.commafy()+'</nobr>';
+			}
+		//hide the MP login and guest login divs
+		document.getElementById("mileagePlus_login").style.display = "none";
+		document.getElementById("joinMPcontainer").style.display="none";
+		document.getElementById("mploggedin").style.display = "block";
+		document.getElementById("mpLoggedinContainer").style.display="block";
+
+		$('.cio_whichLogin').hide();
+		$('#ci_logged').show();
+		$('#myitins').attr("href","https://www.ua2go.com/ci/DoLogin.jsp?return_to=itins");
+		$('#myitins2').attr("href","https://www.ua2go.com/ci/DoLogin.jsp?return_to=itins&navSource=HP07&linkTitle=a22myitineraries");
+	var divHite = $('div.col3').height();
+	if (divHite < 446) $('div.col3').height(446);
+} else {  //display  log in
+		writeStartIn();//populate start in select
+		document.getElementById("mploggedin").style.display = "none";
+		$("#ci_cc").click(function() {
+			$('#ci_tktNumber #label_searchValueId').html('Credit card #');
+			$('#ci_searchValueId').attr('maxlength', 19)
+			$('#ci_searchValueId').attr('value', '')
+		});
+		$("#ci_pnr").click(function() {
+			$('#ci_tktNumber #label_searchValueId').html('Confirmation or e-ticket number');
+			$('#ci_searchValueId').attr('maxlength', 14);
+			$('#ci_searchValueId').attr('value', '')
+		});
+	if (isDefined(myCookies["rememberME"])) {	
+		switch (myCookies["rememberME"]) {
+			case "E":
+				if (isDefined(myCookies["rememberEMAIL"])) {
+					$('input.userId').val(myCookies["rememberEMAIL"]);
+					$(".remMP").check();
+					document.topLogin.userId.value=myCookies["rememberEMAIL"];
+				}
+			break;
+		
+			case "M":
+				if	(isDefined(myCookies["getMP"])) rememberMP = myCookies["getMP"];// *.united.com
+				else if	(isDefined(myCookies["rememberMP"])) rememberMP = myCookies["rememberMP"];// ua2go.com
+				if (isDefined(rememberMP)) {
+						$('input.userId').val(rememberMP);
+						$(".remMP").check();
+						document.topLogin.userId.value=rememberMP;
+					}
+			break;
+		}	
+	}
+      $('#loggedout').show();
+			document.getElementById("mpLoggedinContainer").style.display="none";
+			document.getElementById("mileagePlus_login").style.display = "block";
+			document.getElementById("joinMPcontainer").style.display = "block";
+
+	}
+	
+	$('#ci_gli a').Tooltip({ 
+    track: true, 
+    delay: 0, 
+    showURL: false, 
+    showBody: " - ", 
+    opacity: 0.90 
+	});
+});
+	$.fn.check = function() {
+		return this.each(function() {
+			this.checked = true;
+		});
+	};
+<!--/*]]>*/-->
+</script>
+		<div class="col3"><img src="http://a56.g.akamai.net/7/56/7207/d8629838721b5a/www.united.com/ual/asset/eco_checkinHdr_col3.gif" alt="checkin online" width="161" height="22" />
+		<div style="padding-top:10px;">Check in 24 hours before your flight, up to 1 hour before your domestic flight and up to 2 hours before your international flight originating in the U.S. <a href="http://faq.ua2go.com/?c=12&cid=1&cpc=WnaqDcP5KrMu623S1OA64DwwrR4UyhK6fv2ylkXXS&cat=1033&catURL=kb%3D1%26L1cid%3D1033%26level%3D2%26" target="_blank">FAQs</a></div>
+		<div class="cio_whichLogin">
+			<div class="dashedBorder" id="ci_mpml" style="padding-bottom:5px">
+			<h6><img src="http://a56.g.akamai.net/7/56/7207/d6f7d47039613d/www.united.com/ual/asset/mileagePlusMemberLogin_196x17.png" width="196" height="17" alt="Mileage Plus member login"></h6>
+			<form name="cio_MP" id="cio_MP" style="margin:0;padding:6px 0 0 0" action="https://www.ua2go.com/ci/DoLogin.jsp?return_to=easy_checkin" method="post" onSubmit="return ValidateUserId2(this)">
+			<input type="hidden" name="authType" value="mp">
+			<label for="ecoText1" >Mileage Plus # or email address</label><BR>
+			<input class="userId" name="userId" id="ecoText1" size="25" maxLength="40" onkeypress="if((window.event && event.keyCode == 13) || event.which == 13 )if(ValidateUserId2(this.form))this.form.submit();" type="text">
+			<BR>
+			<label for="ecoText2">Password</label><BR>
+			<input name="password" id="ecoText2" maxLength="24" onkeypress="if((window.event && event.keyCode == 13) || event.which == 13 )if(ValidateUserId2(this.form))this.form.submit();" type="password" style="width:125px;float:left">
+			<BR clear="all" />
+			<div style="float:left;margin:8px 0"><input class="remMP" name="remMP" id="remMP" value="on" type="checkbox" style="height: auto;vertical-align: middle;border-top-width: 0;border-top-style: none;"> 
+			Remember me </div>
+				<div class="login" style="float:right;margin-top:8px"><a href="javascript:if (ValidateUserId2(document.cio_MP)) document.cio_MP.submit()"></a></div><BR>
+			</form><br clear="all" />
+			</div>
+			<div id="or"><img src="http://a56.g.akamai.net/7/56/7207/6c901e213569c9/www.united.com/ual/asset/OR.png" width="18" height="9"></div>
+			<div class="dashedBorder" id="ci_gli" style="padding-bottom:9px">	
+			<h6><img src="http://a56.g.akamai.net/7/56/7207/f9d2574387b876/www.united.com/ual/asset/guestAccess_101x17.png" width="101" height="17" alt="guest access"></h6>
+			<form style="margin-top:5px;" action="https://travel.united.com/eco/webcheckin/altSearch.do" name="authForm3" id="authForm3" method="post" onSubmit="return ecodlSubmit3(this)">
+			<input id="ci_pnr" name="authType" type="radio"  value="pnr" checked="checked">
+			 Confirmation  or e-ticket number <a href="#" id="help" title="Confirmation number - The United confirmation number is a six character alpha-numeric code. It can be found on your itinerary or ticket receipt. <BR><BR> <h3>E-Ticket number</h3>This is a 13 digit number beginning with 016. It can be located on your E-Ticket receipt. Your credit card statement may also log the E-Ticket number along with the fare charge."><img src="http://a56.g.akamai.net/7/56/7207/12f2a2e2146153/www.united.com/ual/asset/tool_tips_icon.gif" width="14" height="13" border="0"></a><BR>
+			<input id="ci_cc" type="radio" name="authType" value="cc"> Credit card number <a href="#" id="help" title="Credit card number - Enter the credit card number used to purchase your ticket. Your credit card will not be charged."><img src="http://a56.g.akamai.net/7/56/7207/12f2a2e2146153/www.united.com/ual/asset/tool_tips_icon.gif" width="14" height="13" border="0"></a>
+			<div id="ci_tktNumber" style="margin-top:8px;"><label id="label_searchValueId" for="ci_searchValueId">Confirmation or e-ticket number</label><BR>
+			<input class="cio_tktnumber" name="userId" type="text" id="ci_searchValueId" size="25" maxlength="14" onkeypress="if(window.event && window.event.keyCode == 13)if(ecodlSubmit3(this.form))this.form.submit();" ><BR></div>
+			<label for="lname">Last name</label><BR>
+			<input name="lastName" id="lastName" type="text" maxlength="40" onkeypress="if(window.event && window.event.keyCode == 13)if(ecodlSubmit3(this.form))this.form.submit();" style="float:left;width:95px">
+			<input  style="float:right;margin-top:0px;" name="submit2" type="image" value="Continue" src="http://a56.g.akamai.net/7/56/7207/dc11e36f136e97/www.united.com/ual/asset/continue_bttn_106x18.gif" align="right" width="106" height="18">
+			</form><BR clear="all">
+			</div>
+		</div>
+				<div class="login" style="float:right;margin:18px 0 10px 0;" id="ci_logged"><a style="background-image:url(/ual/asset/continue_bttn_106x36.gif);width:106px" href="https://travel.united.com/etc/webcheckin/listPnr.do"></a></div>
+				<br clear="all" />
+			<div id="ci_ecoLoginHelpText" style="background-color:#E3ECFF; margin:0 0 6px 0; padding:3px 9px;font-size:11px;">Note: Due to required security measures some customers may not be able to check-in online</div>
+		<div id="myItinsEmplCheckin" style="clear:both">
+	<div style="padding-left: 10px;float:left"><a id="myitins" href="/page/genericpage/0,,52172,00.html">My itineraries</a></div>
+	<div style="width:32px;text-align:center; float:left">|</div>
+	<div style="float-left;margin-left: 16px;"><a href="https://travel.united.com/etc/webcheckin/nonrevenue/login.jsp">Employee check-in</a></div>
+	<br clear="all" /></div></div>
+<!-- eco end -->
+	</div>
+	<div id="ff29pane3">
+<!-- flight status | begin-->
+<div style="background-image:url('/ual/asset/hp30fftopgradient.gif');height:50px;font-size:11px;color:333;">
+	<div style="padding:25px 0px 0px 8px;">
+		<strong>Check status of a flight</strong>
+	</div>
+</div>
+<script src="http://www.united.com/page/genericpage/1,,52290,00.html?Log=0"></script>
+<script type="text/javascript">
+if (window.showCityPair)
+{
+	if (showCityPair == "on")
+	{
+		document.write('<scr'+'ipt type="text/javascript" src="http://www.united.com/homepageFS.js"><\/scr'+'ipt>');
+	}
+	if (showCityPair == "off")
+	{
+		document.write('<scr'+'ipt type="text/javascript" src="http://www.united.com/ual/asset/homepageFS2.js"><\/scr'+'ipt>');
+		document.write('<style>')		
+		document.write('.cityPairItem{display:none;}')		
+		document.write('</style>')		
+	}
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+function insightfirstcall (f){
+	//if_queryForm(f);
+}
+</script>
+<form method="get" action="http://www.ua2go.com/flifo/FlightSummary.do?stamp=" name="FlightStatus" onSubmit="return verify(this);" style="margin:0px;">
+<input type="hidden" name="Check" value="">
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="2"><div style="padding:0px 0px 13px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div></td>
+	</tr>
+	<tr>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:0px 0px 12px 8px;">Date:</td>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:0px 0px 12px 0px;"><select name="date" style="width:100px;font-size:11px;">
+			<script type="text/javascript">
+			document.write(ff29FlightStatusOptions);
+			</script>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:0px 0px 0px 8px;">Flight number:</td>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;"><input style="width:100px;font-size:11px;" type=text name="fltNbr" maxlength="4" value="" onKeyPress="if(window.event && window.event.keyCode == 13)if(verify(this.form))this.form.submit();"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background-color:f5f5f5;"><div style="padding:8px 0px 0px 0px;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div></td>
+	</tr>
+	<tr>
+		<td style="font-size:11px;color:333;font-family:arial,helvetica;"></td>
+		<td style="font-size:11px;color:333;font-family:arial,helvetica;padding:11px 0px 6px 0px;" id="fsandor"><strong>and/or</strong></td>
+	</tr>
+	<tr>
+		<td colspan="2"><div style="margin-top:7px;padding:0px 0px 7px 0px;background-color:f5f5f5;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div></td>
+	</tr>
+<script>
+if (window.showCityPair)
+{
+	if (showCityPair == "off")
+	{
+		document.write('<tr><td colspan="2" style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:0px 7px 0px 7px;">'+cityPairMessage+'</td></tr>')
+		if(document.getElementById("fsandor")) document.getElementById("fsandor").innerHTML = " ";
+	}
+}
+</script>	
+	<tr class="cityPairItem">
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:4px 0px 0px 8px;">From:<input name="deparr" type="hidden" value="D"></td>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:4px 0px 0px 0px;"><input style="width:100px;font-size:11px;" name="orig" maxlength="25" value="" onKeyPress="if(window.event && window.event.keyCode == 13)if(verify(this.form))this.form.submit();"></td>
+	</tr>
+	<tr class="cityPairItem">
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:14px 0px 0px 8px;">To:</td>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:14px 0px 0px 0px;"><input style="width:100px;font-size:11px;" name="dest" maxlength="25" value="" onKeyPress="if(window.event && window.event.keyCode == 13)if(verify(this.form))this.form.submit();"></td>
+	</tr>
+	<tr class="cityPairItem">
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:14px 0px 0px 8px;">Time:</td>
+		<td style="background-color:f5f5f5;font-size:11px;color:333;font-family:arial,helvetica;padding:14px 0px 0px 0px;"><select style="width:100px;font-size:11px;" name="time" size="1"><option value="00002359">All day</option><option value="00001200">Morning</option><option value="11001700">Afternoon</option><option value="16002400">Evening</option></select></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background-color:f5f5f5;"><div style="margin-top:7px;padding:7px 0px 0px 0px;"><img src="http://a56.g.akamai.net/7/56/7207/9a76bfedad307a/www.united.com/ual/asset/ff30hr.gif" alt=""></div></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td style="font-size:11px;color:333;font-family:arial,helvetica;padding-top:21px;"><input name="Check" type="image" src="http://a56.g.akamai.net/7/56/7207/e0712e7ceb978e/www.united.com/ual/asset/ff30buttonCheck.gif" value="Check" ></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td style="padding-top:13px;">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top" style="padding-top:5px;padding-right:5px;"><img src="http://a56.g.akamai.net/7/56/7207/0924dbe822b875/www.united.com/ual/asset/hp30fauxgt.gif" border="0"></td>
+					<td valign="top" style="font-size:11px;color:333;font-family:arial,helvetica;"><a href="http://travel.united.com/ube/core/us/oaflifo.do">Search other airlines</a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<div style="padding:39px 0px 0px 0px;"><a href="http://www.united.com/page/article/0,8566,1974,00.html"><img src="http://a56.g.akamai.net/7/56/7207/6f7063d80e9108/www.united.com/ual/asset/ff30easyupdate.gif" alt="" border="0"></a></div>
+<div style="padding:10px 0px 10px 0px;background-color:f5f5f5;font-family:arial,helvetica;font-size:11px;text-align:center;"><a href="http://www.united.com/page/article/0,8566,1974,00.html">Updates via phone, email or pager</a></div>
+		</form>
+	<script language="JavaScript" type="text/javascript">
+		// reseting the form when loaded
+		document.FlightStatus.reset();   
+	</script>
+<!-- flight status | end -->
+	</div>
+</div>
+	<div class="hpFSAbackground"><img src="http://a56.g.akamai.net/7/56/7207/0079666a96a51f/www.united.com/ual/asset/ff30bottomtan.gif" alt=""></div>
+</div>
+<!-- for calendar | begin -->
+<div id="departpop" class="pC">
+    <script language="JavaScript" type="text/javascript">
+        oCal_obj.prototype.aMthFull = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        oCal_obj.prototype.aMthAbbr = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        oCal_obj.prototype.aDayAbbr = ['S','M','T','W','T','F','S'];
+        oCalPopD = new oCal_obj("oCalPopD","departpop","shop_departmonth","shop_departday",ff29TodayYearMonth,ff29TodayCalendarDay,ff29DepYearMonth,ff29DepCalendarDay);		
+        oCalPopD.bIsPopup = true;
+		  oCalPopD.Init();
+    </script> 
+</div>
+<script type="text/javascript">
+// initialization
+if (getCookie("homeArpt")) 
+	{ 
+		document.getElementById('shop_from0').value=getCookie("homeArpt");
+		document.getElementById("vacationO").value=getCookie("homeArpt");
+	}
+</script>
+<script language="JavaScript" type="text/javascript">
+ if (chkBrows('msie') && chkBrows('windows')) {
+	if (chkBrows('opera')) { }
+	else {
+		if (!chkBrows('msie 5.0')) {	 	
+				sWie='';
+				sWie +='<iframe id="dIframe" src="about:blank" scrolling="no" frameborder="0"><\/iframe>';
+				document.write(sWie);
+			}
+		}
+}
+</script>
+<div id="returnpop" class="pC">
+        <script language="JavaScript" type="text/javascript">
+            oCalPopR = new oCal_obj("oCalPopR","returnpop","shop_arrivemonth","shop_arriveday",ff29TodayYearMonth,ff29TodayCalendarDay,ff29RetYearMonth,ff29RetCalendarDay);		
+            oCalPopR.bIsPopup = true;
+            oCalPopR.Init();
+            oCalPopD.oCalFw = oCalPopR;
+            oCalPopR.oCalBk = oCalPopD;
+        </script>
+</div>
+ <script language="JavaScript" type="text/javascript">
+ if (chkBrows('msie') && chkBrows('windows')) {
+ if (chkBrows('opera')) {
+ }
+ else {
+ if (!chkBrows('msie 5.0')) {	 	
+	sWie='';
+	sWie +='<iframe id="rIframe" src="about:blank" scrolling="no" frameborder="0"><\/iframe>';
+	document.write(sWie);
+}
+  }
+ }
+</script>
+<!-- for calendar | end -->
+
+<!--FARE FINDER | END-->
+		</td>
+		<td valign="top" class="hpFSAbackground" height="100%" >
+<table height="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td height="1%"><script type="text/javascript" src="http://www.united.com/page/genericpage/1,,52050,00.html?Log=0"></script></td>
+	</tr>
+	<tr>
+		<td height="100%" align="right" style="padding:0px 0px 3px 0px;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" style="margin-right:5px;">
+<col width="1"><col width="245"><col width="1">
+	<tr>
+		<td height="1" colspan="3"><img src="http://a56.g.akamai.net/7/56/7207/d0c774f6f62b52/www.united.com/ual/asset/hp30newsanddeals.gif"/></td>
+	</tr>
+	<tr>
+		<td height="100%" bgcolor="FFFFFF"></td>
+		<td height="100%" bgcolor="F7FAFE" valign="top">
+<script type="text/javascript" language="javascript">
+if (window.ualhpNews){
+document.write('<div class="carret" style="margin-left:10px;font-family:Arial, Helvetica;"><ul>');
+	for(ij=0;ij<ualhpNews.length;ij++) {
+		document.write('<li style="line-height: 1.6"><a style="font-size:11px; text-decoration:underline;" href="'+ualhpNews[ij][3]+'">'+ualhpNews[ij][2]+'</a></li>');
+	}
+	document.write('</ul></div>');
+}
+</script>	
+
+<script type="text/javascript">
+if (window.ualhpAlso)
+	{
+			document.write('<div style="padding:15px 0px 0px 9px;">');
+		if(ualhpAlso.length>=1)
+			{
+				document.write('<font FACE="arial,geneva" size=1 color="#666666">Also: </font>')
+			}
+		for(ij=0;ij<ualhpAlso.length;ij++)
+			{
+				document.write('<font FACE="arial,geneva" size=1 color="#0033cc"><a href="'+ualhpAlso[ij][1]+'">'+ualhpAlso[ij][0]+'</a>  </font>')
+			}
+			document.write('</div>');
+	}
+</script>
+		
+		</td>
+		<td height="100%" bgcolor="FFFFFF"></td>
+	</tr>
+	<tr>
+		<td height="1%" colspan="3"><img src="http://a56.g.akamai.net/7/56/7207/5b5e8489336d6b/www.united.com/ual/asset/hp30newsanddealsfooter.gif"/></td>
+	</tr>
+</table>
+</div>
+		</td>
+	</tr>
+</table>
+		</td>
+		<td ><img src="http://a56.g.akamai.net/7/56/7207/5472601571f31e/www.united.com/images/d.gif" width="1" height="1" border="0" alt=""></td>
+		<td valign="top" class="hpRightCol" >
+<div id="mploggedin">
+<div id="toppiece">
+<div id="forHold"></div><div id="nameHold"></div></div>
+<div id="mpLevelHold"></div>
+<div class="carret" style="margin-left:10px"><ul><li><a href="https://www.ua2go.com/ci/Login.jsp?return_to=mpsummary_us">My mileage summary</a></li></ul></div>
+<div class="carret" style="margin-left:10px"><ul><li><a href="https://www.ua2go.com/ci/Logout.jsp?static=true">Log out</a></li></ul></div>
+<BR clear="all"></div>
+<div id="mileagePlus_login">
+	<form class="nospace" method="POST" action="https://www.ua2go.com/ci/DoLogin.jsp?stamp=NEWCOOKY*itn/ord=NEWREC,itn/air/united" name="topLogin" onSubmit="return ValidateUserId(this)" style="margin:0;">	   
+<div style="float:left;font-family:arial,helvetica;font-size:11px;color:#333;margin:0 0 6px 0">Mileage Plus # or email address<BR> 
+	<input style="width:175px;border:1px solid #999;font-size:14px;" name="userId" type="text" maxlength="40" /></div>
+<div  style="float:left; font-family:arial,helvetica;font-size:11px;color:#333;margin:0 4px 10px 0;"> Password<BR>
+	<input style="width:100px;border:1px solid #999;font-size:14px;" name="password" type="password" maxlength="24"/></div>
+		<div style="float:left;font-family:arial,helvetica;font-size:11px;padding-top:6px;">
+<div class="carret" style="padding-top:5px"><ul><li><a href="https://www.ua2go.com/ci/PRGetMPNumber.jsp?navSource=HP07&linkTitle=a5forgotpassword">Forgot password?</a></li>
+<li><a href="https://www.ua2go.com/ci/Registration.jsp?navSource=HP07&linkTitle=a6needpassword">Need password?</a></li></ul></div>
+</div><br clear="all">
+<div style="font-size:11px;font-family:arial,helvetica;color:#333;padding:0 0 4px 0px;"><input class="remMP" style="margin-left:0px;margin-right:5px;padding:0px;" type="checkbox" id="remMP" name="remMP" onClick="chngbox(this.form)">
+<label for="renMP">Remember me</label></div>
+    <div style="font-family:arial,helvetica;font-size:11px;color:#333;padding:0 5px 0 0px;float:left"><div style="padding-left:2px">Start in</div>
+	<select style="margin:0 5px 0 0px;padding:0;font-size:11px;font-family:arial,helvetica;border:1px solid #999" id="sel_return_to" name="sel_return_to"></select>
+    </div> 
+		<div style="padding-top:12px;"><input  style="padding:0" type="image" src="http://www.united.com/ual/asset/homepage_login.gif" name="submit2" value="Login"></div>
+	
+		</form>
+    <BR clear="all"></div> 
+<div id="joinMPcontainer"><a href="https://www.ua2go.com/ci/JoinMileagePlus.jsp?navSource=HP07&linkTitle=a7joinmileageplus"><img src="http://a56.g.akamai.net/7/56/7207/41f4ccb14cf3da/www.united.com/ual/asset/hp30joinmp.gif" border="0"></a></div>
+<div id="mpLoggedinContainer"><a href="http://www.united.com/checkin"><img src="http://a56.g.akamai.net/7/56/7207/b14915e19f0fc7/www.united.com/ual/asset/hp30mploggedinpromo.gif" border="0"></a></div>
+<script type="text/javascript"> 
+function writeVOtile(voIndex) // embed a VO tile.
+{
+	document.write('<div><a href="'+ualhpvaloffers[voIndex][0]+'"><img src="'+ualhpvaloffers[voIndex][1]+'" border="0" alt="'+ualhpvaloffers[voIndex][2]+'"></a></div>');
+	vsCustomItems[vsCustomItems.length] = new Array("v_VOtile",escape(ualhpvaloffers[voIndex][2]));	 // VS Impression tracking for VO tiles
+}
+</script>
+<script type="text/javascript">if(window.ualhpvaloffers) {embedVOtiles();}// if there is a VO Tile ad pool</script><div>
+	<a title="united.com benefits" href="http://www.united.com/page/article/0,6722,50858,00.html?navSource=HP07&linkTitle=a8unitedbenefits"><img src="http://a56.g.akamai.net/7/56/7207/fa8066e73415c7/www.united.com/ual/asset/hp30unitedcombenefits.gif" border="0"></a>
+</div>
+		
+		</td>
+	</tr>
+</table>
+<!-- bodycontent.jsp | end -->
+			</td>
+			<td id="bodyCol4" class="bodyColSpace"></td>
+		</tr>
+		<tr><td></td><td style="height:1px; background-color:#ffffff;"></td><td></td></tr>
+		</table>
+	</div>
+	</td>
+	<td id="containerRight"></td>
+</tr>
+</table>
+<!-- footer.jsp | begin -->
+<div id="ualfooter1">
+	<div id="ualfooter1container">
+		<table border="0" cellpadding="0" cellspacing="0" style="height:32px;" width="770">
+			<tr>
+				<td width="100%" valign="top" align="left" id="ualFooter1left"><a href="http://www.united.com/espanol?navSource=HP07&linkTitle=a9espanol">Espa&#241;ol</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/aboutunited?navSource=HP07&linkTitle=a10aboutunited">About United</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/investorrelations?navSource=HP07&linkTitle=a11investorrelations">Investor relations</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/businessresources?navSource=HP07&linkTitle=a12businessresources">Business resources</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/employment?navSource=HP07&linkTitle=a13careers">Careers</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/sitemap?navSource=HP07&linkTitle=a14sitemap">Site map</a></td>
+				<td align="right" id="ualFooter1right"><a href="http://www.united.com/sainfo?navSource=HP07&linkTitle=a15staralliance" title="Star Alliance"><img src="http://a56.g.akamai.net/7/56/7207/ce0c3d1f237cdf/www.united.com/ual/asset/swn_2007_staralliance.gif" alt="Star Alliance" border="0"></a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div id="ualfooter2">
+	<span class="printSuppress"><a href="http://www.united.com/compatiblebrowsers?navSource=HP07&linkTitle=a18compatiblebrowsers">Compatible browsers</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/terms?navSource=HP07&linkTitle=a19termsandconditions">Terms and conditions</a>  <span class="footerpipe">|</span>  <a href="http://www.united.com/privacy?navSource=HP07&linkTitle=a20privacy">Privacy</a>  <span class="footerpipe">|</span>  </span><span class="footercopyright">&#169; 2008 United Air Lines, Inc.</span>
+</div>
+<!-- footer.jsp | end -->
+</div>
+<!-- global web analytics template | begin -->
+<script type="text/javascript">
+
+
+
+
+	var writeVSprotocol = "http"; if(document.location.href.indexOf('https://') !=- 1){writeVSprotocol = "https";}
+	var webAnalyticsPageTitle = escape("US EN Homepage");
+	document.write('<scr'+'ipt type="text/javascript" src="http://www.united.com/ual/asset/vsControls.js"><\/scr'+'ipt>');
+	document.write('<scr'+'ipt type="text/javascript" src="http://www.united.com/ual/asset/vsLinks.js"><\/scr'+'ipt>');
+	document.write('<scr'+'ipt type="text/javascript" src="http://www.united.com/ual/asset/vsPage.js"><\/scr'+'ipt>');
+</script>
+<!-- global web analytics template | end -->
+<!-- local web analytics declaration | begin -->
+<script type="text/javascript">
+function removeSpaces(string) {
+	var tstring = "";
+	string = '' + string;
+	splitstring = string.split(" ");
+	for(i = 0; i < splitstring.length; i++)
+	tstring += splitstring[i];
+	return tstring;
+}
+// added declaration of vsCustomitems at the top of this file
+	if (window.fsas) vsCustomItems[vsCustomItems.length] = new Array("v_fareSaleShown",escape(fsas[selPro][2])); // FSA Impressions Tracking
+	if (window.ualhpNews) // news items impressions tracking
+		{
+			for (i=0;i<ualhpNews.length;i++)
+			{
+				vsCustomItems[vsCustomItems.length] = new Array("v_hpPromo",escape(ualhpNews[i][2]));	
+			}
+		}
+	// voTile tagged inside doc
+	// joinmp and unitedbenefits tagged inside doc
+	// modified hp30gll.js for gll tracking
+	// ff29click travelSearch for click tracking
+	// redirection file (/ual/asset/vsRedirection.html)
+	// init for tab click tracking
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab1",0);	
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab1sub1",0);
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab1sub2",0);	
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab1sub3",0);	
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab1sub4",0);	
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab2",0);	
+	vsCustomItems[vsCustomItems.length] = new Array("v_tab3",0);	
+</script>
+<!-- local web analytics declaration | end -->
+<script type="text/javascript">
+	var futdate = new Date();
+	var expdate = futdate.getTime();
+	document.writeln('<img src="http://www.united.com/ual/asset/vstesthp.gif?timestamp='+expdate+'" border="0" width="1" height="1">');
+</script>
+</body>
+</html>
+
+
+
+      
+		  
+
+
+

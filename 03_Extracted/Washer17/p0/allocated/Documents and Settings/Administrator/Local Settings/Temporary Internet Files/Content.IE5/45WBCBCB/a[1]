@@ -1,0 +1,1708 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+  <!-- TRACKING !   prop36: net:home
+  events: event11
+ -->
+
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+
+  <script type="text/javascript">var search_account = "betaa";</script>
+
+
+
+
+
+
+  <script type="text/javascript" src="/ui/js/lib/browser.js?r=4266-12345"></script>
+  <script type="text/javascript">
+  	// <![CDATA[
+  	upgradeRedirect();
+  	// ]]>
+  </script>
+  <script type="text/javascript">
+    // <![CDATA[
+    document.config = {
+      'pathContext': '/a/',
+      'dataPackageContext': '/home/a/doc.xml',
+      'chromeUrl': 'http://chrome-p-a.comcast.net',
+      'revision': '4266',
+      'betalogo': 'false',
+      'environment': '',
+      'debug': (match = document.location.href.match(/\?.*debug=([^&#]*)/)) ? (match[1] == 'true') : false,
+      'ads': {
+        'space_id': '2022363852',
+        'property_id': 'com-hp'
+      }
+    }
+    // ]]>
+  </script>
+  
+  <script type="text/javascript" src="/ui/js/compressed/prototype.js?r=4266-12345"></script>
+  <script type="text/javascript" src="/ui/js/compressed/base.js?r=4266-12345"></script>
+  <script type="text/javascript" src="/ui/js/compressed/home.js?r=4266-12345"></script>
+		<script type="text/javascript" charset="utf-8">
+			// <![CDATA[
+			//window.loadJS = function() { return true; }
+      window.includedJS("lib/prototype/base.js");
+      window.includedJS("lib/prototype/string.js");
+      window.includedJS("lib/prototype/enumerable.js");
+      window.includedJS("lib/prototype/array.js");
+      window.includedJS("lib/prototype/hash.js");
+      window.includedJS("lib/prototype/ajax.js");
+      window.includedJS("lib/prototype/dom.js");
+      
+      window.includedJS("lib/prototype_addons.js");
+      window.includedJS("lib/swfobject.js");
+      window.includedJS("lib/core.js");
+      window.includedJS("lib/animator.js");
+      window.includedJS("lib/tabs.js");
+      window.includedJS("lib/shader.js");
+      window.includedJS("lib/window.js");
+      window.includedJS("lib/handlers.js");
+      window.includedJS("lib/flash.js");
+      window.includedJS("lib/prefs.js");
+      window.includedJS("lib/authcookie.js");
+      window.includedJS("lib/mctunnel.js");
+      window.includedJS("lib/widgets/widgets_core.js");
+      
+      window.includedJS("modules/cover_transitions.js");
+      window.includedJS("modules/cover.js");
+      window.includedJS("modules/nav.js");
+      window.includedJS("modules/dashboard.js");
+      window.includedJS("modules/search.js");
+      window.includedJS("modules/footer.js");
+      
+      window.includedJS("lib/transitions.js");
+      window.includedJS("lib/dragdrop.js");
+      window.includedJS("lib/scroller.js");
+      window.includedJS("lib/prototype/event.js");
+      window.includedJS("lib/prototype/builder.js");
+      window.includedJS("lib/widgets/button.js");
+      window.includedJS("lib/widgets/check_box.js");
+      window.includedJS("lib/widgets/select_list.js");
+      window.includedJS("lib/widgets/text_field.js");
+      window.includedJS("modules/articlelist.js");
+      window.includedJS("modules/pushdown.js");
+      window.includedJS("modules/assistant/assistant.js");
+      window.includedJS("modules/assistant/error.js");
+      window.includedJS("modules/assistant/weather.js");
+      window.includedJS("modules/assistant/horoscopes.js");
+      window.includedJS("modules/assistant/portfolio.js");
+      window.includedJS("modules/assistant/scoreboard.js");
+      window.includedJS("modules/vmcs.js");
+			// ]]>
+		</script>
+  
+  <script type="text/javascript" src="/ui/js/lib/fsr/site/fsrParams.js?r=4266-12345"></script>
+  <script type="text/javascript" src="/ui/js/lib/fsr/fsrFunctions.js?r=4266-12345"></script>
+  <script type="text/javascript">
+    // <![CDATA[
+    if (getPortalData()) Poll();
+    // ]]>
+  </script>
+
+
+
+
+  <style type="text/css">@import url(http://chrome-p-a.comcast.net/ui/styles/compressed/global.css?r=4266-12345);</style>
+  <style type="text/css">@import url(http://chrome-p-a.comcast.net/ui/styles/compressed/home-a.css?r=4266-12345);</style>
+    <!--[if lte IE 6]>
+  <style type="text/css">@import url(http://chrome-p-a.comcast.net/ui/styles/compressed/iewin6.css?r=4266-12345);</style>
+    <![endif]-->
+    <!--[if IE 7]>
+  <style type="text/css">@import url(http://chrome-p-a.comcast.net/ui/styles/compressed/iewin7.css?r=4266-12345);</style>
+    <![endif]-->
+
+	<title>Comcast.net Home</title>
+
+</head>
+
+<body id="comcastnet">
+
+
+
+<div id="sliver">
+
+
+	<div>
+		
+		<p><a href="https://webauth.comcast.net/auth/snapfish/login?target=welcome&amp;campaignName=comcast2_blackbanner1" rel="default track"><!-- TRACKING     ! hier4: sliver:homeA: -->Store Your Photos Online Free</a></p>
+		
+		<ul>
+			<li id="sl-help"><a href="http://www.comcast.net/help/" rel="default track"><!-- TRACKING     ! hier4: sliver:homeA: -->Help</a></li>
+			<li id="sl-security"><a href="http://security2.comcast.net?cid=NET_33_0" rel="default track"><!-- TRACKING     ! hier4: sliver:homeA: -->Security</a></li>
+			<li id="sl-ask"><a href="http://www.askcomcast.com/AskcomcastRedirect.asp" rel="ask track"><!-- TRACKING     ! hier4: sliver:homeA: -->Ask Comcast</a></li>
+		</ul>
+		
+		<p class="promo"><a href="http://travel.comcast.net/k/redirect/in?p=040&amp;url=http://travel.comcast.net/s/deals.jsp?type=F" rel="default track"><!-- TRACKING     ! hier4: sliver:homeA:  -->Book a Flight for as Low as $10</a></p>
+		
+	</div>
+
+</div>
+
+<div id="container">
+
+	<div id="shell">
+
+		<div id="header">
+
+		<h1><a href="/" class="logo">Comcast.net</a></h1>
+		
+		<p class="hide"><a href="#core">Skip to Main Content</a> | <a href="#nav">Skip to Channels</a> | <a href="#search">Skip to Search</a></p>
+		
+
+<div id="dashboard" class="normal">
+
+	<h2>Dashboard</h2>
+
+	<div id="user"><span id="user-name"><!-- Filled in by JS --></span></div>
+
+
+	<p id="login" class="sign-in"><a class="sign-in" href="https://login.comcast.net/login?s=portal&amp;continue=http://www6.comcast.net/a/" rel="track"><!-- TRACKING     ! hier4: dashboard:homeA:  -->Sign In</a><a class="sign-out" href="https://login.comcast.net/logout?s=portal&amp;continue=http://www6.comcast.net/a/" rel="signout">Sign Out</a> <b>|</b> <a href="https://acctmgt.comcast.net/Comcast/AcctMgt/acctmgt.cmd" class="my-account" rel="track"><!-- TRACKING     ! hier4: dashboard:homeA:  -->My Account</a></p>
+
+	<div id="vault" class="email"><div class="overlay">
+
+		<ul id="dashboard-tabs">
+			<li id="d-email"><a href="https://login.comcast.net/login?s=portal&amp;continue=http://mailcenter.comcast.net" rel="dashboard"><!-- TRACKING     ! hier4: dashboard:homeA:  --><em>Email</em> <b></b></a></li>
+			<li id="d-voice"><a href="#" rel="dashboard"><!-- TRACKING     ! hier4: dashboard:homeA:  --><em>Voice<br />Mail</em> <b></b></a></li>
+			<li id="d-digtv"><span><em>Digital TV</em></span></li>
+			<li id="d-alert"><span><em>Alerts</em></span></li>
+		</ul>
+
+		<i class="ul"></i><i class="ur"></i><i class="ll"></i><i class="lr"></i>
+
+		<div id="p-email" class="preview">
+
+			<h3>New Email</h3>
+
+			<div class="upsell-content">
+      
+        <p class="upsell">Sign in to preview your Comcast email here.</p>
+  
+        <p><a href="https://login.comcast.net/login?s=portal&amp;continue=http://mailcenter.comcast.net" rel="default"><!-- TRACKING     ! hier4: dashboard:homeA:emailicon: -->Sign In</a></p>
+      
+      </div>
+      
+      <div class="need-flash">
+      
+        <p class="get-flash">To preview your messages here, please upgrade to the latest version of <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" rel="external"><!-- TRACKING     ! hier4: dashboard:homeA:emailicon: -->Macromedia Flash</a></p>
+        
+        <p><a href="https://login.comcast.net/login?s=portal&amp;continue=http://mailcenter.comcast.net" rel="email"><!-- TRACKING     ! hier4: dashboard:homeA:emailicon: -->View all your messages</a></p>
+      
+      </div>
+      
+      <div class="error">
+      
+        <h5>Request Failed</h5>
+        
+        <p>There was a problem retrieving your email data. <a href="https://login.comcast.net/login?s=absmail&amp;continue=http://mailcenter.comcast.net" rel="default">Click here to view your inbox</a>.</p>
+      
+      </div>
+
+      <div id="p-email-list">
+        <span class="empty">No new messages.</span>
+        
+      </div>
+
+			<div class="action">
+
+				<ul><!--
+					--><li><a id="email-link-inbox" href="https://login.comcast.net/login?s=absmail&amp;continue=" rel="default track"><!-- TRACKING     ! hier4: dashboard:homeA:emailicon:  --><b>Inbox</b></a></li><!--
+					--><li><a id="email-link-compose" href="https://login.comcast.net/login?s=absmail&amp;continue=" rel="email track"><!-- TRACKING     ! hier4: dashboard:homeA:emailicon:  --><b>Compose</b></a></li><!--
+				--></ul>
+
+			</div>
+
+		</div>
+
+		<div id="p-voice" class="preview">
+
+			<h3>Voice Mail</h3>
+			<div id="p-voice-display">
+				<p class="upsell">Call anywhere in the US or Canada for one low monthly price.</p>
+				<p><a href="http://www.comcast.com/shop/buyflow/default.ashx?SourcePage=VOIP&amp;CMP=ILC-fcomcastnetcdv" rel="external track"><!-- TRACKING     ! hier4: dashboard:homeA:voicemailicon:  -->Get Comcast Digital Voice</a></p>
+			
+				<p class="upsell">Already have Comcast Digital Voice?</p>
+				<p><a href="http://digitalvoice.comcast.net" rel="external track"><!-- TRACKING     ! hier4: dashboard:homeA:voicemailicon:  -->Sign In to the Digital Voice Center</a></p>
+			</div>
+		</div>
+
+		<div id="p-digtv" class="preview">
+		
+			<h3>Digital TV</h3>
+
+			<p class="upsell">Stay Tuned!</p>
+			
+			<p>This feature is not yet available.</p>
+			<p><a href="http://tvplanner.comcast.net" rel="external">Check your local TV Listings</a></p>
+			
+		</div>
+		
+		<div id="p-alert" class="preview">
+		
+			<h3>Alerts</h3>
+			
+			<p class="upsell">Coming soon!</p>
+			<p>This feature is not yet available.</p>
+			
+		</div>
+
+	</div></div>
+
+</div>
+
+		
+		<div id="search">
+      
+			<form action="#" method="get" id="search-form">
+			
+				<ul id="search-tabs">
+					<li id="s-web" class="first active"><a href="#"><b>Web</b></a></li>
+					<li id="s-video"><a href="#"><b>Video</b></a></li>
+					<li id="s-images"><a href="#"><b>Images</b></a></li>
+					<li id="s-yellow"><a href="#"><b>Yellow&nbsp;Pages</b></a></li>
+					<!--<li id="s-shop"><a href="#"><b>Shopping</b></a></li>-->
+					<li id="s-news" class="last"><a href="#"><b>News</b></a></li>
+				</ul>
+					
+			
+				<fieldset class="default">
+				
+					<div id="field">
+				
+						<label for="searchfield">Search:</label>
+						<input type="text" id="searchfield" />
+						
+						<button type="submit" id="searchbutton"></button>
+						
+					</div>
+				
+				</fieldset>
+				
+			</form>
+		
+		</div>
+		
+		<div id="nav">
+		
+			<div id="channels">
+			
+				<h2>Channels</h2>
+				
+				<ul>
+					<li id="n-news"><a href="/news/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>News</b></a></li>
+					<li id="n-sports"><a href="/sports/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>Sports</b></a></li>
+					<li id="n-finance"><a href="http://finance.comcast.net/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>Finance</b></a></li>
+					<li id="n-entertainment"><a href="/entertainment/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>Entertainment</b></a></li>
+					<li id="n-tv"><a href="/tv/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>TV</b></a></li>
+					<li id="n-music"><a href="/music/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>Music</b></a></li>
+					<li id="n-games"><a href="http://chill.comcast.net/?RefId=topnav" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>Games</b></a></li>
+					<li id="n-shopping"><a href="http://shopping.comcast.net/?mode=comcast_TopNav&amp;lid=MainShopping" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:           --><b>Shopping</b></a></li>
+					<li id="n-more"><a href="#more" rel="moreservices" onclick="return (typeof toggleServices != 'undefined') &amp;&amp; toggleServices();"><b>More</b></a></li>
+				</ul>
+				
+				<p class="bubble"><span>Can't find what you're looking for? Try here</span></p>
+				
+			</div>
+			
+			<i class="ul"></i><i class="ur"></i>
+			
+<div id="more">
+
+	<div class="overlay">
+
+		<h2>More Services</h2>
+		
+		
+		<div id="services1">
+	
+			<h3>More on Comcast.net</h3>
+			
+			<ul>
+				<li><a href="http://comcast.vehix.com/?lid=GI_Link_Autos&amp;cid=48" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Autos</a></li>
+				<li><a href="/tv" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->TV</a></li>
+				<li><a href="/news" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->News</a></li>
+				<li><a href="/entertainment" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Entertainment</a></li>
+				<li><a href="http://chill.comcast.net/?RefId=more_overlay" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Games</a></li>
+				<li><a href="http://dating.comcast.net/singles/servlet/comcast?cid=23600&amp;aid=777" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Dating</a></li>
+				<li><a href="/sports/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Sports</a></li>
+				<li><a href="http://www.comcast.net/photocenter" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Photo Center</a></li>
+				<li><a href="http://finance.comcast.net" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Finance</a></li>
+				<li><a href="/music/" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Music</a></li>
+				<li><a href="/kids" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Kids</a></li>
+				<li><a href="http://community.comcast.net" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Community</a></li>
+				<li><a href="http://shopping.comcast.net/?mode=comcast_GI_Linkbeta&amp;lid=GI_LinkbetaShopping&amp;" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Shopping</a></li>
+				<li><a href="http://jobsearch.comcast.monster.com?WT.mc_n=comcast001 " rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Jobs</a></li>
+				<li><a href="http://travel.comcast.net/s/search/air?ai=comcast&amp;p=GI_Link" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Travel</a></li>
+				<li><a href="http://comcast.terra.com/" rel="external track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Latino</a></li>
+			</ul>
+
+		</div>
+		
+		
+		<div id="services2">
+	
+			<h3>Cool Tools</h3>
+			
+			<ul>
+				<li><a href="/siteindex" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Site Index</a></li>
+				<li><a href="http://www.comcast.net/providers/fan/popup.html" rel="fan track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->The Fan</a></li>
+				<li><a href="/downloads" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Downloads</a></li>
+				<li><a href="http://www.comcast.net/toolbar" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Toolbar</a></li>
+				<li><a href="http://www.comcast.net/findit/business/maps.jsp" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Maps and Directions</a></li>
+				<li><a href="http://tvplanner.comcast.net/" rel="external track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->TV Listings</a></li>
+				<li><a href="https://publish.comcast.net" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Personal Web Pages</a></li>
+				<li><a href="http://www.comcast.net/benefits" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Customer Benefits</a></li>
+				<li><a href="http://www.fandango.com/redirect.aspx?searchby=homepage&amp;a=11736&amp;dte=0" rel="external track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Fandango</a></li>
+				<li><a href="https://webauth.comcast.net/auth/rhapsodyradio/login" rel="radio track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Radio</a></li>
+				<li><a href="http://comcast.weather.com/index.html?par=comcast" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Weather</a></li>
+				<li><a href="http://labs.comcast.net" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Comcast Labs</a></li>
+				<li><a href="https://publish.comcast.net/filemanager/ " rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Online Storage</a></li>
+				<li><a href="http://search.comcast.net/?cat=yp" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Yellow Pages</a></li>
+				<li><a href="http://www.traffic.com/allCities.html?AWOPARTNER=COMCAST" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Traffic</a></li>
+			</ul>
+
+		</div>
+		
+		
+		<div id="services3">
+	
+			<h3>Help</h3>
+			
+			<ul>
+				<li><a href="http://www.comcast.net/providers/askcomcast/popup.html" rel="ask track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Ask Comcast</a></li>
+				<li><a href="http://www.comcastsupport.com/forms/net/home.asp" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Desktop Doctor</a></li>
+				<li><a href="http://www.comcast.net/help" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Help</a></li>
+				<li><a href="http://www.comcast.net/help/faq" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->FAQs</a></li>
+				<li><a href="javascript:window.open('http://www.comcastsupport.com/netchat','ask','height=600,width=800,status=yes,toolbar=yes,scrollbars=1');void(0);" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Live Chat</a></li>
+				<li><a href="https://acctmgt.comcast.net/Comcast/AcctMgt/acctmgt.cmd" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->My Account</a></li>
+				<li><a href="http://forums.comcast.net" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Help Forums</a></li>
+				<li><a href="http://security.comcast.net?cid=NET_33_0" rel="default track"><!-- TRACKING
+    ! hier4: headernav:homeA:more:         -->Security</a></li>
+			</ul>
+
+		</div>
+		
+						
+		<p class="close" id="more-close"><a href="#" rel="moreservices">Close this menu</a></p>
+
+	</div>
+
+</div>
+		
+	</div>
+		
+    
+    
+		<div id="assistant-anonymous" style="display: none;"><h2><a href="https://login.comcast.net/login?s=portal&amp;continue=http://www6.comcast.net/a/" rel="default track"><!-- TRACKING
+    ! hier4: assistant:homeA:     -->Assistant</a></h2><p><a href="https://login.comcast.net/login?s=portal&amp;continue=http://www6.comcast.net/a/" rel="default track"><!-- TRACKING
+    ! hier4: assistant:homeA:     -->See your weather, stocks and more in the Assistant</a></p></div>
+		
+		<div id="externalbridge"> </div>
+		
+		<div id="assistant" class="collapsed">
+			<div id="a-head">
+				<h2><a href="#" title="Toggle the Assistant on or off" rel="assistant track" onclick="return false;"><!-- TRACKING
+    ! hier4: assistant:homeA:         -->Assistant</a></h2>
+				<div id="a-loading"><span>Loading...</span></div>
+			</div>
+		</div>
+
+		</div>
+
+		<div id="body">
+
+			<div id="core" class="default">
+			
+      
+
+
+
+       <div class="ad iab300x250">
+
+        <div>
+  <script type="text/javascript">
+  // <![CDATA[
+  document.write('<iframe src="http://chrome-p-a.comcast.net/ads/2022363852/com-hp/LREC/sr/ffffff/" frameborder="0" scrolling="no"></iframe>');
+  // ]]>
+  </script>
+        </div>
+
+         <h3>Advertisement</h3>
+
+			</div>
+
+				<div id="primary">
+
+
+    
+		<div id="cover">
+			
+				<h2>Cover Stories</h2>
+
+				<!-- 0 -->
+					
+					
+					<div id="cover0" class="slide photo4">
+					
+						<div class="template midnight left">
+						
+							<div class="photos">
+<a href="http://www6.comcast.net/news/articles/general/2008/01/04/Campaign.Rdp/" title="Obama Takes 3 Wins, Delegate Lead" rel="default track"><!-- TRACKING ! hier4: cover:homeA:In the News: !
+products: ;/cover/homeA/In the News/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/73/7397ddfde6af248267b4c9a674e26013.jpg" alt="Obama Takes 3 Wins, Delegate Lead" /></a>
+<a href="http://www6.comcast.net/news/articles/general/2008/01/04/Clinton/" title="Clinton Dep. Campaign Manager Resigns" rel="default track"><!-- TRACKING ! hier4: cover:homeA:In the News: !
+products: ;/cover/homeA/In the News/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/58/580d6952d227bb47a8aec1f2d82e09bf.jpg" alt="Clinton Dep. Campaign Manager Resigns" /></a>
+<a href="http://www6.comcast.net/news/articles/general/2008/02/11/Dog.Show/" title="Beagle Makes History at Westminster" rel="default track"><!-- TRACKING ! hier4: cover:homeA:In the News: !
+products: ;/cover/homeA/In the News/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/6f/6fb9a0c1cb599ad401061335a85b6c91.jpg" alt="Beagle Makes History at Westminster" /></a>
+<a href="http://www6.comcast.net/sports/articles/general/2007/12/23/BBO.Steroids.Clemens/" title="Trainer Says He Injected Clemens Often" rel="default track"><!-- TRACKING ! hier4: cover:homeA:In the News: !
+products: ;/cover/homeA/In the News/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/f2/f2c9fcda2f4ee266a48441a2244db472.jpg" alt="Trainer Says He Injected Clemens Often" /></a>							</div>
+							
+							<div class="copy">
+							
+								<h3>In the News</h3>	
+								
+								<p>Stay on top of today's headlines:</p>
+								
+								<ul class="Unordered">
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/general/2008/01/04/Campaign.Rdp/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Obama Takes 3 Wins, Delegate Lead  !
+      products: ;/cover/homeA/In the News/Obama Takes 3 Wins, Delegate Lead !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Obama Takes 3 Wins, Delegate Lead</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/general/2008/01/04/Clinton/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Clinton Dep. Campaign Manager Resigns  !
+      products: ;/cover/homeA/In the News/Clinton Dep. Campaign Manager Resigns !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Clinton Dep. Campaign Manager Resigns</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/general/2008/02/10/Gates/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Defense Chief Gates Breaks Shoulder  !
+      products: ;/cover/homeA/In the News/Defense Chief Gates Breaks Shoulder !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Defense Chief Gates Breaks Shoulder</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/sports/articles/general/2007/12/23/BBO.Steroids.Clemens/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Trainer Says He Injected Clemens Often  !
+      products: ;/cover/homeA/In the News/Trainer Says He Injected Clemens Often !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Trainer Says He Injected Clemens Often</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/world/europe/2008/02/13/Italy.Day.Care.Siege/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Armed Man Takes Day Care Hostage   !
+      products: ;/cover/homeA/In the News/Armed Man Takes Day Care Hostage  !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Armed Man Takes Day Care Hostage </a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/general/2008/02/11/Dog.Show/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Beagle Makes History at Westminster  !
+      products: ;/cover/homeA/In the News/Beagle Makes History at Westminster !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Beagle Makes History at Westminster</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/music/articles/2008/02/13/People.Aretha.Franklin/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:Aretha Franklin Slams Beyonce  !
+      products: ;/cover/homeA/In the News/Aretha Franklin Slams Beyonce !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Aretha Franklin Slams Beyonce</a></li>
+								</ul>
+								
+							</div>
+							
+							<div class="more"><span>more:</span> <a href="/news/?cvqh=itn_latestheadlines" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:more:Top Stories  !
+      products: ;/cover/homeA/In the News/Top Stories !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Top Stories</a> | <a href="http://www6.comcast.net/finance/taxcenter/" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:In the News:more:Tax Trouble?  !
+      products: ;/cover/homeA/In the News/Tax Trouble? !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Tax Trouble?</a></div>
+						
+						</div>
+						
+					</div>
+					
+					
+				<!-- 1 -->
+					
+					
+					<div id="cover1" class="slide photo1">
+					
+						<div class="template midnight right">
+						
+							<div class="photos">
+<a href="http://www6.comcast.net/news/articles/general/2008/02/11/Dog.Show/" title="'Uno' Makes History at Westminster" rel="default track"><!-- TRACKING ! hier4: cover:homeA:Regal Beagle: !
+products: ;/cover/homeA/Regal Beagle/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/28/28db17ca2385d60d2e6f4dbefb116456.jpg" alt="'Uno' Makes History at Westminster" /></a>							</div>
+							
+							<div class="copy">
+							
+								<h3>Regal Beagle</h3>	
+								
+								<p>For the first time ever, a beagle wins Best in Show at the Westminster dog show.</p>
+								
+								<ul class="Unordered">
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/general/2008/02/11/Dog.Show/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:'Uno' Makes History at Westminster  !
+      products: ;/cover/homeA/Regal Beagle/'Uno' Makes History at Westminster !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->'Uno' Makes History at Westminster</a></li>
+									<li class="media video"><b></b><a href="http://www.comcast.net/providers/fan/popup.html?v=650106989&amp;pl=650492181.xml&amp;plc=650492181&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:'Uno' Wins Title, Barks at Crowd  !
+      products: ;/cover/homeA/Regal Beagle/'Uno' Wins Title, Barks at Crowd !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->'Uno' Wins Title, Barks at Crowd</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/odd/2008/02/11/ODD.Rescued.Dogs/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:Dogs Give Up Their Lives to Rescue Family  !
+      products: ;/cover/homeA/Regal Beagle/Dogs Give Up Their Lives to Rescue Family !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Dogs Give Up Their Lives to Rescue Family</a></li>
+									<li class="media video"><b></b><a href="http://www.comcast.net/providers/fan/popup.html?v=632636299&amp;pl=650492181.xml&amp;plc=650492181&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:Dog-Riding Monkey Herds Sheep at Rodeo  !
+      products: ;/cover/homeA/Regal Beagle/Dog-Riding Monkey Herds Sheep at Rodeo !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Dog-Riding Monkey Herds Sheep at Rodeo</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/odd/2008/02/08/Flying.Dog/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:'Flying Dog' Survives 6-Story Leap  !
+      products: ;/cover/homeA/Regal Beagle/'Flying Dog' Survives 6-Story Leap !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->'Flying Dog' Survives 6-Story Leap</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/sports/articles/general/2008/01/16/AKC.Top.Dogs/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:The Top 10 Most Popular Dogs  !
+      products: ;/cover/homeA/Regal Beagle/The Top 10 Most Popular Dogs !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->The Top 10 Most Popular Dogs</a></li>
+								</ul>
+								
+							</div>
+							
+							<div class="more"><span>more:</span> <a href="http://community.comcast.net/comcastportal/board/message?board.id=animalspets&amp;thread.id=1660" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:more:Talk About Dogs  !
+      products: ;/cover/homeA/Regal Beagle/Talk About Dogs !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Talk About Dogs</a> | <a href=" http://shopping.comcast.net/search_attrib.php?page_id=1597/form_keyword=dogs&amp;mode=comcast_COVERdogclothes" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:Regal Beagle:more:Dress Your Dog  !
+      products: ;/cover/homeA/Regal Beagle/Dress Your Dog !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Dress Your Dog</a></div>
+						
+						</div>
+						
+					</div>
+					
+					
+				<!-- 2 -->
+					
+					
+					<div id="cover2" class="slide photo1">
+					
+						<div class="template slate left">
+						
+							<div class="photos">
+<a href="http://www6.comcast.net/news/articles/science/2008/02/12/SCIENCE-ITALY-NAPOLEON-DC/" title="Was Napoleon Really Poisoned?" rel="default track"><!-- TRACKING ! hier4: cover:homeA:CSI&#58; Napoleon: !
+products: ;/cover/homeA/CSI: Napoleon/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/55/55d167d6445977a092584abe3ae575a0.jpg" alt="Was Napoleon Really Poisoned?" /></a>							</div>
+							
+							<div class="copy">
+							
+								<h3>CSI: Napoleon</h3>	
+								
+								<p>Legend has it that Napoleon died after being poisoned by the British in 1821. Now scientists claim they have uncovered the truth.</p>
+								
+								<ul class="Unordered">
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/science/2008/02/12/SCIENCE-ITALY-NAPOLEON-DC/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:CSI&#58; Napoleon:What Really Killed Napoleon?  !
+      products: ;/cover/homeA/CSI: Napoleon/What Really Killed Napoleon? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->What Really Killed Napoleon?</a></li>
+									<li class="media video"><b></b><a href=" http://www.comcast.net/providers/fan/popup.html?v=225380251&amp;pl=649865424.xml&amp;plc=649865424&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan track"><!-- TRACKING
+          ! hier4: cover:homeA:CSI&#58; Napoleon:Houdini's Relatives Suspect Foul Play  !
+      products: ;/cover/homeA/CSI: Napoleon/Houdini's Relatives Suspect Foul Play !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Houdini's Relatives Suspect Foul Play</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/world/europe/2008/02/12/Spain.Bullet.Extracted/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:CSI&#58; Napoleon:70-Year-Old Bullet Extracted from Man  !
+      products: ;/cover/homeA/CSI: Napoleon/70-Year-Old Bullet Extracted from Man !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->70-Year-Old Bullet Extracted from Man</a></li>
+									<li class="media video"><b></b><a href="http://www.comcast.net/providers/fan/popup.html?v=431557677&amp;pl=649865424.xml&amp;plc=649865424&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan track"><!-- TRACKING
+          ! hier4: cover:homeA:CSI&#58; Napoleon:Was the Shroud of Turin Forged?  !
+      products: ;/cover/homeA/CSI: Napoleon/Was the Shroud of Turin Forged? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Was the Shroud of Turin Forged?</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/news/articles/science/2008/02/12/Early.Galaxy/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:CSI&#58; Napoleon:Scope Finds One of Earliest Galaxies  !
+      products: ;/cover/homeA/CSI: Napoleon/Scope Finds One of Earliest Galaxies !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Scope Finds One of Earliest Galaxies</a></li>
+								</ul>
+								
+							</div>
+							
+							<div class="more"><span>more:</span> <a href="http://www6.comcast.net/news/articles/science/2008/02/12/Dinosaur.Mexico/" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:CSI&#58; Napoleon:more:New Dinosaur Species Found  !
+      products: ;/cover/homeA/CSI: Napoleon/New Dinosaur Species Found !
+      events: event5 !
+      linkTrackEvents: event5
+              -->New Dinosaur Species Found</a></div>
+						
+						</div>
+						
+					</div>
+					
+					
+				<!-- 3 -->
+					
+					
+					<div id="cover3" class="slide photo1">
+					
+						<div class="template midnight left">
+						
+							<div class="photos">
+<a href="http://www6.comcast.net/sports/articles/motorsports/2008/02/09/NASCAR-Daytona.500/" title="On-Track Fight Carried into an Official's Trailer" rel="default track"><!-- TRACKING ! hier4: cover:homeA:Getting NAS-ty: !
+products: ;/cover/homeA/Getting NAS-ty/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/f5/f53e2e896ae2722e58817fa50a11885a.jpg" alt="On-Track Fight Carried into an Official's Trailer" /></a>							</div>
+							
+							<div class="copy">
+							
+								<h3>Getting NAS-ty</h3>	
+								
+								<p>Two of NASCAR's biggest stars are put on probation after a crash leads to a confrontation.</p>
+								
+								<ul class="Unordered">
+									<li class="media article"><b></b><a href="http://www6.comcast.net/sports/articles/motorsports/2008/02/09/NASCAR-Daytona.500/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:On-Track Fight Carried into an Official's Trailer  !
+      products: ;/cover/homeA/Getting NAS-ty/On-Track Fight Carried into an Official's Trailer !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->On-Track Fight Carried into an Official's Trailer</a></li>
+									<li class="media video"><b></b><a href="http://www.comcast.net/providers/fan/popup.html?v=645600672&amp;pl=647734930.xml&amp;plc=647734930&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=sports_headline&amp;config=/config/common/fan/sports.xml" rel="fan track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:Watch Video of the Crash  !
+      products: ;/cover/homeA/Getting NAS-ty/Watch Video of the Crash !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Watch Video of the Crash</a></li>
+									<li class="media community"><b></b><a href="http://community.comcast.net/comcastportal/board/message?board.id=NASCAR&amp;thread.id=14863" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:Did Stewart and Busch Get Off Too Easy?  !
+      products: ;/cover/homeA/Getting NAS-ty/Did Stewart and Busch Get Off Too Easy? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Did Stewart and Busch Get Off Too Easy?</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/sports/articles/motorsports/2008/02/04/NASCAR-In.The.Pits/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:Fat Joke Ignited Melee?  !
+      products: ;/cover/homeA/Getting NAS-ty/Fat Joke Ignited Melee? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Fat Joke Ignited Melee?</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/sports/articles/motorsports/2008/02/12/NASCAR-Slingshot.Back/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:Legendary Move Making a Comeback  !
+      products: ;/cover/homeA/Getting NAS-ty/Legendary Move Making a Comeback !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Legendary Move Making a Comeback</a></li>
+									<li class="media article"><b></b><a href="http://www6.comcast.net/sports/articles/motorsports/2008/02/11/NASCAR-Daytona.500-Pole/" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:Jimmie Johnson Wins Daytona Pole  !
+      products: ;/cover/homeA/Getting NAS-ty/Jimmie Johnson Wins Daytona Pole !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Jimmie Johnson Wins Daytona Pole</a></li>
+								</ul>
+								
+							</div>
+							
+							<div class="more"><span>more:</span> <a href=" http://shopping.comcast.net/search_attrib.php?page_id=1976/form_keyword=nascar&amp;mode=comcast_COVERNascar" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:more:Buy NASCAR Gear  !
+      products: ;/cover/homeA/Getting NAS-ty/Buy NASCAR Gear !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Buy NASCAR Gear</a> | <a href="/sports" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:Getting NAS-ty:more:Sports News  !
+      products: ;/cover/homeA/Getting NAS-ty/Sports News !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Sports News</a></div>
+						
+						</div>
+						
+					</div>
+					
+					
+				<!-- 4 -->
+					
+					
+					<div id="cover4" class="slide photo1">
+					
+						<div class="template greentea left">
+						
+							<div class="photos">
+<a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/articles/3485/16740/1/home.aspx?WT.mc_n=comcast007" title="Can You Tell Who's Lying?" rel="default track"><!-- TRACKING ! hier4: cover:homeA:To Lie or Not to Lie?: !
+products: ;/cover/homeA/To Lie or Not to Lie?/ !
+events: event5 !
+linkTrackEvents: event5
+--><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/f6/f65b273c633ae179c04c52643dc712f2.jpg" alt="Can You Tell Who's Lying?" /></a>							</div>
+							
+							<div class="copy">
+							
+								<h3>To Lie or Not to Lie?</h3>	
+								
+								<p>Over 50% of us lie on our resumes. Should you?</p>
+								
+								<ul class="Unordered">
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/resume-writing-basics/Lying-on-Your-Resume/home.aspx?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:Should You Lie on Your Resume?  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Should You Lie on Your Resume? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Should You Lie on Your Resume?</a></li>
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/work-life-balance/Ten-Excuses-for-Missing-Work/home.aspx?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:Skipping Work? Never Use This Excuse...  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Skipping Work? Never Use This Excuse... !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Skipping Work? Never Use This Excuse...</a></li>
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/job-search-essentials/What-Can-Former-Employers-Legally-S/home.aspx?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:What Can Old Employers Say About You?  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/What Can Old Employers Say About You? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->What Can Old Employers Say About You?</a></li>
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/articles/3485/16740/1/home.aspx?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:Can You Tell Who's Lying?  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Can You Tell Who's Lying? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Can You Tell Who's Lying?</a></li>
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/business-etiquette/sales/Dont-Look-Back---Horror-Stories-III/home.aspx?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:Horror Story&#58; Busted in the Middle of a Lie  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Horror Story: Busted in the Middle of a Lie !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Horror Story: Busted in the Middle of a Lie</a></li>
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://jobsearch.comcast.monster.com/?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:Search For Jobs in Your Area  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Search For Jobs in Your Area !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Search For Jobs in Your Area</a></li>
+									<li class="media article"><b></b><a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://content.comcast.monster.com/job-search-essentials/Whos-Most-Likely-to-Fail-the-Backgr/home.aspx?WT.mc_n=comcast007" rel="default track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:Who's Likely to Fail Background Checks?  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Who's Likely to Fail Background Checks? !
+      events: event5 !
+      linkTrackEvents: event5
+                  -->Who's Likely to Fail Background Checks?</a></li>
+								</ul>
+								
+							</div>
+							
+							<div class="more"><span>more:</span> <a href="http://clk.atdmt.com/MON/go/cmcstmon0950000105mon/direct/01/?href=http://my.comcast.monster.com/login.aspx?WT.mc_n=comcast007" rel="track"><!-- TRACKING
+          ! hier4: cover:homeA:To Lie or Not to Lie?:more:Post Your Resume for Free  !
+      products: ;/cover/homeA/To Lie or Not to Lie?/Post Your Resume for Free !
+      events: event5 !
+      linkTrackEvents: event5
+              -->Post Your Resume for Free</a></div>
+						
+						</div>
+						
+					</div>
+					
+					
+
+				<div class="fade"></div>
+				
+				<div class="controls">
+					
+					<ul id="c-controls" class="hidden">
+						<li id="c-previous"><a href="#" title="Previous">Previous</a></li>
+						<li id="c-play"><a href="#" title="Play">Play</a></li>
+						<li id="c-pause"><a href="#" title="Pause">Pause</a></li>
+						<li id="c-next"><a href="#" title="Next">Next</a></li>
+					</ul>
+									
+				</div>
+				
+				<i class="ul"></i><i class="ur"></i><i class="ll"></i><i class="lr"></i>
+			
+			</div>
+			
+
+
+
+      <div id="toplist">
+			
+				
+
+
+	<div class="toplist default" id="toplist1">
+	
+    
+		<h2>Today in Sports</h2>
+    
+		
+			<a href="http://www.comcast.net/providers/abcnewsProvider/newsfeed.html" rel="external"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/96/96ef1021abac35b1057c590da712c18e.jpg" alt="See Clemens Hearing Live!" title="See Clemens Hearing Live!" /></a><a href="http://www6.comcast.net/sports/articles/nfl/2008/02/13/Vikings-Udeze/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/2b/2b3bb74547bb67d2cfb4731285a24d80.jpg" alt="Viking Has Leukemia" title="Viking Has Leukemia" /></a>
+
+			<ul><!--
+				--><li><a href="http://www.comcast.net/providers/abcnewsProvider/newsfeed.html" rel="external"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->See Clemens Hearing Live!</a></li><!--
+				--><li><a href="http://www6.comcast.net/sports/articles/nfl/2008/02/13/Vikings-Udeze/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Viking Has Leukemia</a></li><!--
+				--><li><a href="http://www6.comcast.net/sports/articles/cbk/2008/02/13/T25-Indiana-Sampson/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Indiana Hoops in Hot Water</a></li><!--
+				--><li><a href="http://www6.comcast.net/sports/articles/cfb/2008/01/11/Bush-Marketer/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Bush Had Gun at Deposition</a></li><!--
+				--><li><a href="http://www6.comcast.net/sports/articles/mlb/2008/02/12/Congress-HGH/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Congress Focuses on Sly</a></li><!--
+				--><li><a href="http://www6.comcast.net/sports/articles/motorsports/2008/02/04/NASCAR-In.The.Pits/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Fat Joke Sets Off Stewart?</a></li><!--
+				--><li><a href="/sports/motorsports" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Stewart on 6-Race Probation</a></li><!--
+			--></ul>
+		
+		
+		<p class="more"><a href="http://www6.comcast.net/sports/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Today in Sports: -->Top Sports News</a></p>
+		
+	</div>
+	
+
+	<div class="toplist default" id="toplist2">
+	
+    
+		<h2>Showbiz Buzz</h2>
+    
+		
+			<a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/12/41ec5175-c49a-45e3-a10c-6df6e70a9203/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/00/000692568bac15e1f7f500b6161cd350.jpg" alt="Another Hilton DUI" title="Another Hilton DUI" /></a><a href="http://www6.comcast.net/tv/articles/2008/02/13/People.Gary.Coleman/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/04/045532399620aa0cd31ad7afcf8946ff.jpg" alt="Coleman Secretly Married" title="Coleman Secretly Married" /></a>
+
+			<ul><!--
+				--><li><a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/12/41ec5175-c49a-45e3-a10c-6df6e70a9203/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Another Hilton DUI</a></li><!--
+				--><li><a href="http://www6.comcast.net/tv/articles/2008/02/13/People.Gary.Coleman/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Coleman Secretly Married</a></li><!--
+				--><li><a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/11/f6241480-ab00-4a0d-9992-ffd85e5b1964/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Rocker, Model Divorce</a></li><!--
+				--><li><a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/13/98d8a924-c1f6-499c-99ef-f1a689f5d53f/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->'24' Creator Quits Show</a></li><!--
+				--><li><a href="http://www6.comcast.net/entertainment/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Longoria Slams Reports</a></li><!--
+				--><li><a href="http://www6.comcast.net/music/articles/2008/02/12/People.Kravitz/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Lenny Kravitz Hospitalized</a></li><!--
+				--><li><a href="http://www6.comcast.net/tv/articles/2007/12/19/Hollywood.Labor/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Writers Strike Is Over</a></li><!--
+			--></ul>
+		
+		
+		<p class="more"><a href="http://www6.comcast.net/events/oscars/" rel="default"><!-- TRACKING     ! hier4: toplist:homeA:Showbiz Buzz: -->Oscars Saved?</a></p>
+		
+	</div>
+	
+
+	<div class="toplist default" id="toplist3">
+	
+    
+		<h2 class="media video"><a href="http://www.comcast.net/providers/fan/popup.html?v=649126914&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml&amp;cvqh=home_launchtop" rel="fan"><!-- TRACKING    ! hier4: toplist:homeA:Top Videos: -->Top Videos</a></h2>
+    
+		
+			<a href="http://www.comcast.net/providers/fan/popup.html?v=649146997&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/55/55a4c8b7f31cf21f81246eec4aa4f138.jpg" alt="Is Fergie Pregnant?" title="Is Fergie Pregnant?" /></a><a href="http://www.comcast.net/providers/fan/popup.html?v=648021705&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/7e/7e44fb11ab9ab10a3ca9f97fa05bc141.jpg" alt="Kidman Opens Up on Baby" title="Kidman Opens Up on Baby" /></a>
+
+			<ul><!--
+				--><li><a href="http://www.comcast.net/providers/fan/popup.html?v=649146997&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->Is Fergie Pregnant?</a></li><!--
+				--><li><a href="http://www.comcast.net/providers/fan/popup.html?v=648021705&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->Kidman Opens Up on Baby</a></li><!--
+				--><li><a href="http://www.comcast.net/providers/fan/popup.html?v=649126914&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->Video of O.J. Behind Bars Released</a></li><!--
+				--><li><a href="http://www.comcast.net/providers/fan/popup.html?v=648170791&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->Dolly Parton Injured</a></li><!--
+				--><li><a href="http://www.comcast.net/providers/fan/popup.html?v=648725186&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->House Splits in Two</a></li><!--
+				--><li><a href="http://www.comcast.net/providers/fan/popup.html?v=648432603&amp;pl=649032623.xml&amp;plc=649032623&amp;launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->Eva's Man 'Shocked'</a></li><!--
+			--></ul>
+		
+		
+		<p class="more"><a href="http://www.comcast.net/providers/fan/popup.html?launchpoint=Cover&amp;cid=fancover&amp;attr=default_headline&amp;config=/config/common/fan/default.xml&amp;cvqh=home_launch" rel="fan"><!-- TRACKING     ! hier4: toplist:homeA:Top Videos: -->Launch the Fan</a></p>
+		
+	</div>
+	
+					
+				<div class="clear"></div>
+			
+			</div>
+
+
+
+<div id="stockmarkets">
+
+	<h2>Markets:</h2>
+
+	
+
+	<dl>
+		<dt>dow:</dt>
+		<dd class="positive">+42.02</dd>
+		<dt>nasdaq:</dt>
+		<dd class="positive">+20.61</dd>
+	</dl>
+
+	<div class="clear"></div>
+
+	<form action="http://finance.comcast.net/www/search.html" method="get" class="widget">
+
+		<fieldset>
+
+			<input type="hidden" name="bDoSearch" value="1" />
+
+			<label for="articlesearch-field">Get a Stock Quote:</label>
+			<span class="text"><span class="default"><input type="text" id="articlesearch-field" name="SEARCH_VALUE" /></span></span>
+			<input type="image" src="http://chrome-p-a.comcast.net/ui/images/modules/stockmarkets/buttons/go.gif" alt="Go" id="stockmarket_button" />
+
+		</fieldset>
+
+	</form>
+
+	<ul>
+		<li><a href="http://finance.comcast.net/" rel="default"><!-- TRACKING    ! hier4: stockmarkets:homeA: -->Comcast Finance</a></li>
+		<li><a href="http://finance.comcast.net/portfolio/portfolio_overview.html" rel="default"><!-- TRACKING    ! hier4: stockmarkets:homeA: -->My Portfolio</a></li>
+	</ul>
+
+
+      
+
+
+
+       <div class="ad yahoo-e">
+
+        <div>
+  <script type="text/javascript">
+  // <![CDATA[
+  document.write('<iframe src="http://chrome-p-a.comcast.net/ads/2022363852/com-hp/E/r/F3F3F3/" frameborder="0" scrolling="no"></iframe>');
+  // ]]>
+  </script>
+        </div>
+
+
+			</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="crosspromotion white" id="crosspromotioncrosspromotion1">
+
+	<div class="capsule large default crosspromotion_item1">
+
+
+		<h3><a href="http://www6.comcast.net/finance/taxcenter/" rel="default">The Tax Police</a></h3>
+
+		<a href="http://www6.comcast.net/finance/taxcenter/" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:The Tax Police: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/5b/5be580f669db4fba2cd1472159cebc5f.jpg" alt="The Tax Police" title="The Tax Police" /></a>
+
+		<p>Last year, the IRS cracked down on many deduction- heavy filers, and the same can be expected for this tax season. Before you write-off, here's tips on  <a href="http://www6.comcast.net/finance/taxcenter/" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:The Tax Police: -->Avoiding an Audit.</a></p>
+
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+	<div class="capsule large default crosspromotion_item2">
+
+
+		<h3><a href="/tv" rel="default">Welcome to Hollywood!</a></h3>
+
+		<a href="/tv" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:Welcome to Hollywood&#33;: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/e1/e199a2c2f953735594490d3cdfad0fcb.jpg" alt="Welcome to Hollywood!" title="Welcome to Hollywood!" /></a>
+
+		<p>The painful weeding out process is complete, as 'American Idol' reveals the Top 24 finalists on tonight's show.  <a href="/tv" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:Welcome to Hollywood&#33;: -->Watch!</a></p>
+
+	</div>
+	
+<div class="clear"></div></div>
+
+<div class="clear"></div>
+
+
+
+	<div class="clear"></div>
+	
+
+
+
+
+
+
+
+
+<div class="crosspromotion gray" id="crosspromotioncrosspromotion2">
+
+	<div class="capsule large default crosspromotion_item1">
+
+
+		<h3><a href="http://universaladdressbook.comcast.net/universaladdressbook/" rel="default">One Address Book Forever!</a></h3>
+
+		<a href="http://universaladdressbook.comcast.net/universaladdressbook/" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:One Address Book Forever&#33;: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/bf/bfbbfa4caab82e3a5f6066de12900d44.jpg" alt="One Address Book Forever!" title="One Address Book Forever!" /></a>
+
+		<p>Store all your contacts in one place. Merge and update address books automatically.  <a href="http://universaladdressbook.comcast.net/universaladdressbook/" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:One Address Book Forever&#33;: -->The Comcast Universal Address Book Powered by Plaxo</a></p>
+
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+	<div class="capsule large default crosspromotion_item2">
+
+
+		<h3><a href="http://www.comcast.net/terms/use/" rel="default">New Comcast Policy</a></h3>
+
+		<a href="http://www.comcast.net/terms/use/" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:New Comcast Policy: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/e8/e859dc3396d06a5216efda1708a82d74.jpg" alt="New Comcast Policy" title="New Comcast Policy" /></a>
+
+		<p>Comcast has updated its Acceptable Use Policy (AUP). Read the new AUP to stay informed of these most recent changes.  <a href="http://www.comcast.net/terms/use/" rel="default"><!-- TRACKING    ! hier4: crosspromotion:homeA:New Comcast Policy: -->Review the new AUP.</a></p>
+
+	</div>
+	
+<div class="clear"></div></div>
+
+<div class="clear"></div>
+
+
+
+	<div class="clear"></div>
+	
+
+
+
+
+<div id="marketplace">
+
+	<h2>Comcast Marketplace</h2>
+	
+	
+
+	<div class="market" id="market1">
+	
+		<h3>Beautiful Bedrooms</h3>
+		
+		<a href="http://shopping.comcast.net/search_attrib.php?page_id=1499&amp;mode=comcast_MARKbedroomsets" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Beautiful Bedrooms: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/ab/ab5fd885203ac616b2fa29c44af376e1.jpg" alt="Beautiful Bedrooms" title="Beautiful Bedrooms" /></a>
+		
+		<ul>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1499&amp;mode=comcast_MARKbedroomsets" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Beautiful Bedrooms: -->Bedroom Sets</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1500&amp;mode=comcast_MARKbeds" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Beautiful Bedrooms: -->Beds</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php/page_id=1476?mode=comcast_MARKcomforters" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Beautiful Bedrooms: -->Comforters</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1498&amp;mode=comcast_MARKarmoires" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Beautiful Bedrooms: -->Armoires</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1502&amp;mode=comcast_MARKnightstands" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Beautiful Bedrooms: -->Nightstands</a></li>
+		</ul>
+	
+	</div>
+	
+	
+
+	<div class="market" id="market2">
+	
+		<h3>Luxurious Living Rooms</h3>
+		
+		<a href="http://shopping.comcast.net/search_attrib.php?page_id=1503&amp;mode=comcast_MARKlivingsets" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Luxurious Living Rooms: --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/ca/ca3385ec874da3787ce95ac8f37117b5.jpg" alt="Luxurious Living Rooms" title="Luxurious Living Rooms" /></a>
+		
+		<ul>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1503&amp;mode=comcast_MARKlivingsets" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Luxurious Living Rooms: -->Living Room Sets</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1141&amp;mode=comcast_MARKsofas" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Luxurious Living Rooms: -->Sofas</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1138&amp;mode=comcast_MARKrecliners" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Luxurious Living Rooms: -->Recliners</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1508&amp;mode=comcast_MARKcoffeetable" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Luxurious Living Rooms: -->Coffee Tables</a></li>
+			<li><a href="http://shopping.comcast.net/search_attrib.php?page_id=1137&amp;mode=comcast_MARKentertainmentunit" rel="default track"><!-- TRACKING    ! hier4: marketplace:homeA:Luxurious Living Rooms: -->Entertainment Units</a></li>
+		</ul>
+	
+	</div>
+	
+	
+	<div class="clear"></div>
+	
+	<p class="promo"><a href="http://travel.comcast.net/s/search/air?ai=comcast&amp;p=017" rel="external track"><!-- TRACKING     ! hier4: marketplace:homeA:bottomtextlinks:  -->Comcast Travel: One-Stop Shop for Cheap Airline Tickets, Deals and More</a></p>
+	<p class="promo"><a href="http://jobsearch.comcast.monster.com/?WT.mc_n=comcast015" rel="external track"><!-- TRACKING     ! hier4: marketplace:homeA:bottomtextlinks:  -->Search for jobs closer to home with Comcast.net Jobs powered by Monster!</a></p>
+	<p class="promo"><a href="http://dating.comcast.net/singles/servlet/comcast?cid=23600&amp;aid=940" rel="external track"><!-- TRACKING     ! hier4: marketplace:homeA:bottomtextlinks:  -->Meet singles and review your matches for free. Comcast.net Dating with eHarmony.com</a></p>
+					
+	<p class="more"><a href="http://shopping.comcast.net" rel="default track"><!-- TRACKING     ! hier4: marketplace:homeA:  -->More Shopping</a></p>
+	
+	<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+
+</div>
+
+
+				</div>
+
+				<div id="secondary">
+
+					<div class="iab300x250_wrapper"></div>
+
+
+
+<div id="commerce">
+
+		<h2>More From Comcast.net</h2>
+	
+	<ul><!--
+		--><li><a href="http://comcast.vehix.com/tv/clp_video.aspx?make=Toyota&amp;model=highlander&amp;year=2008&amp;cid=46" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Autos</a></li><!--
+		--><li><a href="http://www.fandango.com/redirect.aspx?searchby=homepage&amp;a=11734&amp;dte=0" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Movie Tickets</a></li><!--
+		--><li><a href="http://shopping.comcast.net/?mode=comcast_Main&amp;lid=MainShopping&amp;" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Shopping</a></li><!--
+		--><li><a href="http://dating.comcast.net/singles/servlet/comcast?cid=23600&amp;aid=999" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Dating</a></li><!--
+		--><li><a href="http://chill.comcast.net/?RefId=commerce" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Play Games</a></li><!--
+		--><li><a href="http://gameinvasion.comcast.net/" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Game Invasion</a></li><!--
+		--><li><a href="http://jobsearch.comcast.monster.com/?WT.mc_n=comcast999" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Jobs</a></li><!--
+		--><li><a href="http://travel.comcast.net/s/search/air?ai=comcast&amp;p=Main" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->Travel</a></li><!--
+		--><li><a href="http://www.fancast.com/home/?cmpid=FCST_net" rel="default"><!-- TRACKING    ! hier4: commerce:homeA: -->See TV Online</a></li><!--
+	--></ul>
+	
+	<div class="clear"></div>
+		
+	<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+
+</div>
+
+
+
+
+
+
+      <div id="articlelist">
+
+				<div class="default default">
+
+					<h2>In the News</h2>
+
+					<div class="tabs"><div>
+						<ul>
+								<li id="articlelist-tab0"><b><a href="#" style="padding-left: 6px; padding-right: 6px;">U.S.</a></b></li>
+								<li id="articlelist-tab1"><b><a href="#" style="padding-left: 6px; padding-right: 6px;">Sports</a></b></li>
+								<li id="articlelist-tab2"><b><a href="#" style="padding-left: 6px; padding-right: 6px;">Entertainment</a></b></li>
+								<li id="articlelist-tab3"><b><a href="#" style="padding-left: 6px; padding-right: 6px;">Odd</a></b></li>
+						</ul>
+					</div></div>
+
+					<div id="articlelist-panels">
+
+
+					<div class="articlelist short" id="articlelist-panel0">
+
+
+						
+
+						<ul>
+
+
+							<li><div class="photo"><a href="/news/articles/national/2008/02/12/Berkeley.Marines/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/b0/b0104bf27b3a84d2a3d358f8d4d56a80.jpg" alt="Berkeley Eases Anti-Marines Stance" /></a></div><a href="/news/articles/national/2008/02/12/Berkeley.Marines/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:U.S.:  -->Berkeley Eases Anti-Marines Stance</a><p class="desc">City council members who were criticized for telling Marine recruiters they don't belong here have moderated their position, saying they oppose the Iraq war but support the troops.</p></li>
+
+
+							<li><div class="photo"><a href="/news/articles/national/2008/01/03/Space.Shuttle/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/31/3145737260f5a6dd1f7dc0e746a3bea9.jpg" alt="Sick Astronaut Well Enough to Spacewalk" /></a></div><a href="/news/articles/national/2008/01/03/Space.Shuttle/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:U.S.:  -->Sick Astronaut Well Enough to Spacewalk</a><p class="desc">German astronaut Hans Schlegel floated out of the international space station for his first spacewalk on Wednesday, two days after an illness forced the shuttle Atlantis crew member to skip an outing to install a new European lab.</p></li>
+
+
+							<li><div class="photo"><a href="/news/articles/national/2008/02/07/Winter.Weather/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/e2/e2ab483b52151f68256ca92d25008795.jpg" alt="Icy Storm Blows Through Northeast" /></a></div><a href="/news/articles/national/2008/02/07/Winter.Weather/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:U.S.:  -->Icy Storm Blows Through Northeast</a><p class="desc">A powerful winter storm spread more than a half-foot of snow across parts of the Northeast on Wednesday, closing businesses and hundreds of schools and creating headaches for morning commuters.</p></li>
+
+
+							<li><a href="/news/articles/national/2008/02/13/Wheelchair.Dumping/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:U.S.:  -->Deputies Suspended for Wheelchair Dump</a><p class="desc">Four sheriff's deputies have been suspended after purposely tipping a paralyzed man out of his wheelchair onto a jailhouse floor, authorities said.</p></li>
+
+
+							<li><a href="/news/articles/national/2008/02/13/Therapist.Attack/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:U.S.:  -->NYC Psychologist Slashed to Death</a><p class="desc">A man slashed a 56-year-old psychologist to death at her Upper East Side office clinic and seriously injured another therapist who tried to help her, police said.</p></li>
+
+
+							<li><a href="/news/articles/national/2008/02/13/House.Fire.Children/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:U.S.:  -->Officials: Ohio Fire Kills 3 Children</a><p class="desc">A house fire killed three children and their bodies were buried inside when part of the structure collapsed into the basement, a fire official said Wednesday.</p></li>
+
+
+						</ul>
+
+						<p class="more">
+						<a href="/news/national/" rel="default">More U.S. News</a>
+						</p>
+
+					</div>
+
+
+					<div class="articlelist short" id="articlelist-panel1">
+
+
+						
+
+						<ul>
+
+
+							<li><div class="photo"><a href="/sports/articles/general/2007/12/23/BBO.Steroids.Clemens/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/f6/f64c9db38d70d7a85d04f8d7d364abf6.jpg" alt="McNamee: Clemens Had More Injections" /></a></div><a href="/sports/articles/general/2007/12/23/BBO.Steroids.Clemens/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Sports:  -->McNamee: Clemens Had More Injections</a><p class="desc">Brian McNamee injected Roger Clemens with performance-enhancing drugs more often than he previously claimed, the pitcher's former personal trainer said in a prepared statement, released Wednesday before the start of their high-stakes testimony before Congress.</p></li>
+
+
+							<li><div class="photo"><a href="/sports/articles/general/2008/02/09/CAR.NASCAR.Daytona.500/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/e0/e0346044f90b0995477db605e9041851.jpg" alt="Busch, Stewart Handed 6-Race Probation" /></a></div><a href="/sports/articles/general/2008/02/09/CAR.NASCAR.Daytona.500/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Sports:  -->Busch, Stewart Handed 6-Race Probation</a><p class="desc">NASCAR placed drivers Kurt Busch and Tony Stewart on probation for six races Tuesday, beginning with the Daytona 500. The punishment stems from a confrontation between the two former series champions, who wrecked in practice last week and then carried it into the NASCAR officials' trailer.</p></li>
+
+
+							<li><div class="photo"><a href="/sports/articles/general/2008/02/13/BKN.Pistons.Hawks/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/38/385a7250b11061619bb68a36911ff3c0.jpg" alt="Billups Rallies Detroit Past Hawks 94-90" /></a></div><a href="/sports/articles/general/2008/02/13/BKN.Pistons.Hawks/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Sports:  -->Billups Rallies Detroit Past Hawks 94-90</a><p class="desc">Chauncey Billups came through when it mattered, scoring 12 of his 16 points in the fourth quarter to rally the Detroit Pistons to their ninth win in a row, 94-90 over the Atlanta Hawks on Tuesday night.</p></li>
+
+
+							<li><a href="/sports/articles/general/2008/02/12/FBN.Goodell.Specter/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Sports:  -->Goodell, Specter to Discuss Spygate</a><p class="desc">NFL commissioner Roger Goodell and Sen. Arlen Specter are to meet Wednesday to discuss the Spygate case involving the New England Patriots.</p></li>
+
+
+							<li><div class="photo"><a href="/sports/articles/general/2008/02/13/BKN.Celtics.Pacers/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/13/13adcc4cbe9249b6879e4c16ab17c004.jpg" alt="Celtics Outlast Pacers to Win 4th in Row" /></a></div><a href="/sports/articles/general/2008/02/13/BKN.Celtics.Pacers/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Sports:  -->Celtics Outlast Pacers to Win 4th in Row</a><p class="desc">Paul Pierce had 28 points and 12 rebounds, and the short-handed Boston Celtics beat the Indiana Pacers 104-97 Tuesday night to win their fourth straight game.</p></li>
+
+
+							<li><div class="photo"><a href="/sports/articles/general/2008/02/13/BKC.T25.Michigan.St.Purdue/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/64/6442b44bcc3481663a709012c32af888.jpg" alt="Hummel Leads Purdue Past Michigan St." /></a></div><a href="/sports/articles/general/2008/02/13/BKC.T25.Michigan.St.Purdue/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Sports:  -->Hummel Leads Purdue Past Michigan St.</a><p class="desc">Robbie Hummel scored a career-high 24 points and No. 19 Purdue beat No. 10 Michigan State 60-54 Tuesday night.</p></li>
+
+
+						</ul>
+
+						<p class="more">
+						<a href="/sports/" rel="default">More Sports News</a>
+						</p>
+
+					</div>
+
+
+					<div class="articlelist short" id="articlelist-panel2">
+
+
+						
+
+						<ul>
+
+
+							<li><div class="photo"><a href="/entertainment/articles/2007/12/19/Hollywood.Labor/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/f3/f378ab2db8766504ceee548632bae223.jpg" alt="Strike's End Starts TV Production Frenzy" /></a></div><a href="/entertainment/articles/2007/12/19/Hollywood.Labor/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Entertainment:  -->Strike's End Starts TV Production Frenzy</a><p class="desc">Lights, camera, action — but first, here come the writers. Members of the Writers Guild of America were planning a return to work Wednesday after voting to end their strike on its 100th day, thus allowing Hollywood to jump-start stalled production of numerous TV sitcoms and dramas.</p></li>
+
+
+							<li><div class="photo"><a href="/entertainment/articles/2008/02/13/OLY.Beijing.Spielberg/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/28/280206673ade93a03f22d2278417dece.jpg" alt="Beijing Mulls Response to Spielberg Move" /></a></div><a href="/entertainment/articles/2008/02/13/OLY.Beijing.Spielberg/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Entertainment:  -->Beijing Mulls Response to Spielberg Move</a><p class="desc">Rights groups on Wednesday praised Hollywood director Steven Spielberg's decision to shun involvement with the Beijing Olympics opening and closing ceremonies because China was not doing enough to help end the crisis in Darfur.</p></li>
+
+
+							<li><a href="/entertainment/articles/2008/02/13/Lucasfilm.Star.Wars/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Entertainment:  -->Animated `Star Wars' Movie Opens Aug. 15</a><p class="desc"> &quot;Star Wars: The Clone Wars,&quot; an animated film, will open Aug. 15 in theaters throughout North America, followed by the debut of a television series this fall.</p></li>
+
+
+							<li><div class="photo"><a href="/entertainment/articles/2008/02/13/People.Jackie.Chan/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/0e/0e02b068b1b898080b688941634c661d.jpg" alt="Chan Promotes Olympic Equestrian Event" /></a></div><a href="/entertainment/articles/2008/02/13/People.Jackie.Chan/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Entertainment:  -->Chan Promotes Olympic Equestrian Event</a><p class="desc">Jackie Chan saddled up for a video to promote the Beijing Olympics' equestrian event.</p></li>
+
+
+							<li><div class="photo"><a href="/entertainment/articles/2008/02/13/Obit.Salvador/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/88/8879cd2da5312155cb9b633c1286720b.jpg" alt="French Crooner Henri Salvador Dies at 90" /></a></div><a href="/entertainment/articles/2008/02/13/Obit.Salvador/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Entertainment:  -->French Crooner Henri Salvador Dies at 90</a><p class="desc">Henri Salvador, the velvet-voiced French musician credited with inspiring the bossa nova, bringing rock 'n' roll to France and helping create the music video, died Wednesday, his record label said. He was 90.</p></li>
+
+
+							<li><a href="/entertainment/articles/2008/02/13/Obit.Ichikawa/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Entertainment:  -->Japanese Film Director Kon Ichikawa Dies</a><p class="desc">Kon Ichikawa, the Japanese director who married artistic technique with humanistic spirit in such films as the Oscar-nominated &quot;Harp of Burma&quot; and &quot;Tokyo Olympiad,&quot; has died. He was 92.</p></li>
+
+
+						</ul>
+
+						<p class="more">
+						<a href="/entertainment/" rel="default">More Entertainment News</a>
+						</p>
+
+					</div>
+
+
+					<div class="articlelist short" id="articlelist-panel3">
+
+
+						
+
+						<ul>
+
+
+							<li><div class="photo"><a href="/news/articles/odd/2008/02/12/ODD.Ax.Rescue/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/51/51d3d6bfd23d5e44dd455d62256350ab.jpg" alt="Woman, 89, Uses Ax to Break Into Home" /></a></div><a href="/news/articles/odd/2008/02/12/ODD.Ax.Rescue/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Odd:  -->Woman, 89, Uses Ax to Break Into Home</a><p class="desc">An 89-year-old woman used an ax to break into her own home after she locked herself out on a patio hemmed in by deep snow. &quot;I had to bang the glass four times with the ax before it broke,&quot; said Geraldine &quot;Gerry&quot; Palmer, who turns 90 this weekend.</p></li>
+
+
+							<li><a href="/news/articles/odd/2008/02/13/ODD.Sturgeon.Spearing/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Odd:  -->Wis. Ends Sturgeon-Spearing Season</a><p class="desc">The sturgeon-spearing season on Lake Winnebago ended after just four days with a mammoth catch.</p></li>
+
+
+							<li><div class="photo"><a href="/news/articles/odd/2008/02/13/ODD.Dog.Art.Auction/" rel="default"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/10/101ea3d6e4229d19c9e44982e904118e.jpg" alt="Dog Art Is Auctioned in New York" /></a></div><a href="/news/articles/odd/2008/02/13/ODD.Dog.Art.Auction/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Odd:  -->Dog Art Is Auctioned in New York</a><p class="desc">While the real canines were cavorting across town at the annual Westminster Kennel Club show, a group of dog paintings, statues, fancy collars and other items fetched a total of $700,000 at an auction house.</p></li>
+
+
+							<li><a href="/news/articles/odd/2008/02/13/ODD.Surprised.Lottery.Winner/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Odd:  -->Mich. Lottery Winner Makes Great Mistake</a><p class="desc">Donald Ertman got a little agitated when he found out he'd have to make the 150-mile trip to Lansing to collect his lottery winnings. All that for $150, he complained.</p></li>
+
+
+							<li><a href="/news/articles/odd/2008/02/12/ODD.Falling.Moose/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Odd:  -->It Was a Falling Moose. I Swear It Was!</a><p class="desc">Alaska State Troopers see plenty of hazards, but Trooper Howard Peterson was nearly felled by a new one: falling moose. Peterson was driving Feb. 2 on the Seward Highway south of Anchorage when something big and black fell out of the sky about 20 feet in front of his patrol car. &quot;Falling rock!&quot; he thought, ready to steer clear if it bounced onto the highway.</p></li>
+
+
+							<li><a href="/news/articles/odd/2008/02/12/ODD.Meth.Deposit/" rel="default"><!-- TRACKING !     ! hier4: articlelist:homeA:Odd:  -->Meth Deposited in ATM, Woman Jailed</a><p class="desc">Credit unions accept deposits — just not of methamphetamine. A woman who allegedly dropped an envelope containing money and a bag of meth at a Kitsap Credit Union was arrested and charged with drug possession, according to court documents.</p></li>
+
+
+						</ul>
+
+						<p class="more">
+						<a href="/news/odd/" rel="default">More Odd News</a>
+						</p>
+
+					</div>
+
+							</div>
+
+							<i class="ul"></i><i class="ur"></i><i class="ll"></i><i class="lr"></i>
+
+						</div>
+
+					</div>
+
+
+
+      <div id="theitlist">
+
+
+				<h2>The &quot;It&quot; Lists</h2>
+
+
+					<div class="capsule large list-unordered" id="theitlist1">
+
+						<h2>Seek &amp; Find Fun</h2>
+
+						<a href="http://chill.comcast.net/deluxe.aspx?code=1140173&amp;RefId=hpitscruffs_0213" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:             --><img title="Seek &amp; Find Fun" src="http://static-p-a.comcast.net/api/assets/img/2008/02/84/84799df6b84938c4583d5b9f90b8301e.jpg" alt="Seek &amp; Find Fun" /></a>
+
+						<ul>
+							<li><a href="http://chill.comcast.net/deluxe.aspx?code=1140173&amp;RefId=hpitscruffs_0213" rel="external"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:               -->'The Scruffs'</a></li>
+							<li><a href="http://chill.comcast.net/deluxe.aspx?code=11228860&amp;RefId=hpitddaywed_0213" rel="external"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:               -->'Dream Day Wedding'</a></li>
+							<li><a href="http://chill.comcast.net/deluxe.aspx?code=113803423&amp;RefId=hpitamzadv_0213" rel="external"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:               -->'Amazing Adventures: The Lost Tomb'</a></li>
+							<li><a href="http://chill.comcast.net/deluxe.aspx?code=112632467&amp;RefId=hpitbigcitysf_0213" rel="external"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:               -->'Big City Adventures: San Francisco'</a></li>
+							<li><a href="http://chill.comcast.net/deluxe.aspx?code=113557503&amp;RefId=hpitsp_dotn_0213" rel="external"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:               -->'Agatha Christie's Death on the Nile'</a></li>
+						</ul>
+
+
+						<p class="more"><a href="http://chill.comcast.net/Profile/SignIn.aspx?RefId=hpit_footerCREATE_0213" rel="external"><!-- TRACKING
+    ! hier4: theitlist:homeA:Seek & Find Fun:             -->Create Your Free Chill Account</a></p>
+
+					</div>
+
+
+
+					<div class="capsule large list-unordered" id="theitlist2">
+
+						<h2>Top Showbiz Comebacks</h2>
+
+						<a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/12/5a81fc56-a380-4b67-9e5f-7e843013feeb/" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:             --><img title="Top Showbiz Comebacks" src="http://static-p-a.comcast.net/api/assets/img/2008/02/70/707b5c93aab6af690a834aec7690acb9.jpg" alt="Top Showbiz Comebacks" /></a>
+
+						<ul>
+							<li><a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/12/5a81fc56-a380-4b67-9e5f-7e843013feeb/" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:               -->Siegfried &amp; Roy Roar Back to Stage</a></li>
+							<li><a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/12/f59efcca-6f04-432d-b521-ed74d2c6de35/" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:               -->Big Plans for 'Thriller's' 25th </a></li>
+							<li><a href="http://www6.comcast.net/entertainment/articles/eonline/2008/02/12/21df35ea-ca56-47eb-b2b2-f0ecfea6ad92/" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:               -->Richards' Reality Show Comeback</a></li>
+							<li><a href="http://www6.comcast.net/entertainment/articles/2008/02/12/ENTERTAINMENT-NETWORKS-DC/" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:               -->When Do TV Shows Return?</a></li>
+							<li><a href="/entertainment" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:               -->Longoria Fights Back Against Rumors</a></li>
+						</ul>
+
+
+						<p class="more"><a href="http://community.comcast.net/comcastportal/board?board.id=CelebrityGossip" rel="default"><!-- TRACKING
+    ! hier4: theitlist:homeA:Top Showbiz Comebacks:             -->Talk About It!</a></p>
+
+					</div>
+
+
+
+				<i class="ul"></i><i class="ur"></i><i class="ll"></i><i class="lr"></i>
+
+			</div>
+
+
+<div id="yougottalent">
+
+	<h2>You've Got Talent!</h2>
+	
+	
+
+<div id="ziddiooftheday">
+
+	<h3>Ziddio of the Day</h3>
+	
+
+	<a href="http://www.ziddio.com/oneVideo.zd?dispatch=fetch&amp;artifactId=3979" rel="external track"><!-- TRACKING     ! hier4: ziddiooftheday:homeA:image  --><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/a5/a5acfd3917344385cbcc2348e691d3de.jpg" alt="Dog Loves the Treadmill" title="Dog Loves the Treadmill" /></a>
+
+	<dl>
+		<dt>Video by:</dt>
+		<dd><a href="http://www.ziddio.com/myProfile.zd?dispatch=p&amp;u=mubd329" rel="external track"><!-- TRACKING    ! hier4: ziddiooftheday:homeA: --><b>Mubd329</b></a></dd>
+
+		<dt>Title:</dt>
+		<dd><a href="http://www.ziddio.com/oneVideo.zd?dispatch=fetch&amp;artifactId=3979" rel="external track"><!-- TRACKING    ! hier4: ziddiooftheday:homeA: -->Dog Loves the...</a></dd>
+
+		<dt>Contest:</dt>
+		<dd><a href="http://www.ziddio.com/genre.zd?dispatch=landing&amp;genre=2" rel="external track"><!-- TRACKING    ! hier4: ziddiooftheday:homeA: -->Comedy</a></dd>
+	</dl>
+
+	<p><b>Got Talent?</b> <a href="http://www.ziddio.com" rel="external track"><!-- TRACKING     ! hier4: ziddiooftheday:homeA:got talent  -->Enter one of Ziddio's video contests</a></p>
+
+	<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+
+</div>
+
+
+
+<div id="photooftheday">
+
+	<h3>Photo of the Day</h3>
+	
+
+	<a href="#" rel="photooftheday(Lake Maumelle)"><img src="http://static-p-a.comcast.net/api/assets/img/2008/02/e2/e254eb937fc1600ff4d55aac255f118e.jpg" alt="Lake Maumelle" title="Lake Maumelle" /></a>
+
+	<dl>
+		<dt>Photo by:</dt>
+		<dd><span><b>Shawn L.</b></span></dd>
+
+		<dt>Title:</dt>
+		<dd><a href="#" rel="photooftheday(Lake Maumelle)"><!-- TRACKING    ! hier4: photooftheday:homeA: -->Lake Maumelle</a></dd>
+	</dl>
+
+	<p><b>Got Talent?</b> <a href="http://www.comcast.net/photocenter/submit/" rel="default"><!-- TRACKING    ! hier4: photooftheday:homeA: -->Enter our Photo of the Day contest!</a></p>
+
+	<i class="ul"></i><i class="ur"></i><i class="lr"></i><i class="ll"></i>
+
+</div>
+
+	
+	<div class="clear"></div>
+
+</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+  <div id="footer">
+  
+  		<div id="footermenu">
+  			
+  			<div class="footermenu" id="footermenu1">
+  			
+  				
+  			
+					<h2>Have You Tried</h2>
+					
+					<ul><!--
+						--><li><a href="http://security2.comcast.net/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Anti-Virus and Firewall</a></li><!--
+						--><li><a href="http://toolbar2.comcast.net/toolbar/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Comcast Toolbar</a></li><!--
+						--><li><a href="http://community.comcast.net" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Community Forums</a></li><!--
+						--><li><a href="http://www.comcast.net/kids/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Disney Connection</a></li><!--
+						--><li><a href="http://www.comcast.net/photocenter/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Photo Center</a></li><!--
+						--><li><a href="http://www.comcast.net/help/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Help</a></li><!--
+					--></ul>
+					
+  				
+  				
+  				
+  			</div>
+  			<div class="footermenu" id="footermenu2">
+  			
+  				
+  			
+					<h2>Quick Links</h2>
+					
+					<ul><!--
+						--><li><a href="http://comcast.weather.com/index.html?par=comcast" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Weather</a></li><!--
+						--><li><a href="http://comcast.vehix.com/?lid=QuickLink_Autos&amp;cid=47" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Autos</a></li><!--
+						--><li><a href="http://dating.comcast.net/singles/servlet/comcast?cid=23600&amp;aid=888" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Dating</a></li><!--
+						--><li><a href="http://shopping.comcast.net/?mode=comcast_Quick_Linkbeta&amp;lid=Quick_LinkbetaShopping&amp;" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Shopping</a></li><!--
+						--><li><a href="http://jobsearch.comcast.monster.com/?WT.mc_n=comcast888" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Jobs</a></li><!--
+						--><li><a href="http://travel.comcast.net/s/search/air?ai=comcast&amp;p=Quick_Link" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Travel</a></li><!--
+					--></ul>
+					
+  				
+  				
+  				
+  			</div>
+  			<div class="footermenu" id="footermenu3">
+  			
+  				
+  			
+					<h2>Fun Sites</h2>
+					
+					<ul><!--
+						--><li><a href="http://www.fancast.com/home/?cmpid=FCST_footer" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Fancast</a></li><!--
+						--><li><a href="http://gameinvasion.comcast.net/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Game Invasion</a></li><!--
+						--><li><a href="http://www.fandango.com/redirect.aspx?searchby=homepage&amp;a=11735&amp;dte=0" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Fandango</a></li><!--
+						--><li><a href="http://www.ziddio.com" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Ziddio</a></li><!--
+						--><li><a href="http://chill.comcast.net/?RefId=footer" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Play Games</a></li><!--
+						--><li><a href="http://www.fearnet.com" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->FEARnet</a></li><!--
+					--></ul>
+					
+  				
+  				
+  				
+  			</div>
+  			<div class="footermenu" id="footermenu4">
+  			
+  				<div><div>
+  			
+					<h2>Get More</h2>
+					
+					<ul><!--
+						--><li><a href="/entertainment/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Entertainment</a></li><!--
+						--><li><a href="http://finance.comcast.net" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Finance</a></li><!--
+						--><li><a href="/news/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->News</a></li><!--
+						--><li><a href="/sports/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Sports</a></li><!--
+						--><li><a href="/music/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Music</a></li><!--
+						--><li><a href="/tv/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->TV</a></li><!--
+					--></ul>
+					
+  				
+  				</div><i class="ul"></i><i class="ur"></i><i class="ll"></i><i class="lr"></i></div>
+  				
+  			</div>
+  			
+  			<div class="clear"></div>
+  			
+  			<i class="ul"></i><i class="ur"></i><i class="ll"></i><i class="lr"></i>
+  		
+  		</div>
+	
+		<div id="footerupsell">
+	
+			<h2>Add Comcast Services</h2>
+			
+			<ul><!--
+				--><li><a href="http://www.comcast.com/highspeedinternet-net/default.html?CMP=ILC-fcomcastnethpfhsi" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->Faster High-Speed Internet</a></li><!--
+				--><li><a href="http://www.comcast.com/digitalcable-net/default.html?CMP=ILC-fcomcastnethpfdc" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->Digital Cable</a></li><!--
+				--><li><a href="http://www.comcast.com/comcastdigitalvoice-net/default.html?CMP=ILC-fcomcastnethpfcdv" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->Digital Voice</a></li><!--
+				--><li><a href="http://www.comcast.com/hd/default.html?CMP=ILC-fcomcastnethpfhdtv" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->High Definition TV</a></li><!--
+			--></ul>
+		
+		</div>
+		
+		<div id="footerservice">
+		
+			<ul><!--
+				--><li id="copyright">&copy;<span class="year"></span> Comcast Interactive Media</li><!--
+				--><li><a href="/privacy/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Privacy Statement</a></li><!--
+				--><li><a href="/terms/" rel="default"><!-- TRACKING     ! hier4: footer:homeA: -->Terms of Service</a></li><!--
+				--><li><a href="http://www.askcomcast.com/contactus.asp" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->Contact Us</a></li><!--
+				--><li><a href="http://www.comcast.com/Corporate/Move/default.html?CMP=ILC-fcomcastnethpfmove" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->Moving?</a></li><!--
+				--><li><a href="http://www.comcastspotlight.com/sites/Default.aspx?pageid=7680&amp;siteid=62&amp;subnav=3" rel="external"><!-- TRACKING     ! hier4: footer:homeA: -->Advertise With Us</a></li><!--
+			--></ul>
+			
+		</div>
+		
+		<p class="comcast"><a href="http://www.comcast.com/default.html?CMP=ILC-fcomcastnethpflogo" rel="external">Comcast</a></p>
+		
+		<p class="hide"><a href="#shell">Back to Top</a></p>
+		
+	</div>
+
+	</div>
+
+</div>
+
+<div id="loading">Loading...</div>
+
+<!-- Timestamp: Feb 13, 10:57:51 AM EST -->
+
+<div id="track">
+  <script type="text/javascript">
+  // <![CDATA[
+    var s_account = "comcastnet";
+  // ]]>
+  </script>
+  <script type="text/javascript" src="/ui/js/compressed/omniture.js?r=4266-12345"></script>
+  <script type="text/javascript">
+  // <![CDATA[
+  var events = [];
+  if (Tracking.isVarSet('events')) events = Tracking.getVar('events').split(',');
+  
+  var h = document.getElementsByTagName('head');
+  if (h.length > 0) {
+    var data = parseCommentNodes(h[0]);
+    for(var key in data) {
+      for (var i=0; i<data[key].length; i++) {
+        if (key == 'events') {
+          events.push(data[key][i]);
+        } else {
+          Tracking.setVar(key, data[key][i], true);
+        }
+      }
+    }
+  }
+  
+  Tracking.setVar('events', events.join(','));
+  
+  trackPageLoad();
+  
+  var s_code = s.t();
+  if (s_code) document.write(s_code);
+  
+  Tracking.resetVars();
+  // ]]>
+  </script>
+</div>
+
+</body>
+</html>

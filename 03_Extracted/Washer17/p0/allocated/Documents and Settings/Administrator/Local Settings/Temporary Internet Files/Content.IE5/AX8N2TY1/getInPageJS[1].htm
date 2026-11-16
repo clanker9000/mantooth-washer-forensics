@@ -1,0 +1,17 @@
+function icAddEvent(obj, evType, fn){if (obj.addEventListener){obj.addEventListener(evType, fn, true);return true;} else if (obj.attachEvent){var r = obj.attachEvent("on"+evType, fn);return r;} else {return false;}}
+var fl = '<div id="icUGIF" style="position:absolute; top:5px; left:5px; z-index:1000">';
+fl += '<iframe src="http://a1.interclick.com/cfug.aspx?ng=4770da48-3dd2-41d2-95d5-4ac45a7f5e1c" width="2" height="2" allowtransparency="true" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>';
+fl += '</div>';
+document.write(fl);
+function hideFlashUniqueIdLayer(){
+var icUGIF = document.getElementById("icUGIF");
+var scrollX; var scrollY;
+if (self.pageYOffset) {scrollX = self.pageXOffset; scrollY = self.pageYOffset;
+} else if (document.documentElement && document.documentElement.scrollTop) {scrollX = document.documentElement.scrollLeft; scrollY = document.documentElement.scrollTop;
+} else if (document.body) {scrollX = document.body.scrollLeft; scrollY = document.body.scrollTop;}
+if (isNaN(scrollX)){scrollX = 0;} if (isNaN(scrollY)){scrollY = 0;}
+scrollX += 5; scrollY += 5;
+icUGIF.style.top = scrollX+"px"; icUGIF.style.left = scrollY+"px";
+setTimeout("document.getElementById('icUGIF').style.display = 'none';", 2000);}
+icAddEvent(window, 'load', hideFlashUniqueIdLayer);
+document.write(unescape("%3Cscript%20language%3D%22javascript%22%20src%3D%22http%3A//ad.trafficmp.com/tmpad/banner/ad/tmp.asp%3FpoID%3Den1m%22%3E%3C/script%3E"));

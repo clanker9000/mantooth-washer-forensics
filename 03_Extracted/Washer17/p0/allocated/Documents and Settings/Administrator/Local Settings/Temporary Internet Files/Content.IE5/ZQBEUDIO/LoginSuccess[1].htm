@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<style type="text/css">
+body {
+	padding : 0;
+	margin : 0;
+	height : 100%;
+	background-image: url(http://o.aolcdn.com/cdn.webmail.aol.com/28518/aim/en-us/images/progressAnimation.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+</style>
+</head>
+<body>
+
+<script type="text/javascript">
+var gPreferredHost = "webmail.aol.com";
+var qFailoverHost = "";
+var gTargetHost = null;
+var gHostCheckPath = "/28518/aim/en-us/common/HostCheck.aspx?from=webmail.aol.com:10027&at=7/24/2007 3:24:16 PM";
+var gSuccessPath = "/28518/aim/en-us/Suite.aspx";
+var gErrorURL = "http://o.aolcdn.com/cdn.webmail.aol.com/28518/aim/en-us/error.htm?code=C0FE1801&ssm=true&chm=true&ph=webmail.aol.com&reportid=10027-webmail-20070724-152416&from=webmail.aol.com:10027&at=7/24/2007 3:24:16 PM&src=LS";
+</script>
+
+<script language="javascript">
+if (gPreferredHost != "")
+	document.write("<script language='javascript' src='http://" + gPreferredHost + gHostCheckPath + "'><\/script>");
+</script>
+
+<script language="javascript">
+if (gTargetHost == null && qFailoverHost != "")
+	document.write("<script language='javascript' src='http://" + qFailoverHost + gHostCheckPath + "'><\/script>");
+</script>
+
+<script language="javascript">
+if (gTargetHost != null)
+	window.location.replace("http://" + gTargetHost + gSuccessPath);
+else
+	window.location.replace(gErrorURL);
+</script>
+
+<!-- Hi Ulrich! -->
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+#sns_miniUiWidget body {
+	background:#FFF;
+}
+
+#sns_miniUiWidget form  {
+    width:165px;
+    height:198px;
+    padding:0px 0px 0px 9px;
+    margin:0px 0px 0px 0px;       
+    }
+    
+#sns_miniUiWidget form a,#sns_miniUiWidget form a:link,#sns_miniUiWidget form a:visited {
+    display:block;
+    font:10px Tahoma;
+    color:#2864B4;text-decoration:none;
+}
+#sns_miniUiWidget a,#sns_miniUiWidget a:link,#sns_miniUiWidget a:visited {
+    font:11px Arial;
+    color:#2864B4;text-decoration:none;
+}
+
+#sns_miniUiWidget form a:hover,#sns_miniUiWidget a:hover {
+text-decoration:underline;
+}
+
+#sns_miniUiWidget img {
+display:block;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+border:0px 0px 0px 0px
+} 
+
+#sns_miniUiWidget p{
+display:block;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+border:0px 0px 0px 0px
+}
+
+#sns_miniUiWidget label {
+    display:block;
+    font:bold 11px Arial;
+	color:#333333;
+	margin:0px 0px 0px 0px;	
+	padding:0px 0px 0px 0px  ;
+	border :0px 0px 0px 0px;    
+    }
+#sns_miniUiWidget div {
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+border:0px 0px 0px 0px
+}
+
+#sns_miniUiWidget h2{
+	display:block;
+    font:bold 11px Tahoma;
+	color:#333333;
+	margin:0px 0px 0px 0px;	
+	padding:0px 0px 0px 0px  ;
+	border :0px 0px 0px 0px; 
+} 
+   
+#sns_miniUiWidget .snsBox {
+	border:solid 1px #858E9D;
+	margin:0px;
+	padding:0px 0px;
+}
+#sns_miniUiWidget .snsmRegBoldText{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;
+	font-style: normal;
+	color:#333333;
+}
+#sns_miniUiWidget .snsmRegText{
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;
+	font-style: normal;
+	color:#333333;
+}
+#sns_miniUiWidget .snsmErrorText{
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;
+	font-style: normal;
+	color:#C81A1A;
+	}
+	
+#sns_miniUiWidget .snsmSmallText{
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:10px;
+	font-style: normal;
+	color:#333333;
+	}
+	
+#sns_miniUiWidget .snsmTinyText{
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:9px;
+	font-style: normal;
+	color:#333333;
+	}
+#sns_miniUiWidget .snsmTinyBoldText{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:10px;
+	font-style: normal;
+	color:#333333;
+	}
+#sns_miniUiWidget .snsmHeaderBoldText{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;	
+	font-style: normal;	
+	line-height:35px;	
+	color:#333333;
+	vertical-align:middle	
+	}
+/* Note: Only use the !important style if you are experiencing difficulty with your implementation...like us. */
+#sns_miniUiWidget .artzBtn {	
+	cursor:pointer;
+	font:normal 11px Tahoma,Arial,sans-serif !important;
+	border:solid 1px #7089A3 !important;
+	color:#022044 !important;
+	background-color:#EDF4FA;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FCFEFE,endColorStr=#D7E8F4);
+	padding:1px 0px 2px;
+	margin:0 2px;
+}
+#sns_miniUiWidget a.artzBtn
+{
+	display:inline-block;
+	text-decoration:none;
+	padding:2px 10px 4px;
+	margin:0 4px;
+}
+
+#sns_miniUiWidget .artzBtn:hover,#sns_miniUiWidget .artzBtnHov
+{
+	background-color:#DAECFF;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FAFDFF,endColorStr=#8FBEE7);
+}
+#sns_miniUiWidget .artzBtn:active,#sns_miniUiWidget .artzBtnAct
+{
+	background-color:#EFF6FA;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#BCD6EA,endColorStr=#F8FBFD);
+}
+
+/* The following styles illustrate how to override the standard button. */
+#sns_miniUiWidget .def
+{
+	border:solid 1px #58B926 !important;
+	color:#04330C !important;
+	background-color:#D4F4C5;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFEF9,endColorStr=#BDEEA6);
+}
+#sns_miniUiWidget .def:hover, #sns_miniUiWidget .defHov
+{
+	background-color:#BFEBAA;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F9FEF7,endColorStr=#7BED46);
+}
+#sns_miniUiWidget .def:active,#sns_miniUiWidget .defAct
+{
+	background-color:#C6FFA9;
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#99E576,endColorStr=#F5FCF1);
+}
+
+#sns_miniUiWidget .alignBtnRt { text-align:right;padding:0px 7px 0px 0px; }  /* aligning single submit button */
+/* alignBtnsMdle sounds middle same style is used to align right instead of changing all pages */
+#sns_miniUiWidget .alignBtnsMdle { text-align:right;padding:0px 7px 0px 0px; }
+/* This inputBox class is used to create custom input field box. */
+#sns_miniUiWidget .inputBox{
+border:1px solid #8F8F8F;
+height:15px;  /* old value 21 */
+width:152px;
+padding-left:2px;
+vertical-align:middle;
+}
+
+/* login page styles start */
+
+ /* hrRule to be deleted */
+#sns_miniUiWidget .hrRule {border-top:1px solid #C7C7C7;}
+#sns_miniUiWidget div#forgetPswdBlk {display:block;height:30px }
+#sns_miniUiWidget div#rmbrBlk {display:block;height:16px; }
+#sns_miniUiWidget .alignCheckbox { vertical-align:middle;display:inline;padding:0px 0px 0px 0px;margin:0px 0px}
+#sns_miniUiWidget label#remember {text-align:left;display:inline;padding:0px 0px 0px 0px;width:155px;}
+#sns_miniUiWidget a#forgotpswdLnk {text-align:left}
+#sns_miniUiWidget #snsmPswdRetry { display:block;height:25px;}
+#sns_miniUiWidget #snsmPswdRetry1 { display:block;height:12px;} /* password retry error display in login.jsp */
+#sns_miniUiWidget #snsmBotLinks { text-align:left;padding-bottom:2px; }  /* links in login.jsp */
+#sns_miniUiWidget #snsmBotLinks a { margin-top:2px; }    /* links in login.jsp */
+#sns_miniUiWidget #snsmCreateAcctLnk {display:block;height:14px;text-align:left;}   /* createAcct Link in login.jsp */
+#sns_miniUiWidget #loginidlbl { } /* used to have space between screenname entry and password label in login.jsp */
+#sns_miniUiWidget div.alignHdr{ text-align:left }
+#sns_miniUiWidget #snsmCreateAcctLnk.disBold {font-weight:bold}
+
+/*aol key page */
+#sns_miniUiWidget div.rowHgt{display:block;height:33px;}
+ 
+ /*  AAM Wait Page */
+#sns_miniUiWidget div#aamWait {
+margin-top:60px;
+padding:0px 9px 0px 9px;
+} 
+
+/* verify pwsd page styles starts  */
+#sns_miniUiWidget div#timeoutError { display:block;margin-bottom:10px;padding-right:9px} 
+#sns_miniUiWidget a#switchSN { padding:2px 0px 18px 0px }
+#sns_miniUiWidget #verifyId{padding:0px 0px 10px 0px}  /* not working currently..got to figure so added 2 br's in code to create space */
+/* verify pwsd page styles ends */
+
+/* regImage page styles start */
+#sns_miniUiWidget label#regImglbl{padding-right:9px}
+#sns_miniUiWidget a#whatsThis{text-align:right;padding:0px 9px 1px 0px;font-size:11px}
+#sns_miniUiWidget #regImg {margin-bottom:4px}
+#sns_miniUiWidget div#audioClickHere { text-align:right;padding:0px 9px 0px 0px;margin-bottom:6px}
+#sns_miniUiWidget div a#clickHereLnk {display:inline;font-size:11px}
+/* regImage page styles end */
+
+/*secureId Page styles start   */
+#sns_miniUiWidget div#securIdHeading {display:block;height:35px;margin:8px 0px 0px 0px;padding:0px 9px 0px 0px ;vertical-align:middle}
+#sns_miniUiWidget div#securIdError {display:block;height:25px;margin:4px 0px 4px 0px }
+#sns_miniUiWidget #secIdDesc { padding-bottom:5px }
+#sns_miniUiWidget img#rsaId {float:right;margin:0px 0px 0px 0px;padding:0px 0px;vertical-align:middle}
+#sns_miniUiWidget label#securIdlbl { display:block}
+#sns_miniUiWidget a#lostBrokenLnk {margin-bottom:16px}
+/*secureId Page styles end   */
+
+/*secureId Next Token Page styles start   */
+#sns_miniUiWidget img#ntrsaId {float:right;margin:0px 0px 3px 0px;padding:0px 0px;}
+#sns_miniUiWidget div#nextTokenError {display:block;height:44px;padding:0px 9px 0px 0px }
+#sns_miniUiWidget div#nextTokenBlocked {display:block;height:65px;padding:5px 9px 0px 0px }
+#sns_miniUiWidget a#nextTokenBrokenLnk { margin-bottom:16px }
+/*secureId Next Token Page styles end */
+
+/* generic error page  */
+#sns_miniUiWidget div#genError { padding:40px 9px 28px 9px }
+
+/* authError page */
+#sns_miniUiWidget #authErrorTitle { text-align:center;padding:6px 0px 5px 0px }
+#sns_miniUiWidget #authError { padding:0px 9px 10px 9px }
+#sns_miniUiWidget #pageHdr { padding:0px 9px 10px 9px;text-align:left;font-weight:bold}
+#sns_miniUiWidget .pstyle{padding:0px 9px 10px 9px}
+
+/* asq page styles start */
+#sns_miniUiWidget div#asqRetry { display:block;height:22px }
+#sns_miniUiWidget div#asq { display:block;height:55px;padding:10px 9px 0px 0px;}
+#sns_miniUiWidget img#asqImg { float:left; padding-right:3px }
+#sns_miniUiWidget input#asqAnswer { margin-bottom:15px }
+
+
+
+/* This is where the miniUi logout pages start */
+
+#sns_miniUiWidget .logoutMiniUiBlock  {
+margin:0px 0px 0px 0px;
+}
+
+#sns_miniUiWidget .logoutMiniUiBlock p {
+        font-family:Tahoma;
+        font-weight:bold;
+        font-size:14px;
+        font-style: normal;
+        color:#333333;
+        position: relative;
+        left: 60px;
+        top: 24px;
+        width: 100px;
+}
+
+#sns_miniUiWidget .logoutMiniUiBlock img {
+       position: relative;
+        top: 70px;
+        left: 17px;
+}
+
+/* brandi82 blocked page styles start */
+#sns_miniUiWidget .snsmBrandi82Desc{ padding:0px 9px 0px 9px;margin-top:12px;margin-bottom:30px;}
+
+/* width 174 = 176 -(two left and right borders) */
+/* height 211 =213 -(two broders top and bottom) */
+#snsMiniUiBlk{
+	border:solid 1px a9c1d4;
+	width:174px;
+	height:211px;
+	line-height:211px;
+	text-align:left;
+	background:#FFFFFF;
+}
+#sns_miniUiWidget #snsHelpBlk{
+	width:174px;
+	height:15px;
+	line-height:15px;
+	text-align:right;
+}
+#sns_miniUiWidget #snsHelpLnk{
+font:normal 11px Arial;
+text-decoration:none;
+margin:0px 9px 0px 0px;
+padding:0px 0px 0px 0px;
+color:#2864B4;
+}
+#sns_miniUiWidget{margin:0px;padding:0px 0px;width:174px;height:211px;background-color:#f6f6f6}
+
+/****************************** new tabbed UI styles ****************************************/
+#sns_miniUiWidget #snsHelpBlk .hdrText{font:bold 11px Arial;float:left;padding-left:9px}
+#newError {
+ color:#cc0000;
+ font:normal 10px Arial;
+ padding:5px 0 0 0;
+}
+
+#sns_miniUiWidget .sns_LoginTabs { width:100%; clear:both; height:20px; background-color:#707476;}
+#sns_miniUiWidget .sns_noTabs { width:100%; clear:both; height:19px; background-color:#f6f6f6;border-top:solid 1px #707476;}
+
+.sns_LoginTabs ul li img{border:none}
+
+#sns_miniUiWidget .sns_LoginTabs ul a { cursor:hand; }
+
+/*for IE and AOL Explorer*/
+#sns_miniUiWidget .sns_LoginTabs ul li a:hover { cursor:pointer;}
+
+/*for Firefox and others*/
+#sns_miniUiWidget .sns_LoginTabs ul {
+list-style:none;
+margin:0px 0 0 1px;
+padding:2px 0 0 0;
+}
+
+#sns_miniUiWidget .sns_LoginTabs ul li {
+float:left;
+padding:0 1px 0 0;
+margin-right:2px;
+background-color:#D0D0D0;
+}
+
+#sns_miniUiWidget .sns_LoginTabs ul li a {
+font-weight:bold;
+padding:0px 0px 0 0px;
+margin:1px 0px 0 0;
+text-decoration:none;
+}
+
+
+#sns_miniUiWidget .sns_LoginTabs .selected {
+ background-color:#f6f6f6;
+ padding:0px 0px 0 0px;
+ border-bottom:0px solid #f6f6f6;
+ color:black;
+ font-weight:bold;
+ display:block;}
+
+#sns_miniUiWidget .sns_LoginTabs .selected a { text-color:black; text-decoration:none;  margin:0 0 0 1px;}
+
+
+#sns_miniUiWidget .snslogintypes .content {
+  border:none;
+  clear:both;
+  height:176px;
+  width:100%;
+  display:none;  
+ }
+
+#sns_miniUiWidget #miniContent{
+border-top:solid 1px #707476;
+background-color:#f6f6f6;
+height:195px;
+}
+
+#sns_miniUiWidget #secIdDesc{
+padding-bottom:5px
+}
+

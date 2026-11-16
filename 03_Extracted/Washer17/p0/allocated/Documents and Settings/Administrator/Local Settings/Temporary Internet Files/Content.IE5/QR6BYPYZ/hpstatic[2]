@@ -1,0 +1,714 @@
+
+<html>
+<script type="text/javascript">
+function init() {
+top.a10.hp.staticLoaded(document.body.innerHTML);
+}
+</script>
+<body onload="init();">
+<div id="lightboxCover" style="display:none;"></div>
+<div id="lightbox" style="display:none;">
+<div class="shadowedBox">
+<div class="topLeft"></div>
+<div class="topRight"></div>
+<div class="bottomLeft"></div>
+<div class="bottomRight"></div>
+<div class="top"></div>
+<div class="left"></div>
+<div class="right"></div>
+<div class="bottom"></div>
+<div id="dialog">
+<div id="dialogTitleBar">
+<span id="dialogTitle" class="T14 b"></span>
+<a id="dialogCloseButton" class="s_close" title="Close"></a>
+</div>
+<div class="extraBox">
+<div id="dialogContent">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="myStuffMenu" class="dropDownMenu" style="display:none">
+<div id="nobodyMenu" class="slide" style="display:none">
+<div class="title">MyStuff</div>
+<ul class="content">
+<li><a class="L19" href="#" onmousedown="sct(43760)" onclick="signinDialog.show(); return false;">Sign in or create an account</a></li>
+</ul>
+</div>
+<div id="guestMenu" class="slide" style="display:none">
+<div class="title">Guest</div>
+<ul class="content">
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51141)" onclick="ask.nav.MyStuffMenuController.show.recentSearches(); return false;"><div>Recent Searches</div></a></li>
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51141)" onclick="ask.nav.MyStuffMenuController.show.savedResults(); return false;"><div>Saved Results</div></a></li>
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51141)" onclick="ask.nav.MyStuffMenuController.show.folders(); return false;"><div>My Folders</div></a></li>
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51141)" onclick="ask.nav.MyStuffMenuController.show.tags(); return false;"><div>My Tags</div></a></li>
+<li><a class="L19 b" onmousedown="sct(51143)" href="#" onclick="signinDialog.show(); return false;">Sign in or create an account</a></li>
+<li><a class="L19" onmousedown="sct(51142)" href="http://mystuff.ask.com">Go to MyStuff</a></li>
+</ul>
+</div>
+<div id="userMenu" class="slide" style="display:none">
+<div id="myStuffTitle" class="title">MyStuff</div>
+<ul class="content">
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51139)" onclick="ask.nav.MyStuffMenuController.show.recentSearches(); return false;"><div>Recent Searches</div></a></li>
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51139)" onclick="ask.nav.MyStuffMenuController.show.savedResults(); return false;"><div>Saved Results</div></a></li>
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51139)" onclick="ask.nav.MyStuffMenuController.show.folders(); return false;"><div>My Folders</div></a></li>
+<li class="folder"><a class="L19" href="#" onmousedown="sct(51139)" onclick="ask.nav.MyStuffMenuController.show.tags(); return false;"><div>My Tags</div></a></li>
+<li><a class="L19" onmousedown="sct(51138)" id="signOutLink" href="#">Log Out</a></li>
+<li><a class="L19" onmousedown="sct(51140)" href="http://mystuff.ask.com">Go to MyStuff</a></li>
+</ul>
+</div>
+<div id="backButton" style="display:none">
+<a class="T11 b" href="#">Back</a>
+</div>
+</div>
+<div id="settingsMenu" class="dropDownMenu" style="display:none">
+<div id="optionsMenu" class="slide">
+<div class="title">Options</div>
+<ul>
+<li><a href="javascript:void(0)" class="L19" onmousedown="sct(51236)" onclick="ask.nav.OptionsMenuController.showDialogWithTab('locations');">Locations</a></li>
+<li><a href="javascript:void(0)" class="L19" onmousedown="sct(51236)" onclick="ask.nav.OptionsMenuController.showDialogWithTab('displaying');">Displaying Results</a></li>
+<li><a href="javascript:void(0)" class="L19" onmousedown="sct(51236)" onclick="ask.nav.OptionsMenuController.showDialogWithTab('filtering');">Content Filtering</a></li>
+<li><a href="javascript:void(0)" class="L19" onmousedown="sct(51236)" onclick="ask.nav.OptionsMenuController.showDialogWithTab('mystuff');">MyStuff</a></li>
+<li><a href="javascript:void(0)" class="L19" onmousedown="sct(51236)" onclick="ask.nav.OptionsMenuController.showDialogWithTab('myprofile');">MyProfile</a></li>
+</ul>
+</div>
+</div>
+<div id="adv_search" style="display:none">
+<div>
+<form name="advanced" id="adv_form" method="get" action="webadvanced" onsubmit="return validateASQuery();">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="3" align="right">
+<a href="http://help.ask.com/en/docs/about/adv_search_tips.shtml" onMouseDown="return ct(this,30002)" class="L8" style="float:right;clear:both;">Advanced Search Tips</a>
+</td>
+</tr>
+<tr>
+<td valign="top" width="20%" class="T1 b sept">Find results with</td>
+<td class="gbg sept" style="padding-top:4px">
+<table cellpadding="0" cellspacing="2">
+<tr>
+<td class="pd">all of the words&#160;&#160;</td>
+<td><input name="q0" id="q0" type="text" maxlength="200" size="40" value="" /></td>
+</tr>
+<tr>
+<td class="pd">the exact phrase&#160;&#160;</td>
+<td><input name="q1" id="q1" type="text" maxlength="100" size="40" value="" /></td>
+</tr>
+<tr>
+<td class="pd">at least one of the words&#160;&#160;</td>
+<td><input name="q2" id="q2" type="text" maxlength="100" size="40" value="" /></td>
+</tr>
+<tr>
+<td class="pd">none of the words&#160;&#160;</td>
+<td><input name="q3" id="q3" type="text" maxlength="100" size="40" value="" /></td>
+</tr>
+</table>
+</td>
+<td valign="top" class="gbg sept" align="right" style="padding-right:8px;padding-top:4px">
+</td>
+</tr>
+<tr><td class="sepb pd">&#160;</td><td class="gbg sepb" colspan="2">&#160;</td></tr>
+<tr><td>&#160;</td><td class="gbg" colspan="2">&#160;</td></tr>
+<tr>
+<td class="T1 b">Location of words</td>
+<td class="gbg pd" colspan="2">
+<select name="findin">
+<option selected=1 value="">Anywhere on the page </option>
+<option value="intitle">In page title</option>
+<option value="inurl">In URL</option>
+</select>
+</td>
+</tr>
+<tr><td class="pd sepb">&#160;</td><td class="gbg sepb" colspan="2">&#160;</td></tr>
+<tr><td>&#160;</td><td class="gbg" colspan="2">&#160;</td></tr>
+<tr>
+<td class="T1 b">Domain</td>
+<td class="gbg pd" colspan="2"><input name="sitefield" type="text" maxlength="50" size="40" value=""/></td>
+</tr>
+<tr><td class="sepb pd">&#160;</td><td class="gbg sepb" colspan="2">&#160;</td></tr>
+<tr><td>&#160;</td><td class="gbg" colspan="2">&#160;</td></tr>
+<tr>
+<td class="T1 b">Language</td>
+<td class="gbg pd" colspan="2">
+<select name="lang" id="lang">
+<option selected=1 value="">Any language </option>
+<option value="nl">Dutch </option>
+<option value="en">English </option>
+<option value="fr">French </option>
+<option value="de">German </option>
+<option value="it">Italian </option>
+<option value="es">Spanish </option>
+</select>
+</td>
+</tr>
+<tr><td class="sepb pd">&#160;</td><td class="gbg sepb" colspan="2">&#160;</td></tr>
+<tr><td>&#160;</td><td class="gbg" colspan="2">&#160;</td></tr>
+<tr>
+<td class="T1 b">Country</td>
+<td class="gbg pd" colspan="2">
+<select name="ctry" id="ctry">
+<option selected=1 value="">Any country</option>
+<option value="ar">Argentina</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="be">Belgium</option>
+<option value="br">Brazil</option>
+<option value="ca">Canada</option>
+<option value="cl">Chile</option>
+<option value="fr">France</option>
+<option value="de">Germany</option>
+<option value="in">India</option>
+<option value="ie">Ireland</option>
+<option value="it">Italy</option>
+<option value="mx">Mexico</option>
+<option value="nl">Netherlands</option>
+<option value="nz">New Zealand</option>
+<option value="pt">Portugal</option>
+<option value="za">South Africa</option>
+<option value="es">Spain</option>
+<option value="ch">Switzerland</option>
+<option value="uk">UK</option>
+<option value="us">USA</option>
+</select>
+</td>
+</tr>
+<tr><td class="sepb pd">&#160;</td><td class="gbg sepb" colspan="2">&#160;</td></tr>
+<tr><td>&#160;</td><td class="gbg" colspan="2">&#160;</td></tr>
+<tr>
+<td class="T1 b">Page modified</td>
+<td class="gbg T1 pd" colspan="2">
+<select name="last">
+<option selected=1 value="">Anytime</option>
+<option value="week">Last week</option>
+<option value="2weeks">Last 2 weeks</option>
+<option value="month">Last month</option>
+<option value="3months">Last 3 months</option>
+<option value="6months">Last 6 months</option>
+<option value="year">Last year</option>
+<option value="2years">Last 2 years</option>
+</select>
+</td>
+</tr>
+<tr><td>&#160;</td><td class="gbg sepb" colspan="2">&#160;</td></tr>
+<tr><td colspan="3">&#160;</td></tr>
+<tr>
+<td>&#160;</td>
+<td colspan="2" style="padding-bottom:8px">
+<input type="hidden" name="o" value="0"><input type="hidden" name="l" value="dir"><input type="hidden" name="search" value="Advanced&nbsp;Search"><input type="hidden" name="qsrc" value="196">
+<button onclick="syncAdvSearchParams('adv_form'); if(validateASQuery()){$('adv_form').submit();}return false;">Advanced&nbsp;Search</button>&nbsp;<button class="sbutton" onclick="advSearchDialog.hide();return false;">Cancel</button>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+<div id="blogsadvsearch" style="display:none">
+<script type="text/javascript" src="http://www.ask.com/inc/js/a10f/blogsadvanced_c.r18418.js"></script>
+<style type="text/css">
+#blgAdvSearch {
+}
+</style>
+<link href=" http://www.ask.com/inc/css/a10f/dialogs/blogsadvanced.r18906.css" rel="stylesheet" type="text/css"/>
+<div id="blgAdvSearch">
+<form name="advanced" id="blogsadvform" method="get" action="blogsadvanced" onsubmit="if(typeof(BlogsAdvSearch.validateQuery) != 'undefined') {return BlogsAdvSearch.validateQuery();}else{return true;}">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="T1 b sept pe nobr">Search for</td>
+<td class="gbg sept pa pd">
+<input id="type_posts" onclick="BlogsAdvSearch.toggleSearch();" type="radio" name="t" value="a" checked>&nbsp;Posts&nbsp;&nbsp;<input id="type_feeds" onclick="BlogsAdvSearch.toggleSearch();" type="radio" name="t" value="f" >&nbsp;Feeds&nbsp;&nbsp;<input onclick="BlogsAdvSearch.toggleSearch();" type="radio" name="t" value="n" >&nbsp;News
+</td>
+</tr>
+<tr id="sortDiv">
+<td class="T1 b sept pe nobr">Sort by</td>
+<td class="gbg sept pa pd">
+<input type="radio" name="s" value="r" checked>&nbsp;Relevance&nbsp;&nbsp;<input type="radio" name="s" value="f" >&nbsp;Most Recent&nbsp;&nbsp;<input type="radio" name="s" value="p" >&nbsp;Popularity
+</td>
+</tr>
+<tr>
+<td valign="top" class="T1 b sept pa pe nobr">Find results with</td>
+<td class="gbg sept pa">
+<table cellpadding="0" cellspacing="2">
+<tr>
+<td class="pd">All of these words&#160;&#160;</td>
+<td>
+<input name="q0" id="q0" type="text" maxlength="200" size="40" value="" />
+<input name="wf0" type="hidden" value="" />
+</td>
+</tr>
+<tr>
+<td class="pd">The exact phrase&#160;&#160;</td>
+<td>
+<input name="q3" id="q3" type="text" maxlength="100" size="40" value="" />
+<input name="wf3" type="hidden" value="p" />
+</td>
+</tr>
+<tr>
+<td class="pd">Any of these words&#160;&#160;</td>
+<td>
+<input name="q1" id="q1" type="text" maxlength="100" size="40" value="" />
+<input name="wf1" type="hidden" value="$" />
+</td>
+</tr>
+<tr>
+<td class="pd">None of these words&#160;&#160;</td>
+<td>
+<input name="q2" id="q2" type="text" maxlength="100" size="40" value="" />
+<input name="wf2" type="hidden" value="-" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="T1 b sept pe nobr">Location of words</td>
+<td class="gbg sept pa pd">
+<select name="dp0" id="dp0">
+<option value="0">Anywhere</option>
+<option value="1">In the title</option>
+<option value="2">In the author</option>
+<option value="3">In the body</option>
+<option value="4">In the subject</option>
+<option value="5">In the description</option>
+<option value="7">In the URL</option>
+<option value="10">In the citation</option>
+</select>
+<input name="dp0setdefault" type="hidden" value="true" />
+</td>
+</tr>
+<tr id="dateDiv">
+<td class="T1 b sept pe nobr">Date posted</td>
+<td class="gbg sept pa pd pe">
+<div>
+<input type="radio" name="datetype" value="radio3"/>&nbsp;Anytime
+</div>
+<div class="nobr">
+<input type="radio" name="datetype" value="radio6"/>
+Between&nbsp;
+<select name="betweenstartmonth">
+<option selected=1 value="">Month</option>
+<option value="01">January</option>
+<option value="02">February</option>
+<option value="03">March</option>
+<option value="04">April</option>
+<option value="05">May</option>
+<option value="06">June</option>
+<option value="07">July</option>
+<option value="08">August</option>
+<option value="09">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+<select name="betweenstartday">
+<option value="01">1</option>
+<option value="02">2</option>
+<option value="03">3</option>
+<option value="04">4</option>
+<option value="05">5</option>
+<option value="06">6</option>
+<option value="07">7</option>
+<option value="08">8</option>
+<option value="09">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="betweenstartyear">
+<option selected=1 value="">Year</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+</select>
+and
+<select name="betweenendmonth">
+<option selected=1 value="">Month</option>
+<option value="01">January</option>
+<option value="02">February</option>
+<option value="03">March</option>
+<option value="04">April</option>
+<option value="05">May</option>
+<option value="06">June</option>
+<option value="07">July</option>
+<option value="08">August</option>
+<option value="09">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+<select name="betweenendday">
+<option value="01">1</option>
+<option value="02">2</option>
+<option value="03">3</option>
+<option value="04">4</option>
+<option value="05">5</option>
+<option value="06">6</option>
+<option value="07">7</option>
+<option value="08">8</option>
+<option value="09">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="betweenendyear">
+<option selected=1 value="">Year</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+</select>
+</div>
+</td>
+</tr>
+<tr>
+<td class="T1 b sept pe nobr">Language</td>
+<td class="gbg sept pa pd">
+<select name="lang">
+<option value="any">Any language</option>
+<option value="NL">Dutch</option>
+<option id="blogsadvform_langEN" selected=1 value="EN">English</option>
+<option value="FR">French</option>
+<option value="DE">German</option>
+<option value="IT">Italian</option>
+<option value="PT">Portuguese</option>
+<option value="ES">Spanish</option>
+</select>
+</td>
+</tr>
+<tr>
+<td class="T1 b sept sepb pe nobr">Show</td>
+<td class="gbg sept sepb pa pd">
+<select name="rpp">
+<option value="10" selected=1 >10 Results</option>
+<option value="20" >20 Results</option>
+<option value="50" >50 Results</option>
+<option value="100" >100 Results</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td class="pa pd">
+<input type="hidden" name="search" value="true"/>
+<button onclick="syncAdvSearchParams('blogsadvform'); return true;" type="submit" class="SBut" name="search">Advanced&nbsp;Search</button>&#160;<button onclick="blogsAdvSearchDialog.hide();return false;">Cancel</button>
+<input type="hidden" name="o" value="0">
+<input type="hidden" name="l" value="dir">
+</td>
+</tr>
+</table>
+</form>
+<script type="text/javascript">BlogsAdvSearch.saveDefaults();</script>
+</div>
+</div>
+<div id="skinupload" style="display:none;">
+<div style="height:350px;width:410px">
+<div id="skinStep1">
+<div class="T21 b skinHeader">Choose Your Image</div>
+<ul style="padding-left:15px;margin-left:0px;margin-top:10px">
+<li>Think of a skin like a desktop wallpaper.</li>
+<li>Minimum size of 800x600 but preferably bigger if you use a large screen.</li>
+</ul>
+<form action="http://mystuff.ask.com/service/api/upload" id="skinform" target="hif" method="post" enctype="multipart/form-data" onsubmit="return false;">
+<div id="uploadErrorLabel" class="T2" style="display:none"></div>
+<label class="b" id="skinfileLabel" for="skinfile" >Find an image on your computer</label><br>
+<input type="file" name="skinfile" id="skinfile" style="margin-top:4px;margin-bottom:10px" onkeydown="return a10.skins.keyDownHandler(event, a10.skins.startUpload)"><br>
+<div id="uploadUrlErrorLabel" class="T2" style="display:none"></div>
+<label class="b" id="skinurlLabel" for="skinurl">or enter an image URL</label><br>
+<input type="text" name="url" id="skinurl" maxlength="255" size="50" style="margin-top:4px;margin-bottom:20px" onkeydown="return a10.skins.keyDownHandler(event, a10.skins.startUpload)">
+<input type="hidden" name="fn" value="a10.skins.uploadHandler">
+<input type="hidden" id="skinuid" name="uid" value="">
+<div id="uploadTermErrorLabel" class="T2" style="display:none"></div>
+<div><input type="checkbox" name="term" id="skinterm" style="margin-left:0;" onkeydown="return a10.skins.keyDownHandler(event, a10.skins.startUpload)">&nbsp;<label for="skinterm" id="skintermLabel">I represent and warrant that this image complies with Ask.com's <a href="http://about.ask.com/en/docs/about/terms_of_service.shtml" target="_newwin">Terms of Service</a> and does not infringe upon the rights of any 3rd party.</label></div>
+</form>
+<div class="buttonStripTop">
+<button style="display:none"></button><button class="cancelButton" onclick="sct(13037);return a10.skins.cancelUploadDialog(true);">Cancel</button><button onclick="return a10.skins.startUpload();">I Agree, Continue With Upload</button>
+</div>
+</div>
+<div id="skinStep2" style="display:none;">
+<img style="margin-top:70px;margin-left:120px" src="http://sp.ask.com/sh/i/a10f/hp/spinner.gif" alt=""><br>
+<span style="margin-left:150px">Processing Image...</span>
+</div>
+<div id="skinStep3" style="display:none;">
+<div class="T21 b skinHeader">Set Up Your New Skin</div>
+<form action="http://mystuff.ask.com/service/api/saveskin" id="skinattrform" target="hif" method="post" onsubmit="return false;">
+<div class="skinLeftPanel">
+<div id="uploadNameErrorLabel" class="T2" style="display:none"></div>
+<label class="b" for="skinname" id="skinnameLabel">Name Your Skin <span style="font-weight:normal">(required)</span></label><br>
+<input type="hidden" name="id" id="skinId" value="">
+<input type="hidden" name="fn" value="a10.skins.metaInfoHandler">
+<input type="hidden" id="skinuid2" name="uid" value="">
+<input type="hidden" id="skinposition" name="position" value="center center">
+<input type="hidden" id="skincolor" name="color" value="light">
+<input type="text" name="name" id="skinname" style="margin-top:4px;width:220px" maxlength="255" onkeydown="return a10.skins.keyDownHandler(event, a10.skins.setAttrs)">
+<div class="T7" id="skinInfoLabel"></div>
+</div>
+<div class="skinBottomLeftPanel">
+<div id="alignLabel" class="b" style="margin-bottom:2px">Align It</div>
+<div id="align1" class="align sk_lt" onclick="a10.skins.setAlign('top', 'left', this)"></div><div id="align2" class="align sk_ct" onclick="a10.skins.setAlign('top', 'center', this)"></div><div id="align3" class="align sk_rt" onclick="a10.skins.setAlign('top', 'right', this)"></div><br>
+<div id="align4" class="align sk_lc" style="clear:both" onclick="a10.skins.setAlign('center', 'left', this)"></div><div id="align5" class="align sk_cc" onclick="a10.skins.setAlign('center', 'center', this)"></div><div id="align6" class="align sk_rc" onclick="a10.skins.setAlign('center', 'right', this)"></div><br>
+<div id="align7" class="align sk_lb" style="clear:both" onclick="a10.skins.setAlign('bottom', 'left', this)"></div><div id="align8" class="align sk_cb" onclick="a10.skins.setAlign('bottom', 'center', this)"></div><div id="align9" class="align sk_rb" onclick="a10.skins.setAlign('bottom', 'right', this)"></div>
+</div>
+<div class="skinBottomRightPanel">
+<div style="margin-bottom:5px;">
+<img id="skinPreview1" src="http://sp.ask.com/i/pixl.gif" width="200" height="130">
+<div style="position:absolute;width:200px;height:130px;overflow:hidden;top:0;left:0"><img style="position:relative;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src='http://sp.ask.com/sh/i/a10f/hp/preview.png')" id="skinBoundary" src="http://sp.ask.com/sh/i/a10f/hp/preview.png" width="255" height="161"></div>
+</div>
+</div>
+<div class="skinRightPanel">
+<div>
+<div class="b" style="margin-bottom:2px">Choose Text Style</div>
+<div id="text1" class="dtext" onclick="a10.skins.setTextColor('dark')"></div>
+<div id="text2" class="ltext" onclick="a10.skins.setTextColor('light')"></div>
+<div id="skinTextColorLabel" style="clear:both">
+</div>
+</div>
+</div>
+<div class="buttonStripTop">
+<button style="display:none"></button><button class="cancelButton" onclick="sct(13037);return a10.skins.cancelUploadDialog(true);">Cancel</button><button onclick="a10.skins.cancelUploadDialog(false);a10.skins.uploadStep1();return false;">Back</button>&nbsp;<button onclick="return a10.skins.setAttrs();">Next</button>
+</div>
+</form>
+</div>
+<div id="skinStep4" style="display:none;">
+<div class="T21 b skinHeader" >You Are Ready To Go</div>
+<div class="skinLeftPanel">
+<div id="signinPane" style="margin-bottom:20px">
+Your skin will not be available if you move to another computer or delete your cookies unless you <a href="javascript:void(0);" onclick="sct(13038);a10.skins.signin()">sign in</a> or <a href="#" onclick="sct(13039);a10.skins.signupStep1()">sign up</a> for a new MyStuff account.
+</div>
+<button id="skinUseNow" style="text-align:center;font-size:1.6em;margin-bottom:10px;width:210px" onclick="sct(13040);a10.skins.saveAndUseSkin();">Use This Skin Now</button><br>
+Or <a href="#" onclick="sct(13041);a10.skins.saveSkin();">Save it for later</a>
+</div>
+<div class="skinRightPanel" style="overflow:hidden">
+<img id="skinPreview2" src="http://sp.ask.com/i/pixl.gif" width="130" height="85">
+<div style="position:absolute;width:130px;height:85px;overflow:hidden;top:0;left:0"><img style="position:relative;" id="skinBoundary2" src="http://sp.ask.com/sh/i/a10f/hp/preview.png" width="164" height="104"></div>
+<br>
+<div class="T3 b" id="skinTitleSpan"></div><br>
+<div><span class="T3" id="skinInfoSpan" style="float:left"></span><span id="skinAlignDiv" class="align" style="border:solid 1px #FF0004;float:left;margin-left:2px;">&nbsp;</span></div>
+<div class="T3" id="skinTextSpan" style="clear:both;"></div><br>
+<form action="http://mystuff.ask.com/service/api/selectskin" id="skinselectform" target="hif" method="post" style="display:none" onsubmit="return false;">
+<input type="hidden" id="selectfn" name="fn" value="a10.skins.selectHandler">
+<input type="hidden" name="id" value="" id="selectedSkinId">
+<input type="hidden" id="skinuid3" name="uid" value="">
+</form>
+<form action="http://mystuff.ask.com/service/api/deleteskin" id="skindeleteform" target="hif" method="post" style="display:none" onsubmit="return false;">
+<input type="hidden" name="fn" value="a10.skins.deleteHandler">
+<input type="hidden" name="id" value="" id="deleteSkinId">
+<input type="hidden" id="skinuid4" name="uid" value="">
+</form>
+<form action="http://mystuff.ask.com/service/api/getselectedskin" id="skinretrieveform" target="hif" method="post" style="display:none" onsubmit="return false;">
+<input type="hidden" name="fn" value="a10.skins.currentSkinHandler">
+<input type="hidden" id="skinuid5" name="uid" value="">
+</form>
+</div>
+<div class="buttonStripTop">
+<button style="display:none"></button><button class="cancelButton" onclick="sct(13037);return a10.skins.cancelUploadDialog(true);">Cancel</button><button onclick="a10.skins.uploadStep3();return false;">Back</button>&nbsp;<button style="visibility:hidden">Next</button>
+</div>
+</div>
+</div>
+</div>
+<div id="skinapply" style="display:none;">
+<div style="height:180px;width:220px;text-align:center;">
+<div class="T21 b skinHeader" >Applying Skin...</div>
+<img src="http://sp.ask.com/sh/i/a10f/hp/spinner.gif" alt=""><br>
+</div>
+</div>
+<form action="http://mystuff.ask.com/service/api/upload" id="skinemailcopyform" target="hif" style="display:none" method="POST" enctype="multipart/form-data" >
+<input type="text" name="url" id="skincopyurl" >
+<input type="hidden" name="fn" value="a10.skins.copyUploadHandler">
+<input type="hidden" id="skincopyuid" name="uid" value="">
+</form>
+<form action="http://mystuff.ask.com/service/api/saveskin" id="skinemailsaveform" target="hif" style="display:none" method="POST">
+<input type="hidden" name="fn" value="a10.skins.copySaveHandler">
+<input type="hidden" id="skincopysaveuid" name="uid" value="">
+<input type="hidden" name="id" id="skincopyid" value="">
+<input type="hidden" id="skincopyposition" name="position" value="">
+<input type="hidden" id="skincopycolor" name="color" value="">
+<input type="text" name="name" id="skincopyname">
+</form>
+<div id="mystuffsignup" style="display:none;">
+<div style="height:350px;width:410px">
+<div id="signUpStep1">
+<div class="T21 b skinHeader">Sign Up</div>
+<div style="padding-top:10px;padding-bottom:10px;">Please complete all fields to sign up</div>
+<form action="http://mystuff.ask.com/service/api/register" id="registerForm" target="hif" method="post" onsubmit="return false;">
+<div id="signupEmailErrorLabel" class="T2" style="display:none"></div>
+<table cellpadding="2" cellspacing="0">
+<tr>
+<td align="right"><label for="skinemail" id="skinemailLabel">Email Address:</label></td>
+<td>
+<input type="text" name="em" id="skinemail" maxlength="64" onkeydown="return a10.skins.keyDownHandler(event, ask.mystuff.SignUp.checkSignUp)">
+</td>
+</tr>
+<tr>
+<td align="right"><label for="skinemail2" id="skinemail2Label">Confirm Email Address:</label></td>
+<td>
+<input type="text" name="emcon" id="skinemail2" maxlength="64" onkeydown="return a10.skins.keyDownHandler(event, ask.mystuff.SignUp.checkSignUp)">
+</td>
+</tr>
+<tr>
+<td colspan="2" align="right">
+<div style="margin-bottom:10px;" class="T7">Your email address will be used as your sign-in name.</div>
+</td>
+</tr>
+<tr>
+<td align="right"><label for="pw1" id="pw1Label">Password:</label><br><span class="T7">(6-32 characters)</span></td>
+<td valign="top">
+<input type="password" id="pw1" name="pw1" maxlength="32" onkeydown="return a10.skins.keyDownHandler(event, ask.mystuff.SignUp.checkSignUp)">
+</td>
+</tr>
+<tr>
+<td align="right"><label for="pw2" id="pw2Label">Confirm Password:</label></td>
+<td>
+<input type="password" id="pw2" name="pw2" maxlength="32" onkeydown="return a10.skins.keyDownHandler(event, ask.mystuff.SignUp.checkSignUp)">
+</td>
+</tr>
+<tr>
+<td align="right"><div style="margin-top:10px"><label for="nick" id="nickLabel">Nickname:</label></div><span class="T7">(2-32 characters)</span></td>
+<td valign="top">
+<div style="margin-top:10px"><input type="text" id="nick" name="nn" maxlength="32" onkeydown="return a10.skins.keyDownHandler(event, ask.mystuff.SignUp.checkSignUp)"></div>
+<input type="hidden" id="convert" name="convert" value="on">
+<input type="hidden" id="newslt" name="newslt" value="on">
+<input type="hidden" id="crep" name="crep" value="">
+<input type="hidden" id="crepcon" name="crepcon" value="">
+<input type="hidden" name="fn" value="ask.mystuff.SignUp.signUpHandler">
+</td>
+</tr>
+</table>
+<div class="buttonStripTop">
+<button style="display:none"></button><button class="cancelButton" onclick="sct(13044);return ask.mystuff.SignUp.closeDialog();">Cancel</button><button onclick="ask.mystuff.SignUp.checkSignUp();return false;">Next</button>
+</div>
+</form>
+</div>
+<div id="signUpStep2" style="display:none">
+<div class="T21 b skinHeader">Sign Up</div>
+<div id="signupAgeErrorLabel" class="T2" style="display:none"></div>
+<table cellpadding="2" cellspacing="0" style="margin-top:20px">
+<tr>
+<td valign="top">
+<input style="margin-left:0" type="checkbox" id="skinAge" name="cb1">
+</td>
+<td>
+<label for="skinAge" id="skinAgeLabel">I am over 13 years of age and I have read and agree to the <a href="http://sp.ask.com/en/docs/about/privacy.shtml" target="_newwin">Privacy Policy</a> and <a href="http://about.ask.com/en/docs/about/terms_of_service.shtml" target="_newwin">Terms of Service</a>.</label><br><br>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<input style="margin-left:0" type="checkbox" id="skinNewsletter" name="cb2" checked onclick="$('newslt').value = (this.checked ? 'on' : 'off')">
+</td>
+<td>
+<label for="skinNewsletter" id="skinNewsletterLabel">Yes! I'd like to receive news and updates about MyStuff via email</label><br><br>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<input style="margin-left:0" type="checkbox" id="skinMigrate" name="cb3" checked onclick="$('convert').value = (this.checked ? 'on' : 'off')">
+</td>
+<td>
+<label for="skinMigrate" id="skinMigrateLabel">Save all existing saved results to my new account</label>
+</td>
+</tr>
+</table>
+<div class="buttonStripTop">
+<button style="display:none"></button><button class="cancelButton" onmousedown="sct(13044);return ask.mystuff.SignUp.closeDialog();">Cancel</button><button onclick="ask.mystuff.SignUp.step1(true);return false;">Back</button>&nbsp;<button onclick="sct(13043);ask.mystuff.SignUp.signup();return false;">Sign Up</button>
+</div>
+</div>
+</div>
+</div>
+<div id="skinedit" style="display:none;">
+<div style="height:350px;width:410px">
+<div id="editStep1">
+<div class="T21 b skinHeader">Edit Your Skin</div>
+<form action="http://mystuff.ask.com/service/api/saveskin" id="skineditform" target="hif" method="post" onsubmit="return false;">
+<div class="skinLeftPanel">
+<div id="saveNameErrorLabel" class="T2" style="display:none"></div>
+<label class="b" for="skineditname" id="skineditnameLabel">Name Your Skin <span style="font-weight:normal">(required)</span></label><br>
+<input type="hidden" name="id" id="skinEditId" value="">
+<input type="hidden" id="skinEditHandler" name="fn" value="a10.skins.editInfoHandler">
+<input type="hidden" id="skinEditUid" name="uid" value="">
+<input type="hidden" id="skinEditPosition" name="position" value="center center">
+<input type="hidden" id="skinEditColor" name="color" value="dark">
+<input type="text" name="name" id="skineditname" style="margin-top:4px;width:220px" maxlength="255" onkeydown="return a10.skins.keyDownHandler(event, a10.skins.saveAttrs)">
+<div class="T7" id="skinInfoLabel"></div>
+</div>
+<div class="skinBottomLeftPanel">
+<div id="alignLabel" class="b" style="margin-bottom:2px">Align It</div>
+<div id="editAlign1" class="align sk_lt" onclick="a10.skins.setEditAlign('top', 'left', this)"></div><div id="editAlign2" class="align sk_ct" onclick="a10.skins.setEditAlign('top', 'center', this)"></div><div id="editAlign3" class="align sk_rt" onclick="a10.skins.setEditAlign('top', 'right', this)"></div><br>
+<div id="editAlign4" class="align sk_lc" style="clear:both" onclick="a10.skins.setEditAlign('center', 'left', this)"></div><div id="editAlign5" class="align sk_cc" onclick="a10.skins.setEditAlign('center', 'center', this)"></div><div id="editAlign6" class="align sk_rc" onclick="a10.skins.setEditAlign('center', 'right', this)"></div><br>
+<div id="editAlign7" class="align sk_lb" style="clear:both" onclick="a10.skins.setEditAlign('bottom', 'left', this)"></div><div id="editAlign8" class="align sk_cb" onclick="a10.skins.setEditAlign('bottom', 'center', this)"></div><div id="editAlign9" class="align sk_rb" onclick="a10.skins.setEditAlign('bottom', 'right', this)"></div>
+</div>
+<div class="skinBottomRightPanel">
+<div style="margin-bottom:5px;">
+<img id="skinEditPreview" src="http://sp.ask.com/i/pixl.gif" width="200" height="130">
+<div style="position:absolute;width:200px;height:130px;overflow:hidden;top:0;left:0"><img style="position:relative" id="skinEditBoundary" src="http://sp.ask.com/sh/i/a10f/hp/preview.png" width="255" height="161"></div>
+</div>
+</div>
+<div class="skinRightPanel">
+<div>
+<div class="b" style="margin-bottom:2px">Choose Text Style</div>
+<div id="editText1" class="dtext" onclick="a10.skins.setEditTextColor('dark')"></div>
+<div id="editText2" class="ltext" onclick="a10.skins.setEditTextColor('light')"></div>
+<div id="skinEditTextColorLabel" style="clear:both">
+</div>
+</div>
+</div>
+<div class="buttonStripTop">
+<button class="cancelButton" onclick="window.skinEditDialog.hide()">Cancel</button><button onclick="return a10.skins.saveAttrs();">Save</button>
+</div>
+</form>
+<form action="http://mystuff.ask.com/service/api/getselectedskin" id="skineditcurrentform" target="hif" method="post" style="display:none" onsubmit="return false;">
+<input type="hidden" name="fn" value="a10.skins.editCurrentSkinHandler">
+<input type="hidden" id="currentskinuid" name="uid" value="">
+</form>
+</div>
+<div id="editStep2" style="display:none;">
+<img style="margin-top:70px;margin-left:120px" src="http://sp.ask.com/sh/i/a10f/hp/spinner.gif" alt=""><br>
+<span style="margin-left:150px">Processing Image...</span>
+</div>
+</div>
+</div>
+</body>
+</html>

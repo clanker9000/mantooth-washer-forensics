@@ -1,0 +1,294 @@
+
+Outlook Express 6.00.2600.0000 (xpclient.010817-1148)
+CLEANUP Log started at 07/25/2007 13:51:07
+CLEANUP: 13:51:07 [db] C:\Documents and Settings\Administrator\Local Settings\Application Data\Identities\{6B6FD541-F2AF-4EFB-AF50-EC531BF02474}\Microsoft\Outlook Express
+CLEANUP: 13:51:08 [db] Starting Background Cleanup Cycle...
+CLEANUP: 13:51:08 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:08 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 151%, File: 000142036, Records: 00000000, Allocated: 000005024, Freed: 00007604, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:09 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 06%, File: 002239188, Records: 00000012, Allocated: 002161004, Freed: 00141668, Streams: 02019072, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:09 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 103%, File: 001321684, Records: 00000000, Allocated: 001174224, Freed: 01215972, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:09 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000016, Allocated: 002593332, Freed: 00027656, Streams: 02579280, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:09 [db]  Folders.dbx, CompactAt: 20%, Wasted: 54%, File: 000075204, Records: 00000007, Allocated: 000004212, Freed: 00002300, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:09 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:51:09 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+
+Outlook Express 6.00.2600.0000 (xpclient.010817-1148)
+CLEANUP Log started at 07/25/2007 14:26:21
+CLEANUP: 14:26:21 [db] C:\Documents and Settings\Administrator\Local Settings\Application Data\Identities\{6B6FD541-F2AF-4EFB-AF50-EC531BF02474}\Microsoft\Outlook Express
+CLEANUP: 14:26:22 [db] Starting Background Cleanup Cycle...
+CLEANUP: 14:26:22 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:22 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:22 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 06%, File: 002239188, Records: 00000012, Allocated: 002161004, Freed: 00141668, Streams: 02019072, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:22 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:22 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000016, Allocated: 002593332, Freed: 00027656, Streams: 02579280, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:22 [db]  Folders.dbx, CompactAt: 20%, Wasted: 13%, File: 000074720, Records: 00000007, Allocated: 000002764, Freed: 00000368, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:22 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:26:23 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+
+Outlook Express 6.00.2600.0000 (xpclient.010817-1148)
+CLEANUP Log started at 07/25/2007 14:40:11
+CLEANUP: 14:40:11 [db] C:\Documents and Settings\Administrator\Local Settings\Application Data\Identities\{6B6FD541-F2AF-4EFB-AF50-EC531BF02474}\Microsoft\Outlook Express
+CLEANUP: 14:40:12 [db] Starting Background Cleanup Cycle...
+CLEANUP: 14:40:12 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:12 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:12 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002501332, Records: 00000016, Allocated: 002364548, Freed: 00074540, Streams: 02309472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:12 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:12 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000016, Allocated: 002593332, Freed: 00027656, Streams: 02579280, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:12 [db]  Folders.dbx, CompactAt: 20%, Wasted: 18%, File: 000074720, Records: 00000007, Allocated: 000002956, Freed: 00000556, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:13 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:40:13 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+
+Outlook Express 6.00.2600.0000 (xpclient.010817-1148)
+CLEANUP Log started at 07/25/2007 16:22:07
+CLEANUP: 16:22:07 [db] C:\Documents and Settings\Administrator\Local Settings\Application Data\Identities\{6B6FD541-F2AF-4EFB-AF50-EC531BF02474}\Microsoft\Outlook Express
+CLEANUP: 16:22:08 [db] Starting Background Cleanup Cycle...
+CLEANUP: 16:22:08 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:08 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:08 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002501332, Records: 00000016, Allocated: 002369636, Freed: 00079620, Streams: 02309472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:08 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 1128%, File: 000191188, Records: 00000000, Allocated: 000005028, Freed: 00056760, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:08 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000017, Allocated: 002596060, Freed: 00026072, Streams: 02582976, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:08 [db]  Folders.dbx, CompactAt: 20%, Wasted: 25%, File: 000074720, Records: 00000007, Allocated: 000003196, Freed: 00000800, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:08 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:22:09 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:09 [db] Starting Background Cleanup Cycle...
+CLEANUP: 16:52:09 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:09 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:09 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002501332, Records: 00000016, Allocated: 002369636, Freed: 00079620, Streams: 02309472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:09 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:09 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000017, Allocated: 002596060, Freed: 00026072, Streams: 02582976, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:09 [db]  Folders.dbx, CompactAt: 20%, Wasted: 04%, File: 000074720, Records: 00000007, Allocated: 000002500, Freed: 00000104, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:10 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:52:10 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:10 [db] Starting Background Cleanup Cycle...
+CLEANUP: 17:22:10 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:10 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:10 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002501332, Records: 00000016, Allocated: 002369636, Freed: 00079620, Streams: 02309472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:10 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:10 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000017, Allocated: 002596060, Freed: 00026072, Streams: 02582976, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:11 [db]  Folders.dbx, CompactAt: 20%, Wasted: 04%, File: 000074720, Records: 00000007, Allocated: 000002500, Freed: 00000104, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:11 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 17:22:11 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+
+Outlook Express 6.00.2600.0000 (xpclient.010817-1148)
+CLEANUP Log started at 08/02/2007 13:23:40
+CLEANUP: 13:23:40 [db] C:\Documents and Settings\Administrator\Local Settings\Application Data\Identities\{6B6FD541-F2AF-4EFB-AF50-EC531BF02474}\Microsoft\Outlook Express
+CLEANUP: 13:23:41 [db] Starting Background Cleanup Cycle...
+CLEANUP: 13:23:41 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:41 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:41 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002501332, Records: 00000017, Allocated: 002395008, Freed: 00081224, Streams: 02332704, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:41 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:41 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000017, Allocated: 002596060, Freed: 00026072, Streams: 02582976, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:41 [db]  Folders.dbx, CompactAt: 20%, Wasted: 12%, File: 000074720, Records: 00000007, Allocated: 000002752, Freed: 00000356, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:41 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:23:42 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:42 [db] Starting Background Cleanup Cycle...
+CLEANUP: 13:53:42 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:42 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:42 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002566868, Records: 00000018, Allocated: 002439600, Freed: 00084312, Streams: 02375472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:42 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:42 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002697940, Records: 00000017, Allocated: 002596060, Freed: 00026072, Streams: 02582976, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:42 [db]  Folders.dbx, CompactAt: 20%, Wasted: 12%, File: 000074720, Records: 00000007, Allocated: 000002752, Freed: 00000352, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:43 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:53:43 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:43 [db] Starting Background Cleanup Cycle...
+CLEANUP: 14:23:43 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:43 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:43 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002566868, Records: 00000018, Allocated: 002442348, Freed: 00087056, Streams: 02375472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:43 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 125%, File: 000387796, Records: 00000000, Allocated: 000227500, Freed: 00285760, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:43 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002960084, Records: 00000018, Allocated: 002822844, Freed: 00034776, Streams: 02808960, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:44 [db]  Folders.dbx, CompactAt: 20%, Wasted: 23%, File: 000074720, Records: 00000007, Allocated: 000003136, Freed: 00000740, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:44 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:23:44 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:44 [db] Starting Background Cleanup Cycle...
+CLEANUP: 14:53:44 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:44 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:44 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002566868, Records: 00000018, Allocated: 002442348, Freed: 00087056, Streams: 02375472, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:44 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:45 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002960084, Records: 00000018, Allocated: 002822844, Freed: 00034776, Streams: 02808960, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:45 [db]  Folders.dbx, CompactAt: 20%, Wasted: 04%, File: 000074720, Records: 00000007, Allocated: 000002500, Freed: 00000104, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:45 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:53:45 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:45 [db] Starting Background Cleanup Cycle...
+CLEANUP: 15:23:45 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:45 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:45 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002566868, Records: 00000019, Allocated: 002451532, Freed: 00087952, Streams: 02382864, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:45 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:46 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002960084, Records: 00000018, Allocated: 002822844, Freed: 00034776, Streams: 02808960, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:46 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:46 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:23:46 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:46 [db] Starting Background Cleanup Cycle...
+CLEANUP: 15:53:46 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:46 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:46 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002566868, Records: 00000019, Allocated: 002451532, Freed: 00087952, Streams: 02382864, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:47 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:47 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002960084, Records: 00000018, Allocated: 002822844, Freed: 00034776, Streams: 02808960, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:47 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:47 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 15:53:47 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:47 [db] Starting Background Cleanup Cycle...
+CLEANUP: 16:23:47 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:47 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:48 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002566868, Records: 00000019, Allocated: 002451532, Freed: 00087952, Streams: 02382864, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:48 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:48 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002960084, Records: 00000018, Allocated: 002822844, Freed: 00034776, Streams: 02808960, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:48 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:48 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:23:48 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:48 [db] Starting Background Cleanup Cycle...
+CLEANUP: 16:53:48 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000020, Allocated: 002502196, Freed: 00093836, Streams: 02428800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 1833%, File: 000191188, Records: 00000000, Allocated: 000002984, Freed: 00054716, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 01%, File: 002960084, Records: 00000019, Allocated: 002825112, Freed: 00034776, Streams: 02810544, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db]  Folders.dbx, CompactAt: 20%, Wasted: 21%, File: 000074720, Records: 00000007, Allocated: 000003076, Freed: 00000676, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 16:53:49 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:47 [db] Starting Background Cleanup Cycle...
+CLEANUP: 07:23:48 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 563%, File: 000191188, Records: 00000000, Allocated: 000011168, Freed: 00062900, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000020, Allocated: 002503216, Freed: 00094852, Streams: 02428800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db]  Folders.dbx, CompactAt: 20%, Wasted: 23%, File: 000074720, Records: 00000007, Allocated: 000003140, Freed: 00000744, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:23:48 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:48 [db] Starting Background Cleanup Cycle...
+CLEANUP: 07:53:49 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000020, Allocated: 002503216, Freed: 00094852, Streams: 02428800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db]  Folders.dbx, CompactAt: 20%, Wasted: 04%, File: 000074720, Records: 00000007, Allocated: 000002500, Freed: 00000104, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 07:53:49 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db] Starting Background Cleanup Cycle...
+CLEANUP: 08:23:50 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:50 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:23:51 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db] Starting Background Cleanup Cycle...
+CLEANUP: 08:53:51 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:51 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 08:53:52 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:52 [db] Starting Background Cleanup Cycle...
+CLEANUP: 09:23:52 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:52 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:52 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:52 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:52 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:52 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:53 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:23:53 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:53 [db] Starting Background Cleanup Cycle...
+CLEANUP: 09:53:53 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:53 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:53 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:53 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:53 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:54 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:54 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:53:54 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:54 [db] Starting Background Cleanup Cycle...
+CLEANUP: 10:23:54 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:54 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:54 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:54 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:55 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:55 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:55 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:23:55 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:55 [db] Starting Background Cleanup Cycle...
+CLEANUP: 10:53:55 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:55 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:55 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:56 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:56 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:56 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:56 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 10:53:56 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:56 [db] Starting Background Cleanup Cycle...
+CLEANUP: 11:23:56 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:56 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:57 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:57 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:57 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:57 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:57 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:23:57 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:57 [db] Starting Background Cleanup Cycle...
+CLEANUP: 11:53:57 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 11:53:58 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:58 [db] Starting Background Cleanup Cycle...
+CLEANUP: 12:23:58 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:23:59 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:53:59 [db] Starting Background Cleanup Cycle...
+CLEANUP: 12:54:00 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 12:54:00 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:00 [db] Starting Background Cleanup Cycle...
+CLEANUP: 13:24:01 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:24:01 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db] Starting Background Cleanup Cycle...
+CLEANUP: 13:54:02 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:02 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 13:54:03 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:03 [db] Starting Background Cleanup Cycle...
+CLEANUP: 14:24:03 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:03 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:03 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002510368, Freed: 00094852, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:03 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 02%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 00030908, Streams: 01196448, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:03 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:03 [db]  Folders.dbx, CompactAt: 20%, Wasted: 08%, File: 000074720, Records: 00000007, Allocated: 000002628, Freed: 00000228, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:04 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 14:24:04 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+
+Outlook Express 6.00.2600.0000 (xpclient.010817-1148)
+CLEANUP Log started at 08/04/2007 09:29:09
+CLEANUP: 09:29:09 [db] C:\Documents and Settings\Administrator\Local Settings\Application Data\Identities\{6B6FD541-F2AF-4EFB-AF50-EC531BF02474}\Microsoft\Outlook Express
+CLEANUP: 09:29:10 [db] Starting Background Cleanup Cycle...
+CLEANUP: 09:29:10 [db] Deleted Items.dbx, CompactAt: 20%, Wasted: 04%, File: 000207572, Records: 00000007, Allocated: 000117424, Freed: 00005692, Streams: 00111408, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:10 [db]   Drafts.dbx, CompactAt: 20%, Wasted: 00%, File: 000060116, Records: 00000000, Allocated: 000000080, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:10 [db]    Inbox.dbx, CompactAt: 20%, Wasted: 03%, File: 002632404, Records: 00000021, Allocated: 002512828, Freed: 00097308, Streams: 02435136, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:11 [db]   Outbox.dbx, CompactAt: 20%, Wasted: 102%, File: 001305300, Records: 00000000, Allocated: 001201992, Freed: 01227356, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:11 [db] Sent Items.dbx, CompactAt: 20%, Wasted: 00%, File: 004139732, Records: 00000022, Allocated: 004029804, Freed: 00010584, Streams: 04012800, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:11 [db]  Folders.dbx, CompactAt: 20%, Wasted: 14%, File: 000074720, Records: 00000007, Allocated: 000002812, Freed: 00000416, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:11 [db] Pop3uidl.dbx, CompactAt: 20%, Wasted: 00%, File: 000009404, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
+CLEANUP: 09:29:11 [db]  Offline.dbx, CompactAt: 20%, Wasted: 00%, File: 000009656, Records: 00000000, Allocated: 000000000, Freed: 00000000, Streams: 00000000, RemovedRead: 0, RemovedExpired: 0, JunkDeleted: 0
